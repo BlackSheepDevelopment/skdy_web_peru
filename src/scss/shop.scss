@@ -5,6 +5,7 @@
   width: 85%;
   max-width: 111.42857rem;
   margin: 0 auto;
+
   @media (max-width: 768px) {
     width: 95%;
   }
@@ -16,6 +17,7 @@
   font-family: $titleFont;
   padding: 3.8rem 0;
   font-size: 3.2em;
+
   @media (max-width: 768px) {
     font-size: 2.25rem;
     padding: 1.8rem 0;
@@ -26,6 +28,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -33,6 +36,7 @@
   .category-link {
     padding: 0 .85714rem 0 .71429rem;
     flex: 1;
+
     @media (max-width: 768px) {
       margin-bottom: .6rem;
     }
@@ -85,6 +89,7 @@
     margin: 0 !important;
     border: none !important;
     display: flex;
+
     @media (max-width: 768px) {
       justify-content: center;
     }
@@ -104,4 +109,9 @@
       }
     }
   }
+}
+
+.banner_menu_shop {
+  width: 100%;
+  height: 50px;
 }
