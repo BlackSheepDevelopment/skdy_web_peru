@@ -1,0 +1,329 @@
+@import "constants";
+@import "mixins";
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    -webkit-transform: translateZ(0);
+    animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transform: translateZ(0)
+  }
+
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    transform: translate3d(0, -30px, 0)
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+    transform: translate3d(0, -15px, 0)
+  }
+
+  90% {
+    transform: translate3d(0, -4px, 0)
+  }
+}
+
+.mood-header {
+  position: fixed;
+  width: 100vw;
+
+  .background {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .btn-wrap {
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 8rem;
+      height: 8rem;
+      background: #DD060D;
+      border-radius: 100%;
+      animation-name: bounce;
+      animation-duration: 2s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+
+      &:after {
+        content: ' ';
+        width: 3.5rem;
+        height: 3.5rem;
+        border-right: 1px solid #000;
+        border-bottom: 1px solid #000;
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
+.storytelling {
+  section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    picture {
+      display: flex;
+      transition: opacity .25s ease-out,
+      transform 5s cubic-bezier(.19, 1, .22, 1) 50ms,
+      -webkit-transform 5s cubic-bezier(.19, 1, .22, 1) 50ms !important;
+
+      img {
+        width: 100vw;
+      }
+    }
+
+    &.layout-video {
+      overflow: hidden;
+      padding: 4vw;
+
+      &.no-bg {
+        padding-bottom: 56.25%;
+
+        .btn-play {
+          display: none !important;
+        }
+
+        iframe {
+          display: block !important;
+        }
+      }
+
+      figure {
+        overflow: hidden;
+
+        img {
+          transition: opacity .25s ease-out,
+          transform 5s cubic-bezier(.19, 1, .22, 1) 50ms,
+          -webkit-transform 5s cubic-bezier(.19, 1, .22, 1) 50ms !important;
+        }
+      }
+
+      &:hover {
+        figure {
+          img {
+            transform: scale(1.03);
+          }
+        }
+      }
+
+      .content-video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 4vw;
+        top: 0;
+
+        .btn-play {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          width: 10.5vw;
+          height: 10.5vw;
+
+          svg {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+          }
+        }
+
+        iframe {
+          width: 100%;
+          height: 100%;
+          display: none;
+        }
+      }
+    }
+
+    .container {
+      position: absolute;
+      width: 85%;
+      max-width: 111.42857rem;
+      top: 20%;
+      @media (max-width: 768px) {
+        width: 95%;
+        top: auto;
+        bottom: 2.5rem;
+      }
+    }
+
+    .content-banner {
+      display: flex;
+
+      &.align-left {
+        justify-content: flex-start;
+      }
+
+      &.align-right {
+        justify-content: flex-end;
+      }
+
+      &.theme-light {
+        color: #fff;
+      }
+
+      &.theme-dark {
+        color: #000;
+      }
+
+      .content {
+        width: 40%;
+        max-width: 500px;
+        @media (max-width: 768px) {
+          width: 100%;
+          text-align: center;
+        }
+
+        .image {
+          width: 10.9vw;
+          margin-bottom: 2.77vw;
+        }
+
+        .title {
+          font-size: 3.4rem;
+          font-family: $titleFont;
+          letter-spacing: -.05em;
+          text-transform: uppercase;
+          line-height: .85em;
+          @media (max-width: 768px) {
+            font-size: 2.25rem;
+            text-align: center;
+            margin: 1.25rem 0;
+          }
+        }
+
+        .text {
+          font-size: 1.1rem;
+          margin-top: .6em;
+          margin-bottom: 1.555rem;
+          line-height: 1.4em;
+          @media (max-width: 768px) {
+            text-align: center;
+          }
+        }
+
+        .btn {
+          display: inline-block;
+          z-index: 2;
+          @include btn(#000, #ededed, #ddd);
+        }
+      }
+    }
+
+    .content-model {
+      display: flex;
+
+      .image {
+        flex: 1;
+        display: flex;
+      }
+    }
+
+    .content-blade {
+      padding: 4.5vw 0;
+      @media (max-width: 768px) {
+        padding: 5rem 3rem;
+      }
+
+      .top {
+        text-align: center;
+
+        img {
+          max-width: 100%;
+          @media (min-width: 768px) {
+            max-width: 300px;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .text {
+        font-size: 1.1rem;
+        line-height: 1.55;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto 1.5rem;
+      }
+
+      .sign {
+        text-align: center;
+
+        img {
+          max-width: 100%;
+          @media (min-width: 768px) {
+            max-width: 300px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.shop-bundle {
+  padding: 5rem 1.25rem;
+
+  .container {
+    width: 85%;
+    max-width: 111.42857rem;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h1 {
+      font-family: $titleFont;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 3rem;
+      text-align: center;
+      @media (max-width: 768px) {
+        font-size: 1.75rem;
+      }
+    }
+
+    .image {
+      width: 13rem;
+      margin: 5rem auto 0;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .btn-wrap {
+      margin-top: 2rem;
+      text-align: center;
+
+      .btn {
+        display: inline-block;
+        z-index: 1;
+        @include btn(#000, #ededed, #ddd);
+      }
+    }
+  }
+}

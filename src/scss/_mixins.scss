@@ -1,0 +1,125 @@
+@mixin btn($textColor, $bgColor, $lineColor) {
+  position: relative;
+  overflow: hidden;
+  height: 3.17143rem;
+  line-height: 3.17143rem;
+  letter-spacing: .07143rem;
+  font-size: .75714rem;
+  text-transform: uppercase;
+  padding: 0 2.85714rem;
+  border: 0;
+  white-space: nowrap;
+  text-align: center;
+  background: 0 0;
+  text-decoration: none;
+  color: $textColor;
+  font-weight: bold;
+  border-radius: 0;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover {
+    color: $textColor;
+
+    &:after {
+      width: 120%;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $bgColor;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 20px;
+    height: 100%;
+    top: 0;
+    background: $lineColor;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%) skew(20deg) scaleX(1);
+    transition: width .36s cubic-bezier(.175, .885, .32, 1.275);
+  }
+
+  &.selected {
+    &:after {
+      width: 120% !important;
+    }
+  }
+
+  &.disabled,
+  &:disabled {
+    pointer-events: none;
+  }
+}
+
+@mixin product {
+  .product {
+    padding: 1.42857rem 3rem !important;
+    @media (max-width: 768px) {
+      width: 100% !important;
+    }
+
+    .woocommerce-loop-product__link {
+      img {
+        transition: .25s ease-in-out;
+
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+
+    .star-rating {
+      display: none !important;
+    }
+
+    .list-swatches {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: .5em;
+
+      .woocommerce-loop-product__link {
+        display: none;
+      }
+
+      .swatch-link {
+        margin: 0 .16rem;
+
+        img {
+          width: 40px;
+          margin-bottom: 0;
+        }
+      }
+
+      .additional {
+        margin: 0 .16rem;
+        width: 40px;
+        color: #525252;
+        font-size: .8em;
+        line-height: 1.5;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+
+    .woocommerce-loop-product__title,
+    .price {
+      text-align: center;
+      font-weight: 400 !important;;
+      font-size: .9em !important;;
+      color: #000 !important;
+    }
+  }
+}

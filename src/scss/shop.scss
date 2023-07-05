@@ -1,0 +1,107 @@
+@import "constants";
+@import "mixins";
+
+#primary {
+  width: 85%;
+  max-width: 111.42857rem;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 95%;
+  }
+}
+
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $titleFont;
+  padding: 3.8rem 0;
+  font-size: 3.2em;
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+    padding: 1.8rem 0;
+  }
+}
+
+#bar-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .category-link {
+    padding: 0 .85714rem 0 .71429rem;
+    flex: 1;
+    @media (max-width: 768px) {
+      margin-bottom: .6rem;
+    }
+
+    .btn-link {
+      display: block;
+      @include btn(#000, #ededed, #ddd);
+
+      &.count {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .woocommerce-ordering {
+    float: none;
+    flex: 1;
+    padding: 0 .85714rem 0 .71429rem;
+    margin: 0;
+
+    select {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 100%;
+      height: 50px;
+      border: none;
+      border-bottom: 1px solid #000;
+      border-radius: 0;
+      background: #fff;
+      padding: 0 10px;
+      text-transform: uppercase;
+      background: url($chevronDown) no-repeat right 1rem center;
+      background-size: 16px;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}
+
+.products {
+  @include product;
+}
+
+.woocommerce-pagination {
+  margin-bottom: 1rem;
+  width: 100%;
+
+  ul {
+    margin: 0 !important;
+    border: none !important;
+    display: flex;
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+
+    li {
+      border: none !important;
+
+      .page-numbers {
+        display: none !important;
+
+        &.prev,
+        &.next {
+          display: block !important;
+          margin: 0 .25rem;
+          @include btn(#fff, #383838, #2c2c2d);
+        }
+      }
+    }
+  }
+}
