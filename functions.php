@@ -209,17 +209,22 @@ function show_variations_thumbnails() {
 }
 
 /* 
-Add banner to Woocomerce Shop Page
+	Add banner to Woocomerce Shop Page
+	Date: 05/07 Author: Raúl Escandón
 */
 
 add_action('woocommerce_before_main_content','banner_menu_shop');
 function banner_menu_shop(){
 	$shop_id = get_option( 'woocommerce_shop_page_id' );
 	$image = get_field('banner_shop', $shop_id);
-	if($image):?>
-	<div class="banner_menu_shop">
-		<img class="banner_menu_shop__img" src="<?php echo $image['url']; ?>" />
-	</div>
+	?>
+
+	<?php if(is_shop()):?>
+		<?php if($image):?>
+			<div class="banner_menu_shop">
+				<img class="banner_menu_shop__img" src="<?php echo $image['url']; ?>" />
+			</div>
+		<?php endif; ?>
 	<?php endif; ?>
 	<?php
 }
