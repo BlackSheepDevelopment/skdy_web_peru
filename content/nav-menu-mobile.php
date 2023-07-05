@@ -3,8 +3,14 @@
         <div class="menu">
             <section class="container">
                 <article>
+                    <a href="<?php echo get_home_url() ?>" class="header">Inicio</a>
+                </article>
+                <article>
+                    <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
+                </article>
+                <article>
                     <a href="#" class="header dropdown">
-                        <span class="title"><?php echo get_the_title( wc_get_page_id( 'shop' ) ) ?></span>
+                        <span class="title">CATEGORÍAS</span>
                     </a>
                     <ul>
 						<?php while ( have_rows( 'menu', 'mega_menu' ) ): the_row() ?>
