@@ -210,16 +210,19 @@ function show_variations_thumbnails() {
 
 /* 
 Add banner to Woocomerce Shop Page
+*/
 
-add_action('woocommerce_before_main_content','banner_menu_shop',10);
+add_action('woocommerce_before_main_content','banner_menu_shop');
 function banner_menu_shop(){
-	
-	 <div class="banner-shop">
-		<img/>
-	 </div>
+	$shop_id = get_option( 'woocommerce_shop_page_id' );
+	$image = get_field('banner_shop', $shop_id);
+	if($image):?>
+	<div class="banner_menu_shop">
+		<img class="banner_menu_shop__img" src="<?php echo $image['url']; ?>" />
+	</div>
+	<?php endif; ?>
 	<?php
 }
-*/
 
 /**
  * Added to woocommerce_before_shop_loop
@@ -250,7 +253,6 @@ function bar_menu_shop() {
 			<?php while ( have_rows( 'bar_menu', $shop_id ) ):
 				the_row();
 				$link = get_sub_field( 'link' );
-				echo '<script>console.log("'.$link .'")</script>';
 				?>
                     <option value="<?php echo $link['url']?>" class="btn-link"><?php echo $link['title'] ?></option>
 			<?php endwhile;?>
