@@ -111,7 +111,13 @@
   }
 }
 
-.banner_menu_shop {
+.woocommerce .banner_menu_shop {
   width: 100%;
-  height: 50px;
+  height: 250px;
+}
+
+.woocommerce .banner_menu_shop .banner_menu_shop__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
