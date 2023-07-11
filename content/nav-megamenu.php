@@ -88,8 +88,19 @@ if ( have_rows( 'inside_menu', 'mega_menu' ) ): ?>
                     <h3 class="title"><?php _e( 'MI CARRITO', 'skullcandy' ) ?></h3>
                     <div class="close"></div>
                 </div>
+
+                <?php
+                global $woocommerce;
+                if ( $woocommerce->cart->get_cart_contents_count() == 0 ) {
+                        ?>
+                        <div class="list-cart">
+                            <p class="list-cart__no-product">No hay productos en su carrito aún</p> 
+                        </div>  <?php
+                }
+                else{
+                ?>
                 <div class="list-cart">
-					<?php global $woocommerce;
+                    <?php
 					$items = $woocommerce->cart->get_cart();
 					foreach ( $items as $key => $item ):
 						if ( ! is_null( $item['variation_id'] ) ) {
@@ -118,6 +129,7 @@ if ( have_rows( 'inside_menu', 'mega_menu' ) ): ?>
 						<?php _e( 'Ver carro completo', 'skullcandy' ) ?>
                     </a>
                 </div>
+                <?php } ?>
             </div>
         </div>
     </div>
