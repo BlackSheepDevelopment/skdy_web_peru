@@ -85,7 +85,7 @@ if ( have_rows( 'inside_menu', 'mega_menu' ) ): ?>
         <div class="mini-cart-wrapper">
             <div class="mini-cart">
                 <div class="head">
-                    <h3 class="title"><?php _e( 'Carrito de compra', 'skullcandy' ) ?></h3>
+                    <h3 class="title"><?php _e( 'MI CARRITO', 'skullcandy' ) ?></h3>
                     <div class="close"></div>
                 </div>
                 <div class="list-cart">
