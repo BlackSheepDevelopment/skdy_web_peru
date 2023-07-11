@@ -12,7 +12,7 @@
 
   h1 {
     text-align: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
     font-weight: 700;
     font-size: 3.2rem;
     letter-spacing: -.05em;
@@ -21,7 +21,7 @@
     font-family: $titleFont;
     @media (max-width: 768px) {
       font-size: 2.25rem;
-      padding: 2.8rem 0;
+      padding: 2rem 0;
     }
   }
 }
@@ -33,7 +33,7 @@
         display: flex !important;
         align-items: center;
         @media (max-width: 768px) {
-          flex-direction: column;
+          // flex-direction: column;
           padding-top: 3em;
           padding-bottom: 2em;
 
