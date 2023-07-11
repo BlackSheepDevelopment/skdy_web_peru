@@ -311,6 +311,7 @@
 .cart-wrapper .content .mini-cart-wrapper .actions {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .cart-wrapper .content .mini-cart-wrapper .actions .btn {
   margin-right: 1rem;
