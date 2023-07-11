@@ -278,6 +278,9 @@
 .cart-wrapper .content .mini-cart-wrapper .mini-cart .list-cart {
   margin: 1.5rem;
 }
+.cart-wrapper .content .mini-cart-wrapper .mini-cart .list-cart .list-cart__no-product {
+  font-style: italic;
+}
 .cart-wrapper .content .mini-cart-wrapper .mini-cart .list-cart a {
   color: #000;
   text-decoration: none;
