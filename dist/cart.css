@@ -39,7 +39,7 @@
     display: none;
   }
 }
-.woocommerce-cart-form__contents tr td.product-name div {
+.woocommerce-cart-form__contents tr td.product-name .product-name__info {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
