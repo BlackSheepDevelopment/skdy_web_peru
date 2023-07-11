@@ -250,6 +250,7 @@
 }
 .cart-wrapper .content .mini-cart-wrapper .mini-cart .head .title {
   text-transform: uppercase;
+  font-weight: 800;
 }
 .cart-wrapper .content .mini-cart-wrapper .mini-cart .head .close {
   width: 20px;
