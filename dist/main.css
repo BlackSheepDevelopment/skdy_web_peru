@@ -376,7 +376,7 @@
 
 @media (max-width: 768px) {
   .cart-wrapper .content {
-    padding: 2rem 2rem;
+    padding: 1.5rem 1.5rem;
   }
   .cart-wrapper .content .mini-cart-wrapper {
     width: 100%;
@@ -386,9 +386,16 @@
     width: 100%;
     max-width: 100%;
   }
+  .cart-wrapper .content .mini-cart-wrapper .mini-cart .head .title {
+    font-size: 18px;
+  }
   .cart-wrapper .content .mini-cart-wrapper .mini-cart .head .close {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+  }
+  .cart-wrapper .content .mini-cart-wrapper .actions {
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
 #mega-menu-support .container {

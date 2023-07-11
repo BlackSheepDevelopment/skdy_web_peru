@@ -123,10 +123,10 @@ if ( have_rows( 'inside_menu', 'mega_menu' ) ): ?>
                 </div>
                 <div class="actions">
                     <a href="<?php echo wc_get_checkout_url() ?>" class="btn">
-						<?php _e( 'Checkout', 'skullcandy' ) ?>
+						<?php _e( 'PAGAR', 'skullcandy' ) ?>
                     </a>
                     <a class="text" href="<?php echo wc_get_cart_url() ?>">
-						<?php _e( 'Ver carro completo', 'skullcandy' ) ?>
+						<?php _e( 'Ver carrito', 'skullcandy' ) ?>
                     </a>
                 </div>
                 <?php } ?>
