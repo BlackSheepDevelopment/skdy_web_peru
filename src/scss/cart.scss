@@ -42,9 +42,22 @@
           }
         }
 
+
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          align-items: flex-start;
+          padding: 0 2rem;
+        }
+
         img {
-          width: 120px;
+          width: 200px;
           mix-blend-mode: multiply;
+        }
+
+        p {
+          font-size: 1rem;
         }
 
         .post-title {
@@ -52,19 +65,21 @@
           color: #000;
           text-decoration: none;
           font-size: 1em;
-          margin-bottom: 1em;
+          margin-bottom: 0.5rem;
           display: block;
           @media (max-width: 768px) {
-            text-align: center;
+            text-align: left;
+            font-size: 0,85rem;
           }
         }
 
         .remove {
+
           width: auto;
           height: auto;
           color: #000 !important;
           font-weight: bold;
-          font-size: .8em;
+          font-size: 1em;
           text-align: left;
           @media (max-width: 768px) {
             text-align: center;
