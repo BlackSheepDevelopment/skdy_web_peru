@@ -289,8 +289,8 @@
           }
 
           .close {
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             position: relative;
             cursor: pointer;
 
@@ -375,6 +375,30 @@
         }
       }
     }
+  }
+}
+
+
+@media (max-width: 768px){
+  .cart-wrapper .content{
+    padding: 2rem 2rem;
+
+    .mini-cart-wrapper{
+      
+      width: 100%;
+      max-width: 100%;
+
+      .mini-cart{
+        width: 100%;
+        max-width: 100%;
+
+        .head .close{
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
   }
 }
 
