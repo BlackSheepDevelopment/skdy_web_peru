@@ -521,8 +521,11 @@ label[for=billing_district2] {
 .list-images picture {
   display: flex;
 }
-.list-images img {
+.list-images .shipping-active__img {
+  height: 100px !important;
+  width: 100%;
   max-width: 100%;
+  object-fit: fill;
 }
 .list-images .shipping,
 .list-images .billing,

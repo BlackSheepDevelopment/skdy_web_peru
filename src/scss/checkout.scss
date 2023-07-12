@@ -355,8 +355,11 @@ label[for=billing_district2] {
     display: flex;
   }
 
-  img {
+  .shipping-active__img {
+    height: 100px!important;
+    width: 100%;
     max-width: 100%;
+    object-fit: fill;
   }
 
   .shipping,
