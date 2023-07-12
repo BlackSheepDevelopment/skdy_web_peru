@@ -318,7 +318,6 @@
         }
 
         .list-cart {
-          margin: 1.5rem;
           .list-cart__no-product{
             font-style: italic;
           }
@@ -374,6 +373,13 @@
           font-size: .8rem;
           text-decoration: none;
         }
+
+        .actions__vercarrito{
+          padding: 0 2.85714rem;
+          text-decoration: none;
+          color: #7c7c7c;
+          font-size: 1rem;
+        }
       }
     }
   }
@@ -404,7 +410,14 @@
 
       .actions{
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
+
+        .actions__vercarrito{
+          padding: 0 2.85714rem;
+          text-decoration: none;
+          color: #7c7c7c;
+          font-size: 1rem;
+        }
       }
     }
   }
