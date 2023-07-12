@@ -94,6 +94,10 @@
           align-items: flex-start;
           padding: 0 2rem;
 
+          p{
+            text-align: justify;
+          }
+
           @media (max-width:500px){
             align-items: normal;
           }

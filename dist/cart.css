@@ -87,6 +87,9 @@
   align-items: flex-start;
   padding: 0 2rem;
 }
+.woocommerce-cart-form__contents tr td.product-name .product-name__info p {
+  text-align: justify;
+}
 @media (max-width: 500px) {
   .woocommerce-cart-form__contents tr td.product-name .product-name__info {
     align-items: normal;
