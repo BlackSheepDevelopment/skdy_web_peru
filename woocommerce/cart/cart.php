@@ -168,6 +168,4 @@ do_action( 'woocommerce_before_cart' ); ?>
     <a class="cart-custom-message__a" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>"> <button class="cart-custom-message__button">Leer más aquí</button></a>
 </div>
 
-</div>
-
 <?php do_action( 'woocommerce_after_cart' ); ?>
