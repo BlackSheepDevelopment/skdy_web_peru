@@ -85,7 +85,7 @@
   flex-direction: column;
   gap: 0.5rem;
   align-items: flex-start;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
 }
 .woocommerce-cart-form__contents tr td.product-name .product-name__info p {
   text-align: justify;
