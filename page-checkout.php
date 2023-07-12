@@ -7,7 +7,7 @@ get_header(); ?>
     <div id="main-container">
         <div class="content">
 			<?php if ( is_null( $order ) ): ?>
-                <h1><?php the_title(); ?></h1>
+                <h1 class="checkout-title"><?php the_title(); ?></h1>
 			<?php endif; ?>
 			<?php
 			if ( have_posts() ) {
