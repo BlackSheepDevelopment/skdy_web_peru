@@ -28,11 +28,12 @@ next_step.click(function (event) {
   switch (current_step) {
     case "billing-step":
       shipping.fadeIn();
+      shipping.style.setProperty("display", "block", "important");
+
       billing.hide();
       current_step = "shipping-step";
 
       steps.find("li").removeClass("active");
-
       steps.find(".shipping").addClass("active");
 
       images.find(".active").removeClass("active");
