@@ -475,7 +475,7 @@
 }
 
 label[for=billing_district2] {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #billing_province_field .select2-container,
