@@ -54,14 +54,14 @@ next_step.click(function (event) {
         break;
       } else {
         shipping.hide();
-        billing.fadeIn();
+        billing.hide();
         $("#payment").fadeIn();
-
         current_step = "payment-step";
+
         steps.find("li").removeClass("active");
-        steps.find(".billing").addClass("active");
+        steps.find(".payment").addClass("active");
         images.find(".active").removeClass("active");
-        images.find(".billing").addClass("active");
+        images.find(".payment").addClass("active");
         prev_step.css("visibility", "visible");
         scrollToNav();
         break;
