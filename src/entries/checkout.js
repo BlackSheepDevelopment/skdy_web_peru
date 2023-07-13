@@ -39,6 +39,7 @@ next_step.click(function (event) {
       images.find(".payment").addClass("active");
 
       next_step.css("visibility", "visible");
+      prev_step.css("visibility", "visible");
 
       scrollToNav();
       break;
