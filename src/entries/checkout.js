@@ -78,7 +78,7 @@ prev_step.click(function (event) {
       billing.fadeIn();
       shipping.hide();
       // messages.hide();
-      current_step = "shipping-step";
+      current_step = "billing-step";
       steps.find("li").removeClass("active");
       steps.find(".shipping").addClass("active");
       images.find(".active").removeClass("active");
