@@ -80,7 +80,7 @@ prev_step.click(function (event) {
       // messages.hide();
       current_step = "billing-step";
       steps.find("li").removeClass("active");
-      steps.find(".shipping").addClass("active");
+      steps.find(".billing").addClass("active");
       images.find(".active").removeClass("active");
       images.find(".shipping").addClass("active");
 
