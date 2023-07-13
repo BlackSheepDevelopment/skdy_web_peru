@@ -28,7 +28,7 @@ next_step.click(function (event) {
   switch (current_step) {
     case "billing-step":
       shipping.fadeIn();
-      shipping.style.setProperty("display", "block", "important");
+      shipping.attr("style", "display:block!important");
 
       billing.hide();
       current_step = "shipping-step";
