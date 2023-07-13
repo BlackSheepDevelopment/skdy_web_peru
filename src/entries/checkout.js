@@ -32,10 +32,14 @@ next_step.click(function (event) {
       current_step = "shipping-step";
 
       steps.find("li").removeClass("active");
-      steps.find(".payment").addClass("active");
+
+      steps.find(".shipping").addClass("active");
+
       images.find(".active").removeClass("active");
       images.find(".payment").addClass("active");
-      next_step.css("visibility", "hidden");
+
+      next_step.css("visibility", "visible");
+
       scrollToNav();
       break;
 
