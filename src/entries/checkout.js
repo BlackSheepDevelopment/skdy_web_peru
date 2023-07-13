@@ -3,7 +3,7 @@ import "../scss/checkout.scss";
 import $ from "jquery";
 import "select2";
 
-let current_step = "shipping-step";
+let current_step = "billing-step";
 const prev_step = $("#prev-step");
 const next_step = $("#next-step");
 const steps = $(".list-steps");
