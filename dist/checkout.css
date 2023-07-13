@@ -449,7 +449,7 @@
 #billing_district_field,
 #payment,
 .shipping-step {
-  display: none;
+  display: none !important;
 }
 
 .shop_table.woocommerce-checkout-review-order-table {
