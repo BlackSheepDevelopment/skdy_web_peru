@@ -38,12 +38,14 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 
         <ul class="list-steps">
-            <li class="shipping active">
-                <span>1</span> Información
+            <li class="billing active">
+                <span>2</span> Información
             </li>
-            <li class="billing">
-                <span>2</span> Envío
+            
+            <li class="shipping">
+                <span>1</span> Envío
             </li>
+
             <li class="payment">
                 <span>3</span> Pago
             </li>
