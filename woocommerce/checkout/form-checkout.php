@@ -39,10 +39,10 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
         <ul class="list-steps">
             <li class="shipping active">
-                <span>1</span> Envío
+                <span>1</span> Información
             </li>
             <li class="billing">
-                <span>2</span> Facturación
+                <span>2</span> Envío
             </li>
             <li class="payment">
                 <span>3</span> Pago
