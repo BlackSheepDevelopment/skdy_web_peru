@@ -8,9 +8,6 @@ const prev_step = $("#prev-step");
 const next_step = $("#next-step");
 const steps = $(".list-steps");
 const images = $(".list-images");
-// const messages = $('.woocommerce-notices-wrapper, .woocommerce-form-coupon-toggle')
-//
-// messages.hide();
 
 function scrollToNav() {
   if ($(window).width() < 800) {
@@ -29,6 +26,19 @@ next_step.click(function (event) {
   const shipping = $(".shipping-step");
 
   switch (current_step) {
+    case "billing-step":
+      shipping.fadeIn();
+      billing.hide();
+      current_step = "shipping-step";
+
+      steps.find("li").removeClass("active");
+      steps.find(".payment").addClass("active");
+      images.find(".active").removeClass("active");
+      images.find(".payment").addClass("active");
+      next_step.css("visibility", "hidden");
+      scrollToNav();
+      break;
+
     case "shipping-step":
       const billing_district = $("#billing_district2");
       if (billing_district.val() === "") {
@@ -39,7 +49,9 @@ next_step.click(function (event) {
       } else {
         shipping.hide();
         billing.fadeIn();
-        current_step = "billing-step";
+        $("#payment").fadeIn();
+
+        current_step = "payment-step";
         steps.find("li").removeClass("active");
         steps.find(".billing").addClass("active");
         images.find(".active").removeClass("active");
@@ -48,19 +60,6 @@ next_step.click(function (event) {
         scrollToNav();
         break;
       }
-
-    case "billing-step":
-      shipping.hide();
-      billing.hide();
-      $("#payment").fadeIn();
-      current_step = "payment-step";
-      steps.find("li").removeClass("active");
-      steps.find(".payment").addClass("active");
-      images.find(".active").removeClass("active");
-      images.find(".payment").addClass("active");
-      next_step.css("visibility", "hidden");
-      scrollToNav();
-      break;
   }
 });
 
