@@ -448,7 +448,7 @@
 #billing_country_field,
 #billing_district_field,
 #payment,
-.billing-step {
+.shipping-step {
   display: none;
 }
 
