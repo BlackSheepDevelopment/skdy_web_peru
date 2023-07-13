@@ -55,7 +55,9 @@ next_step.click(function (event) {
       } else {
         shipping.hide();
         billing.hide();
+        $("#payment").attr("style", "display:block!important");
         $("#payment").fadeIn();
+
         current_step = "payment-step";
 
         steps.find("li").removeClass("active");
