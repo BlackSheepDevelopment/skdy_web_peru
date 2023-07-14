@@ -34,7 +34,7 @@ next_step.click(function (event) {
         !validateName(billing_name.val()) ||
         !validateLastName(billing_lastName.val())
       ) {
-        window.alert("Por favor, introduzca su nombre y apellido .");
+        window.alert("Por favor, introduzca su nombre y apellido.");
         break;
       }
 
