@@ -21,7 +21,7 @@ $totals = $order->get_order_item_totals(); // phpcs:ignore WordPress.WP.GlobalVa
 ?>
 <form id="order_review" method="post">
 
-	<table class="shop_table">
+	<table class="shop_table shop_tables_testing">
 		<thead>
 			<tr>
 				<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
