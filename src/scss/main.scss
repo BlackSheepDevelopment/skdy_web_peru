@@ -192,6 +192,7 @@ button {
           width: 180px;
           @media (max-width: 768px) {
             width: auto;
+            z-index: 3;
             height: 26px !important;
           }
         }
