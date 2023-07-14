@@ -42,7 +42,9 @@ next_step.click(function (event) {
       }
 
       if (!validateEmail(billing_mail.val())) {
-        window.alert("Por favor, introduzca su correo electrónico.");
+        window.alert(
+          "Por favor, introduzca correctamente su correo electrónico."
+        );
         break;
       }
 
@@ -215,7 +217,6 @@ window.update_district_selector = function () {
 };
 
 const validateName = (name) => {
-  console.log("Hello");
   if (name.trim() === "") {
     return false; // Empty string is invalid
   }
@@ -238,7 +239,6 @@ const validateLastName = (lastName) => {
 };
 
 const validateEmail = (email) => {
-  console.log("Hello im in email");
   if (email.trim() === "") {
     return false; // Empty string is invalid
   }
