@@ -30,6 +30,7 @@ next_step.click(function (event) {
       const billing_name = $("#billing_first_name");
       const billing_lastName = $("#billing_last_name");
       const billing_mail = $("#billing_email");
+      const billing_id = $("#billing_id");
 
       if (
         !validateName(billing_name.val()) ||
@@ -45,6 +46,11 @@ next_step.click(function (event) {
         window.alert(
           "Por favor, introduzca correctamente su correo electrónico."
         );
+        break;
+      }
+
+      if (!validateID(billing_id.val())) {
+        window.alert("Por favor, introduzca correctamente su DNI o Factura.");
         break;
       }
 
@@ -247,4 +253,15 @@ const validateEmail = (email) => {
   const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   return pattern.test(email);
+};
+
+const validateID = (id) => {
+  if (id.trim() === "") {
+    return false; // Empty string is invalid
+  }
+
+  // Regular expression pattern for validating ID (only numbers)
+  const pattern = /^\d+$/;
+
+  return pattern.test(id);
 };
