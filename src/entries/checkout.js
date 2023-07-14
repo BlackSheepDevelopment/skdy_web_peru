@@ -35,7 +35,9 @@ next_step.click(function (event) {
         !validateName(billing_name.val()) ||
         !validateLastName(billing_lastName.val())
       ) {
-        window.alert("Por favor, introduzca su nombre y apellido.");
+        window.alert(
+          "Por favor, introduzca correctamente su nombre y apellido."
+        );
         break;
       }
 
@@ -236,6 +238,7 @@ const validateLastName = (lastName) => {
 };
 
 const validateEmail = (email) => {
+  console.log("Hello im in email");
   if (email.trim() === "") {
     return false; // Empty string is invalid
   }
