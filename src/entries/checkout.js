@@ -70,8 +70,8 @@ next_step.click(function (event) {
 
     case "shipping-step":
       const billing_district = $("#billing_district2");
-      const billing_address = $("billing_address_1");
-      const billing_phone = $("billing_phone");
+      const billing_address = $("#billing_address_1");
+      const billing_phone = $("#billing_phone");
 
       if (billing_district.val() === "") {
         window.alert(
