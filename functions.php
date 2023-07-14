@@ -237,6 +237,7 @@ function banner_menu_shop(){
 add_filter('woocommerce_checkout_fields', 'override_checkout_fields_ph');
 function override_checkout_fields_ph(){
 	$fields['billing']['billing_email']['placeholder'] = 'usuario@skullcandy.com.pe';	
+	return $fields;
 }
 
 
