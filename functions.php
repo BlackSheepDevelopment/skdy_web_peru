@@ -1019,6 +1019,9 @@ remove_action( 'woocommerce_before_checkout_form', 'woocommerce_output_all_notic
 add_action( 'woocommerce_after_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices', 10 );
 
+// New functionality
+add_action( 'woocommerce_review_order_before_payment','woocommerce_checkout_coupon_form',10);
+
 /* Ocultar el botón de oferta/rebajado */
 add_filter( 'woocommerce_sale_flash', 'ayudawp_quitar_oferta' );
 function ayudawp_quitar_oferta( $sale_badge ){
