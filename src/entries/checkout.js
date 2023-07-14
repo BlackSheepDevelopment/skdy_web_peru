@@ -10,14 +10,10 @@ const steps = $(".list-steps");
 const images = $(".list-images");
 
 function scrollToNav() {
-  if ($(window).width() < 800) {
-    $([document.documentElement, document.body]).animate(
-      {
-        scrollTop: images.offset().top,
-      },
-      1500
-    );
-  }
+  $([document.documentElement, document.body]).animate(
+    { scrollTop: 0 },
+    "slow"
+  );
 }
 
 next_step.click(function (event) {
