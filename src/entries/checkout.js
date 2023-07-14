@@ -27,6 +27,17 @@ next_step.click(function (event) {
 
   switch (current_step) {
     case "billing-step":
+      const billing_name = $("#billing_first_name");
+      const billing_lastName = $("#billing_last_name");
+
+      if (
+        !validateName(billing_name.val()) ||
+        !validateLastName(billing_lastName.val())
+      ) {
+        window.alert("Por favor, introduzca su nombre y apellido .");
+        break;
+      }
+
       shipping.fadeIn();
       shipping.attr("style", "display:block!important");
 
@@ -193,4 +204,27 @@ window.update_district_selector = function () {
       '<option value="' + districts[i] + '">' + districts[i] + "</option>"
     );
   }
+};
+
+const validateName = (name) => {
+  console.log("Hello");
+  if (name.trim() === "") {
+    return false; // Empty string is invalid
+  }
+
+  // Regular expression pattern for validating Spanish names
+  const pattern = /^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$/;
+
+  return pattern.test(name);
+};
+
+const validateLastName = (lastName) => {
+  if (lastName.trim() === "") {
+    return false; // Empty string is invalid
+  }
+
+  // Regular expression pattern for validating Spanish last names
+  const pattern = /^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$/;
+
+  return pattern.test(lastName);
 };
