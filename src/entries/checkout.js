@@ -130,6 +130,7 @@ prev_step.click(function (event) {
 
     case "payment-step":
       shipping.fadeIn();
+      shipping.attr("style", "display:block!important");
       billing.hide();
       // messages.hide();
       $("#payment").hide();
