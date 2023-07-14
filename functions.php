@@ -230,18 +230,6 @@ function banner_menu_shop(){
 }
 
 /**
- * Add placeholders to Checkout Forms
- * Date: 14/07 Author: Raúl Escandón
- */
-
-add_filter('woocommerce_checkout_fields', 'override_checkout_fields_ph');
-function override_checkout_fields_ph($fields){
-	$fields['billing']['billing_email']['placeholder'] = 'usuario@skullcandy.com.pe';	
-	return $fields;
-}
-
-
-/**
  * Added to woocommerce_before_shop_loop
  */
 add_action( 'woocommerce_before_shop_loop', 'bar_menu_shop', 10 );
