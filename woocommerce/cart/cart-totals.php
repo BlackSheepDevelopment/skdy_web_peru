@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) || exit;
 			<!-- wc_cart_totals_shipping_html(); Esta función calcula el shipping según el lugar, ahora no se usa ya que envío es gratis -->
 			<tr class="shipping">
 				<th><?php esc_html_e( 'Shipping', 'woocommerce' ); ?></th>
-				<td data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>">S/.0</td>
+				<td data-title="<?php esc_attr_e( 'Shipping', 'woocommerce' ); ?>">S/.0 (Envío Gratis)</td>
 			</tr>
 
 			<?php do_action( 'woocommerce_cart_totals_after_shipping' ); ?>
