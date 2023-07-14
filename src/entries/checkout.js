@@ -120,15 +120,16 @@ prev_step.click(function (event) {
       break;
 
     case "payment-step":
-      shipping.hide();
-      billing.fadeIn();
+      shipping.fadeIn();
+      billing.hide();
       // messages.hide();
       $("#payment").hide();
-      current_step = "billing-step";
+      current_step = "shipping-step";
+
       steps.find("li").removeClass("active");
-      steps.find(".billing").addClass("active");
+      steps.find(".shipping").addClass("active");
       images.find(".active").removeClass("active");
-      images.find(".billing").addClass("active");
+      images.find(".shipping").addClass("active");
       next_step.css("visibility", "visible");
       scrollToNav();
       break;
