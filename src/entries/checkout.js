@@ -36,21 +36,17 @@ next_step.click(function (event) {
         !validateName(billing_name.val()) ||
         !validateLastName(billing_lastName.val())
       ) {
-        window.alert(
-          "Por favor, introduzca correctamente su nombre y apellido."
-        );
+        window.alert("Por favor, indique correctamente su nombre y apellido.");
         break;
       }
 
       if (!validateEmail(billing_mail.val())) {
-        window.alert(
-          "Por favor, introduzca correctamente su correo electrónico."
-        );
+        window.alert("Por favor, indique correctamente su correo electrónico.");
         break;
       }
 
-      if (!validateID(billing_id.val())) {
-        window.alert("Por favor, introduzca correctamente su DNI o Factura.");
+      if (!validateNumber(billing_id.val())) {
+        window.alert("Por favor, indique correctamente su DNI o Factura.");
         break;
       }
 
@@ -74,27 +70,40 @@ next_step.click(function (event) {
 
     case "shipping-step":
       const billing_district = $("#billing_district2");
+      const billing_address = $("billing_address_1");
+      const billing_phone = $("billing_phone");
+
       if (billing_district.val() === "") {
         window.alert(
-          "Por favor, termine de indicar la dirección de su pedido."
+          "Por favor, indique correctamente el distrito de su pedido."
         );
         break;
-      } else {
-        shipping.hide();
-        billing.hide();
-        $("#payment").attr("style", "display:block!important");
-        $("#payment").fadeIn();
+      }
 
-        current_step = "payment-step";
-
-        steps.find("li").removeClass("active");
-        steps.find(".payment").addClass("active");
-        images.find(".active").removeClass("active");
-        images.find(".payment").addClass("active");
-        prev_step.css("visibility", "visible");
-        scrollToNav();
+      if (billing_address.val() === "") {
+        window.alert("Por favor, indique correctamente su dirección.");
         break;
       }
+
+      if (!validateNumber(billing_phone.val())) {
+        window.alert("Por favor, indique correctamente su número telefónico.");
+        break;
+      }
+
+      shipping.hide();
+      billing.hide();
+      $("#payment").attr("style", "display:block!important");
+      $("#payment").fadeIn();
+
+      current_step = "payment-step";
+
+      steps.find("li").removeClass("active");
+      steps.find(".payment").addClass("active");
+      images.find(".active").removeClass("active");
+      images.find(".payment").addClass("active");
+      prev_step.css("visibility", "visible");
+      scrollToNav();
+      break;
   }
 });
 
@@ -256,13 +265,13 @@ const validateEmail = (email) => {
   return pattern.test(email);
 };
 
-const validateID = (id) => {
-  if (id.trim() === "") {
+const validateNumber = (number) => {
+  if (number.trim() === "") {
     return false; // Empty string is invalid
   }
 
   // Regular expression pattern for validating ID (only numbers)
   const pattern = /^\d+$/;
 
-  return pattern.test(id);
+  return pattern.test(number);
 };
