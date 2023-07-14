@@ -1016,7 +1016,7 @@ function calculate_image_srcset_dev( $sources, $size_array, $image_src, $image_m
 
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_output_all_notices', 10 );
-add_action( 'woocommerce_after_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
+// add_action( 'woocommerce_after_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices', 10 );
 
 // New functionality
