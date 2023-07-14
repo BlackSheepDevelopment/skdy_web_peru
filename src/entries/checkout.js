@@ -29,12 +29,18 @@ next_step.click(function (event) {
     case "billing-step":
       const billing_name = $("#billing_first_name");
       const billing_lastName = $("#billing_last_name");
+      const billing_mail = $("#billing_email");
 
       if (
         !validateName(billing_name.val()) ||
         !validateLastName(billing_lastName.val())
       ) {
         window.alert("Por favor, introduzca su nombre y apellido.");
+        break;
+      }
+
+      if (!validateEmail(billing_mail.val())) {
+        window.alert("Por favor, introduzca su correo electrónico.");
         break;
       }
 
@@ -227,4 +233,15 @@ const validateLastName = (lastName) => {
   const pattern = /^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$/;
 
   return pattern.test(lastName);
+};
+
+const validateEmail = (email) => {
+  if (email.trim() === "") {
+    return false; // Empty string is invalid
+  }
+
+  // Regular expression pattern for validating email addresses
+  const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  return pattern.test(email);
 };
