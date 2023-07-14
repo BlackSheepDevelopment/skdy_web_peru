@@ -137,7 +137,7 @@
 }
 
 #customer_details {
-  width: 50% !important;
+  // width: 50% !important;
   @media (max-width: 800px) {
     width: 100% !important;
   }
@@ -293,20 +293,20 @@
 
 
 .shop_table.woocommerce-checkout-review-order-table {
-  position: absolute;
-  top: 16.5%;
-  width: 45% !important;
-  right: 0;
+  // position: absolute;
+  // top: 16.5%;
+  // width: 45% !important;
+  // right: 0;
   @media (max-width: 800px) {
-    position: relative;
-    width: 100% !important;
+    // position: relative;
+    // width: 100% !important;
   }
 }
 
 #payment {
-  width: 50%;
+  // width: 50%;
   @media (max-width: 800px) {
-    width: 100% !important;
+    // width: 100% !important;
   }
 }
 
