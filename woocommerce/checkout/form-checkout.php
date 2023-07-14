@@ -77,13 +77,11 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 	<?php endif; ?>
 
-
-
-
     <div class="nav-steps">
         <a href="#" id="prev-step">Anterior</a>
         <a href="#" id="next-step">Continuar</a>
     </div>
+
 
 </form>
 
