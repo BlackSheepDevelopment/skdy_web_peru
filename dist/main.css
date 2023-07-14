@@ -720,6 +720,7 @@ button:active {
     display: flex;
     justify-content: center;
     width: auto;
+    z-index: 3;
     transform: translateX(-10px);
   }
 }
@@ -729,7 +730,6 @@ button:active {
 @media (max-width: 768px) {
   #main-header .container .left .logo svg {
     width: auto;
-    z-index: 3;
     height: 26px !important;
   }
 }

@@ -185,6 +185,7 @@ button {
           display: flex;
           justify-content: center;
           width: auto;
+          z-index: 3;
           transform: translateX(-10px);
         }
 
@@ -192,7 +193,6 @@ button {
           width: 180px;
           @media (max-width: 768px) {
             width: auto;
-            z-index: 3;
             height: 26px !important;
           }
         }
