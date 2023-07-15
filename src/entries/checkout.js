@@ -98,6 +98,8 @@ next_step.click(function (event) {
       images.find(".active").removeClass("active");
       images.find(".payment").addClass("active");
       prev_step.css("visibility", "visible");
+      next_step.css("visibility", "hidden ");
+
       scrollToNav();
       break;
   }
