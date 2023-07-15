@@ -1026,8 +1026,8 @@ add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices',
 
 // New functionality
 // add_action( 'woocommerce_review_order_before_payment','woocommerce_checkout_coupon_form',10);
-// add_action( 'woocommerce_checkout_after_customer_details','woocommerce_checkout_payment',10);
-
+add_action( 'woocommerce_checkout_after_customer_details','woocommerce_checkout_payment',10);
+add_action('woocommerce_checkout_before_order_review', 'woocommerce_order_review',10);
 
 /* Ocultar el botón de oferta/rebajado */
 add_filter( 'woocommerce_sale_flash', 'ayudawp_quitar_oferta' );
