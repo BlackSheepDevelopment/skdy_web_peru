@@ -104,4 +104,7 @@ defined( 'ABSPATH' ) || exit;
 			<td><?php wc_cart_totals_order_total_html(); ?></td>
 		</tr>
 	</tfoot>
+	<div>
+		Hello world
+	</div>
 </table>
