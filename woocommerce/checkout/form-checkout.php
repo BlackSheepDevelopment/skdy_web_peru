@@ -63,10 +63,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <div class="col-1">
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
             </div>
-
-            <div class="col-2">
-				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
-            </div>
         </div>
 
 
