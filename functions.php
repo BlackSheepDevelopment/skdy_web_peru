@@ -1018,14 +1018,15 @@ function calculate_image_srcset_dev( $sources, $size_array, $image_src, $image_m
 
 remove_action( 'woocommerce_before_checkout_form', 'woocommerce_checkout_coupon_form', 10 );
 remove_action( 'woocommerce_output_all_notices', 'woocommerce_output_all_notices', 10 );
-remove_action( 'woocommerce_checkout_payment', 'woocommerce_checkout_payment',10 );
-remove_action( 'woocommerce_review_order_payment', 'woocommerce_review_order_payment',10 );
+
+remove_action( 'woocommerce_checkout_payment', 'woocommerce_checkout_payment',20 );
+remove_action( 'woocommerce_review_order_payment', 'woocommerce_review_order_payment',20 );
 
 add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices', 10 );
 
 // New functionality
-add_action( 'woocommerce_review_order_before_payment','woocommerce_checkout_coupon_form',10);
-add_action( 'woocommerce_checkout_after_customer_details','woocommerce_checkout_payment',10);
+// add_action( 'woocommerce_review_order_before_payment','woocommerce_checkout_coupon_form',10);
+// add_action( 'woocommerce_checkout_after_customer_details','woocommerce_checkout_payment',10);
 
 
 /* Ocultar el botón de oferta/rebajado */
