@@ -11,7 +11,7 @@ const images = $(".list-images");
 
 const order_review_elms = $(".order-review--hidable");
 const hide_order_review = $(".order-review__see-more");
-
+console.log(hide_order_review);
 let hide_status = true;
 
 function scrollToNav() {
