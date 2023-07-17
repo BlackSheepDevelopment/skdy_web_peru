@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 		<tr>
 			<th class="order-review__general-title">Información de compra</th>
 			<th>
-				<button id="see-more" type="button" onClick="toggleOrderReview()">Ver más</button>
+				<button id="see-more" type="button">Ver más</button>
 			</th>
 		</tr>
 		<tr class="order-review--hidable">
