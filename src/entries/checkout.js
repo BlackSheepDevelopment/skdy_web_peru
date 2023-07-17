@@ -1,6 +1,6 @@
 import "../scss/checkout.scss";
 
-import $, { event } from "jquery";
+import $, { event, jQuery } from "jquery";
 import "select2";
 
 let current_step = "billing-step";
@@ -18,10 +18,10 @@ function scrollToNav() {
 
 // * See details of order review
 
-// $("#see-more").click(function (event) {
-//   event.preventDefault();
-//   console.log("AHHHHHHHHHHHHHHHHHHH");
-// });
+jQuery("#see-more").click(function (event) {
+  event.preventDefault();
+  console.log("AHHHHHHHHHHHHHHHHHHH");
+});
 
 const toggleOrderReview = () => {
   event.preventDefault();
