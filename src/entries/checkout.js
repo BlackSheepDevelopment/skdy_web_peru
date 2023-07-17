@@ -16,7 +16,19 @@ function scrollToNav() {
   );
 }
 
+console.log("AHHHHHHHHHHHHHHHHHHH");
+console.log("AHHHHHHHHHHHHHHHHHHH");
+console.log("AHHHHHHHHHHHHHHHHHHH");
+console.log("AHHHHHHHHHHHHHHHHHHH");
+console.log("AHHHHHHHHHHHHHHHHHHH");
+
 // * See details of order review
+
+$("#testing-callback").click(function (event) {
+  event.preventDefault();
+  console.log("AHHHHHHHHHHHHHHHHHHH");
+});
+
 $("#see-more").click(function (event) {
   event.preventDefault();
   console.log("AHHHHHHHHHHHHHHHHHHH");
