@@ -9,10 +9,6 @@ const next_step = $("#next-step");
 const steps = $(".list-steps");
 const images = $(".list-images");
 
-const order_review_elms = $(".order-review--hidable");
-const hide_order_review = $("#see-more");
-let hide_status = true;
-
 function scrollToNav() {
   $([document.documentElement, document.body]).animate(
     { scrollTop: 0 },
@@ -21,25 +17,8 @@ function scrollToNav() {
 }
 
 // * See details of order review
-hide_order_review.click(function (event) {
+$("#see-more").click(function (event) {
   console.log("AHHHHHHHHHHHHHHHHHHH");
-  // event.preventDefault();
-  console.log("hello");
-  // order_review_elms.each(function () {
-  //   if (hide_status) {
-  //     $(this).css("display:block!important");
-  //   } else {
-  //     $(this).css("display:none!important");
-  //   }
-  // });
-
-  // if (hide_status) {
-  //   hide_order_review.val("Ver menos");
-  // } else {
-  //   hide_order_review.val("Ver más");
-  // }
-
-  // hide_status = hide_status ? false : true;
 });
 
 // * Checking out filling forms
