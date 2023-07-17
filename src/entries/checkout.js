@@ -9,10 +9,10 @@ const next_step = $("#next-step");
 const steps = $(".list-steps");
 const images = $(".list-images");
 
-const order_review_elms = $(".order-review--hidable");
-const hide_order_review = $(".order-review__see-more");
-console.log(hide_order_review);
-let hide_status = true;
+// const order_review_elms = $(".order-review--hidable");
+// const hide_order_review = $(".order-review__see-more");
+// console.log(hide_order_review);
+// let hide_status = true;
 
 function scrollToNav() {
   $([document.documentElement, document.body]).animate(
@@ -22,26 +22,56 @@ function scrollToNav() {
 }
 
 // * See details of order review
-hide_order_review.click(function (event) {
-  console.log("hello");
-  event.preventDefault();
 
-  order_review_elms.each(function () {
+$(document).ready(function () {
+  const order_review_elms = $(".order-review--hidable");
+  const hide_order_review = $(".order-review__see-more");
+
+  let hide_status = true;
+
+  // See details of order review
+  hide_order_review.click(function (event) {
+    console.log("hello");
+    event.preventDefault();
+
+    order_review_elms.each(function () {
+      if (hide_status) {
+        $(this).css("display", "block!important");
+      } else {
+        $(this).css("display", "none!important");
+      }
+    });
+
     if (hide_status) {
-      $(this).css("display:block!important");
+      hide_order_review.val("Ver menos");
     } else {
-      $(this).css("display:none!important");
+      hide_order_review.val("Ver más");
     }
+
+    hide_status = !hide_status;
   });
-
-  if (hide_status) {
-    hide_order_review.val("Ver menos");
-  } else {
-    hide_order_review.val("Ver más");
-  }
-
-  hide_status = hide_status ? false : true;
 });
+
+// hide_order_review.click(function (event) {
+//   console.log("hello");
+//   event.preventDefault();
+
+//   order_review_elms.each(function () {
+//     if (hide_status) {
+//       $(this).css("display:block!important");
+//     } else {
+//       $(this).css("display:none!important");
+//     }
+//   });
+
+//   if (hide_status) {
+//     hide_order_review.val("Ver menos");
+//   } else {
+//     hide_order_review.val("Ver más");
+//   }
+
+//   hide_status = hide_status ? false : true;
+// });
 
 // * Checking out filling forms
 next_step.click(function (event) {
