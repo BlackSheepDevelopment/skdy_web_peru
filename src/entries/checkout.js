@@ -9,6 +9,11 @@ const next_step = $("#next-step");
 const steps = $(".list-steps");
 const images = $(".list-images");
 
+const order_review = $("#see-more");
+const order_review_elms = $(".order-review--hidable");
+
+let hide_status = false;
+
 function scrollToNav() {
   $([document.documentElement, document.body]).animate(
     { scrollTop: 0 },
@@ -17,8 +22,24 @@ function scrollToNav() {
 }
 
 $(document).ready(function () {
-  $("#see-more").on("click", function () {
-    console.log("Toggle button clicked!");
+  order_review.on("click", function () {
+    event.preventDefault();
+
+    order_review_elms.each(function () {
+      if (hide_status) {
+        $(this).css("display:block!important");
+      } else {
+        $(this).css("display:none!important");
+      }
+    });
+
+    if (hide_status) {
+      order_review.val("Ver menos");
+    } else {
+      order_review.val("Ver más");
+    }
+
+    hide_status = hide_status ? false : true;
   });
 });
 
