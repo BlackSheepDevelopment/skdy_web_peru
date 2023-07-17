@@ -30,20 +30,20 @@ order_review.click(function (event) {
     console.log("Entre aquí");
     if (hide_status) {
       console.log("Modificando estilo true");
-      $(this).attr("style", "display:block!important");
+      $(this).css({ display: "block!important" });
       $(this).fadeIn();
     } else {
       console.log("Modificando estilo false");
-      $(this).attr("style", "display:none!important");
+      $(this).css({ display: "block!important" });
       $(this).hide();
     }
   });
 
   if (hide_status) {
-    order_review.val("Ver menos");
+    order_review.text("Ver menos");
     hide_status = false;
   } else {
-    order_review.val("Ver más");
+    order_review.text("Ver más");
     hide_status = true;
   }
   console.log(hide_status);
