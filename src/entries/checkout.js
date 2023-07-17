@@ -23,11 +23,6 @@ jQuery("#see-more").click(function (event) {
   console.log("AHHHHHHHHHHHHHHHHHHH");
 });
 
-const toggleOrderReview = () => {
-  event.preventDefault();
-  console.log("HELLOOOO");
-};
-
 // * Checking out filling forms
 next_step.click(function (event) {
   event.preventDefault();
