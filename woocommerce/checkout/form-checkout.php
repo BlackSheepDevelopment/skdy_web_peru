@@ -36,6 +36,11 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
     <?php do_action( 'woocommerce_checkout_before_order_review_heading' ); ?>
 
 
+    <div class="order_review__main">
+        <p class="order-review__general-title">Información del producto</p>
+        <a href="#" id="see-more">Ver más</a>
+    </div>
+
     <div id="order_review" class="woocommerce-checkout-review-order">
         <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>        
     </div>
