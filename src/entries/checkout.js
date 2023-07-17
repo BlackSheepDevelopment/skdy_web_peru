@@ -26,6 +26,8 @@ order_review.click(function (event) {
   console.log("Se hizo click");
 
   order_review_elms.each(function () {
+    console.log($(this));
+    console.log("Entre aquí");
     if (hide_status) {
       $(this).attr("style", "display:block!important");
     } else {
