@@ -10,7 +10,7 @@ const steps = $(".list-steps");
 const images = $(".list-images");
 
 const order_review_elms = $(".order-review--hidable");
-const hide_order_review = $(".order-review__see-more");
+const hide_order_review = $("#order-review__see-more");
 let hide_status = true;
 
 function scrollToNav() {
