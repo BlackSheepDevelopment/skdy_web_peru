@@ -21,26 +21,25 @@ function scrollToNav() {
   );
 }
 
-$(document).ready(function () {
-  order_review.on("click", function (event) {
-    event.preventDefault();
+order_review.on("click", function (event) {
+  event.preventDefault();
+  console.log("Se hizo click");
 
-    order_review_elms.each(function () {
-      if (hide_status) {
-        $(this).css("display:block!important");
-      } else {
-        $(this).css("display:none!important");
-      }
-    });
-
+  order_review_elms.each(function () {
     if (hide_status) {
-      order_review.val("Ver menos");
+      $(this).css("display:block!important");
     } else {
-      order_review.val("Ver más");
+      $(this).css("display:none!important");
     }
-
-    hide_status = hide_status ? false : true;
   });
+
+  if (hide_status) {
+    order_review.val("Ver menos");
+  } else {
+    order_review.val("Ver más");
+  }
+
+  hide_status = hide_status ? false : true;
 });
 
 next_step.click(function (event) {
