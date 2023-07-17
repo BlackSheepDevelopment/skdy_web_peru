@@ -18,9 +18,17 @@ function scrollToNav() {
 
 // * See details of order review
 
-jQuery("#see-more").click(function (event) {
-  event.preventDefault();
-  console.log("AHHHHHHHHHHHHHHHHHHH");
+// $("#see-more").click(function (event) {
+//   event.preventDefault();
+//   console.log("AHHHHHHHHHHHHHHHHHHH");
+// });
+
+$(document).ready(function () {
+  // Replace '.toggle-button' with the actual selector for your toggle button
+  $("#see-more").on("click", function () {
+    // Callback function logic here
+    console.log("Toggle button clicked!");
+  });
 });
 
 // * Checking out filling forms
