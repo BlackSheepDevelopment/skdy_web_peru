@@ -120,7 +120,6 @@ prev_step.click(function (event) {
     case "shipping-step":
       billing.fadeIn();
       shipping.hide();
-      // messages.hide();
       current_step = "billing-step";
       steps.find("li").removeClass("active");
       steps.find(".billing").addClass("active");
@@ -136,7 +135,6 @@ prev_step.click(function (event) {
       shipping.fadeIn();
       shipping.attr("style", "display:block!important");
       billing.hide();
-      // messages.hide();
       $("#payment").hide();
       current_step = "shipping-step";
 
