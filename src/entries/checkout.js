@@ -22,7 +22,7 @@ function scrollToNav() {
 }
 
 $(document).ready(function () {
-  order_review.on("click", function () {
+  order_review.on("click", function (event) {
     event.preventDefault();
 
     order_review_elms.each(function () {
