@@ -17,15 +17,21 @@
 
 defined( 'ABSPATH' ) || exit;
 ?>
-<table class	="shop_table woocommerce-checkout-review-order-table">
+<table class="shop_table woocommerce-checkout-review-order-table">
 	<thead>
-		<tr><th>Información de compra</th></tr>
 		<tr>
+			<th class="order-review__general-title">Información de compra</th>
+			<th>
+				<p class="order-review__see-more">Ver más</p>
+				<p class="order-review__see-less">Ver menos</p>
+			</th>
+		</tr>
+		<tr class="order-review--hiddable">
 			<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-total"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
 		</tr>
 	</thead>
-	<tbody>
+	<tbody class="order-review--hiddable">
 		<?php
 		do_action( 'woocommerce_review_order_before_cart_contents' );
 
@@ -51,7 +57,7 @@ defined( 'ABSPATH' ) || exit;
 		do_action( 'woocommerce_review_order_after_cart_contents' );
 		?>
 	</tbody>
-	<tfoot>
+	<tfoot class="order-review--hiddable">
 
 		<tr class="cart-subtotal">
 			<th><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>
