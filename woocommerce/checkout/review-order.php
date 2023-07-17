@@ -22,8 +22,8 @@ defined( 'ABSPATH' ) || exit;
 		<tr>
 			<th class="order-review__general-title">Información de compra</th>
 			<th>
-				<p class="order-review__see-more">Ver más</p>
-				<p class="order-review__see-less">Ver menos</p>
+				<button class="order-review__see-more">Ver más</button>
+				<button class="order-review__see-less">Ver menos</button>
 			</th>
 		</tr>
 		<tr class="order-review--hiddable">
