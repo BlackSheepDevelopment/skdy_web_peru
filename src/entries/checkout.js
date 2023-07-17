@@ -31,9 +31,11 @@ order_review.click(function (event) {
     if (hide_status) {
       console.log("Modificando estilo true");
       $(this).attr("style", "display:block!important");
+      $(this).fadeIn();
     } else {
       console.log("Modificando estilo false");
       $(this).attr("style", "display:none!important");
+      $(this).hide();
     }
   });
 
