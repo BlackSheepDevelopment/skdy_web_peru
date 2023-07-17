@@ -292,14 +292,22 @@
 
 
 
-.shop_table.woocommerce-checkout-review-order-table {
-  // position: absolute;
-  // top: 16.5%;
-  // width: 45% !important;
-  // right: 0;
+.shop_table .woocommerce-checkout-review-order-table {
+
+  .order-review__general-title{
+    font-size: 1rem;
+  }
+
+  .order-review__see-more{
+    display: block;
+  }
+
+  .order-review__see-less{
+    display: none;
+  }
+
   @media (max-width: 800px) {
-    // position: relative;
-    // width: 100% !important;
+
   }
 }
 
