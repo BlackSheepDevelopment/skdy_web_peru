@@ -22,7 +22,7 @@ function scrollToNav() {
 }
 
 // * See details of order review
-hide_order_review.click((event) => {
+hide_order_review.click(function (event) {
   console.log("hello");
   event.preventDefault();
 
