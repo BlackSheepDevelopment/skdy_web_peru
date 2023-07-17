@@ -29,8 +29,10 @@ order_review.click(function (event) {
     console.log($(this));
     console.log("Entre aquí");
     if (hide_status) {
+      console.log("Modificando estilo true");
       $(this).attr("style", "display:block!important");
     } else {
+      console.log("Modificando estilo false");
       $(this).attr("style", "display:none!important");
     }
   });
