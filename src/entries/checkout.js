@@ -35,11 +35,12 @@ order_review.click(function (event) {
 
   if (hide_status) {
     order_review.val("Ver menos");
+    hide_status = false;
   } else {
     order_review.val("Ver más");
+    hide_status = true;
   }
-
-  hide_status = hide_status ? false : true;
+  console.log(hide_status);
 });
 
 next_step.click(function (event) {
