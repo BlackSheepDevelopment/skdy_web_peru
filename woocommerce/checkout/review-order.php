@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 		<tr>
 			<th class="order-review__general-title">Información de compra</th>
 			<th>
-				<button class="order-review__see-more">Ver más</button>
+				<button class="order-review__see-more" type="button">Ver más</button>
 			</th>
 		</tr>
 		<tr class="order-review--hidable">
