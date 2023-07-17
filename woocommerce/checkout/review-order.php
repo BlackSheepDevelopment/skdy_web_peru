@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 		<tr>
 			<th class="order-review__general-title">Información de compra</th>
 			<th>
-				<a href="#" id="order-review__see-more">Ver más</a>
+				
 			</th>
 		</tr>
 		<tr class="order-review--hidable">
