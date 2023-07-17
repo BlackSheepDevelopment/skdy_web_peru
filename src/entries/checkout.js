@@ -9,10 +9,9 @@ const next_step = $("#next-step");
 const steps = $(".list-steps");
 const images = $(".list-images");
 
-// const order_review_elms = $(".order-review--hidable");
-// const hide_order_review = $(".order-review__see-more");
-// console.log(hide_order_review);
-// let hide_status = true;
+const order_review_elms = $(".order-review--hidable");
+const hide_order_review = $(".order-review__see-more");
+let hide_status = true;
 
 function scrollToNav() {
   $([document.documentElement, document.body]).animate(
@@ -24,7 +23,6 @@ function scrollToNav() {
 // * See details of order review
 hide_order_review.click(function (event) {
   console.log("hello");
-  event.preventDefault();
 
   order_review_elms.each(function () {
     if (hide_status) {
