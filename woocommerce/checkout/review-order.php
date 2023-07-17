@@ -17,8 +17,9 @@
 
 defined( 'ABSPATH' ) || exit;
 ?>
-<table class="shop_table woocommerce-checkout-review-order-table">
+<table class	="shop_table woocommerce-checkout-review-order-table">
 	<thead>
+		<tr><th>Información de compra</th></tr>
 		<tr>
 			<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-total"><?php esc_html_e( 'Subtotal', 'woocommerce' ); ?></th>

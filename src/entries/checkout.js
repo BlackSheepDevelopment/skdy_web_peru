@@ -231,6 +231,7 @@ window.update_district_selector = function () {
   }
 };
 
+// *Forms Validations
 const validateName = (name) => {
   if (name.trim() === "") {
     return false; // Empty string is invalid
