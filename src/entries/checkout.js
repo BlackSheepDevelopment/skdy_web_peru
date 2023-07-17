@@ -18,6 +18,7 @@ function scrollToNav() {
 
 // * See details of order review
 $("#see-more").click(function (event) {
+  event.preventDefault();
   console.log("AHHHHHHHHHHHHHHHHHHH");
 });
 
