@@ -16,22 +16,12 @@ function scrollToNav() {
   );
 }
 
-// * See details of order review
-
-// $("#see-more").click(function (event) {
-//   event.preventDefault();
-//   console.log("AHHHHHHHHHHHHHHHHHHH");
-// });
-
 $(document).ready(function () {
-  // Replace '.toggle-button' with the actual selector for your toggle button
   $("#see-more").on("click", function () {
-    // Callback function logic here
     console.log("Toggle button clicked!");
   });
 });
 
-// * Checking out filling forms
 next_step.click(function (event) {
   event.preventDefault();
   const billing = $(".billing-step");
@@ -247,13 +237,11 @@ window.update_district_selector = function () {
   }
 };
 
-// *Forms Validations
 const validateName = (name) => {
   if (name.trim() === "") {
     return false; // Empty string is invalid
   }
 
-  // Regular expression pattern for validating Spanish names
   const pattern = /^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$/;
 
   return pattern.test(name);
