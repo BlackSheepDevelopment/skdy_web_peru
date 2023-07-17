@@ -22,6 +22,7 @@ function scrollToNav() {
 
 // * See details of order review
 hide_order_review.click(function (event) {
+  console.log("AHHHHHHHHHHHHHHHHHHH");
   event.preventDefault();
   console.log("hello");
   order_review_elms.each(function () {
