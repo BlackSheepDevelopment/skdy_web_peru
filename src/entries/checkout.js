@@ -26,16 +26,16 @@ order_review.click(function (event) {
   console.log("Se hizo click");
 
   order_review_elms.each(function () {
-    console.log($(this));
+    console.log($(this)[0]);
     console.log("Entre aquí");
     if (hide_status) {
       console.log("Modificando estilo true");
-      $(this).css({ display: "block!important" });
-      $(this).fadeIn();
+      $(this)[0].css({ display: "block!important" });
+      $(this)[0].fadeIn();
     } else {
       console.log("Modificando estilo false");
-      $(this).css({ display: "block!important" });
-      $(this).hide();
+      $(this)[0].css({ display: "block!important" });
+      $(this)[0].hide();
     }
   });
 
