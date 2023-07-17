@@ -25,13 +25,13 @@ order_review.click(function (event) {
   event.preventDefault();
   console.log("Se hizo click");
 
-  // order_review_elms.each(function () {
-  //   if (hide_status) {
-  //     $(this).css("display:block!important");
-  //   } else {
-  //     $(this).css("display:none!important");
-  //   }
-  // });
+  order_review_elms.each(function () {
+    if (hide_status) {
+      $(this).attr("style", "display:block!important");
+    } else {
+      $(this).attr("style", "display:none!important");
+    }
+  });
 
   if (hide_status) {
     order_review.val("Ver menos");
