@@ -205,21 +205,29 @@
   position: relative;
   margin-bottom: 2rem;
 
-  .order_review__main{
-    display: flex;
-    justify-content: space-between;
+  .order_review_container{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
-    .order-review__general-title{
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-
-    .order-review__toggle__btn{
-      @include btn(#fff, #383838, #2c2c2d);
-      color: #fff !important;
-      padding: 0 2rem !important;
+    .order_review__main{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+  
+      .order-review__general-title{
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+  
+      .order-review__toggle__btn{
+        @include btn(#fff, #383838, #2c2c2d);
+        color: #fff !important;
+        padding: 0 2rem !important;
+      }
     }
   }
+
+
 }
 
 .woocommerce-form-coupon-toggle,
