@@ -35,19 +35,21 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
     <?php do_action( 'woocommerce_checkout_before_order_review_heading' ); ?>
 
+    <div class="order_review_container">
+        <div class="order_review__main">
+            <p class="order-review__general-title">Información del producto</p>
+            <div class="order-review__toggle">
+                <a href="#" id="see-more">
+                    <button class="order-review__toggle__btn">Ver menos</button>
+                </a>
+            </div>
+        </div>
 
-    <div class="order_review__main">
-        <p class="order-review__general-title">Información del producto</p>
-        <div class="order-review__toggle">
-            <a href="#" id="see-more">
-                <button class="order-review__toggle__btn">Ver menos</button>
-            </a>
+        <div id="order_review" class="woocommerce-checkout-review-order">
+            <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>        
         </div>
     </div>
 
-    <div id="order_review" class="woocommerce-checkout-review-order">
-        <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>        
-    </div>
 
 
 	<?php if ( $checkout->get_checkout_fields() ) : ?>
