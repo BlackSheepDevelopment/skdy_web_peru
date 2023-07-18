@@ -456,29 +456,29 @@
 }
 
 .woocommerce-form-coupon-toggle,
-.woocommerce-notices-wrapper {
+.woocommerce-notices-wrapper, .checkout_additional_info {
   width: 100%;
 }
 @media (max-width: 800px) {
   .woocommerce-form-coupon-toggle,
-.woocommerce-notices-wrapper {
+.woocommerce-notices-wrapper, .checkout_additional_info {
     width: 100%;
   }
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__title,
-.woocommerce-notices-wrapper .checkout_additional_info__title {
+.woocommerce-notices-wrapper .checkout_additional_info__title, .checkout_additional_info .checkout_additional_info__title {
   font-size: 1.5rem;
   font-weight: 700;
   padding: 0.4rem 0;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__content,
-.woocommerce-notices-wrapper .checkout_additional_info__content {
+.woocommerce-notices-wrapper .checkout_additional_info__content, .checkout_additional_info .checkout_additional_info__content {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element,
-.woocommerce-notices-wrapper .checkout_additional_info__element {
+.woocommerce-notices-wrapper .checkout_additional_info__element, .checkout_additional_info .checkout_additional_info__element {
   display: flex;
   gap: 10px;
   padding: 10px;
@@ -486,7 +486,7 @@
   flex-wrap: wrap;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element__btn,
-.woocommerce-notices-wrapper .checkout_additional_info__element__btn {
+.woocommerce-notices-wrapper .checkout_additional_info__element__btn, .checkout_additional_info .checkout_additional_info__element__btn {
   color: #000;
   text-decoration: underline;
   font-weight: 800;

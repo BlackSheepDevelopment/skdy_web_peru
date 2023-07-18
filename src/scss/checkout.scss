@@ -262,7 +262,7 @@
 }
 
 .woocommerce-form-coupon-toggle,
-.woocommerce-notices-wrapper {
+.woocommerce-notices-wrapper,.checkout_additional_info {
   width: 100%;
   @media (max-width: 800px) {
     width: 100%;
