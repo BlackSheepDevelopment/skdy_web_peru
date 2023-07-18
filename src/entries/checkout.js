@@ -298,6 +298,8 @@ const validateNumber = (number) => {
   return pattern.test(number);
 };
 
+console.log($document);
+
 $("#select2-billing_invoice-container").on("change", function () {
   console.log($("#select2-billing_invoice-container").val());
 });
