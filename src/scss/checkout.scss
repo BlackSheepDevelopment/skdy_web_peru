@@ -278,7 +278,20 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    padding-left: 0.5rem;
   }
+
+  .checkout_additional_info__element{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+ .checkout_additional_info__element__btn{
+          @include btn(#fff, #383838, #2c2c2d);
+        color: #fff !important;
+        padding: 0 1rem !important;
+ }
 
 }
 
