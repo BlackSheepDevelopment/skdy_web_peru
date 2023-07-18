@@ -168,6 +168,7 @@
   font-size: 0.9rem;
   border-radius: 0 !important;
   border-collapse: collapse !important;
+  margin: 0;
 }
 #main-container .shop_table tbody tr:first-child td {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -360,6 +361,7 @@
 }
 .checkout.woocommerce-checkout .order_review_container {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
 }
 .checkout.woocommerce-checkout .order_review_container .order_review__main {
   display: flex;
@@ -427,6 +429,9 @@
 }
 .checkout.woocommerce-checkout .order_review_container .order_review__main .order-review__toggle__btn.disabled, .checkout.woocommerce-checkout .order_review_container .order_review__main .order-review__toggle__btn:disabled {
   pointer-events: none;
+}
+.checkout.woocommerce-checkout .order_review_container .order_review {
+  padding-bottom: 1rem;
 }
 
 .woocommerce-form-coupon-toggle,

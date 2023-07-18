@@ -99,6 +99,7 @@
     font-size: .9rem;
     border-radius: 0 !important;
     border-collapse: collapse !important;
+    margin: 0;
 
     tbody {
       tr {
@@ -206,6 +207,7 @@
 
   .order_review_container{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 1rem;
 
     .order_review__main{
       display: flex;
@@ -223,6 +225,10 @@
         color: #fff !important;
         padding: 0 2rem !important;
       }
+    }
+
+    .order_review{
+      padding-bottom: 1rem;
     }
   }
 
