@@ -34,10 +34,10 @@ order_review.click(function (event) {
   });
 
   if (hide_status) {
-    $("order-review__toggle__btn").text("Ver menos");
+    $(".order-review__toggle__btn").text("Ver menos");
     hide_status = false;
   } else {
-    $("order-review__toggle__btn").text("Ver más");
+    $(".order-review__toggle__btn").text("Ver más");
     hide_status = true;
   }
   console.log(hide_status);
