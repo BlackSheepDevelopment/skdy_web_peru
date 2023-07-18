@@ -11,13 +11,6 @@ const images = $(".list-images");
 
 const order_review = $("#see-more");
 
-let billing_invoice = undefined;
-let span_billing = undefined;
-let detail_span = undefined;
-let more_detail = undefined;
-let even_more_detail = undefined;
-let further_more_detail = undefined;
-
 let hide_status = false;
 
 function scrollToNav() {
@@ -306,17 +299,17 @@ const validateNumber = (number) => {
 };
 
 $(document).ready(function () {
-  billing_invoice = $("#billing_invoice_field").children();
-  span_billing = billing_invoice[1];
-  detail_span = span_billing.children[1];
-  more_detail = detail_span.children[0];
-  even_more_detail = more_detail.children[0];
-  further_more_detail = even_more_detail.children[0];
+  const billing_invoice = $("#billing_invoice_field").children();
+  const span_billing = billing_invoice[1];
+  const detail_span = span_billing.children[1];
+  const more_detail = detail_span.children[0];
+  const even_more_detail = more_detail.children[0];
+  const further_more_detail = even_more_detail.children[0];
   console.log(span_billing);
   console.log(further_more_detail);
   console.log("testing new 2");
-});
 
-further_more_detail.on("change", function () {
-  console.log("Something is changing");
+  further_more_detail.on("change", function () {
+    console.log("Something is changing");
+  });
 });
