@@ -173,14 +173,14 @@ window.province_selector_init = function () {
   const selector = $("#billing_city");
   selector.after(function () {
     return (
-      '<p class="form-row shipping-step validate-required form-row-wide" id="billing_province_field">' +
+      '<p class="form-row shipping-step validate-required form-row-first" id="billing_province_field">' +
       '<label for="billing_province">Provincia&nbsp;<abbr class="required" title="obligatorio">*</abbr></label>' +
       '<span class="woocommerce-input-wrapper">' +
       '<select name="billing_province" id="billing_province">' +
       '<option value="">Elige una opción…</option>' +
       "</select>" +
       "</p>" +
-      '<p class="form-row shipping-step validate-required form-row-wide" id="billing_district2_field">' +
+      '<p class="form-row shipping-step validate-required form-row-last" id="billing_district2_field">' +
       '<label for="billing_district2">Distrito&nbsp;<abbr class="required" title="obligatorio">*</abbr></label>' +
       '<span class="woocommerce-input-wrapper">' +
       '<select name="billing_district2" id="billing_district2">' +
