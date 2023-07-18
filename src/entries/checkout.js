@@ -309,7 +309,7 @@ $(document).ready(function () {
   console.log(further_more_detail);
   console.log("testing new 2");
 
-  further_more_detail.addEventListener("change", () => {
+  further_more_detail.addEventListener("DOMSubtreeModified", () => {
     console.log("Something is changing");
   });
 
