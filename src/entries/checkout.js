@@ -168,7 +168,8 @@ prev_step.click(function (event) {
   }
 });
 
-$("#billing_invoice").on("change", function () {
+$("#billing_invoice").on("change", function (event) {
+  event.preventDefault();
   console.log("hello");
   if (this.value === "Factura") {
     $(".hide-factura").css("display", "block");
