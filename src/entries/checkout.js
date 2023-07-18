@@ -25,17 +25,15 @@ order_review.click(function (event) {
   event.preventDefault();
   console.log("Se hizo click");
 
-  order_review_elms.each(function () {
-    console.log($(this)[0]);
+  $(".order-review--hidable").each(function () {
+    console.log($(this));
     console.log("Entre aquí");
     if (hide_status) {
       console.log("Modificando estilo true");
-      $(this)[0].attr("style", "display:block!important");
-      $(this)[0].fadeIn();
+      $(this).css("display", "none");
     } else {
       console.log("Modificando estilo false");
-      $(this)[0].attr("style", "display:none!important");
-      $(this)[0].hide();
+      $(this).css("display", "block");
     }
   });
 
