@@ -29,7 +29,9 @@ get_header(); ?>
 			</div>
 
 			<div class="checkout_additional_info__element">
-				<a href="https://skullcandy.com.pe/envios/">Envíos a provincia</a>
+				<a href="https://skullcandy.com.pe/envios/">
+					<button class="checkout_additional_info__element__btn">Envíos a provincia</button>
+				</a>
 			</div>
 
 			<div class="checkout_additional_info__element">
