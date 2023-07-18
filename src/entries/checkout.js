@@ -10,7 +10,6 @@ const steps = $(".list-steps");
 const images = $(".list-images");
 
 const order_review = $("#see-more");
-const order_review_elms = $(".order-review--hidable");
 
 let hide_status = false;
 
@@ -23,16 +22,11 @@ function scrollToNav() {
 
 order_review.click(function (event) {
   event.preventDefault();
-  console.log("Se hizo click");
 
   $(".order-review--hidable").each(function () {
-    console.log($(this));
-    console.log("Entre aquí");
     if (hide_status) {
-      console.log("Modificando estilo true");
       $(this).css("display", "none");
     } else {
-      console.log("Modificando estilo false");
       $(this).css("display", "block");
     }
   });
