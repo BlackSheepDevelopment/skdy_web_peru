@@ -301,7 +301,8 @@ const validateNumber = (number) => {
 $(document).ready(function () {
   const billing_invoice = $("#billing_invoice_field").children();
   const span_billing = billing_invoice[1];
+  const detail_span = span_billing.children[1];
   console.log(span_billing);
-  console.log(span_billing.children);
+  console.log(detail_span);
   console.log("testing");
 });
