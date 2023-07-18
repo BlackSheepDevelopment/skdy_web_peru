@@ -169,7 +169,6 @@ prev_step.click(function (event) {
 });
 
 window.province_selector_init = function () {
-  console.log("HOLA COMO ESTAN!");
   const selector = $("#billing_city");
   selector.after(function () {
     return (
@@ -299,10 +298,4 @@ const validateNumber = (number) => {
   return pattern.test(number);
 };
 
-$("#billing_invoice_field").on("change", function (event) {
-  event.preventDefault();
-  console.log("hello");
-  if (this.value === "Factura") {
-    $(".hide-factura").css("display", "block");
-  }
-});
+console.log($("#billing_invoice_field").val());
