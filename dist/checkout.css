@@ -485,8 +485,9 @@
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element__btn,
 .woocommerce-notices-wrapper .checkout_additional_info__element__btn {
-  text-decoration: none;
   color: #000;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 .list-steps {
