@@ -303,4 +303,5 @@ $(document).ready(function () {
   const span_billing = billing_invoice[1].children();
   const span_detail = span_billing[1].children();
   console.log(span_detail);
+  console.log("testing");
 });
