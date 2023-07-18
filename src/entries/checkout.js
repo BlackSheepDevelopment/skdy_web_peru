@@ -312,4 +312,6 @@ $(document).ready(function () {
   further_more_detail.addEventListener("change", () => {
     console.log("Something is changing");
   });
+
+  console.log("hello");
 });
