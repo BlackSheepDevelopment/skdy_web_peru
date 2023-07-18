@@ -169,7 +169,8 @@ prev_step.click(function (event) {
 });
 
 window.province_selector_init = function () {
-  const selector = jQuery("#billing_city");
+  console.log("HOLA COMO ESTAN!");
+  const selector = $("#billing_city");
   selector.after(function () {
     return (
       '<p class="form-row shipping-step validate-required form-row-wide" id="billing_province_field">' +
