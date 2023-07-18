@@ -40,7 +40,6 @@ order_review.click(function (event) {
     $(".order-review__toggle__btn").text("Ver más");
     hide_status = true;
   }
-  console.log(hide_status);
 });
 
 next_step.click(function (event) {
@@ -166,6 +165,12 @@ prev_step.click(function (event) {
       next_step.css("visibility", "visible");
       scrollToNav();
       break;
+  }
+});
+
+$("#billing_invoice").on("change", function () {
+  if (this.value === "Factura") {
+    $(".hide-factura").css("display", "block");
   }
 });
 

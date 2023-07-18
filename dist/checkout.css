@@ -454,6 +454,9 @@
 .checkout.woocommerce-checkout .order_review_container .order_review {
   padding-bottom: 1rem;
 }
+.checkout.woocommerce-checkout .hide-factura {
+  display: none !important;
+}
 
 .woocommerce-form-coupon-toggle,
 .woocommerce-notices-wrapper, .checkout_additional_info {
