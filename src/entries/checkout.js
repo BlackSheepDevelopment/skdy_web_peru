@@ -11,6 +11,13 @@ const images = $(".list-images");
 
 const order_review = $("#see-more");
 
+const billing_invoice = $("#billing_invoice_field").children();
+const span_billing = billing_invoice[1];
+const detail_span = span_billing.children[1];
+const more_detail = detail_span.children[0];
+const even_more_detail = more_detail.children[0];
+const further_more_detail = even_more_detail.children[0];
+
 let hide_status = false;
 
 function scrollToNav() {
@@ -308,4 +315,8 @@ $(document).ready(function () {
   console.log(span_billing);
   console.log(further_more_detail);
   console.log("testing new 2");
+});
+
+further_more_detail.on("change", function () {
+  console.log("Something is changing");
 });
