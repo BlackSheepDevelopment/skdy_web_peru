@@ -298,10 +298,7 @@ const validateNumber = (number) => {
   return pattern.test(number);
 };
 
-console.log($(document));
-console.log("hello");
-
-$("#billing_invoice_field").on("change", function () {
-  console.log("hello my friend");
-  console.log($(this).val());
+$(document).ready(function () {
+  const billing_invoice = $("#billing_invoice_field").children();
+  console.log(billing_invoice);
 });
