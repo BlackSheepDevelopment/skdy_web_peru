@@ -19,7 +19,7 @@ get_header(); ?>
 			?>
         </div>
 
-		<div class="checkout_additional_info woocommerce-notices-wrapper">
+		<div class="checkout_additional_info">
 			<div class="checkout_additional_info__title">
 				RECUERDA
 			</div>
