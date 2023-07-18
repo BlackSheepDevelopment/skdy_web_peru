@@ -1,6 +1,6 @@
 import "../scss/checkout.scss";
 
-import $, { event, jQuery } from "jquery";
+import $ from "jquery";
 import "select2";
 
 let current_step = "billing-step";
