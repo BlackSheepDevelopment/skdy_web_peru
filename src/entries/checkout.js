@@ -301,6 +301,7 @@ const validateNumber = (number) => {
 console.log($(document));
 console.log("hello");
 
-$("#select2-billing_invoice-container").on("change", function () {
-  console.log($("#select2-billing_invoice-container").val());
+$("#billing_invoice_field").on("change", function () {
+  console.log("hello my friend");
+  console.log($(this).val());
 });
