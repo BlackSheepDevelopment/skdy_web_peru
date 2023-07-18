@@ -455,6 +455,9 @@
 .shop_table.woocommerce-checkout-review-order-table .order-review__general-title {
   font-size: 1rem;
 }
+.shop_table.woocommerce-checkout-review-order-table .order-review--hidable {
+  display: block;
+}
 label[for=billing_district2] {
   font-weight: normal;
 }
