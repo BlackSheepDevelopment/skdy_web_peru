@@ -482,6 +482,7 @@
   display: flex;
   gap: 10px;
   padding: 10px;
+  align-items: center;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element__btn,
 .woocommerce-notices-wrapper .checkout_additional_info__element__btn {
