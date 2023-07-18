@@ -299,7 +299,7 @@ const validateNumber = (number) => {
   return pattern.test(number);
 };
 
-$("##billing_invoice_field").on("change", function (event) {
+$("#billing_invoice_field").on("change", function (event) {
   event.preventDefault();
   console.log("hello");
   if (this.value === "Factura") {
