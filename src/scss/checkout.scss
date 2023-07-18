@@ -267,6 +267,19 @@
   @media (max-width: 800px) {
     width: 100%;
   }
+
+  .checkout_additional_info__title{
+    font-size: 1.5rem ;
+    font-weight: 700;
+    padding: 0.4rem 0;
+  }
+
+  .checkout_additional_info__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
 }
 
 

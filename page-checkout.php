@@ -24,7 +24,7 @@ get_header(); ?>
 				RECUERDA
 			</div>
 
-			<div class="heckout_additional_info__content">
+			<div class="checkout_additional_info__content">
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">Para Lima y Callao nuestro tiempo de entrega es de 2 a 3 días habiles (sin contar Feriados, Sábados y Domingos).</p>
 				</div>
