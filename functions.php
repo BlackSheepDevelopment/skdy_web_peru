@@ -1022,7 +1022,7 @@ remove_action( 'woocommerce_output_all_notices', 'woocommerce_output_all_notices
 remove_action( 'woocommerce_before_checkout_payment', 'woocommerce_checkout_payment',20 );
 remove_action( 'woocommerce_before_review_order_payment', 'woocommerce_review_order_payment',20 );
 
-// add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices', 10 );
+add_action( 'woocommerce_after_checkout_form', 'woocommerce_output_all_notices', 10 );
 
 // New functionality
 add_action( 'woocommerce_review_order_after_order_total','woocommerce_checkout_coupon_form',10);
