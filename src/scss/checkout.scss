@@ -205,7 +205,7 @@
   position: relative;
   margin-bottom: 2rem;
 
-  .order_review_main{
+  .order_review__main{
     display: flex;
     justify-content: space-between;
 
@@ -214,12 +214,10 @@
       font-weight: bold;
     }
 
-    .order-review__toggle{
-      .order-review__toggle__btn{
-        @include btn(#fff, #383838, #2c2c2d);
-        color: #fff !important;
-        padding: 0 2rem !important;
-      }
+    .order-review__toggle__btn{
+      @include btn(#fff, #383838, #2c2c2d);
+      color: #fff !important;
+      padding: 0 2rem !important;
     }
   }
 }

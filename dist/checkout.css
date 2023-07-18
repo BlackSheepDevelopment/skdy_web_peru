@@ -359,15 +359,15 @@
   position: relative;
   margin-bottom: 2rem;
 }
-.checkout.woocommerce-checkout .order_review_main {
+.checkout.woocommerce-checkout .order_review__main {
   display: flex;
   justify-content: space-between;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__general-title {
+.checkout.woocommerce-checkout .order_review__main .order-review__general-title {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn {
   position: relative;
   overflow: hidden;
   height: 3.17143rem;
@@ -389,13 +389,13 @@
   color: #fff !important;
   padding: 0 2rem !important;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn:hover {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn:hover {
   color: #fff;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn:hover:after {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn:hover:after {
   width: 120%;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn:before {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn:before {
   content: "";
   position: absolute;
   z-index: -2;
@@ -405,7 +405,7 @@
   bottom: 0;
   background: #383838;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn:after {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -418,10 +418,10 @@
   transform: translate(-50%) skew(20deg) scaleX(1);
   transition: width 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn.selected:after {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn.selected:after {
   width: 120% !important;
 }
-.checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn.disabled, .checkout.woocommerce-checkout .order_review_main .order-review__toggle .order-review__toggle__btn:disabled {
+.checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn.disabled, .checkout.woocommerce-checkout .order_review__main .order-review__toggle__btn:disabled {
   pointer-events: none;
 }
 
