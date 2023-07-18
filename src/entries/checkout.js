@@ -25,8 +25,10 @@ order_review.click(function (event) {
 
   $(".order-review--hidable").each(function () {
     if (hide_status) {
+      $(this).fadeIn();
       $(this).css("display", "block");
     } else {
+      $(this).hide();
       $(this).css("display", "none");
     }
   });
