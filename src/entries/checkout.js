@@ -168,14 +168,6 @@ prev_step.click(function (event) {
   }
 });
 
-$("#billing_invoice").on("change", function (event) {
-  event.preventDefault();
-  console.log("hello");
-  if (this.value === "Factura") {
-    $(".hide-factura").css("display", "block");
-  }
-});
-
 window.province_selector_init = function () {
   const selector = jQuery("#billing_city");
   selector.after(function () {
@@ -305,3 +297,11 @@ const validateNumber = (number) => {
 
   return pattern.test(number);
 };
+
+$("#billing_invoice").on("change", function (event) {
+  event.preventDefault();
+  console.log("hello");
+  if (this.value === "Factura") {
+    $(".hide-factura").css("display", "block");
+  }
+});
