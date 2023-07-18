@@ -31,15 +31,15 @@ get_header(); ?>
 
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">El tiempo de entrega a provincia es de 4 a 15 días hábiles según la región</p>
-					<a href="https://skullcandy.com.pe/envios/">
-						<button class="checkout_additional_info__element__btn">Ver más</button>
+					<a class="checkout_additional_info__element__btn" href="https://skullcandy.com.pe/envios/">
+						Ver más
 					</a>
 				</div>
 
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">Entérate sorbe nuestra política de cambios y devoluciones</p>
-					<a href="https://skullcandy.com.pe/politica-de-cambios-y-garantias/">
-						<button class="checkout_additional_info__element__btn">Ver más</button>
+					<a class="checkout_additional_info__element__btn" href="https://skullcandy.com.pe/politica-de-cambios-y-garantias/">
+						Ver más
 					</a>
 				</div>
 			</div>
