@@ -11,7 +11,7 @@ const images = $(".list-images");
 
 const order_review = $("#see-more");
 
-let hide_status = true;
+let hide_status = false;
 
 function scrollToNav() {
   $([document.documentElement, document.body]).animate(
