@@ -170,12 +170,23 @@
   border-collapse: collapse !important;
   margin: 0;
 }
+#main-container .shop_table thead tr {
+  width: 100%;
+}
+#main-container .shop_table thead th {
+  width: 100%;
+}
 #main-container .shop_table tbody tr:first-child td {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+#main-container .shop_table tbody tr th {
+  width: 100%;
 }
 #main-container .shop_table tbody tr td {
   border-top: none;
   padding: 0 12px;
+  width: 100%;
 }
 #main-container .shop_table .product-image {
   width: 90px;
@@ -368,6 +379,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  gap: 20px;
 }
 .checkout.woocommerce-checkout .order_review_container .order_review__main .order-review__general-title {
   font-size: 1.2rem;

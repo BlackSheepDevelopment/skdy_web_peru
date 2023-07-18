@@ -101,17 +101,30 @@
     border-collapse: collapse !important;
     margin: 0;
 
+    thead{
+      tr{
+        width: 100%;
+      }
+      th{
+        width: 100%;
+      }
+    }
+
     tbody {
       tr {
         &:first-child {
           td {
             border-top: 1px solid rgba(#000, .1);
+            width: 100%;
           }
         }
-
+        th{
+          width: 100%;
+        }
         td {
           border-top: none;
           padding: 0 12px;
+          width: 100%;
         }
       }
     }
@@ -214,6 +227,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 0;
+      gap: 20px;
   
       .order-review__general-title{
         font-size: 1.2rem;
