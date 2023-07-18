@@ -457,7 +457,7 @@
 
 .woocommerce-form-coupon-toggle,
 .woocommerce-notices-wrapper {
-  width: 50%;
+  width: 100%;
 }
 @media (max-width: 800px) {
   .woocommerce-form-coupon-toggle,
