@@ -304,5 +304,5 @@ $(document).ready(function () {
   const detail_span = span_billing.children[1];
   console.log(span_billing);
   console.log(detail_span);
-  console.log("testing");
+  console.log("testing new");
 });
