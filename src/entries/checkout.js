@@ -25,17 +25,17 @@ order_review.click(function (event) {
 
   $(".order-review--hidable").each(function () {
     if (hide_status) {
-      $(this).css("display", "none");
-    } else {
       $(this).css("display", "block");
+    } else {
+      $(this).css("display", "none");
     }
   });
 
   if (hide_status) {
-    order_review.text("Ver menos");
+    order_review.text("Ver más");
     hide_status = false;
   } else {
-    order_review.text("Ver más");
+    order_review.text("Ver menos");
     hide_status = true;
   }
   console.log(hide_status);
