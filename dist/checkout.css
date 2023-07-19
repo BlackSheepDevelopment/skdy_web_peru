@@ -455,7 +455,7 @@
   padding-bottom: 1rem;
 }
 .checkout.woocommerce-checkout .hide-factura {
-  display: none !important;
+  display: none;
 }
 
 .woocommerce-form-coupon-toggle,
