@@ -310,7 +310,7 @@ $(document).ready(function () {
   console.log("testing new 2");
 
   further_more_detail.addEventListener("DOMSubtreeModified", () => {
-    console.log(further_more_detail.innerText.substring(2));
+    console.log(further_more_detail.innerText);
   });
 
   console.log("hello");
