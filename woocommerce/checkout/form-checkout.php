@@ -75,7 +75,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
             </div>
 
-            <?php echo do_shortcode('[wcmlim_locations_popup]'); ?>
             <?php echo do_shortcode('[wcmlim_locations_switch]'); ?>
         </div>
 
