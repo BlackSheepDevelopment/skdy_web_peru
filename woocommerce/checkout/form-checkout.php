@@ -78,16 +78,18 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <?php echo do_shortcode('[wcmlim_locations_switch]'); ?>
         </div>
 
-        <?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
-
 	<?php endif; ?>
 
-    <div class="nav-steps">
-        <a href="#" id="prev-step">Anterior</a>
-        <a href="#" id="next-step">Continuar</a>
-    </div>
+ 
 
 
 </form>
+
+<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
+
+<div class="nav-steps">
+        <a href="#" id="prev-step">Anterior</a>
+        <a href="#" id="next-step">Continuar</a>
+    </div>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
