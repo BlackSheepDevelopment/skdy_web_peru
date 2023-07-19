@@ -305,15 +305,14 @@ $(document).ready(function () {
   const more_detail = detail_span.children[0];
   const even_more_detail = more_detail.children[0];
   const further_more_detail = even_more_detail.children[0];
-  console.log(span_billing);
-  console.log(further_more_detail);
-  console.log("testing new 2");
 
   further_more_detail.addEventListener("DOMSubtreeModified", () => {
     if (further_more_detail.lastChild !== null) {
-      console.log(further_more_detail.lastChild.textContent.trim());
+      if (further_more_detail.lastChild.textContent.trim() === "Factura") {
+        $(".hide-factura").css("display", "block");
+      } else {
+        $(".hide-factura").css("display", "none");
+      }
     }
   });
-
-  console.log("hello");
 });
