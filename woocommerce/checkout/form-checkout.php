@@ -74,6 +74,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <div class="col-1">
 				<?php do_action( 'woocommerce_checkout_billing' ); ?>
             </div>
+
+            <?php echo do_shortcode('[wcmlim_locations_switch]'); ?>
         </div>
 
         <?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
