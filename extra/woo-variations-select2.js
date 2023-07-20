@@ -82,44 +82,11 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  const chooseShipment = () => {
-    const selectElement = $("#select_location")[0];
-    const selectOptions = selectElement.options;
-    console.log(selectOptions);
-    console.log(selectOptions.length);
-    console.log(selectOptions[0]);
-    console.log(selectOptions[0][1]);
-    console.log("Checking options");
-
-    // for (let i = 0; i < 3; i++) {
-    //   console.log(i);
-    //   console.log("hello inside for");
-    //   let option = selectOptions[i];
-    //   console.log(option);
-    //   let classvalue = option.className;
-    //   let dataLcQty = option.dataset.lcQty;
-    //   console.log(className);
-    //   console.log(dataLcQty);
-    //   if (
-    //     classvalue === "wclimloc_savar24" &&
-    //     dataLcQty &&
-    //     parseInt(dataLcQty) >= 0
-    //   ) {
-    //     return "0";
-    //   } else if (
-    //     classvalue === "wclimloc_almacen" &&
-    //     dataLcQty &&
-    //     parseInt(dataLcQty) >= 0
-    //   ) {
-    //     return "1";
-    //   } else {
-    //     return "0";
-    //   }
-    // }
-  };
-  const shipment_selected = chooseShipment();
-  console.log(shipment_selected);
-
-  $("#select_location").val(shipment_selected);
-  $("#select_location").trigger("change");
+  const selectElement = $("#select_location")[0];
+  const selectOptions = selectElement.options;
+  console.log(selectOptions);
+  console.log(selectOptions.length);
+  console.log(selectOptions[0]);
+  console.log(selectOptions[0][1]);
+  console.log("Checking options");
 });
