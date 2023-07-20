@@ -85,10 +85,13 @@ jQuery(document).ready(function ($) {
   function removeOptionsAndSetSelected() {
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
     console.log($("#select_location"));
-    $("#select_location option").each(function () {
+
+    const selectElement = $("#select_location");
+
+    // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+    selectElement.find("option").each(function () {
       const className = $(this).attr("class");
       const dataLcQty = $(this).attr("data-lc-qty");
-      console.log(dataLcQty);
 
       if (className && dataLcQty && parseInt(dataLcQty) === 0) {
         $(this).remove();
@@ -96,10 +99,13 @@ jQuery(document).ready(function ($) {
     });
 
     // Step 2: Set the active (selected) option to the one with a class name attribute
-    const selectedOption = $("#select_location option[class]").first();
+    const selectedOption = selectElement.find("option[class]").first();
     if (selectedOption.length > 0) {
       selectedOption.prop("selected", true);
     }
+
+    // After making changes, trigger the change event to update Select2
+    selectElement.trigger("change");
   }
 
   // Call the function to apply the changes
