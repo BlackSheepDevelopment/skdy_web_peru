@@ -82,12 +82,33 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log($("#select_location")[0]);
+  function removeOptionsAndSetSelected() {
+    // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+    $("#select_location option").each(function () {
+      const className = $(this).attr("class");
+      const dataLcQty = $(this).attr("data-lc-qty");
 
-  $("#select_location").on("select2:select", function (e) {
-    console.log("hello");
-    var data = e.params.data;
-    console.log(data);
-  });
-  console.log("hello");
+      if (className && dataLcQty && parseInt(dataLcQty) === 0) {
+        $(this).remove();
+      }
+    });
+
+    // Step 2: Set the active (selected) option to the one with a class name attribute
+    const selectedOption = $("#select_location option[class]").first();
+    if (selectedOption.length > 0) {
+      selectedOption.prop("selected", true);
+    }
+  }
+
+  // Call the function to apply the changes
+  removeOptionsAndSetSelected();
+
+  // console.log($("#select_location"));
+
+  // $("#select_location").on("select2:select", function (e) {
+  //   console.log("hello");
+  //   var data = e.params.data;
+  //   console.log(data);
+  // });
+  // console.log("hello");
 });
