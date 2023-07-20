@@ -86,9 +86,9 @@ jQuery(document).ready(function ($) {
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
 
     const selectElement = $("#select_location");
-    var options = selectElement.find("option");
+    var options = selectElement.find();
 
-    console.log(selectElement.find("option.wclimloc_savar24"));
+    console.log(selectElement.find("0"));
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
     // selectElement.find("option").each(function () {
     //   const className = $(this).attr("class");
