@@ -82,6 +82,8 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
+  console.log($("#select_location").select2("data"));
+
   $("#select_location").on("select2:select", function (e) {
     console.log("hello");
     var data = e.params.data;
