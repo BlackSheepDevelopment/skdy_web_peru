@@ -89,4 +89,39 @@ jQuery(document).ready(function ($) {
   console.log(selectOptions[0]);
   console.log(selectOptions[0][1]);
   console.log("Checking options this time now");
+
+  $(".single_add_to_cart_button").on("click", function (e) {
+    e.preventDefault();
+
+    const selectElement = $("#select_location")[0];
+    const selectOptions = selectElement.options;
+    let desiredShipment = "0";
+
+    for (let i = 0; i < selectOptions.length; i++) {
+      console.log(i);
+      console.log("hello inside for");
+      let option = selectOptions[i];
+      console.log(option);
+      let className = option.attr("class");
+      let dataLcQty = option.attr("data-lc-qty");
+      console.log(dataLcQty);
+      if (
+        className === "wclimloc_savar24" &&
+        dataLcQty &&
+        parseInt(dataLcQty) >= 0
+      ) {
+        desiredShipment = "0";
+      } else if (
+        className === "wclimloc_almacen" &&
+        dataLcQty &&
+        parseInt(dataLcQty) >= 0
+      ) {
+        desiredShipment = "1";
+      } else {
+        desiredShipment = "0";
+      }
+    }
+
+    $(this).trigger(e.type);
+  });
 });
