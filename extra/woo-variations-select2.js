@@ -86,7 +86,7 @@ jQuery(document).ready(function ($) {
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
 
     const selectElement = $("#select_location");
-    var options = selectElement.data();
+    var options = selectElement.find("option");
 
     console.log(options);
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
