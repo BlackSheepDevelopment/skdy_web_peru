@@ -89,7 +89,7 @@ jQuery(document).ready(function ($) {
     console.log("Checking options");
     console.log(selectOptions[0]);
 
-    for (let i = 0; i < selectOptions.lenght; i++) {
+    for (let i = 0; i < 3; i++) {
       console.log(i);
       console.log("hello inside for");
       let option = selectOptions[i];
