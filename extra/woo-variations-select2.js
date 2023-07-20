@@ -118,6 +118,7 @@ jQuery(document).ready(function ($) {
 
     console.log("desiredShipment: ");
     console.log(desiredShipment);
-    $(this).trigger(e.type);
+    // variations_form.
+    // $(this).trigger(e.type);
   });
 });
