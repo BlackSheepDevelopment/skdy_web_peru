@@ -110,6 +110,7 @@ jQuery(document).ready(function ($) {
     }
   };
   const shipment_selected = chooseShipment();
+  console.log(shipment_selected);
 
   $("#select_location").val(shipment_selected);
   $("#select_location").trigger("change");
