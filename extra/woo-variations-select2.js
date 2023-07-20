@@ -85,8 +85,8 @@ jQuery(document).ready(function ($) {
   const chooseShipment = () => {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
-
-    selectOptions.each(function () {
+    console.log(selectOptions);
+    selectOptions.forEach(function () {
       const className = $(this).attr("class");
       const dataLcQty = $(this).attr("data-lc-qty");
       console.log(dataLcQty);
