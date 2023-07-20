@@ -111,7 +111,7 @@ $(document).ready(function () {
     renderSlider();
   }
 
-  $("#select_location").on("select2:select", function (e) {
+  $("#select_location").on("change", function (e) {
     var data = e.params.data;
     console.log(data);
   });
