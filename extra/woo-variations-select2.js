@@ -86,9 +86,11 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     console.log(selectOptions);
-    selectOptions.forEach(function () {
-      const className = $(this).attr("class");
-      const dataLcQty = $(this).attr("data-lc-qty");
+
+    for (let i = 0; i < selectOptions.lenght; i++) {
+      let option = selectOptions[i];
+      let className = option.attr("class");
+      let dataLcQty = option.attr("data-lc-qty");
       console.log(dataLcQty);
       if (
         className === "wclimloc_savar24" &&
@@ -105,9 +107,8 @@ jQuery(document).ready(function ($) {
       } else {
         return "0";
       }
-    });
+    }
   };
-
   const shipment_selected = chooseShipment();
 
   $("#select_location").val(shipment_selected);
