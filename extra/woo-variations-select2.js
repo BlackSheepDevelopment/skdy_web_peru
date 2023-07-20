@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
 
   // Call the function to apply the changes
   removeOptionsAndSetSelected();
-  console.log("asdasd");
+  console.log("asdfasdfasdf");
 
   // console.log($("#select_location"));
 
