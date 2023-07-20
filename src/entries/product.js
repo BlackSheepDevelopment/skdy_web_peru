@@ -3,8 +3,6 @@ import "../scss/product.scss";
 import $ from "jquery";
 import "slick-carousel";
 
-let doneShipment = false;
-
 $(".layout-video")
   .find(".btn-play")
   .click(function (event) {
@@ -114,45 +112,62 @@ $(document).ready(function () {
   }
 });
 
-$(".single_add_to_cart_button").on("click", function (e, info) {
-  console.log("New testing 3");
-  if (info !== "clickedAlready") {
-    e.preventDefault();
+function changeShipment() {
+  const selectElement = $("#select_location")[0];
+  const selectOptions = selectElement.options;
+  let desiredShipment = "0";
+  let savarData = selectOptions[1];
+  let primeData = selectOptions[2];
 
-    const selectElement = $("#select_location")[0];
-    const selectOptions = selectElement.options;
-    let desiredShipment = "0";
-    let savarData = selectOptions[1];
-    let primeData = selectOptions[2];
+  console.log(savarData.className);
+  console.log(primeData.className);
 
-    console.log(savarData.className);
-    console.log(primeData.className);
+  console.log(savarData.dataset.lcQty);
+  console.log(primeData.dataset.lcQty);
 
-    console.log(savarData.dataset.lcQty);
-    console.log(primeData.dataset.lcQty);
-
-    if (
-      savarData.className == "wclimloc_savar24" &&
-      savarData.dataset.lcQty &&
-      parseInt(savarData.dataset.lcQty) > 0
-    ) {
-      desiredShipment = "0";
-    } else if (
-      primeData.className == "wclimloc_almacen" &&
-      primeData.dataset.lcQty &&
-      parseInt(primeData.dataset.lcQty) > 0
-    ) {
-      desiredShipment = "1";
-    } else {
-      desiredShipment = "0";
-    }
-
-    console.log("desiredShipment: ");
-    console.log(desiredShipment);
-    $("#select_location").val(desiredShipment);
-    $("#select_location").trigger("change");
-    doneShipment = true;
+  if (
+    savarData.className == "wclimloc_savar24" &&
+    savarData.dataset.lcQty &&
+    parseInt(savarData.dataset.lcQty) > 0
+  ) {
+    desiredShipment = "0";
+  } else if (
+    primeData.className == "wclimloc_almacen" &&
+    primeData.dataset.lcQty &&
+    parseInt(primeData.dataset.lcQty) > 0
+  ) {
+    desiredShipment = "1";
+  } else {
+    desiredShipment = "0";
   }
 
-  $(this).trigger("click", ["clickedAlready"]);
+  console.log("desiredShipment: ");
+  console.log(desiredShipment);
+  $("#select_location").val(desiredShipment);
+  $("#select_location").trigger("change");
+}
+
+$(".single_add_to_cart_button").on("click", function (event) {
+  if (!event.defaultPrevented) {
+    // Check if the event has not been prevented already
+    event.preventDefault(); // Prevent default behavior of the click event
+    console.log("Default behavior prevented!");
+
+    // Some other operations or code can be added here...
+    changeShipment();
+    // Set a flag to indicate that the event has been triggered once
+    event.target.dataset.triggered = "true";
+
+    // Re-trigger the click event after a short delay (you can adjust the delay as needed)
+    setTimeout(function () {
+      // Check the flag before re-triggering the event
+      if (event.target.dataset.triggered === "true") {
+        const newEvent = new Event("click");
+        event.target.dispatchEvent(newEvent);
+      }
+    }, 100);
+  } else {
+    // If the event has already been prevented, reset the flag for future clicks
+    event.target.dataset.triggered = "false";
+  }
 });
