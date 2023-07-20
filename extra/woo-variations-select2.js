@@ -84,6 +84,7 @@ jQuery(document).ready(function ($) {
 
   function removeOptionsAndSetSelected() {
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+    console.log($("#select_location option"));
     $("#select_location option").each(function () {
       const className = $(this).attr("class");
       const dataLcQty = $(this).attr("data-lc-qty");
