@@ -115,4 +115,6 @@ $(document).ready(function () {
     var data = e.params.data;
     console.log(data);
   });
+
+  console.log("hello");
 });
