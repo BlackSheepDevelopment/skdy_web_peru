@@ -117,6 +117,7 @@ jQuery(document).ready(function ($) {
 
     console.log("desiredShipment: ");
     console.log(desiredShipment);
+    $("#select_location").val(desiredShipment);
     // variations_form.
     // $(this).trigger(e.type);
   });
