@@ -91,6 +91,7 @@ jQuery(document).ready(function ($) {
 
     for (let i = 0; i < selectOptions.lenght; i++) {
       console.log(i);
+      console.log("hello inside for");
       let option = selectOptions[i];
       console.log(option);
       let className = option.attr("class");
