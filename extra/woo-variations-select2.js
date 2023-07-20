@@ -82,38 +82,37 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  function removeOptionsAndSetSelected() {
-    // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+  // function removeOptionsAndSetSelected() {
+  // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
 
-    const selectElement = $("#select_location");
-    var options = selectElement.find();
+  // const selectElement = $("#select_location")[0];
 
-    console.log(selectElement.find("0"));
-    // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
-    // selectElement.find("option").each(function () {
-    //   const className = $(this).attr("class");
-    //   const dataLcQty = $(this).attr("data-lc-qty");
-    //   console.log($(this));
-    //   console.log(selectElement);
+  // console.log(selectElement.find("option"));
+  // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+  // selectElement.find("option").each(function () {
+  //   const className = $(this).attr("class");
+  //   const dataLcQty = $(this).attr("data-lc-qty");
+  //   console.log($(this));
+  //   console.log(selectElement);
 
-    //   if (className && dataLcQty && parseInt(dataLcQty) === 0) {
-    //     $(this).remove();
-    //   }
-    // });
+  //   if (className && dataLcQty && parseInt(dataLcQty) === 0) {
+  //     $(this).remove();
+  //   }
+  // });
 
-    // // Step 2: Set the active (selected) option to the one with a class name attribute
-    // const selectedOption = selectElement.find("option[class]").first();
-    // if (selectedOption.length > 0) {
-    //   selectedOption.prop("selected", true);
-    // }
+  // // Step 2: Set the active (selected) option to the one with a class name attribute
+  // const selectedOption = selectElement.find("option[class]").first();
+  // if (selectedOption.length > 0) {
+  //   selectedOption.prop("selected", true);
+  // }
 
-    // // After making changes, trigger the change event to update Select2
-    // selectElement.trigger("change");
-  }
+  // // After making changes, trigger the change event to update Select2
+  // selectElement.trigger("change");
+  // }
 
   // Call the function to apply the changes
-  removeOptionsAndSetSelected();
-  console.log("asdfasdfasdf");
+  // removeOptionsAndSetSelected();
+  // console.log("asdfasdfasdf");
 
   // console.log($("#select_location"));
 
@@ -123,4 +122,8 @@ jQuery(document).ready(function ($) {
   //   console.log(data);
   // });
   // console.log("hello");
+  $("#select_location").on("select2:select", function (e) {
+    $(this).val("0");
+    $(this).trigger("change");
+  });
 });
