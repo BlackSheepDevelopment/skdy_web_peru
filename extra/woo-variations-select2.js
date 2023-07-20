@@ -96,17 +96,17 @@ jQuery(document).ready(function ($) {
       console.log("hello inside for");
       let option = selectOptions[i];
       console.log(option);
-      let className = option.attr("class");
+      let classvalue = option.className;
       let dataLcQty = option.attr("data-lc-qty");
       console.log(dataLcQty);
       if (
-        className === "wclimloc_savar24" &&
+        classvalue === "wclimloc_savar24" &&
         dataLcQty &&
         parseInt(dataLcQty) >= 0
       ) {
         desiredShipment = "0";
       } else if (
-        className === "wclimloc_almacen" &&
+        classvalue === "wclimloc_almacen" &&
         dataLcQty &&
         parseInt(dataLcQty) >= 0
       ) {
