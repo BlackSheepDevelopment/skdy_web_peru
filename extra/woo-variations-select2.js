@@ -87,33 +87,37 @@ jQuery(document).ready(function ($) {
     const selectOptions = selectElement.options;
     console.log(selectOptions);
     console.log("Checking options");
-    console.log(selectOptions[0]);
 
-    for (let i = 0; i < 3; i++) {
-      console.log(i);
-      console.log("hello inside for");
-      let option = selectOptions[i];
+    for (const option of selectOptions) {
       console.log(option);
-      let classvalue = option.className;
-      let dataLcQty = option.dataset.lcQty;
-      console.log(className);
-      console.log(dataLcQty);
-      if (
-        classvalue === "wclimloc_savar24" &&
-        dataLcQty &&
-        parseInt(dataLcQty) >= 0
-      ) {
-        return "0";
-      } else if (
-        classvalue === "wclimloc_almacen" &&
-        dataLcQty &&
-        parseInt(dataLcQty) >= 0
-      ) {
-        return "1";
-      } else {
-        return "0";
-      }
+      console.log(option.className); // "Option 1" and "Option 2"
     }
+
+    // for (let i = 0; i < 3; i++) {
+    //   console.log(i);
+    //   console.log("hello inside for");
+    //   let option = selectOptions[i];
+    //   console.log(option);
+    //   let classvalue = option.className;
+    //   let dataLcQty = option.dataset.lcQty;
+    //   console.log(className);
+    //   console.log(dataLcQty);
+    //   if (
+    //     classvalue === "wclimloc_savar24" &&
+    //     dataLcQty &&
+    //     parseInt(dataLcQty) >= 0
+    //   ) {
+    //     return "0";
+    //   } else if (
+    //     classvalue === "wclimloc_almacen" &&
+    //     dataLcQty &&
+    //     parseInt(dataLcQty) >= 0
+    //   ) {
+    //     return "1";
+    //   } else {
+    //     return "0";
+    //   }
+    // }
   };
   const shipment_selected = chooseShipment();
   console.log(shipment_selected);
