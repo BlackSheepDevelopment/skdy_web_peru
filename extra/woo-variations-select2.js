@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
   const chooseShipment = () => {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
-    console.log(selectOptions[1]);
+    console.log(selectOptions);
     console.log("Checking options");
 
     for (let option of selectOptions) {
