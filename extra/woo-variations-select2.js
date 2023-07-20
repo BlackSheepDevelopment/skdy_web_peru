@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 let doneShipment = false;
 
 jQuery(document).ready(function ($) {
