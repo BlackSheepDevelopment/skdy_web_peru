@@ -114,9 +114,9 @@ $(document).ready(function () {
   }
 });
 
-$(".single_add_to_cart_button").on("click", function (e) {
+$(".single_add_to_cart_button").on("click", function (e, info) {
   console.log("New testing 2");
-  if (!doneShipment) {
+  if (info !== "clickedAlready") {
     e.preventDefault();
 
     const selectElement = $("#select_location")[0];
@@ -154,5 +154,5 @@ $(".single_add_to_cart_button").on("click", function (e) {
     doneShipment = true;
   }
 
-  $(this).trigger("click");
+  $(this).trigger("click", ["clickedAlready"]);
 });
