@@ -76,9 +76,9 @@ jQuery(document).ready(function ($) {
     return state.text.replace("Out of Stock", "Agotado");
   }
 
-  $("#select_location").select2({
-    minimumResultsForSearch: Infinity,
-    templateResult: locationFormatResult,
-    templateSelection: locationFormatSelected,
-  });
+  // $("#select_location").select2({
+  //   minimumResultsForSearch: Infinity,
+  //   templateResult: locationFormatResult,
+  //   templateSelection: locationFormatSelected,
+  // });
 });
