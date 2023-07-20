@@ -84,52 +84,32 @@ jQuery(document).ready(function ($) {
 
   const chooseShipment = () => {
     const selectElement = $("#select_location")[0];
-    console.log(selectElement.options);
+    const selectOptions = selectElement.options;
+
+    selectOptions.each(function () {
+      const className = $(this).attr("class");
+      const dataLcQty = $(this).attr("data-lc-qty");
+      console.log(dataLcQty);
+      if (
+        className === "wclimloc_savar24" &&
+        dataLcQty &&
+        parseInt(dataLcQty) >= 0
+      ) {
+        return "0";
+      } else if (
+        className === "wclimloc_almacen" &&
+        dataLcQty &&
+        parseInt(dataLcQty) >= 0
+      ) {
+        return "1";
+      } else {
+        return "0";
+      }
+    });
   };
 
-  chooseShipment();
-  // function removeOptionsAndSetSelected() {
-  // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
+  const shipment_selected = chooseShipment();
 
-  // const selectElement = $("#select_location")[0];
-
-  // console.log(selectElement.find("option"));
-  // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
-  // selectElement.find("option").each(function () {
-  //   const className = $(this).attr("class");
-  //   const dataLcQty = $(this).attr("data-lc-qty");
-  //   console.log($(this));
-  //   console.log(selectElement);
-
-  //   if (className && dataLcQty && parseInt(dataLcQty) === 0) {
-  //     $(this).remove();
-  //   }
-  // });
-
-  // // Step 2: Set the active (selected) option to the one with a class name attribute
-  // const selectedOption = selectElement.find("option[class]").first();
-  // if (selectedOption.length > 0) {
-  //   selectedOption.prop("selected", true);
-  // }
-
-  // // After making changes, trigger the change event to update Select2
-  // selectElement.trigger("change");
-  // }
-
-  // Call the function to apply the changes
-  // removeOptionsAndSetSelected();
-  // console.log("asdfasdfasdf");
-
-  // console.log($("#select_location"));
-
-  // $("#select_location").on("select2:select", function (e) {
-  //   console.log("hello");
-  //   var data = e.params.data;
-  //   console.log(data);
-  // });
-  // console.log("hello");
-  $("#select_location").on("select2:select", function (e) {
-    $(this).val("0");
-    $(this).trigger("change");
-  });
+  $("#select_location").val(shipment_selected);
+  $("#select_location").trigger("change");
 });
