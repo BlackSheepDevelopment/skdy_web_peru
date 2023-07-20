@@ -86,6 +86,8 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     console.log(selectElement.options);
   };
+
+  chooseShipment();
   // function removeOptionsAndSetSelected() {
   // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
 
