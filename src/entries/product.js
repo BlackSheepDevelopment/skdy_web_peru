@@ -110,11 +110,4 @@ $(document).ready(function () {
 
     renderSlider();
   }
-
-  $("#select_location").addEventListener("change", function (e) {
-    var data = e.params.data;
-    console.log(data);
-  });
-
-  console.log("hello");
 });

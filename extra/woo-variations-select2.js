@@ -81,4 +81,11 @@ jQuery(document).ready(function ($) {
   //   templateResult: locationFormatResult,
   //   templateSelection: locationFormatSelected,
   // });
+
+  $("#select_location").addEventListener("change", function (e) {
+    console.log("hello");
+    var data = e.params.data;
+    console.log(data);
+  });
+  console.log("hello");
 });
