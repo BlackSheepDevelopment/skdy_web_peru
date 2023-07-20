@@ -90,6 +90,7 @@ jQuery(document).ready(function ($) {
     console.log(selectOptions[0]);
 
     for (let i = 0; i < selectOptions.lenght; i++) {
+      console.log(i);
       let option = selectOptions[i];
       console.log(option);
       let className = option.attr("class");
