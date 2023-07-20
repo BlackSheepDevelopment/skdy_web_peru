@@ -97,7 +97,7 @@ jQuery(document).ready(function ($) {
       let option = selectOptions[i];
       console.log(option);
       let classvalue = option.className;
-      let dataLcQty = option.attr("data-lc-qty");
+      let dataLcQty = option.dataset.lcQty;
       console.log(dataLcQty);
       if (
         classvalue === "wclimloc_savar24" &&
