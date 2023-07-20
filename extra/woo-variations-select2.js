@@ -86,6 +86,8 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     console.log(selectOptions);
+    console.log("Checking options");
+    console.log(selectOptions[0]);
 
     for (let i = 0; i < selectOptions.lenght; i++) {
       let option = selectOptions[i];
