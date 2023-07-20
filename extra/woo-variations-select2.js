@@ -88,5 +88,5 @@ jQuery(document).ready(function ($) {
   console.log(selectOptions.length);
   console.log(selectOptions[0]);
   console.log(selectOptions[0][1]);
-  console.log("Checking options");
+  console.log("Checking options this time");
 });
