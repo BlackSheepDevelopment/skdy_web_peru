@@ -87,6 +87,7 @@ jQuery(document).ready(function ($) {
     $("#select_location option").each(function () {
       const className = $(this).attr("class");
       const dataLcQty = $(this).attr("data-lc-qty");
+      console.log("is working");
 
       if (className && dataLcQty && parseInt(dataLcQty) === 0) {
         $(this).remove();
@@ -102,6 +103,7 @@ jQuery(document).ready(function ($) {
 
   // Call the function to apply the changes
   removeOptionsAndSetSelected();
+  console.log("hello");
 
   // console.log($("#select_location"));
 
