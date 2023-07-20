@@ -82,7 +82,7 @@ jQuery(document).ready(function ($) {
   //   templateSelection: locationFormatSelected,
   // });
 
-  $("#select_location").addEventListener("change", function (e) {
+  $("#select_location").on("change", function (e) {
     console.log("hello");
     var data = e.params.data;
     console.log(data);
