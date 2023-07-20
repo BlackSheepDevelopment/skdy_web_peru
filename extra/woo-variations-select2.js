@@ -90,6 +90,7 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     let desiredShipment = "0";
+    let done = false;
 
     for (let i = 0; i < selectOptions.length; i++) {
       console.log(i);
@@ -99,20 +100,26 @@ jQuery(document).ready(function ($) {
       let classvalue = option.className;
       let dataLcQty = option.dataset.lcQty;
       console.log(dataLcQty);
-      if (
-        classvalue === "wclimloc_savar24" &&
-        dataLcQty &&
-        parseInt(dataLcQty) >= 0
-      ) {
-        desiredShipment = "0";
-      } else if (
-        classvalue === "wclimloc_almacen" &&
-        dataLcQty &&
-        parseInt(dataLcQty) >= 0
-      ) {
-        desiredShipment = "1";
-      } else {
-        desiredShipment = "0";
+
+      if (!done) {
+        if (
+          classvalue === "wclimloc_savar24" &&
+          dataLcQty &&
+          parseInt(dataLcQty) >= 0
+        ) {
+          desiredShipment = "0";
+          done = true;
+        } else if (
+          classvalue === "wclimloc_almacen" &&
+          dataLcQty &&
+          parseInt(dataLcQty) >= 0
+        ) {
+          desiredShipment = "1";
+          done = true;
+        } else {
+          desiredShipment = "0";
+          done = true;
+        }
       }
     }
 
