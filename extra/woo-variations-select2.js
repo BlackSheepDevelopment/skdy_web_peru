@@ -82,6 +82,10 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
+  const chooseShipment = () => {
+    const selectElement = $("#select_location")[0];
+    console.log(selectElement.options);
+  };
   // function removeOptionsAndSetSelected() {
   // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
 
