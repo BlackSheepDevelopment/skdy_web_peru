@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
     console.log(selectOptions[1]);
     console.log("Checking options");
 
-    for (const option of selectOptions) {
+    for (let option of selectOptions) {
       console.log(option);
       console.log(option.className); // "Option 1" and "Option 2"
       console.log(option.value); // "Option 1" and "Option 2"
