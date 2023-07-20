@@ -88,7 +88,7 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location");
     var options = selectElement.find("option");
 
-    console.log(options);
+    console.log(selectElement.find("option.wclimloc_savar24"));
     // Step 1: Remove options with class name attribute and data-lc-qty equal to 0
     // selectElement.find("option").each(function () {
     //   const className = $(this).attr("class");
@@ -113,7 +113,7 @@ jQuery(document).ready(function ($) {
 
   // Call the function to apply the changes
   removeOptionsAndSetSelected();
-  console.log("hello");
+  console.log("asdasd");
 
   // console.log($("#select_location"));
 
