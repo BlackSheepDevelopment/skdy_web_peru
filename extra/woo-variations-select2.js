@@ -89,6 +89,7 @@ jQuery(document).ready(function ($) {
 
     for (let i = 0; i < selectOptions.lenght; i++) {
       let option = selectOptions[i];
+      console.log(option);
       let className = option.attr("class");
       let dataLcQty = option.attr("data-lc-qty");
       console.log(dataLcQty);
