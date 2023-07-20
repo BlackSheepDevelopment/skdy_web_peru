@@ -90,37 +90,23 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     let desiredShipment = "0";
-    let done = false;
+    let savarData = selectOptions[1];
+    let primeData = selectOptions[2];
 
-    for (let i = 0; i < selectOptions.length; i++) {
-      console.log(i);
-      console.log("hello inside for");
-      let option = selectOptions[i];
-      console.log(option);
-      let classvalue = option.className;
-      let dataLcQty = option.dataset.lcQty;
-      console.log(dataLcQty);
-
-      if (!done) {
-        if (
-          classvalue === "wclimloc_savar24" &&
-          dataLcQty &&
-          parseInt(dataLcQty) >= 0
-        ) {
-          desiredShipment = "0";
-          done = true;
-        } else if (
-          classvalue === "wclimloc_almacen" &&
-          dataLcQty &&
-          parseInt(dataLcQty) >= 0
-        ) {
-          desiredShipment = "1";
-          done = true;
-        } else {
-          desiredShipment = "0";
-          done = true;
-        }
-      }
+    if (
+      savarData.className == "wclimloc_savar24" &&
+      savarData.dataset.lcQty &&
+      parseInt(savarData.dataset.lcQty) >= 0
+    ) {
+      desiredShipment = "0";
+    } else if (
+      primeData.className == "wclimloc_almacen" &&
+      primeData.dataset.lcQty &&
+      parseInt(primeData.dataset.lcQty) >= 0
+    ) {
+      desiredShipment = "1";
+    } else {
+      desiredShipment = "0";
     }
 
     console.log("desiredShipment: ");
