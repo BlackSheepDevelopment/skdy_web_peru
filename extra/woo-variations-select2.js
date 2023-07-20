@@ -76,13 +76,13 @@ jQuery(document).ready(function ($) {
     return state.text.replace("Out of Stock", "Agotado");
   }
 
-  // $("#select_location").select2({
-  //   minimumResultsForSearch: Infinity,
-  //   templateResult: locationFormatResult,
-  //   templateSelection: locationFormatSelected,
-  // });
+  $("#select_location").select2({
+    minimumResultsForSearch: Infinity,
+    templateResult: locationFormatResult,
+    templateSelection: locationFormatSelected,
+  });
 
-  $("#select_location").on("change", function (e) {
+  $("#select_location").on("select2:select", function (e) {
     console.log("hello");
     var data = e.params.data;
     console.log(data);
