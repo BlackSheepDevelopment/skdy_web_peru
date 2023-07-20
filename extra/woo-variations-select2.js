@@ -82,7 +82,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log($("#select_location"));
+  console.log($("#select_location")[0]);
 
   $("#select_location").on("select2:select", function (e) {
     console.log("hello");
