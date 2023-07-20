@@ -113,6 +113,7 @@ $(document).ready(function () {
 });
 
 function changeShipment() {
+  console.log("Testing inside function");
   const selectElement = $("#select_location")[0];
   const selectOptions = selectElement.options;
   let desiredShipment = "0";
