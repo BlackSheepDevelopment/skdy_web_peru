@@ -86,13 +86,10 @@ jQuery(document).ready(function ($) {
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     console.log(selectOptions);
+    console.log(selectOptions.length);
+    console.log(selectOptions[0]);
+    console.log(selectOptions[0][1]);
     console.log("Checking options");
-
-    for (let option of selectOptions) {
-      console.log(option);
-      console.log(option.className); // "Option 1" and "Option 2"
-      console.log(option.value); // "Option 1" and "Option 2"
-    }
 
     // for (let i = 0; i < 3; i++) {
     //   console.log(i);
