@@ -102,13 +102,13 @@ jQuery(document).ready(function ($) {
     if (
       savarData.className == "wclimloc_savar24" &&
       savarData.dataset.lcQty &&
-      parseInt(savarData.dataset.lcQty) >= 0
+      parseInt(savarData.dataset.lcQty) > 0
     ) {
       desiredShipment = "0";
     } else if (
       primeData.className == "wclimloc_almacen" &&
       primeData.dataset.lcQty &&
-      parseInt(primeData.dataset.lcQty) >= 0
+      parseInt(primeData.dataset.lcQty) > 0
     ) {
       desiredShipment = "1";
     } else {
