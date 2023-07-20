@@ -148,26 +148,5 @@ function changeShipment() {
 }
 
 $(".single_add_to_cart_button").on("click", function (event) {
-  if (!event.defaultPrevented) {
-    // Check if the event has not been prevented already
-    event.preventDefault(); // Prevent default behavior of the click event
-    console.log("Default behavior prevented!");
-
-    // Some other operations or code can be added here...
-    changeShipment();
-    // Set a flag to indicate that the event has been triggered once
-    event.target.dataset.triggered = "true";
-
-    // Re-trigger the click event after a short delay (you can adjust the delay as needed)
-    setTimeout(function () {
-      // Check the flag before re-triggering the event
-      if (event.target.dataset.triggered === "true") {
-        const newEvent = new Event("click");
-        event.target.dispatchEvent(newEvent);
-      }
-    }, 100);
-  } else {
-    // If the event has already been prevented, reset the flag for future clicks
-    event.target.dataset.triggered = "false";
-  }
+  changeShipment();
 });
