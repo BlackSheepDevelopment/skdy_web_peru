@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log("New testing");
+  console.log("New testing 2");
 
   $(".single_add_to_cart_button").on("click", function (e) {
     if (!doneShipment) {
