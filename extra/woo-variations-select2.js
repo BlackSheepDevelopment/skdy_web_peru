@@ -93,6 +93,12 @@ jQuery(document).ready(function ($) {
     let savarData = selectOptions[1];
     let primeData = selectOptions[2];
 
+    console.log(savarData.className);
+    console.log(primeData.className);
+
+    console.log(savarData.dataset.lcQty);
+    console.log(primeData.dataset.lcQty);
+
     if (
       savarData.className == "wclimloc_savar24" &&
       savarData.dataset.lcQty &&
