@@ -82,13 +82,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  const selectElement = $("#select_location")[0];
-  const selectOptions = selectElement.options;
-  console.log(selectOptions);
-  console.log(selectOptions.length);
-  console.log(selectOptions[0]);
-  console.log(selectOptions[0][1]);
-  console.log("Checking options this time now");
+  console.log("New testing");
 
   $(".single_add_to_cart_button").on("click", function (e) {
     e.preventDefault();
@@ -122,6 +116,8 @@ jQuery(document).ready(function ($) {
       }
     }
 
+    console.log("desiredShipment: ");
+    console.log(desiredShipment);
     $(this).trigger(e.type);
   });
 });
