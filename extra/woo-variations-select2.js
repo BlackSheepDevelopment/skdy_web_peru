@@ -1,3 +1,5 @@
+let doneShipment = false;
+
 jQuery(document).ready(function ($) {
   if (window.product_layout === "layout-1") {
   }
@@ -84,8 +86,8 @@ jQuery(document).ready(function ($) {
 
   console.log("New testing");
 
-  $(".single_add_to_cart_button").on("click", function (e, from) {
-    if (from == null) {
+  $(".single_add_to_cart_button").on("click", function (e) {
+    if (!doneShipment) {
       e.preventDefault();
 
       const selectElement = $("#select_location")[0];
@@ -120,8 +122,9 @@ jQuery(document).ready(function ($) {
       console.log(desiredShipment);
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
+      doneShipment = true;
     }
 
-    $(this).trigger(e.type, ["changeToDesiredShipment"]);
+    $(this).trigger("click");
   });
 });
