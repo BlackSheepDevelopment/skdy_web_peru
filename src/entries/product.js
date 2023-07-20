@@ -148,6 +148,12 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-$(".single_add_to_cart_button").on("click", function (event) {
-  changeShipment();
+$(document).ready(function () {
+  let selectElement = $("#select_location")[0];
+  console.log(selectElement.options[1]);
+  console.log(selectElement.options[2]);
 });
+
+// $(".single_add_to_cart_button").on("click", function (event) {
+//   changeShipment();
+// });
