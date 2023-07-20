@@ -115,7 +115,7 @@ $(document).ready(function () {
 });
 
 $(".single_add_to_cart_button").on("click", function (e, info) {
-  console.log("New testing 2");
+  console.log("New testing 3");
   if (info !== "clickedAlready") {
     e.preventDefault();
 
