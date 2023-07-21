@@ -151,10 +151,10 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-console.log("Testing outside function 2");
+console.log("Testing outside function ");
 console.log($("#select_location"));
 
-$("#select_location").on("change", function (event) {
+$("#select_location").on("select2:select", function (e) {
   console.log("Testing select location");
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
