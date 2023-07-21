@@ -160,8 +160,10 @@ function changeShipment() {
 
 $("#select_location").on("change", function (event) {
   console.log("Testing select location");
-  if ($(".wcmlim_cart_valid_err")[0] === "undefined") {
-    console.log("Testing inside if");
-    $(".variations_form ").submit();
-  }
+  console.log(!$(".wcmlim_cart_valid_err"));
+  console.log($(".wcmlim_cart_valid_err"));
+  // if ($(".wcmlim_cart_valid_err")[0]) {
+  //   console.log("Testing inside if");
+  //   $(".variations_form ").submit();
+  // }
 });
