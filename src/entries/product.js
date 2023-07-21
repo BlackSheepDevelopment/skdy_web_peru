@@ -152,6 +152,7 @@ function changeShipment() {
 }
 
 console.log("Testing outside function 1");
+console.log($("#select_location"));
 
 $("#select_location").on("change", function (event) {
   console.log("Testing select location");
