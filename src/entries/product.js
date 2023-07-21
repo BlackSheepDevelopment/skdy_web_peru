@@ -151,7 +151,7 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-console.log("Testing outside function 3");
+console.log("Testing outside function 4");
 console.log($("#select_location"));
 
 $("#select_location").on("select2:select", function (e) {
