@@ -111,12 +111,6 @@ $(document).ready(function () {
   }
 });
 
-$(document).ready(function () {
-  let selectElement = $("#select_location")[0];
-  console.log(selectElement.options[1]);
-  console.log(selectElement.options[2]);
-});
-
 $(".single_add_to_cart_button").on("click", function (event) {
   event.preventDefault();
   changeShipment();
