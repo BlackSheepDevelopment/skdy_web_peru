@@ -151,7 +151,7 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-console.log("Testing outside function 8");
+console.log("Testing outside function 10");
 console.log($("#select_location"));
 
 $("#select_location").on("change", function (e) {
@@ -160,6 +160,5 @@ $("#select_location").on("change", function (e) {
   console.log($(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err").length);
   console.log("que pasaaa ");
-  debugger;
-  $(".variations_form").submit();
+  // $(".variations_form").submit();
 });
