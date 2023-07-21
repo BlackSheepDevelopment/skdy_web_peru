@@ -84,7 +84,8 @@ jQuery(document).ready(function ($) {
 
   $("#select_location").val("-1");
   $("#select_location").trigger("change");
-  console.log("Hello 3");
+  console.log("Hello 4");
+  console.log($("#select_location").length);
   console.log($("#select_location"));
 
   $("#select_location").on("change", function (e) {
