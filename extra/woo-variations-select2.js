@@ -81,6 +81,7 @@ jQuery(document).ready(function ($) {
     templateResult: locationFormatResult,
     templateSelection: locationFormatSelected,
   });
+  console.log("Testing in woo variation");
 });
 
 jQuery("#select_location").on("change", function (event) {
