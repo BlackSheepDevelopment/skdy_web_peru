@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
   });
 });
 
-$("#select_location").on("change", function (event) {
+jQuery("#select_location").on("change", function (event) {
   console.log("Testing select location");
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
