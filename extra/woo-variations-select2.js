@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log("Hello 10");
+  console.log("Hello 11");
   console.log($("#select_location").length);
   console.log($("#select_location"));
 
