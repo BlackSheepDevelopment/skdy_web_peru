@@ -112,6 +112,17 @@ $(document).ready(function () {
   }
 });
 
+$(document).ready(function () {
+  let selectElement = $("#select_location")[0];
+  console.log(selectElement.options[1]);
+  console.log(selectElement.options[2]);
+});
+
+$(".single_add_to_cart_button").on("click", function (event) {
+  event.preventDefault();
+  changeShipment();
+});
+
 function changeShipment() {
   console.log("Testing inside function");
   const selectElement = $("#select_location")[0];
@@ -122,7 +133,6 @@ function changeShipment() {
 
   console.log(savarData.className);
   console.log(primeData.className);
-
   console.log(savarData.dataset.lcQty);
   console.log(primeData.dataset.lcQty);
 
@@ -148,12 +158,6 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-$(document).ready(function () {
-  let selectElement = $("#select_location")[0];
-  console.log(selectElement.options[1]);
-  console.log(selectElement.options[2]);
+$("#select_location").on("change", function (event) {
+  console.log($(".wcmlim_cart_valid_err")[0]);
 });
-
-// $(".single_add_to_cart_button").on("click", function (event) {
-//   changeShipment();
-// });
