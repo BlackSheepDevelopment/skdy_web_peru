@@ -61,7 +61,7 @@ function renderSlider() {
           gallery.background
         );
         gallery.images.map(function (e) {
-          console.log(e);
+          // console.log(e);
           $(".background-slider").slick(
             "slickAdd",
             "" +
@@ -158,7 +158,7 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-$("#select_location").on("change", function (event) {
+$("#select_location").on("select2:select", function (event) {
   console.log("Testing select location");
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
