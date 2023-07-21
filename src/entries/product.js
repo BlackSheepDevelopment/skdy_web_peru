@@ -163,7 +163,7 @@ $("#select_location").on("change", function (event) {
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err").length);
-
+  console.log("que pasaaa ");
   // if ($(".wcmlim_cart_valid_err").length === 0) {
   // $(".variations_form ").submit();
   // }
