@@ -111,10 +111,10 @@ $(document).ready(function () {
   }
 });
 
-$(".single_add_to_cart_button").on("click", function (event) {
-  event.preventDefault();
-  changeShipment();
-});
+// $(".single_add_to_cart_button").on("click", function (event) {
+//   event.preventDefault();
+//   changeShipment();
+// });
 
 // function changeShipment() {
 //   console.log("Testing inside function");
