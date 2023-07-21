@@ -90,7 +90,7 @@ jQuery(document).ready(function ($) {
     console.log("an event was created");
   });
 
-  setTimeout(triggerShipping, 1000);
+  setTimeout(triggerShipping, 3000);
 
   function triggerShipping() {
     $("#select_location").val("-1");
