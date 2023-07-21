@@ -164,7 +164,12 @@ $("#select_location").on("change", function (event) {
   console.log($(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err").length);
 
-  if ($(".wcmlim_cart_valid_err").length === 0) {
-    $(".variations_form ").submit();
-  }
+  // if ($(".wcmlim_cart_valid_err").length === 0) {
+  //   $(".variations_form ").submit();
+  // }
 });
+
+if (document.getElementsByClassName("wcmlim_cart_valid_err").length) {
+  console.log("element is created");
+  // changeShipment();
+}
