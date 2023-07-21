@@ -61,7 +61,6 @@ function renderSlider() {
           gallery.background
         );
         gallery.images.map(function (e) {
-          // console.log(e);
           $(".background-slider").slick(
             "slickAdd",
             "" +
@@ -119,7 +118,7 @@ $(document).ready(function () {
 });
 
 $(".single_add_to_cart_button").on("click", function (event) {
-  // event.preventDefault();
+  event.preventDefault();
   changeShipment();
 });
 
