@@ -99,7 +99,7 @@ jQuery(document).ready(function ($) {
   }
 
   function changeShipment() {
-    console.log("Testing inside function");
+    console.log("Testing inside function 14");
     const selectElement = $("#select_location")[0];
     const selectOptions = selectElement.options;
     let desiredShipment = "0";
@@ -129,5 +129,7 @@ jQuery(document).ready(function ($) {
 
     console.log("desiredShipment: ");
     console.log(desiredShipment);
+    $("#select_location").val(desiredShipment);
+    $("#select_location").trigger("change");
   }
 });
