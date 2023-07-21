@@ -262,6 +262,7 @@
   margin-top: 1rem;
 }
 #product-header .container .summary form.cart .Wcmlim_prefloc_box {
+  display: none !important;
   border: 1px solid #000;
 }
 #product-header .container .summary form.cart .woocommerce-variation-add-to-cart {
