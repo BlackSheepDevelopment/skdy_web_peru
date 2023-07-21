@@ -1,4 +1,6 @@
 jQuery(document).ready(function ($) {
+  let changedShipment = false;
+
   if (window.product_layout === "layout-1") {
   }
   switch (window.product_layout) {
@@ -99,37 +101,41 @@ jQuery(document).ready(function ($) {
   }
 
   function changeShipment() {
-    console.log("Testing inside function 14");
-    const selectElement = $("#select_location")[0];
-    const selectOptions = selectElement.options;
-    let desiredShipment = "0";
-    let savarData = selectOptions[1];
-    let primeData = selectOptions[2];
+    console.log("Changing the shipment");
+    if (changedShipment) {
+      console.log("Testing inside function 14");
+      const selectElement = $("#select_location")[0];
+      const selectOptions = selectElement.options;
+      let desiredShipment = "0";
+      let savarData = selectOptions[1];
+      let primeData = selectOptions[2];
 
-    console.log(savarData.className);
-    console.log(primeData.className);
-    console.log(savarData.dataset.lcQty);
-    console.log(primeData.dataset.lcQty);
+      console.log(savarData.className);
+      console.log(primeData.className);
+      console.log(savarData.dataset.lcQty);
+      console.log(primeData.dataset.lcQty);
 
-    if (
-      savarData.className == "wclimloc_savar24" &&
-      savarData.dataset.lcQty &&
-      parseInt(savarData.dataset.lcQty) > 0
-    ) {
-      desiredShipment = "0";
-    } else if (
-      primeData.className == "wclimloc_almacen" &&
-      primeData.dataset.lcQty &&
-      parseInt(primeData.dataset.lcQty) > 0
-    ) {
-      desiredShipment = "1";
-    } else {
-      desiredShipment = "0";
+      if (
+        savarData.className == "wclimloc_savar24" &&
+        savarData.dataset.lcQty &&
+        parseInt(savarData.dataset.lcQty) > 0
+      ) {
+        desiredShipment = "0";
+      } else if (
+        primeData.className == "wclimloc_almacen" &&
+        primeData.dataset.lcQty &&
+        parseInt(primeData.dataset.lcQty) > 0
+      ) {
+        desiredShipment = "1";
+      } else {
+        desiredShipment = "0";
+      }
+
+      console.log("desiredShipment: ");
+      console.log(desiredShipment);
+      changedShipment = true;
+      $("#select_location").val(desiredShipment);
+      $("#select_location").trigger("change");
     }
-
-    console.log("desiredShipment: ");
-    console.log(desiredShipment);
-    $("#select_location").val(desiredShipment);
-    $("#select_location").trigger("change");
   }
 });
