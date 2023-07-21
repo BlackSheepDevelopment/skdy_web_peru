@@ -151,17 +151,14 @@ function changeShipment() {
   $("#select_location").trigger("change");
 }
 
-console.log("Testing outside function 5");
+console.log("Testing outside function 6");
 console.log($("#select_location"));
 
-$("#select_location").on("select2:select", function (e) {
+$("#select_location").on("change", function (e) {
   console.log("Testing select location");
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err").length);
   console.log("que pasaaa ");
-});
-
-$("#select_location").on("change", function () {
   debugger;
 });
