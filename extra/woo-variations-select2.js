@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
     changeShipment();
   });
 
-  setTimeout(triggerShipping, 3000);
+  setTimeout(triggerShipping, 2000);
 
   function triggerShipping() {
     $("#select_location").val("-1");
