@@ -82,18 +82,18 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log("Hello 5");
+  console.log("Hello 6");
   console.log($("#select_location").length);
   console.log($("#select_location"));
 
   $("#select_location").on("change", function (e) {
     console.log("an event was created");
   });
+
+  setInterval(triggerShipping, 1000);
+
+  function triggerShipping() {
+    $("#select_location").val("-1");
+    $("#select_location").trigger("change");
+  }
 });
-
-setInterval(triggerShipping, 1000);
-
-function triggerShipping() {
-  $("#select_location").val("-1");
-  $("#select_location").trigger("change");
-}
