@@ -161,3 +161,7 @@ $("#select_location").on("select2:select", function (e) {
   console.log($(".wcmlim_cart_valid_err").length);
   console.log("que pasaaa ");
 });
+
+$("#select_location").on("change", function () {
+  debugger;
+});
