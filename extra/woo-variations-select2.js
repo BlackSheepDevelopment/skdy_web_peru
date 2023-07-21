@@ -102,7 +102,7 @@ jQuery(document).ready(function ($) {
 
   function changeShipment() {
     console.log("Changing the shipment");
-    if (changedShipment) {
+    if (!changedShipment) {
       console.log("Testing inside function 14");
       const selectElement = $("#select_location")[0];
       const selectOptions = selectElement.options;
