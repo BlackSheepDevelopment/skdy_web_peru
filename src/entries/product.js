@@ -119,7 +119,7 @@ $(document).ready(function () {
 });
 
 $(".single_add_to_cart_button").on("click", function (event) {
-  event.preventDefault();
+  // event.preventDefault();
   changeShipment();
 });
 
@@ -165,11 +165,11 @@ $("#select_location").on("change", function (event) {
   console.log($(".wcmlim_cart_valid_err").length);
 
   // if ($(".wcmlim_cart_valid_err").length === 0) {
-  //   $(".variations_form ").submit();
+  // $(".variations_form ").submit();
   // }
 });
 
-if (document.getElementsByClassName("wcmlim_cart_valid_err").length) {
+if (document.getElementsByClassName("wcmlim_cart_valid_err").length !== 0) {
   console.log("element is created");
   // changeShipment();
 }
