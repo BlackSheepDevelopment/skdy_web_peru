@@ -129,7 +129,5 @@ jQuery(document).ready(function ($) {
 
     console.log("desiredShipment: ");
     console.log(desiredShipment);
-    $("#select_location").val(desiredShipment);
-    $("#select_location").trigger("change");
   }
 });
