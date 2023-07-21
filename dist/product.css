@@ -261,6 +261,9 @@
 #product-header .container .summary form.cart .single_variation_wrap {
   margin-top: 1rem;
 }
+#product-header .container .summary form.cart .Wcmlim_prefloc_box {
+  display: none !important;
+}
 #product-header .container .summary form.cart .woocommerce-variation-add-to-cart {
   display: flex;
   flex-wrap: wrap;
