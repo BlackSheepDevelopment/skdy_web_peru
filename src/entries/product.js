@@ -169,7 +169,7 @@ $("#select_location").on("change", function (event) {
   // }
 });
 
-console.log("me ejecuto de nuevo");
+console.log("me ejecuto de nuevo 2");
 if (document.getElementsByClassName("wcmlim_cart_valid_err").length !== 0) {
   console.log("element is created");
   // changeShipment();
