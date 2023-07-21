@@ -81,16 +81,4 @@ jQuery(document).ready(function ($) {
     templateResult: locationFormatResult,
     templateSelection: locationFormatSelected,
   });
-  console.log("Testing in woo variation");
-});
-
-jQuery("#select_location").on("change", function (event) {
-  console.log("Testing select location");
-  console.log(!$(".wcmlim_cart_valid_err"));
-  console.log($(".wcmlim_cart_valid_err"));
-  console.log($(".wcmlim_cart_valid_err").length);
-  console.log("que pasaaa ");
-  // if ($(".wcmlim_cart_valid_err").length === 0) {
-  // $(".variations_form ").submit();
-  // }
 });
