@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  console.log("Hello 7");
+  console.log("Hello 8");
   console.log($("#select_location").length);
   console.log($("#select_location"));
 
@@ -93,7 +93,7 @@ jQuery(document).ready(function ($) {
     changeShipment();
   });
 
-  setTimeout(triggerShipping, 750);
+  setTimeout(triggerShipping, 1000);
 
   function triggerShipping() {
     $("#select_location").val("-1");
