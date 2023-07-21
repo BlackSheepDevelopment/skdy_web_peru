@@ -164,13 +164,4 @@ $("#select_location").on("select2:select", function (event) {
   console.log($(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err").length);
   console.log("que pasaaa ");
-  // if ($(".wcmlim_cart_valid_err").length === 0) {
-  // $(".variations_form ").submit();
-  // }
 });
-
-console.log("me ejecuto de nuevo 2");
-if (document.getElementsByClassName("wcmlim_cart_valid_err").length !== 0) {
-  console.log("element is created");
-  // changeShipment();
-}
