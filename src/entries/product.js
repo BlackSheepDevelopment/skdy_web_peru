@@ -162,6 +162,7 @@ $("#select_location").on("change", function (event) {
   console.log("Testing select location");
   console.log(!$(".wcmlim_cart_valid_err"));
   console.log($(".wcmlim_cart_valid_err"));
+  console.log($(".wcmlim_cart_valid_err").length);
   // if ($(".wcmlim_cart_valid_err")[0]) {
   //   console.log("Testing inside if");
   //   $(".variations_form ").submit();
