@@ -91,7 +91,7 @@ jQuery(document).ready(function ($) {
 
   $(".swatch").on("click", function (e) {
     console.log("Changing the shipment...");
-    // changedShipment_bool = false;
+    changedShipment_bool = false;
     changeShipment();
   });
 
@@ -132,7 +132,7 @@ jQuery(document).ready(function ($) {
       }
 
       console.log(`Cambiar a: ${desiredShipment === "1" ? "Prime" : "Savar"} `);
-      changedShipment = true;
+      changedShipment_bool = true;
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
     }
