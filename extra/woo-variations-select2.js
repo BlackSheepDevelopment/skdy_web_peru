@@ -86,12 +86,12 @@ jQuery(document).ready(function ($) {
 
   $("#select_location").on("change", function (e) {
     console.log("Changing the shipment...");
-    changedShipment_bool = false;
     changeShipment();
   });
 
   $(".swatch").on("click", function (e) {
     console.log("Changing the shipment...");
+    changedShipment_bool = false;
     changeShipment();
   });
 
