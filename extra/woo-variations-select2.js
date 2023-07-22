@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-  let changedShipment = false;
+  let changedShipment_bool = false;
 
   if (window.product_layout === "layout-1") {
   }
@@ -86,6 +86,7 @@ jQuery(document).ready(function ($) {
 
   $("#select_location").on("change", function (e) {
     console.log("Changing the shipment...");
+    changedShipment_bool = false;
     changeShipment();
   });
 
@@ -102,7 +103,7 @@ jQuery(document).ready(function ($) {
   }
 
   function changeShipment() {
-    if (!changedShipment) {
+    if (!changedShipment_bool) {
       console.log("Working...");
       const selectElement = $("#select_location")[0];
       const selectOptions = selectElement.options;
