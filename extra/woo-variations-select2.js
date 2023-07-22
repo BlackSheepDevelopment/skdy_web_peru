@@ -89,6 +89,11 @@ jQuery(document).ready(function ($) {
     changeShipment();
   });
 
+  $(".swatch").on("click", function (e) {
+    console.log("Changing the shipment...");
+    changeShipment();
+  });
+
   setTimeout(triggerShipping, 1500);
 
   function triggerShipping() {
