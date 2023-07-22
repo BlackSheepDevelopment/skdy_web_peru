@@ -91,7 +91,7 @@ jQuery(document).ready(function ($) {
 
   $(".swatch").on("click", function (e) {
     console.log("Changing the shipment...");
-    changedShipment_bool = false;
+    // changedShipment_bool = false;
     changeShipment();
   });
 
