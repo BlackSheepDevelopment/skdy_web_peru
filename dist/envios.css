@@ -12,7 +12,7 @@
 .envios-container {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 25px;
 }
 
 .envios-container__left__title, .envios-container__right__title {
