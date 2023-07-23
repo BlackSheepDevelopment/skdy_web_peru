@@ -1,3 +1,7 @@
+@import "constants";
+@import "mixins";
+@import "~slick-carousel/slick/slick";
+
 .envios-main{
     padding: 0 10% 3% 10%;
 }
@@ -52,7 +56,7 @@
 .envios-container__back{
     @include btn(#fff, #383838, #2c2c2d);
     color: #fff !important;
-    padding: 0 2rem !important;
+    padding: 0 2.1rem !important;
 }
 @media (max-width:768px){
     .envios-main{
