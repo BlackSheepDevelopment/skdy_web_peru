@@ -2,13 +2,11 @@
 get_header(); ?>
 
 <div class="main">
-    <div class="envios-main">
-        <div clasS="envios-main__header">
-            <a href="javascript:history.back()">
-                <button class="envios-container__back">REGRESAR</button>
-            </a>
-            <h1 class="envios-main__title">ENVÍOS</h1>
-        </div>
+    <div class="envios-main"></div>
+        <a href="javascript:history.back()">
+            <button class="envios-container__back">REGRESAR</button>
+        </a>
+        <h1 class="envios-main__title">ENVÍOS</h1>
         <div class="envios-container">
             <div class="envios-container__left">
                 <div class="envios-container__left__title">

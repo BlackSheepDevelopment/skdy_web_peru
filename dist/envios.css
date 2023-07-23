@@ -100,18 +100,12 @@
   font-size: 3rem;
   font-weight: 800;
   padding: 30px 0;
-  width: 100%;
 }
 
 .envios-container {
   display: flex;
   gap: 25px;
   line-height: 2rem;
-}
-
-.envios-main__header {
-  display: flex;
-  align-items: center;
 }
 
 .envios-container__left, .envios-container__right {
@@ -171,7 +165,7 @@
   cursor: pointer;
   z-index: 1;
   color: #fff !important;
-  padding: 0 2.1rem !important;
+  padding: 20px 2.1rem !important;
 }
 .envios-container__back:hover {
   color: #fff;
