@@ -10,7 +10,7 @@ get_header(); ?>
                     Envío Rápido
                 </div>
                 <div class="envios-container__left__content">
-                    <p class="envios-container--important" >Envío rápido hasta agotar stock en productos seleccionados</p>
+                    <p class="envios-container--important" >Envío Rápido hasta agotar stock en productos seleccionados</p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
                         <li class="envio-container--item">
@@ -21,8 +21,7 @@ get_header(); ?>
                         </li>
                     </ul>
                     <p>
-                    Tiempo entrega: entre 1 a 3 días hábiles (dependiendo de la zona). 
-                    Puedes hacer seguimiento horas después de realizada la compra en Savar.com.pe con con el tracking SKDY(Tu número de orden).
+                    Puedes hacer seguimiento horas después de realizada la compra en SAVAR EXPRESS con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
                     </p>
                 </div>
             </div>
