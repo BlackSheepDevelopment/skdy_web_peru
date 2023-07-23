@@ -11,8 +11,11 @@
 
 .envios-container {
   display: flex;
-  align-items: center;
   gap: 25px;
+}
+
+.envios-container__left, .envios-container__right {
+  width: 50%;
 }
 
 .envios-container__left__title, .envios-container__right__title {
@@ -28,5 +31,9 @@
 
   .envios-container {
     flex-direction: column;
+  }
+
+  .envios-container__left, .envios-container__right {
+    width: 100%;
   }
 }
