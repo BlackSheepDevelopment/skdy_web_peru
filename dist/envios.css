@@ -15,7 +15,7 @@
   gap: 26px;
 }
 
-.envios-container__left__title, .envios-container__right__title {
+.envios-container__container {
   font-size: 2rem;
   font-weight: 800;
   padding: 15px 0;
