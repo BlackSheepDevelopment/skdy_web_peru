@@ -3,7 +3,7 @@ get_header(); ?>
 
 <div class="main">
     <div class="envios-main">
-        <h1 class="envios-main__title">Envíos</h1>
+        <h1 class="envios-main__title">ENVíos</h1>
         <div class="envios-container">
             <div class="envios-container__left">
                 <div class="envios-container__left__title">
