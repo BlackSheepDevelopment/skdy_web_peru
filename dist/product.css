@@ -367,7 +367,9 @@
 #product-header .container .summary .product-notice .more-notice__button {
   color: black;
   background-color: white;
-  padding: 5px 20px;
+  padding: 15px 20px;
+  font-size: 0.75714rem;
+  font-weight: 700;
 }
 #product-header .container .summary .add-to-compare {
   border-right: 1px solid #fff;
