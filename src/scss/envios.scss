@@ -13,6 +13,9 @@
 @media (max-width:768px){
     .envios-main{
     padding: 0 20px;
-        
+    }
+
+    .envios-container{
+        flex-direction: column;
     }
 }
