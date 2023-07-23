@@ -700,12 +700,8 @@ function visit_location_script() { ?>
 
         function showProductNotice() {
             const _class = jQuery('#select_location option:selected').attr('class');
-
-            if (_class === 'wclimloc_savar24') {
-                jQuery('.product-notice').html('Envío en hasta 72 horas hábiles para Lima Metropolitana<br>Envío para provincias bajo <a href="https://skullcandy.com.pe/legales" target="_blank">términos y condiciones</a>.');
-            } else {
-                jQuery('.product-notice').text(window.original_shop_notice);
-            }
+			const text = 'Envío Rápido hasta agotar stock. Si no hay Envío Rápido cambia a Envío Regular en el checkout. <a href="https://skullcandy.com.pe/legales" target="_blank">REVISA AQUÍ ANTES DE COMPRAR</a>.'
+			jQuery('.product-notice').text(text);
         }
 
         jQuery('#select_location').change(function () {
