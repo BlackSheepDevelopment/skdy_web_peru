@@ -1,13 +1,14 @@
 <?php set_query_var( 'ENTRY', 'envios' );
 get_header(); ?>
 
-<div class="envios-main">
-    <h1>Envíos</h1>
-    <div class="envios-container">
-        <div class="envios-container__left">
-            <div class="envios-container__left__title">
-                <h2>Envío Rápido</h2>
-            </div>
+<div class="main">
+    <div class="envios-main">
+        <h1>Envíos</h1>
+        <div class="envios-container">
+            <div class="envios-container__left">
+                <div class="envios-container__left__title">
+                    <h2>Envío Rápido</h2>
+                </div>
             <div class="envios-container__left__content">
                 <p>Realizamos envíos a todo el país a través de <strong>Correo Argentino</strong> y <strong>Andreani</strong>.</p>
                 <p>El costo de envío se calcula automáticamente al ingresar tu código postal en el carrito de compras.</p>
@@ -24,6 +25,7 @@ get_header(); ?>
                 <p>El tiempo de entrega es de 24 a 48 hs hábiles.</p>
             </div>
         </div>
+    </div>
 </div>
 
 
