@@ -36,7 +36,13 @@
     font-weight: 700;
 }
 
+.envio-container--list{
+    list-style-type: none;
+}
 
+.envio-container--item{
+    padding: 10px 0;
+}
 @media (max-width:768px){
     .envios-main{
     padding: 0 20px;

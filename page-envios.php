@@ -13,7 +13,7 @@ get_header(); ?>
                     <p class="envios-container--important" >Envío Rápido hasta agotar stock en productos seleccionados</p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
-                        <li class="envio-container--item">
+                        <li class=" ">
                             Lima Metropolitana: Entre 1 a 3 días hábiles (dependiendo de la zona)
                         </li>
                         <li class="envio-container--item">
