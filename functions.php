@@ -77,7 +77,6 @@ function load_assets( $entries ) {
 				foreach ( $files as $type => $asset ) {
 					switch ( $type ) {
 						case 'js':
-							echo (get_stylesheet_directory_uri());
 							wp_enqueue_script( $chunk, get_stylesheet_directory_uri() . '/dist/' . $asset, array(), false, true );
 							break;
 						case 'css':
