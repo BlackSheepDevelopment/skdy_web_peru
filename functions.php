@@ -697,14 +697,12 @@ add_action( 'wp_footer', 'visit_location_script' );
 function visit_location_script() { ?>
     <script>
 		const text = `
-		<div class="more-notice">
 			<p class="more-notice__text">Envío Rápido hasta agotar stock. Si no hay Envío Rápido cambia a Envío Regular en el checkout.</p>
 			<a class="more-notice__check" href="https://skullcandy.com.pe/legales" target="_blank">
 				<button class="more-notice__button">
 					REVISA AQUÍ ANTES DE COMPRAR
 				</button>
-			</a> 
-		</div>`;
+			</a> `;
 
 		jQuery('.product-notice').html(text);
         window.original_shop_notice = jQuery('.product-notice').text();
