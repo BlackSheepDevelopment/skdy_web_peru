@@ -5,7 +5,7 @@ get_header(); ?>
     <div class="envios-main">
         <h1 class="envios-main__title">ENVÍOS</h1>
         <div class="envios-container">
-            <div class="envios-container__container">
+            <div class="envios-container__left">
                 <div class="envios-container__left__title">
                     Envío Rápido
                 </div>
@@ -26,7 +26,7 @@ get_header(); ?>
                     </p>
                 </div>
             </div>
-            <div class="envios-container__container">
+            <div class="envios-container__right">
                 <div class="envios-container__right__title">
                     Envío Regular
                 </div>
