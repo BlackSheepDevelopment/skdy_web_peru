@@ -1145,7 +1145,16 @@ body.layout-2 {
             margin-top: 0;
           }
 
-          .more-notice__check
+          .more-notice{
+            .more-notice__text{
+              font-size: 1rem;
+            }
+            .more_notice__button{
+              color:black;
+              background-color: white;
+              padding: 5px 15px;
+            }
+          }
 
           .woocommerce-variation-add-to-cart {
             .quantity {
