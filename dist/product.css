@@ -1352,19 +1352,19 @@ body.layout-2 #product-header .container .summary .woocommerce-variation-availab
     margin-top: 0;
   }
 }
-body.layout-2 #product-header .container .summary form.cart .more-notice .more-notice__text {
-  font-size: 1rem;
-}
-body.layout-2 #product-header .container .summary form.cart .more-notice .more_notice__button {
-  color: black;
-  background-color: white;
-  padding: 5px 15px;
-}
 body.layout-2 #product-header .container .summary form.cart .woocommerce-variation-add-to-cart .quantity {
   display: none !important;
 }
 body.layout-2 #product-header .container .summary form.cart .woocommerce-variation-add-to-cart .single_add_to_cart_button {
   width: 100%;
+}
+body.layout-2 #product-header .container .more-notice .more-notice__text {
+  font-size: 1rem;
+}
+body.layout-2 #product-header .container .more-notice .more_notice__button {
+  color: black;
+  background-color: white;
+  padding: 5px 15px;
 }
 body.layout-2 #product-header .container .list-swatches {
   display: flex;
