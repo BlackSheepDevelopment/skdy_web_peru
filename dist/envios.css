@@ -203,6 +203,10 @@
   pointer-events: none;
 }
 
+.envios-container__back__container {
+  padding: 20px;
+}
+
 .envios-container--first-check {
   padding: 10px 0;
 }

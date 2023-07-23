@@ -3,9 +3,12 @@ get_header(); ?>
 
 <div class="main">
     <div class="envios-main"></div>
-        <a href="javascript:history.back()">
-            <button class="envios-container__back">REGRESAR</button>
-        </a>
+        <div class="envios-container__back__container">
+            <a href="javascript:history.back()">
+                <button class="envios-container__back">REGRESAR</button>
+            </a>
+        </div>
+
         <h1 class="envios-main__title">ENVÍOS</h1>
         <div class="envios-container">
             <div class="envios-container__left">
