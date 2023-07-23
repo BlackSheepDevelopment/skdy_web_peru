@@ -135,6 +135,8 @@ jQuery(document).ready(function ($) {
         $(".Wcmlim_container").append(
           "<div class='no-stock__container'>El producto se encuentra agotado.</div>"
         );
+        event.preventDefault();
+        return;
       }
 
       console.log(`Cambiar a: ${desiredShipment === "1" ? "Prime" : "Savar"} `);
