@@ -106,6 +106,7 @@
 .envios-container {
   display: flex;
   gap: 25px;
+  line-height: 2rem;
 }
 
 .envios-main__header {
