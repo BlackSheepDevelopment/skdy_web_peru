@@ -361,11 +361,13 @@
 }
 #product-header .container .summary .product-notice {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1rem;
   padding-bottom: 1.42857rem;
 }
-#product-header .container .summary .product-notice a {
-  color: #fff;
+#product-header .container .summary .product-notice .more-notice__button {
+  color: black;
+  background-color: white;
+  padding: 5px 20px;
 }
 #product-header .container .summary .add-to-compare {
   border-right: 1px solid #fff;
@@ -1351,9 +1353,6 @@ body.layout-2 #product-header .container .summary .woocommerce-variation-availab
   body.layout-2 #product-header .container .summary form.cart {
     margin-top: 0;
   }
-}
-body.layout-2 #product-header .container .summary form.cart .more-notice__text {
-  font-size: 1rem;
 }
 body.layout-2 #product-header .container .summary form.cart .woocommerce-variation-add-to-cart .quantity {
   display: none !important;

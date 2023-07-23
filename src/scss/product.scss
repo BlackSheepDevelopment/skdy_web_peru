@@ -231,11 +231,13 @@
 
       .product-notice {
         color: #fff;
-        font-size: .8em;
+        font-size: 1rem;
         padding-bottom: 1.42857rem;
 
-        a {
-          color: #fff;
+        .more-notice__button{
+          color: black;
+          background-color: white;
+          padding: 5px 20px;
         }
       }
 
@@ -1143,10 +1145,6 @@ body.layout-2 {
         form.cart {
           @media (max-width: 768px) {
             margin-top: 0;
-          }
-
-          .more-notice__text{
-            font-size: 1rem;
           }
 
           .woocommerce-variation-add-to-cart {
