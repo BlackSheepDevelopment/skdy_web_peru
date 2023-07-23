@@ -48,9 +48,15 @@
 .envio-container--item{
     padding: 10px 0;
 }
+
+.envios-container__back{
+    @include btn(#fff, #383838, #2c2c2d);
+    color: #fff !important;
+    padding: 0 2rem !important;
+}
 @media (max-width:768px){
     .envios-main{
-    padding: 0 20px;
+    padding: 0 20px 3% 20px;
     }
 
     .envios-container{

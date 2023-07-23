@@ -5,7 +5,7 @@ get_header(); ?>
     <div class="envios-main">
         <h1 class="envios-main__title">ENVÍOS</h1>
         <a href="javascript:history.back()">
-            <button>REGRESAR</button>
+            <button class="envios-container__back">REGRESAR</button>
         </a>
         <div class="envios-container">
             <div class="envios-container__left">
