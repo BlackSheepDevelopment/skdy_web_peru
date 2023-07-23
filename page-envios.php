@@ -3,19 +3,21 @@ get_header(); ?>
 
 <div class="main">
     <div class="envios-main">
-        <h1 class="envios-main__title">ENVÍOS</h1>
-        <a href="javascript:history.back()">
-            <button class="envios-container__back">REGRESAR</button>
-        </a>
+        <div clasS="envios-main__header">
+            <h1 class="envios-main__title">ENVÍOS</h1>
+            <a href="javascript:history.back()">
+                <button class="envios-container__back">REGRESAR</button>
+            </a>
+        </div>
         <div class="envios-container">
             <div class="envios-container__left">
                 <div class="envios-container__left__title">
                     Envío Rápido
                 </div>
                 <div class="envios-container__left__content">
-                    <p>- Envío Rápido hasta agotar stock en productos seleccionados</p>
+                    <p>-<em>Envío Rápido hasta agotar stock en productos seleccionados.</em></p>
                     <p>
-                    - Puedes hacer seguimiento horas después de realizada la compra en <a class="envios-container__content__more" href="https://www.savarexpress.com.pe/">SAVAR EXPRESS</a> con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
+                    - Puedes hacer seguimiento <strong>horas</strong>después de realizada la compra en <a class="envios-container__content__more" href="https://www.savarexpress.com.pe/">SAVAR EXPRESS</a> con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
                     </p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
@@ -34,9 +36,17 @@ get_header(); ?>
                     Envío Regular
                 </div>
                 <div class="envios-container__right__content">
-                    <p>Realizamos envíos a CABA y GBA a través de <strong>Moto Mensajería</strong>.</p>
-                    <p>El costo de envío se calcula automáticamente al ingresar tu código postal en el carrito de compras.</p>
-                    <p>El tiempo de entrega es de 24 a 48 hs hábiles.</p>
+                    <p>-<em>Envío Regular es seleccionado en caso Envío Regular no esté disponible</em></p>
+                    <p>- Puedes hacer seguimiento  <strong> un día</strong>después de realizada la compra en <a class="envios-container__content__more" href="https://tracking.ng.paquery.com/package">Chazqui</a> con el tracking SKDY_21_(#PEDIDO). Ejemplo: SKDY_21_15962</p>
+                    <p class="envios-container--important">Tiempo de Entrega</p>
+                    <ul class="envio-container--list">
+                        <li class=" ">
+                            - Lima Metropolitana: Entre 3 a 4 días hábiles mediante Chazki.
+                        </li>
+                        <li class="envio-container--item">
+                            - Lima Provincias y Regiones: Entre 4 a 15 días hábiles mediante Olva Courrier.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
