@@ -4,6 +4,9 @@ get_header(); ?>
 <div class="main">
     <div class="envios-main">
         <h1 class="envios-main__title">ENVÍOS</h1>
+        <a href="javascript:history.back()">
+            <button>REGRESAR</button>
+        </a>
         <div class="envios-container">
             <div class="envios-container__left">
                 <div class="envios-container__left__title">
