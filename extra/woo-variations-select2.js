@@ -129,6 +129,9 @@ jQuery(document).ready(function ($) {
         desiredShipment = "1";
       } else {
         desiredShipment = "0";
+        $(".Wcmlim_container").append(
+          "<div class='no-stock__container'>Agotado</div>"
+        );
       }
 
       console.log(`Cambiar a: ${desiredShipment === "1" ? "Prime" : "Savar"} `);
