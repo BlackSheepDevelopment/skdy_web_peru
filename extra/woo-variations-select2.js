@@ -95,6 +95,8 @@ jQuery(document).ready(function ($) {
     changeShipment();
   });
 
+  $(".single_add_to_cart_button").hide();
+
   setTimeout(triggerShipping, 1500);
 
   function triggerShipping() {
@@ -139,6 +141,7 @@ jQuery(document).ready(function ($) {
       changedShipment_bool = true;
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
+      $(".single_add_to_cart_button").hide();
     }
   }
 });
