@@ -11,11 +11,17 @@
     font-size: 3rem;
     font-weight: 800;
     padding: 30px 0;
+    width: 100%;
 }
 
 .envios-container{
     display: flex;
     gap:25px;
+}
+
+.envios-main__header{
+    display: flex;
+    align-items: center;
 }
 
 .envios-container__left, .envios-container__right{
@@ -72,6 +78,10 @@
 @media (max-width:768px){
     .envios-main{
     padding: 0 20px 20px 20px;
+    }
+
+    .envios-main__header{
+        flex-direction: column;
     }
 
     .envios-container{
