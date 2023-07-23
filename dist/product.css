@@ -364,6 +364,11 @@
   font-size: 1rem;
   padding-bottom: 1.42857rem;
 }
+#product-header .container .summary .product-notice .more-notice {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 #product-header .container .summary .product-notice .more-notice__button {
   position: relative;
   overflow: hidden;
