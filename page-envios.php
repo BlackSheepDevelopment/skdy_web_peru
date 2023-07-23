@@ -10,7 +10,10 @@ get_header(); ?>
                     Envío Rápido
                 </div>
                 <div class="envios-container__left__content">
-                    <p class="envios-container--important" >Envío Rápido hasta agotar stock en productos seleccionados</p>
+                    <p>Envío Rápido hasta agotar stock en productos seleccionados</p>
+                    <p>
+                    Puedes hacer seguimiento horas después de realizada la compra en <a class="envios-container__content__more" href="https://www.savarexpress.com.pe/">SAVAR EXPRESS</a> con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
+                    </p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
                         <li class=" ">
@@ -20,9 +23,7 @@ get_header(); ?>
                             Lima Provincias y Regiones: Entre 4 a 15 días hábiles (<a class="envios-container__content__more" href="https://skullcandy.com.pe/wp-content/uploads/2022/01/LEAD-TIME-A-NIVEL-NACIONAL.pdf">Ver zonas de cobertura</a>)
                         </li>
                     </ul>
-                    <p>
-                    Puedes hacer seguimiento horas después de realizada la compra en SAVAR EXPRESS con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
-                    </p>
+
                 </div>
             </div>
             <div class="envios-container__right">
