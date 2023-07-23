@@ -15,9 +15,9 @@ get_header(); ?>
                     Envío Rápido
                 </div>
                 <div class="envios-container__left__content">
-                    <p><em>Envío Rápido hasta agotar stock en productos seleccionados.</em></p>
+                    <p class="envios-container--first-check"><em>Envío Rápido hasta agotar stock en productos seleccionados.</em></p>
                     <p>
-                    - Puedes hacer seguimiento <strong>horas</strong>después de realizada la compra en <a class="envios-container__content__more" href="https://www.savarexpress.com.pe/">SAVAR EXPRESS</a> con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
+                    - Puedes hacer seguimiento <strong>horas</strong> después de realizada la compra en <a class="envios-container__content__more" href="https://www.savarexpress.com.pe/">SAVAR EXPRESS</a> con con el tracking SKDY(#PEDIDO). Ejemplo: SKDY15962
                     </p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
@@ -36,8 +36,8 @@ get_header(); ?>
                     Envío Regular
                 </div>
                 <div class="envios-container__right__content">
-                    <p><em>Envío Regular es seleccionado en caso Envío Regular no esté disponible</em></p>
-                    <p>- Puedes hacer seguimiento  <strong> un día</strong>después de realizada la compra en <a class="envios-container__content__more" href="https://tracking.ng.paquery.com/package">Chazqui</a> con el tracking SKDY_21_(#PEDIDO). Ejemplo: SKDY_21_15962</p>
+                    <p class="envios-container--first-check"><em>Envío Regular es seleccionado en caso Envío Regular no esté disponible.</em></p>
+                    <p>- Puedes hacer seguimiento  <strong> un día</strong> después de realizada la compra en <a class="envios-container__content__more" href="https://tracking.ng.paquery.com/package">Chazqui</a> con el tracking SKDY_21_(#PEDIDO). Ejemplo: SKDY_21_15962</p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
                         <li class=" ">
