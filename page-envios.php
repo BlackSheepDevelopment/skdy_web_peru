@@ -21,6 +21,7 @@ get_header(); ?>
                         </li>
                     </ul>
                     <p>
+                    Tiempo entrega: entre 1 a 3 días hábiles (dependiendo de la zona). 
                     Puedes hacer seguimiento horas después de realizada la compra en Savar.com.pe con con el tracking SKDY(Tu número de orden).
                     </p>
                 </div>

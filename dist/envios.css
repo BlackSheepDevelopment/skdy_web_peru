@@ -1,5 +1,5 @@
 .envios-main {
-  padding: 0 10%;
+  padding: 0 10% 3% 10%;
 }
 
 .envios-main__title {
@@ -22,6 +22,12 @@
   font-size: 2rem;
   font-weight: 800;
   padding: 15px 0;
+}
+
+.envios-container__left__content, .envios-container__right__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
