@@ -86,13 +86,13 @@ jQuery(document).ready(function ($) {
 
   $("#select_location").on("change", function (e) {
     console.log("Changing the shipment...");
-    changeShipment();
+    changeShipment(e);
   });
 
   $(".swatch").on("click", function (e) {
     console.log("Changing the shipment...");
     changedShipment_bool = false;
-    changeShipment();
+    changeShipment(e);
   });
 
   $(".single_add_to_cart_button").prop("disabled", true);
@@ -104,7 +104,7 @@ jQuery(document).ready(function ($) {
     $("#select_location").trigger("change");
   }
 
-  function changeShipment() {
+  function changeShipment(event) {
     if (!changedShipment_bool) {
       console.log("Working...");
       const selectElement = $("#select_location")[0];
