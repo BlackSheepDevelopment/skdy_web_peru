@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-size: 1.2rem;
 }
 
 .envios-container__content__more{
@@ -41,7 +42,7 @@
 }
 
 .envios-container--important{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
