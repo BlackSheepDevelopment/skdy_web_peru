@@ -205,6 +205,10 @@
   padding: 10px 0;
 }
 
+.envios-container__left {
+  border-right: 2px solid black;
+}
+
 @media (max-width: 768px) {
   .envios-main {
     padding: 0 20px 20px 20px;
