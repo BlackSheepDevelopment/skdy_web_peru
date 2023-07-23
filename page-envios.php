@@ -10,9 +10,20 @@ get_header(); ?>
                     Envío Rápido
                 </div>
                 <div class="envios-container__left__content">
-                    <p>Realizamos envíos a todo el país a través de <strong>Correo Argentino</strong> y <strong>Andreani</strong>.</p>
-                    <p>El costo de envío se calcula automáticamente al ingresar tu código postal en el carrito de compras.</p>
-                    <p>El tiempo de entrega es de 3 a 7 días hábiles.</p>
+                    <p class="envios-container--important" >Envío rápido hasta agotar stock en productos seleccionados</p>
+                    <p class="envios-container--important">Tiempo de Entrega</p>
+                    <ul class="envio-container--list">
+                        <li class="envio-container--item">
+                            Lima Metropolitana: Entre 1 a 3 días hábiles (dependiendo de la zona)
+                        </li>
+                        <li class="envio-container--item">
+                            Lima Provincias y Regiones: Entre 4 a 15 días hábiles (<a class="envios-container__content__more" href="https://skullcandy.com.pe/wp-content/uploads/2022/01/LEAD-TIME-A-NIVEL-NACIONAL.pdf">Ver zonas de cobertura</a>)
+                        </li>
+                    </ul>
+                    <p>
+                    Tiempo entrega: entre 1 a 3 días hábiles (dependiendo de la zona). 
+                    Puedes hacer seguimiento horas después de realizada la compra en Savar.com.pe con con el tracking SKDY(Tu número de orden).
+                    </p>
                 </div>
             </div>
             <div class="envios-container__right">
