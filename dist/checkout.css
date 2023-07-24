@@ -394,7 +394,9 @@
   font-weight: bold;
 }
 .checkout.woocommerce-checkout .order_review_container .order_review__main .order-review__toggle__btn {
-  font-size: 2rem;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
   transition: all 0.5s ease;
 }
 .checkout.woocommerce-checkout .order_review_container .order_review {
