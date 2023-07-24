@@ -57,10 +57,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 
         <ul class="list-steps">
-            <li class="=list-steps__step">
-                <span class="list-steps__span">1</span>
-                <p class="list-steps__info">Información de Contacto</p>
-            </li>
+            <li class="=list-steps__step">Información de Contacto        </li>
         </ul>
 
         <div class="col2-set" id="customer_details">
