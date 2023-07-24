@@ -93,6 +93,11 @@ jQuery(document).ready(function ($) {
     changeShipment(e);
   });
 
+  $("#color").on("change", function (e) {
+    changedShipment_bool = false;
+    changeShipment(e);
+  });
+
   $(".single_add_to_cart_button").prop("disabled", true);
 
   setTimeout(triggerShipping, 2500);
