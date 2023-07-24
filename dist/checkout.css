@@ -404,6 +404,7 @@
 }
 .checkout.woocommerce-checkout .order_review_container .order_review {
   padding-bottom: 1rem;
+  display: none;
 }
 .checkout.woocommerce-checkout .hide-factura {
   display: none;
