@@ -452,6 +452,9 @@
 .list-steps {
   font-size: 1.4rem;
 }
+.list-steps .list-steps__step {
+  display: flex;
+}
 
 #order_review_heading,
 #billing_country_field,
