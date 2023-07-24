@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  $("#select_location").on("change", function (e) {
+  $("#select_location").on("select2:select", function (e) {
     changeShipment(e);
   });
 
@@ -93,10 +93,10 @@ jQuery(document).ready(function ($) {
     changeShipment(e);
   });
 
-  $("#color").on("change", function (e) {
-    changedShipment_bool = false;
-    changeShipment(e);
-  });
+  // $("#color").on("change", function (e) {
+  //   changedShipment_bool = false;
+  //   changeShipment(e);
+  // });
 
   $(".single_add_to_cart_button").prop("disabled", true);
 
