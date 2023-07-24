@@ -699,7 +699,7 @@ function visit_location_script() { ?>
 		const text = `
 		<div class="more-notice">
 			<p class="more-notice__text">Envío Rápido hasta agotar stock. Si no hay Envío Rápido cambia a Envío Regular automáticamente.</p>
-			<a class="more-notice__check" href="https://dev.skullcandy.com.pe/envios">
+			<a class="more-notice__check" href="${<?php echo home_url('/envios'); ?>}">
 				<button class="more-notice__button">
 					REVISA AQUÍ ANTES DE COMPRAR
 				</button>

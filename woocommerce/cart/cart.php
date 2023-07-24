@@ -69,9 +69,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 								echo wp_kses_post( apply_filters( 'woocommerce_cart_item_name', sprintf( '<a class="post-title" href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key ) );
 							}
 
-							?> <p>Hello</p> <?php
 							do_action( 'woocommerce_after_cart_item_name', $cart_item, $cart_item_key );
-							?> <p>Bye</p> <?php
 							// Meta data.
 							echo wc_get_formatted_cart_item_data( $cart_item ); // PHPCS: XSS ok.
 
@@ -166,7 +164,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <div class="cart-custom-message">
 	<p>La compra del producto implica la aceptación de las condiciones de entrega, cambios y devoluciones descritas en la página correspondiente.</p>
-    <a class="cart-custom-message__a" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>"> <button class="cart-custom-message__button">Leer más aquí</button></a>
+    <a class="cart-custom-message__a" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>"> <button class="cart-custom-message__button">VER MÁS SOBRE POLÍTICAS Y GARANTÍAS</button></a>
+    <a class="cart-custom-message__a" href="<?php echo home_url('/envios'); ?>"> <button class="cart-custom-message__button">VER MÁS SOBRE ENVÍOS</button></a>
 </div>
 
 <?php do_action( 'woocommerce_after_cart' ); ?>
