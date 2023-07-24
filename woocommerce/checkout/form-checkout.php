@@ -58,7 +58,8 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 
         <div class="checkout-steps">
-            Información de contacto
+            <div class="checkout-steps__number">1</div>
+            <div class="checkout-steps__title">INFORMACIÓN DE CONTACTO</div>
         </div>
 
 

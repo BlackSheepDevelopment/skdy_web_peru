@@ -450,10 +450,17 @@
 }
 
 .checkout-steps {
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 700;
   text-align: center;
   padding: 0.5rem 0;
+}
+
+.checkout-steps__number {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
 }
 
 #order_review_heading,
