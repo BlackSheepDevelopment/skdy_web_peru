@@ -65,7 +65,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <div class="checkout-steps__title checkout-steps__number--envio">ENVÍO</div>
 
             <div class="checkout-steps__number checkout-steps__number--pago">3</div>
-            <div class="checkout-steps__title checkout-steps__number--pao">Pago</div>
+            <div class="checkout-steps__title checkout-steps__number--pago">Pago</div>
 
         </div>
 
