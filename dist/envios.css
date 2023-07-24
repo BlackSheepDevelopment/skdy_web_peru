@@ -91,6 +91,10 @@
   display: none;
 }
 
+.main {
+  padding: 0 10%;
+}
+
 .envios-main__title {
   text-align: center;
   font-size: 3rem;
