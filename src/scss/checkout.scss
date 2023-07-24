@@ -47,6 +47,11 @@
     }
   }
 
+
+  .checkout_coupon{
+    display: none;
+  }
+
   .woocommerce-form-login {
     .form-row:not(.form-row-first):not(.form-row-last) {
       display: flex;

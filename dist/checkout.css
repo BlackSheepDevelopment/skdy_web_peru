@@ -72,6 +72,9 @@
 #main-container .woocommerce form.login p {
   margin-bottom: 1rem;
 }
+#main-container .checkout_coupon {
+  display: none;
+}
 #main-container .woocommerce-form-login .form-row:not(.form-row-first):not(.form-row-last) {
   display: flex;
   flex-direction: row-reverse;
