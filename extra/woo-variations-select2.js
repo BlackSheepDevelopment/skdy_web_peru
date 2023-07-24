@@ -97,7 +97,7 @@ jQuery(document).ready(function ($) {
 
   $(".single_add_to_cart_button").prop("disabled", true);
 
-  setTimeout(triggerShipping, 1500);
+  setTimeout(triggerShipping, 2000);
 
   function triggerShipping() {
     $("#select_location").val("-1");
