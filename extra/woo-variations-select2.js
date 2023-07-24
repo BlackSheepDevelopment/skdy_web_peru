@@ -115,21 +115,29 @@ jQuery(document).ready(function ($) {
         savarData.dataset.lcQty &&
         parseInt(savarData.dataset.lcQty) > 0
       ) {
-        $(".no-stock__container").remove();
+        if ($(".no-stock__container").length > 0) {
+          $(".no-stock__container").css("display", "none");
+        }
         desiredShipment = "0";
       } else if (
         primeData.className == "wclimloc_almacen" &&
         primeData.dataset.lcQty &&
         parseInt(primeData.dataset.lcQty) > 0
       ) {
-        $(".no-stock__container").remove();
+        if ($(".no-stock__container").length > 0) {
+          $(".no-stock__container").css("display", "none");
+        }
         desiredShipment = "1";
       } else {
         desiredShipment = "0";
-        if ($(".no-stock__container").length > 0) return;
-        $(".Wcmlim_container").append(
-          `<div class="no-stock__container">El producto se encuentra agotado.</div>`
-        );
+        if ($(".no-stock__container").length > 0) {
+          $(".no-stock__container").css("display", "block");
+        } else {
+          $(".Wcmlim_container").append(
+            `<div class="no-stock__container">El producto se encuentra agotado.</div>`
+          );
+        }
+
         $(".single_add_to_cart_button").css("display", "none");
         $(".single_add_to_cart_button").prop("disabled", true);
         $(".quantity").css("display", "none");
