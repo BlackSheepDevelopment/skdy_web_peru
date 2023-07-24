@@ -45,7 +45,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             </div>
         </div>
 
-        <div id="order_review order-review--hidable" class="woocommerce-checkout-review-order">
+        <div id="order_review" class="woocommerce-checkout-review-order order-review--hidable">
             <?php do_action( 'woocommerce_checkout_before_order_review' ); ?>        
         </div>
     </div>

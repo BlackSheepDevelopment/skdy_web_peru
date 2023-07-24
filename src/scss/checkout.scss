@@ -259,7 +259,6 @@
     }
 
     #order_review{
-      padding-bottom: 1rem;
       display: none;
     }
   }
@@ -392,10 +391,6 @@
 
   .order-review__general-title{
     font-size: 1rem;
-  }
-
-  .order-review--hidable{
-    display: block;
   }
 
   @media (max-width: 800px) {
