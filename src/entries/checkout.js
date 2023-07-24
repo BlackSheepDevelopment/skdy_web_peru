@@ -150,6 +150,7 @@ prev_step.click(function (event) {
   const billing_cont = $(".billing-step");
   const shipping_cont = $(".shipping-step");
 
+  console.log(current_step);
   switch (current_step) {
     case 1:
       billing_cont.fadeIn();
