@@ -85,8 +85,6 @@ next_step.click(function (event) {
 
       billing_cont.hide();
 
-      current_step = "shipping-step";
-
       current_step = 1;
 
       next_step.css("display", "block");
@@ -130,8 +128,6 @@ next_step.click(function (event) {
 
       $("#payment").attr("style", "display:block!important");
       $("#payment").fadeIn();
-
-      current_step = "payment-step";
 
       prev_step.css("display", "block");
       next_step.css("display", "none");
