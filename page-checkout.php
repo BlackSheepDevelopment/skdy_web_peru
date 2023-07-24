@@ -26,7 +26,11 @@ get_header(); ?>
 
 			<div class="checkout_additional_info__content">
 				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">El tiempo de entrega es de 1 a 3 días habiles para Lima Metropolitana y Callao (sin contar Feriados, Sábados y Domingos).</p>
+					<p class="checkout_additional_info__element__label">El tiempo de entrega por Envío Rápido es de 1 a 3 días habiles y Envío Regular de 2 a 4 días hábiles
+					(solo Lima Metropolitana y Callao sin contar Sábados, Domingos y feriados).</p>
+					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/envios'); ?>">
+						Ver más
+					</a>			
 				</div>
 
 				<div class="checkout_additional_info__element">
