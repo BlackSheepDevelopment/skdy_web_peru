@@ -452,17 +452,16 @@
 .checkout-steps {
   display: flex;
   padding: 0.5rem 0;
-  align-items: center;
-  justify-content: center;
 }
 
 .checkout-steps__step {
   display: none;
+  gap: 20px;
+  align-items: center;
 }
 
 .checkout-steps__step--info {
   display: flex;
-  gap: 20px;
 }
 
 .checkout-steps__title {
