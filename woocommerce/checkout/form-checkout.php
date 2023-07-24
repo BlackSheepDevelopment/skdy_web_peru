@@ -37,10 +37,10 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
     <div class="order_review_container">
         <div class="order_review__main">
-            <p class="order-review__general-title">Información del producto</p>
+            <p class="order-review__general-title">TU PEDIDO</p>
             <div class="order-review__toggle">
                 <a href="#" id="see-more">
-                    <button class="order-review__toggle__btn">Ver menos</button>
+                    <button class="order-review__toggle__btn">+</button>
                 </a>
             </div>
         </div>
@@ -87,7 +87,6 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 </form>
 
-<?php echo do_shortcode('[wcmlim_locations_switch]'); ?>
 
 <div class="nav-steps">
         <a href="#" id="prev-step">Anterior</a>
