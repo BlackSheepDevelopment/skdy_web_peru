@@ -116,23 +116,21 @@ jQuery(document).ready(function ($) {
       let savarData = selectOptions[1];
       let primeData = selectOptions[2];
 
+      if ($(".no-stock__container").length > 0) {
+        $(".no-stock__container").css("display", "none");
+      }
+
       if (
         savarData.className == "wclimloc_savar24" &&
         savarData.dataset.lcQty &&
         parseInt(savarData.dataset.lcQty) > 0
       ) {
-        if ($(".no-stock__container").length > 0) {
-          $(".no-stock__container").css("display", "none");
-        }
         desiredShipment = "0";
       } else if (
         primeData.className == "wclimloc_almacen" &&
         primeData.dataset.lcQty &&
         parseInt(primeData.dataset.lcQty) > 0
       ) {
-        if ($(".no-stock__container").length > 0) {
-          $(".no-stock__container").css("display", "none");
-        }
         desiredShipment = "1";
       } else {
         desiredShipment = "0";
@@ -145,18 +143,17 @@ jQuery(document).ready(function ($) {
         }
 
         $(".single_add_to_cart_button").css("display", "none");
-        $(".single_add_to_cart_button").prop("disabled", true);
         $(".quantity").css("display", "none");
         event.preventDefault();
         return;
       }
 
       changedShipment_bool = true;
+      $(".single_add_to_cart_button").css("display", "block");
+      $(".quantity").css("display", "block");
+
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
-      $(".single_add_to_cart_button").css("display", "block");
-      $(".single_add_to_cart_button").prop("disabled", false);
-      $(".quantity").css("display", "block");
     }
   }
 });
