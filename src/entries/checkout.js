@@ -46,6 +46,9 @@ next_step.click(function (event) {
   const shipping = $(".checkout-steps__step--envio");
   const payment = $(".checkout-steps__step--pago");
 
+  const billing_cont = $(".billing-step");
+  const shipping_cont = $(".shipping-step");
+
   switch (current_step) {
     case 0:
       const billing_name = $("#billing_first_name");
@@ -76,6 +79,13 @@ next_step.click(function (event) {
 
       shipping.css("display", "flex");
       shipping.fadeIn();
+
+      shipping_cont.fadeIn();
+      shipping_cont.attr("style", "display:block!important");
+
+      billing_cont.hide();
+
+      current_step = "shipping-step";
 
       current_step = 1;
 
@@ -115,6 +125,12 @@ next_step.click(function (event) {
       payment.css("display", "flex");
       payment.fadeIn();
 
+      shipping_cont.hide();
+      billing_cont.hide();
+
+      $("#payment").attr("style", "display:block!important");
+      $("#payment").fadeIn();
+
       current_step = "payment-step";
 
       prev_step.css("display", "block");
@@ -131,8 +147,14 @@ prev_step.click(function (event) {
   const shipping = $(".checkout-steps__step--envio");
   const payment = $(".checkout-steps__step--pago");
 
+  const billing_cont = $(".billing-step");
+  const shipping_cont = $(".shipping-step");
+
   switch (current_step) {
     case 1:
+      billing_cont.fadeIn();
+      shipping_cont.hide();
+
       billing.css("display", "flex");
       billing.fadeIn();
 
@@ -147,6 +169,11 @@ prev_step.click(function (event) {
       break;
 
     case 2:
+      shipping_cont.fadeIn();
+      shipping_cont.attr("style", "display:block!important");
+      billing_cont.hide();
+      $("#payment").hide();
+
       payment.hide();
       payment.css("display", "none");
 
