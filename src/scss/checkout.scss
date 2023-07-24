@@ -322,7 +322,8 @@
 }
 
 .checkout-steps__step--info{
-  display: block;
+  display: flex;
+  gap: 20px;  
 }
 
 .checkout-steps__title{
