@@ -237,6 +237,7 @@
 
   .order_review_container{
     padding: 0 1rem;
+    transition: all 0.5s ease;
 
     .order_review__main{
       display: flex;
@@ -260,6 +261,7 @@
 
     #order_review{
       display: none;
+      transition: all 0.5s ease;
     }
   }
 

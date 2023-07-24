@@ -23,7 +23,7 @@ function scrollToNav() {
 order_review.click(function (event) {
   event.preventDefault();
 
-  $(".order-review--hidable").each(function () {
+  $("#order_review").each(function () {
     if (hide_status) {
       $(this).fadeIn();
       $(this).css("display", "block");

@@ -384,6 +384,7 @@
 }
 .checkout.woocommerce-checkout .order_review_container {
   padding: 0 1rem;
+  transition: all 0.5s ease;
 }
 .checkout.woocommerce-checkout .order_review_container .order_review__main {
   display: flex;
@@ -404,6 +405,7 @@
 }
 .checkout.woocommerce-checkout .order_review_container #order_review {
   display: none;
+  transition: all 0.5s ease;
 }
 .checkout.woocommerce-checkout .hide-factura {
   display: none;
