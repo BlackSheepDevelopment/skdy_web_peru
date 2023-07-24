@@ -246,9 +246,8 @@
       }
   
       .order-review__toggle__btn{
-        @include btn(#fff, #383838, #2c2c2d);
-        color: #fff !important;
-        padding: 0 2rem !important;
+        font-size: 2rem;
+        transition: all 0.5s ease;
       }
     }
 
