@@ -721,6 +721,7 @@ function visit_location_script() { ?>
             showProductNotice();
         });
         jQuery(document).ready(function () {
+			jQuery('.product-notice').html(text);
 			if (window.province_selector_init) {
 	            window.province_selector_init();
 			}
