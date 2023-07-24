@@ -109,6 +109,7 @@ jQuery(document).ready(function ($) {
 
   function changeShipment(event) {
     if (!changedShipment_bool) {
+      console.log("Changing...");
       const selectElement = $("#select_location")[0];
       const selectOptions = selectElement.options;
       let desiredShipment = "0";
