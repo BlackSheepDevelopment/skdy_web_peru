@@ -237,7 +237,6 @@ function banner_menu_shop(){
 add_action( 'woocommerce_before_shop_loop', 'bar_menu_shop', 10 );
 function bar_menu_shop() {
 	$shop_id = get_option( 'woocommerce_shop_page_id' ); ?>
-
     <div id="bar-menu">
 		<?php if ( is_search() ):
 			global $wp_query; ?>
@@ -256,15 +255,15 @@ function bar_menu_shop() {
                 </a>
             </div>
 		<?php else: ?>
-			<select class="category-link"   onchange="javascript:location.href = this.value;">
 			<?php while ( have_rows( 'bar_menu', $shop_id ) ):
 				the_row();
 				$link = get_sub_field( 'link' );
 				?>
-                    <option value="<?php echo $link['url']?>" class="btn-link"><?php echo $link['title'] ?></option>
-			<?php endwhile;?>
-			</select>
-			<?php woocommerce_catalog_ordering(); ?>
+                <div class="category-link">
+                    <a href="<?php echo $link['url'] ?>" class="btn-link"><?php echo $link['title'] ?></a>
+                </div>
+			<?php endwhile;
+			woocommerce_catalog_ordering(); ?>
 		<?php endif; ?>
     </div>
 <?php }
