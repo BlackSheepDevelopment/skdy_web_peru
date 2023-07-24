@@ -3,11 +3,9 @@ import "../scss/checkout.scss";
 import $ from "jquery";
 import "select2";
 
-let current_step = "billing-step";
+let current_step = 0; // 0: billing, 1: shipping, 2: payment
 const prev_step = $("#prev-step");
 const next_step = $("#next-step");
-const steps = $(".list-steps");
-const images = $(".list-images");
 
 const order_review = $("#see-more");
 
@@ -44,11 +42,12 @@ order_review.click(function (event) {
 
 next_step.click(function (event) {
   event.preventDefault();
-  const billing = $(".billing-step");
-  const shipping = $(".shipping-step");
+  const billing = $(".checkout-steps__step--info");
+  const shipping = $(".checkout-steps__step--envio");
+  const payment = $(".checkout-steps__step--pago");
 
   switch (current_step) {
-    case "billing-step":
+    case 0:
       const billing_name = $("#billing_first_name");
       const billing_lastName = $("#billing_last_name");
       const billing_mail = $("#billing_email");
@@ -72,11 +71,13 @@ next_step.click(function (event) {
         break;
       }
 
-      shipping.fadeIn();
-      shipping.attr("style", "display:block!important");
-
       billing.hide();
-      current_step = "shipping-step";
+      billing.css("display", "none");
+
+      shipping.css("display", "flex");
+      shipping.fadeIn();
+
+      current_step = 1;
 
       next_step.css("display", "block");
       prev_step.css("display", "block");
@@ -84,7 +85,7 @@ next_step.click(function (event) {
       scrollToNav();
       break;
 
-    case "shipping-step":
+    case 1:
       const billing_district = $("#billing_district2");
       const billing_address = $("#billing_address_1");
       const billing_phone = $("#billing_phone");
@@ -106,10 +107,13 @@ next_step.click(function (event) {
         break;
       }
 
+      current_step = 2;
+
       shipping.hide();
-      billing.hide();
-      $("#payment").attr("style", "display:block!important");
-      $("#payment").fadeIn();
+      shipping.css("display", "none");
+
+      payment.css("display", "flex");
+      payment.fadeIn();
 
       current_step = "payment-step";
 
@@ -123,26 +127,33 @@ next_step.click(function (event) {
 
 prev_step.click(function (event) {
   event.preventDefault();
-  const billing = $(".billing-step");
-  const shipping = $(".shipping-step");
+  const billing = $(".checkout-steps__step--info");
+  const shipping = $(".checkout-steps__step--envio");
+  const payment = $(".checkout-steps__step--pago");
 
   switch (current_step) {
-    case "shipping-step":
+    case 1:
+      billing.css("display", "flex");
       billing.fadeIn();
+
       shipping.hide();
-      current_step = "billing-step";
+      shipping.css("display", "none");
+
+      current_step = 0;
 
       prev_step.css("display", "none");
 
       scrollToNav();
       break;
 
-    case "payment-step":
+    case 2:
+      payment.hide();
+      payment.css("display", "none");
+
+      shipping.css("display", "flex");
       shipping.fadeIn();
-      shipping.attr("style", "display:block!important");
-      billing.hide();
-      $("#payment").hide();
-      current_step = "shipping-step";
+
+      current_step = 1;
 
       next_step.css("display", "block");
       scrollToNav();
