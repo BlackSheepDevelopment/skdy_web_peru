@@ -58,14 +58,22 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
 
         <div class="checkout-steps">
-            <div class="checkout-steps__number checkout-steps__number--info">1</div>
-            <div class="checkout-steps__title checkout-steps__number--info">INFORMACIÓN DE CONTACTO</div>
+            <div class="checkout-steps__step checkout-steps__step--info">
+                <div class="checkout-steps__number">1</div>
+                <div class="checkout-steps__title">INFORMACIÓN DE CONTACTO</div>
+            </div>
 
-            <div class="checkout-steps__number checkout-steps__number--envio">2</div>
-            <div class="checkout-steps__title checkout-steps__number--envio">ENVÍO</div>
+            <div class="checkout-steps__step checkout-steps__step--envio">
+                <div class="checkout-steps__number">2</div>
+                <div class="checkout-steps__title">ENVÍO</div>
+            </div>
 
-            <div class="checkout-steps__number checkout-steps__number--pago">3</div>
-            <div class="checkout-steps__title checkout-steps__number--pago">Pago</div>
+            <div class="checkout-steps__step checkout-steps__step--pago">
+                <div class="checkout-steps__number">3</div>
+                <div class="checkout-steps__title">Pago</div>
+            </div>
+
+
 
         </div>
 
