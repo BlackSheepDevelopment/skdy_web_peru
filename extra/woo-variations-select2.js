@@ -85,19 +85,17 @@ jQuery(document).ready(function ($) {
   });
 
   $("#select_location").on("change", function (e) {
-    console.log("Changing the shipment...");
     changeShipment(e);
   });
 
   $(".swatch").on("click", function (e) {
-    console.log("Changing the shipment...");
     changedShipment_bool = false;
     changeShipment(e);
   });
 
   $(".single_add_to_cart_button").prop("disabled", true);
 
-  setTimeout(triggerShipping, 2000);
+  setTimeout(triggerShipping, 2500);
 
   function triggerShipping() {
     $("#select_location").val("-1");
@@ -106,16 +104,11 @@ jQuery(document).ready(function ($) {
 
   function changeShipment(event) {
     if (!changedShipment_bool) {
-      console.log("Working...");
       const selectElement = $("#select_location")[0];
       const selectOptions = selectElement.options;
       let desiredShipment = "0";
       let savarData = selectOptions[1];
       let primeData = selectOptions[2];
-
-      console.log(
-        `${savarData.className}: ${savarData.dataset.lcQty} | ${primeData.className}: ${primeData.dataset.lcQty}`
-      );
 
       if (
         savarData.className == "wclimloc_savar24" &&
@@ -139,7 +132,6 @@ jQuery(document).ready(function ($) {
         return;
       }
 
-      console.log(`Cambiar a: ${desiredShipment === "1" ? "Prime" : "Savar"} `);
       changedShipment_bool = true;
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
