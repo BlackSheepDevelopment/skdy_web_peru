@@ -60,14 +60,13 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <li class="billing active">
                 <span>1</span> Información
             </li>
-
-            <li class="shipping">
+            <!-- <li class="shipping">
                 <span>2</span> Envío
             </li>
 
             <li class="payment">
                 <span>3</span> Pago
-            </li>
+            </li> -->
         </ul>
 
         <div class="col2-set" id="customer_details">
