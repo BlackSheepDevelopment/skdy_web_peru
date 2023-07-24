@@ -456,15 +456,15 @@
   justify-content: center;
 }
 
-.checkout-steps__step--info {
-  width: 100%;
-  height: 100%;
-}
-
 .checkout-steps__step {
   visibility: hidden;
   width: 0%;
   height: 0%;
+}
+
+.checkout-steps__step--info {
+  width: 100%;
+  height: 100%;
 }
 
 .checkout-steps__title {
@@ -474,8 +474,6 @@
 }
 
 .checkout-steps__number {
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   padding: 10px;
   background-color: #000;
