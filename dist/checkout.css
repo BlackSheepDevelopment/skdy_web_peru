@@ -429,7 +429,6 @@
 .woocommerce-notices-wrapper .checkout_additional_info__content, .checkout_additional_info .checkout_additional_info__content {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element,
 .woocommerce-notices-wrapper .checkout_additional_info__element, .checkout_additional_info .checkout_additional_info__element {
@@ -438,13 +437,14 @@
   padding: 10px;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 1.2rem;
 }
 .woocommerce-form-coupon-toggle .checkout_additional_info__element__btn,
 .woocommerce-notices-wrapper .checkout_additional_info__element__btn, .checkout_additional_info .checkout_additional_info__element__btn {
   color: #000;
   text-decoration: underline;
   font-weight: 800;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .list-steps {
@@ -544,8 +544,9 @@ label[for=billing_district2] {
 .nav-steps {
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
   align-items: center;
+  padding: 0.5rem 0;
 }
 @media (max-width: 800px) {
   .nav-steps {

@@ -26,19 +26,19 @@ get_header(); ?>
 
 			<div class="checkout_additional_info__content">
 				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">El tiempo de entrega es de 2 a 3 días habiles para Lima Metropolitana y Callao (sin contar Feriados, Sábados y Domingos).</p>
+					<p class="checkout_additional_info__element__label">El tiempo de entrega es de 1 a 3 días habiles para Lima Metropolitana y Callao (sin contar Feriados, Sábados y Domingos).</p>
 				</div>
 
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">El tiempo de entrega a provincia es de 4 a 15 días hábiles según la región.</p>
-					<a class="checkout_additional_info__element__btn" href="https://skullcandy.com.pe/envios/">
+					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/envios'); ?>">
 						Ver más
 					</a>
 				</div>
 
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">Entérate sobre nuestra política de cambios y devoluciones.</p>
-					<a class="checkout_additional_info__element__btn" href="https://skullcandy.com.pe/politica-de-cambios-y-garantias/">
+					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>">
 						Ver más
 					</a>
 				</div>
