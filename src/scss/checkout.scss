@@ -308,13 +308,15 @@
 }
 
 
-.list-steps {
+.list-steps{
   font-size: 1.4rem;
 
-  .list-steps__step{
-    font-size: 2rem;
-    display: flex;
-  }
+
+}
+
+.list-steps__step{
+  font-size: 2rem;
+  display: flex;
 }
 
 #order_review_heading,

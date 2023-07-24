@@ -452,7 +452,8 @@
 .list-steps {
   font-size: 1.4rem;
 }
-.list-steps .list-steps__step {
+
+.list-steps__step {
   font-size: 2rem;
   display: flex;
 }
