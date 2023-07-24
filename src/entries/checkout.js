@@ -84,8 +84,8 @@ next_step.click(function (event) {
       images.find(".active").removeClass("active");
       images.find(".payment").addClass("active");
 
-      next_step.css("visibility", "visible");
-      prev_step.css("visibility", "visible");
+      next_step.css("display", "block");
+      prev_step.css("display", "block");
 
       scrollToNav();
       break;
@@ -123,8 +123,8 @@ next_step.click(function (event) {
       steps.find(".payment").addClass("active");
       images.find(".active").removeClass("active");
       images.find(".payment").addClass("active");
-      prev_step.css("visibility", "visible");
-      next_step.css("visibility", "hidden ");
+      prev_step.css("display", "block");
+      next_step.css("display", "none");
 
       scrollToNav();
       break;
@@ -146,7 +146,7 @@ prev_step.click(function (event) {
       images.find(".active").removeClass("active");
       images.find(".shipping").addClass("active");
 
-      prev_step.css("visibility", "hidden");
+      prev_step.css("display", "none");
 
       scrollToNav();
       break;
@@ -162,7 +162,7 @@ prev_step.click(function (event) {
       steps.find(".shipping").addClass("active");
       images.find(".active").removeClass("active");
       images.find(".shipping").addClass("active");
-      next_step.css("visibility", "visible");
+      next_step.css("display", "block");
       scrollToNav();
       break;
   }
