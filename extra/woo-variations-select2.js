@@ -130,6 +130,8 @@ jQuery(document).ready(function ($) {
         $(".Wcmlim_container").append(
           `<div class="no-stock__container">El producto se encuentra agotado.</div>`
         );
+        $(".single_add_to_cart_button").css("display", "none");
+        $(".single_add_to_cart_button").prop("disabled", true);
         event.preventDefault();
         return;
       }
@@ -137,6 +139,7 @@ jQuery(document).ready(function ($) {
       changedShipment_bool = true;
       $("#select_location").val(desiredShipment);
       $("#select_location").trigger("change");
+      $(".single_add_to_cart_button").css("display", "block");
       $(".single_add_to_cart_button").prop("disabled", false);
     }
   }
