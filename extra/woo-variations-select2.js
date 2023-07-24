@@ -115,12 +115,14 @@ jQuery(document).ready(function ($) {
         savarData.dataset.lcQty &&
         parseInt(savarData.dataset.lcQty) > 0
       ) {
+        $(".no-stock__container").remove();
         desiredShipment = "0";
       } else if (
         primeData.className == "wclimloc_almacen" &&
         primeData.dataset.lcQty &&
         parseInt(primeData.dataset.lcQty) > 0
       ) {
+        $(".no-stock__container").remove();
         desiredShipment = "1";
       } else {
         desiredShipment = "0";
@@ -128,11 +130,7 @@ jQuery(document).ready(function ($) {
         $(".Wcmlim_container").append(
           "<div class='no-stock__container'>El producto se encuentra agotado.</div>"
         );
-        try {
-          e.preventDefault();
-        } catch (error) {
-          return;
-        }
+        event.preventDefault();
         return;
       }
 
