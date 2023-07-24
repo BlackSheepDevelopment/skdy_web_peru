@@ -132,6 +132,7 @@ jQuery(document).ready(function ($) {
         );
         $(".single_add_to_cart_button").css("display", "none");
         $(".single_add_to_cart_button").prop("disabled", true);
+        $(".quantity").css("display", "none");
         event.preventDefault();
         return;
       }
@@ -141,6 +142,7 @@ jQuery(document).ready(function ($) {
       $("#select_location").trigger("change");
       $(".single_add_to_cart_button").css("display", "block");
       $(".single_add_to_cart_button").prop("disabled", false);
+      $(".quantity").css("display", "block");
     }
   }
 });
