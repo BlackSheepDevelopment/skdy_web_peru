@@ -315,4 +315,6 @@ $(document).ready(function () {
       }
     }
   });
+
+  $(".checkout_coupon").hide();
 });
