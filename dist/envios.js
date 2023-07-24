@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_envios_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/envios.scss */ \"./src/scss/envios.scss\");\n/* harmony import */ var _scss_envios_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_envios_scss__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log(\"hola mis amores\");\n\n//# sourceURL=webpack:///./src/entries/envios.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_envios_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/envios.scss */ \"./src/scss/envios.scss\");\n/* harmony import */ var _scss_envios_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_envios_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/entries/envios.js?");
 
 /***/ }),
 
