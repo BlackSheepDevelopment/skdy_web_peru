@@ -128,7 +128,7 @@ jQuery(document).ready(function ($) {
         desiredShipment = "0";
         if ($(".no-stock__container").length > 0) return;
         $(".Wcmlim_container").append(
-          "<div class='no-stock__container'>El producto se encuentra agotado.</div>"
+          `<div class="no-stock__container">El producto se encuentra agotado.</div>`
         );
         event.preventDefault();
         return;
