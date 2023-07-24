@@ -59,7 +59,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
         <ul class="list-steps">
             <li class="=list-steps__step">
                 <span class="list-steps__span">1</span>
-                <p class="list-steps__info">Información</p>
+                <p class="list-steps__info">INFORMACIÓN DE CONTACTO</p>
             </li>
         </ul>
 
