@@ -562,7 +562,7 @@ label[for=billing_district2] {
   text-transform: uppercase;
 }
 .nav-steps #prev-step {
-  visibility: hidden;
+  display: none;
 }
 
 .hidden {
