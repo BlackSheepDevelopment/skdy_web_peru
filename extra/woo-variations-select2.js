@@ -84,71 +84,71 @@ jQuery(document).ready(function ($) {
     templateSelection: locationFormatSelected,
   });
 
-  $("#select_location").on("change", function (e) {
-    changeShipment(e);
-  });
+  // $("#select_location").on("change", function (e) {
+  //   changeShipment(e);
+  // });
 
-  $(".swatch").on("click", function (e) {
-    changedShipment_bool = false;
-    changeShipment(e);
-  });
+  // $(".swatch").on("click", function (e) {
+  //   changedShipment_bool = false;
+  //   changeShipment(e);
+  // });
 
-  $(".single_add_to_cart_button").prop("disabled", true);
+  // $(".single_add_to_cart_button").prop("disabled", true);
 
-  setTimeout(triggerShipping, 2500);
+  // setTimeout(triggerShipping, 2500);
 
-  function triggerShipping() {
-    $("#select_location").val("-1");
-    $("#select_location").trigger("change");
-  }
+  // function triggerShipping() {
+  //   $("#select_location").val("-1");
+  //   $("#select_location").trigger("change");
+  // }
 
-  function changeShipment(event) {
-    if (!changedShipment_bool) {
-      console.log("Changing...");
-      const selectElement = $("#select_location")[0];
-      const selectOptions = selectElement.options;
-      let desiredShipment = "0";
-      let savarData = selectOptions[1];
-      let primeData = selectOptions[2];
+  // function changeShipment(event) {
+  //   if (!changedShipment_bool) {
+  //     console.log("Changing...");
+  //     const selectElement = $("#select_location")[0];
+  //     const selectOptions = selectElement.options;
+  //     let desiredShipment = "0";
+  //     let savarData = selectOptions[1];
+  //     let primeData = selectOptions[2];
 
-      if ($(".no-stock__container").length > 0) {
-        $(".no-stock__container").css("display", "none");
-      }
+  //     if ($(".no-stock__container").length > 0) {
+  //       $(".no-stock__container").css("display", "none");
+  //     }
 
-      if (
-        savarData.className == "wclimloc_savar24" &&
-        savarData.dataset.lcQty &&
-        parseInt(savarData.dataset.lcQty) > 0
-      ) {
-        desiredShipment = "0";
-      } else if (
-        primeData.className == "wclimloc_almacen" &&
-        primeData.dataset.lcQty &&
-        parseInt(primeData.dataset.lcQty) > 0
-      ) {
-        desiredShipment = "1";
-      } else {
-        desiredShipment = "0";
-        if ($(".no-stock__container").length > 0) {
-          $(".no-stock__container").css("display", "block");
-        } else {
-          $(".Wcmlim_container").append(
-            `<div class="no-stock__container">El producto se encuentra agotado.</div>`
-          );
-        }
+  //     if (
+  //       savarData.className == "wclimloc_savar24" &&
+  //       savarData.dataset.lcQty &&
+  //       parseInt(savarData.dataset.lcQty) > 0
+  //     ) {
+  //       desiredShipment = "0";
+  //     } else if (
+  //       primeData.className == "wclimloc_almacen" &&
+  //       primeData.dataset.lcQty &&
+  //       parseInt(primeData.dataset.lcQty) > 0
+  //     ) {
+  //       desiredShipment = "1";
+  //     } else {
+  //       desiredShipment = "0";
+  //       if ($(".no-stock__container").length > 0) {
+  //         $(".no-stock__container").css("display", "block");
+  //       } else {
+  //         $(".Wcmlim_container").append(
+  //           `<div class="no-stock__container">El producto se encuentra agotado.</div>`
+  //         );
+  //       }
 
-        $(".single_add_to_cart_button").css("display", "none");
-        $(".quantity").css("display", "none");
-        event.preventDefault();
-        return;
-      }
+  //       $(".single_add_to_cart_button").css("display", "none");
+  //       $(".quantity").css("display", "none");
+  //       event.preventDefault();
+  //       return;
+  //     }
 
-      changedShipment_bool = true;
-      $(".single_add_to_cart_button").css("display", "block");
-      $(".quantity").css("display", "block");
+  //     changedShipment_bool = true;
+  //     $(".single_add_to_cart_button").css("display", "block");
+  //     $(".quantity").css("display", "block");
 
-      $("#select_location").val(desiredShipment);
-      $("#select_location").trigger("change");
-    }
-  }
+  //     $("#select_location").val(desiredShipment);
+  //     $("#select_location").trigger("change");
+  //   }
+  // }
 });
