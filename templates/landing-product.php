@@ -17,14 +17,6 @@ get_header(); ?>
             </div>
         </div>
         <div class="container">
-
-            <div class="container__button">
-                <a class="container__button__ref" href="<?php the_field('button'); ?>">
-                    <button class="container__button__btn">
-                        VISITA LA TIENDA
-                    </button>   
-                </a>
-            </div>
 			<?php while ( have_rows( 'content' ) ): the_row();
 				$size = get_sub_field( 'size' ); ?>
                 <div class="layout type-<?php echo get_row_layout() ?> size-<?php echo $size['width'] ?> <?php echo $size['responsive'] ? 'r-full' : '' ?>">
@@ -47,6 +39,13 @@ get_header(); ?>
 					<?php } ?>
                 </div>
 			<?php endwhile; ?>
+            <div class="container__button">
+                <a class="container__button__ref" href="<?php the_field('button'); ?>">
+                    <button class="container__button__btn">
+                        VISITA LA TIENDA
+                    </button>   
+                </a>
+            </div>
         </div>
     </div>
 <?php get_footer();
