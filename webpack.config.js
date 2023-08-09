@@ -19,6 +19,7 @@ module.exports = function (env) {
       compare_family: "./src/entries/compare_family.js",
       selector: "./src/entries/selector.js",
       envios: "./src/entries/envios.js",
+      landing_product: "./src/entries/landing_product.js",
     },
     target: "web",
     mode: env.NODE_ENV,
