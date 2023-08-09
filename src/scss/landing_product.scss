@@ -49,6 +49,7 @@
 
   .container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 1.555rem auto 0;
     font-size: 14px;

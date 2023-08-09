@@ -17,28 +17,31 @@ get_header(); ?>
             </div>
         </div>
         <div class="container">
-			<?php while ( have_rows( 'content' ) ): the_row();
-				$size = get_sub_field( 'size' ); ?>
-                <div class="layout type-<?php echo get_row_layout() ?> size-<?php echo $size['width'] ?> <?php echo $size['responsive'] ? 'r-full' : '' ?>">
-					<?php if ( get_row_layout() == 'product' ) {
-						echo do_shortcode( '[products limit="1 columns="1" ids="' . get_sub_field( 'product' ) . '" ]' );
-					} elseif ( get_row_layout() == 'image' ) {
-						$link = get_sub_field( 'link' ); ?>
-						<?php if ( $link ): ?>
-                            <a href="<?php echo $link ?>">
-						<?php endif; ?>
-                        <picture>
-							<?php $image = get_sub_field( 'image' ); ?>
-                            <source srcset="<?php echo $image['desktop']['url'] ?>" media="(min-width: 800px)"/>
-                            <img src="<?php echo $image['mobile']['url'] ?>"
-                                 alt="<?php echo $image['mobile']['alt'] ?>">
-                        </picture>
-						<?php if ( $link ): ?>
-                            </a>
-						<?php endif; ?>
-					<?php } ?>
-                </div>
-			<?php endwhile; ?>
+            <div class="container__content">
+                <?php while ( have_rows( 'content' ) ): the_row();
+                    $size = get_sub_field( 'size' ); ?>
+                    <div class="layout type-<?php echo get_row_layout() ?> size-<?php echo $size['width'] ?> <?php echo $size['responsive'] ? 'r-full' : '' ?>">
+                        <?php if ( get_row_layout() == 'product' ) {
+                            echo do_shortcode( '[products limit="1 columns="1" ids="' . get_sub_field( 'product' ) . '" ]' );
+                        } elseif ( get_row_layout() == 'image' ) {
+                            $link = get_sub_field( 'link' ); ?>
+                            <?php if ( $link ): ?>
+                                <a href="<?php echo $link ?>">
+                            <?php endif; ?>
+                            <picture>
+                                <?php $image = get_sub_field( 'image' ); ?>
+                                <source srcset="<?php echo $image['desktop']['url'] ?>" media="(min-width: 800px)"/>
+                                <img src="<?php echo $image['mobile']['url'] ?>"
+                                    alt="<?php echo $image['mobile']['alt'] ?>">
+                            </picture>
+                            <?php if ( $link ): ?>
+                                </a>
+                            <?php endif; ?>
+                        <?php } ?>
+                    </div>
+                <?php endwhile; ?>    
+            </div>
+
             <div class="container__button">
                 <a class="container__button__ref" href="<?php the_field('button'); ?>">
                     <button class="container__button__btn">
