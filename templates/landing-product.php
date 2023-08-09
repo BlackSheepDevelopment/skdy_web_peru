@@ -17,6 +17,14 @@ get_header(); ?>
             </div>
         </div>
         <div class="container">
+
+            <div class="container__button">
+                <a href="<?php the_field('button'); ?>">
+                    <button class="container__button">
+                        VISITA LA TIENDA
+                    </button>   
+                </a>
+            </div>
 			<?php while ( have_rows( 'content' ) ): the_row();
 				$size = get_sub_field( 'size' ); ?>
                 <div class="layout type-<?php echo get_row_layout() ?> size-<?php echo $size['width'] ?> <?php echo $size['responsive'] ? 'r-full' : '' ?>">
