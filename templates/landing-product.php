@@ -19,8 +19,8 @@ get_header(); ?>
         <div class="container">
 
             <div class="container__button">
-                <a href="<?php the_field('button'); ?>">
-                    <button class="container__button">
+                <a class="container__button__ref" href="<?php the_field('button'); ?>">
+                    <button class="container__button__btn">
                         VISITA LA TIENDA
                     </button>   
                 </a>
