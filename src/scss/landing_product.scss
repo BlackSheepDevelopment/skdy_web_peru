@@ -48,8 +48,6 @@
   }
 
   .container__content {
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin: 1.555rem auto 0;
     font-size: 14px;
@@ -129,6 +127,15 @@
           }
         }
       }
+    }
+  }
+
+  .container__content{
+    .container__button__btn{
+      @include btn(#fff, #383838, #2c2c2d);
+      max-width: max-content;
+      margin: 44px auto 35px;
+      display: flex;
     }
   }
 }
