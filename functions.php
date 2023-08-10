@@ -1049,3 +1049,6 @@ if ( !function_exists( 'wp_password_change_notification' ) ) {
 }
 
 // COMPLETE FUNCTIONALITY WITHOUTH TYPE OF SHIPMENT
+
+// Add number of products per page
+add_filter( 'loop_shop_per_page', create_function( '$products', 'return 25;' ), 30 );
