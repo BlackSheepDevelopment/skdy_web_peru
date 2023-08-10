@@ -6,7 +6,9 @@
                     <a href="<?php echo get_home_url() ?>" class="header">Inicio</a>
                 </article>
                 <article>
-                    <a href="<?php echo get_permalink('161581'); ?>" class="header header-ofertas">OFERTAS</a>
+                    <?php $ofertas_page = get_page_by_title( 'Ofertas' );
+                          $ofertas_id = $ofertas_page -> ID; ?>
+                    <a href="<?php echo get_permalink($ofertas_id); ?>" class="header header-ofertas">OFERTAS</a>
                 </article>
                 <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
