@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="coupon-container">
 				<div class="coupon-container__title">¿Te gustaría recibir un 15% de descuento en esta compra?</div>
-				<a class="coupon-container__link" href="https://forms.office.com/r/sgWrV96UJw">¡Haz click aquí y responde esta encuesta!</a>
+				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/sgWrV96UJw">¡Haz click aquí y responde esta encuesta!</a>
 			</div>
 
 			<?php
