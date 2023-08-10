@@ -9,6 +9,13 @@ get_header(); ?>
 			<?php if ( is_null( $order ) ): ?>
                 <h1 class="checkout-title"><?php the_title(); ?></h1>
 			<?php endif; ?>
+
+			<div class="coupon-container">
+				<div class="coupon-container__title">¿Te gustaría recibir un 15% de descuento en esta compra?</div>
+				<a class="coupon-container__link" href="https://forms.office.com/r/sgWrV96UJw">¡Haz click aquí y responde esta encuesta!</a>
+				<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=rAZEiH5wF067x4zsuGLp_tz34hHd7INGifd8GOwDatxUOUhYS0dIRE9LQU9TU1ZCSFBNMFZYTVVTSy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+			</div>
+
 			<?php
 			if ( have_posts() ) {
 				while ( have_posts() ) {
