@@ -216,3 +216,6 @@
 #main-container .container__button__btn.disabled, #main-container .container__button__btn:disabled {
   pointer-events: none;
 }
+#main-container .container__button__ref {
+  text-decoration: none; /* no underline */
+}
