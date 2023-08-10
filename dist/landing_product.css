@@ -158,7 +158,7 @@
   transform: scale(1.04);
   opacity: 0.9;
 }
-#main-container .container__button .container__button__btn {
+#main-container .container__button__btn {
   position: relative;
   overflow: hidden;
   height: 3.17143rem;
@@ -181,13 +181,13 @@
   margin: 44px auto 35px;
   display: flex;
 }
-#main-container .container__button .container__button__btn:hover {
+#main-container .container__button__btn:hover {
   color: #fff;
 }
-#main-container .container__button .container__button__btn:hover:after {
+#main-container .container__button__btn:hover:after {
   width: 120%;
 }
-#main-container .container__button .container__button__btn:before {
+#main-container .container__button__btn:before {
   content: "";
   position: absolute;
   z-index: -2;
@@ -197,7 +197,7 @@
   bottom: 0;
   background: #383838;
 }
-#main-container .container__button .container__button__btn:after {
+#main-container .container__button__btn:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -210,9 +210,9 @@
   transform: translate(-50%) skew(20deg) scaleX(1);
   transition: width 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-#main-container .container__button .container__button__btn.selected:after {
+#main-container .container__button__btn.selected:after {
   width: 120% !important;
 }
-#main-container .container__button .container__button__btn.disabled, #main-container .container__button .container__button__btn:disabled {
+#main-container .container__button__btn.disabled, #main-container .container__button__btn:disabled {
   pointer-events: none;
 }
