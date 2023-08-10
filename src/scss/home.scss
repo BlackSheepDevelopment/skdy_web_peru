@@ -98,13 +98,13 @@
 
     .layer {
       width: 100%;
+      top: 55%;
       position: absolute;
       bottom: auto;
       margin: 3.92857rem 0 0;
       z-index: 1;
       transform: none;
-      left: 0;
-      top: 60%;
+      left: 0;    
       text-align: center;
       @media (max-width: 768px) {
         left: 0;
