@@ -6,6 +6,9 @@
                     <a href="<?php echo get_home_url() ?>" class="header">Inicio</a>
                 </article>
                 <article>
+                    <a href="<?php echo get_permalink(wc_get_page_id( 'ofertas' )); ?>" class="header">TIENDA</a>
+                </article>
+                <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
                 </article>
                 <article>
