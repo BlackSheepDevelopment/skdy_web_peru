@@ -74,14 +74,6 @@
       width: 100%;
       @media (max-width: 799px) {
         width: 50% !important;
-
-        &:nth-child(4) {
-          transform: translateX(100%);
-        }
-
-        &:nth-child(5) {
-          transform: translateX(-100%);
-        }
       }
 
       &.size-w-1-3 {
