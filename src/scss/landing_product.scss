@@ -131,7 +131,7 @@
     }
   }
 
-  .container__content{
+  .container__button{
     .container__button__btn{
       @include btn(#fff, #383838, #2c2c2d);
       max-width: max-content;
