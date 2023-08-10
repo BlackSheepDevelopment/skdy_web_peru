@@ -46,8 +46,8 @@
       }
 
       .layer {
-        top: 0;
-        left: 0;
+        top: 70%;
+        left: 10%;
         width: 27vw;
         position: absolute;
         bottom: auto;
@@ -55,6 +55,10 @@
         margin: 0 7.8125vw;
         z-index: 1;
         text-align: left;
+
+        @media (max-width: 768px) {
+          left: 0;
+        }
 
         h5 {
           font-size: 2.8125vw;
@@ -100,9 +104,10 @@
       z-index: 1;
       transform: none;
       left: 0;
-      top: 0;
+      top: 70%;
       text-align: center;
       @media (max-width: 768px) {
+        left: 0;
         width: 100% !important;
         padding: 1.75rem 1.25rem !important;
         margin: 0 !important;
@@ -148,6 +153,7 @@
 }
 
 #gallery {
+  background-color: black;
   display: flex;
   margin-bottom: -3px;
   @media (max-width: 768px) {
