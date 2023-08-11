@@ -9,7 +9,10 @@ get_header(); ?>
 			<?php if ( is_null( $order ) ): ?>
                 <h1 class="checkout-title"><?php the_title(); ?></h1>
 			<?php endif; ?>
-
+			<div class="coupon-container">
+				<div class="coupon-container__title">¿Te gustaría recibir un 15% de descuento en esta compra?</div>
+				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/sgWrV96UJw">¡Responde la encuesta!</a>
+			</div>
 
 			<?php
 			if ( have_posts() ) {
