@@ -11,6 +11,11 @@
                     <a href="<?php echo get_permalink($ofertas_id); ?>" class="header header-ofertas">OFERTAS</a>
                 </article>
                 <article>
+                    <?php $envios_page = get_page_by_title( 'Envío Rápido' );
+                          $envios_id = $envios_page -> ID; ?>
+                    <a href="<?php echo get_permalink($envios_id); ?>" class="header">ENVÍO RÁPIDO</a>
+                </article>
+                <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
                 </article>
                 <article>
