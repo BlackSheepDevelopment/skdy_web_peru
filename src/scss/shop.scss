@@ -130,6 +130,7 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -138,6 +139,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 200px;
 }
 
 .shop-features__container__info{
@@ -145,7 +147,7 @@
 }
 
 .shop-features__container__info__title{
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
