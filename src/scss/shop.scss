@@ -15,12 +15,12 @@
   text-align: center;
   text-transform: uppercase;
   font-family: $titleFont;
-  padding: 3.8rem 0;
+  padding: 2.5rem 0;
   font-size: 3.2em;
 
   @media (max-width: 768px) {
     font-size: 2.25rem;
-    padding: 1.8rem 0;
+    padding: 1.5rem 0;
   }
 }
 
