@@ -121,3 +121,37 @@
   height: auto;
   max-height: 100%;
 }
+
+.shop-features{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.shop-features__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-features__container__info{
+  text-align: center;
+}
+
+.shop-features__container__info__title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.shop-features__container__info__subtitle{
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
