@@ -25,6 +25,29 @@
     }
   }
 
+  .coupon-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    background-color: #f0f0f0;   
+    text-align: center;
+    padding: 10px;
+
+    .coupon-container__title{
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding: 0.4rem 0;
+    }
+    
+    .coupon-container__link{
+      font-size: 1.2rem;
+      font-weight: 700;
+      padding: 0.4rem 0;
+      text-decoration: underline;
+      @include btn(#fff, #383838, #2c2c2d);
+    }
+  }
+
   .cart-custom-message {
     display: flex;
     flex-direction: column;
