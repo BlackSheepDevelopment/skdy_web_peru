@@ -162,6 +162,11 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 </div>
 
+<div class="coupon-container">
+				<div class="coupon-container__title">¿Te gustaría recibir un 15% de descuento en esta compra?</div>
+				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/sgWrV96UJw">¡Responde la encuesta!</a>
+			</div>
+
 <div class="cart-custom-message">
 	<p>La compra del producto implica la aceptación de las condiciones de entrega, cambios y devoluciones descritas en la página correspondiente.</p>
     <a class="cart-custom-message__a" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>"> <button class="cart-custom-message__button">VER MÁS SOBRE POLÍTICAS Y GARANTÍAS</button></a>
