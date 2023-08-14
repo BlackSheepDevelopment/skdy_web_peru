@@ -5,8 +5,8 @@ get_header(); ?>
         <h1 class="text-center"><?php the_title(); ?></h1>
 
 		<div class="coupon-container">
-				<div class="coupon-container__title">¿Te gustaría recibir un 15% de descuento en esta compra?</div>
-				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/sgWrV96UJw">¡Responde la encuesta!</a>
+				<div class="coupon-container__title">¿Te gustaría recibir un 10% de descuento en esta compra?</div>
+				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/WUxdx8qvhj">¡Responde la encuesta!</a>
 		</div>
 		<?php
 		if ( have_posts() ) {
