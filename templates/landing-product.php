@@ -8,7 +8,8 @@ get_header(); ?>
             <picture>
 				<?php $background = get_field( 'background' ); ?>
                 <source srcset="<?php echo $background['desktop']['url'] ?>" media="(min-width: 800px)"/>
-                <img src="<?php echo $background['mobile']['url'] ?>"
+                <img class="banner-name__image" 
+                     src="<?php echo $background['mobile']['url'] ?>"
                      alt="<?php echo $background['mobile']['alt'] ?>">
             </picture>
             <div class="content">
