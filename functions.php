@@ -255,15 +255,6 @@ function bar_menu_shop() {
                 </a>
             </div>
 		<?php else: ?>
-			<?php while ( have_rows( 'bar_menu', $shop_id ) ):
-				the_row();
-				$link = get_sub_field( 'link' );
-				?>
-                <div class="category-link">
-                    <a href="<?php echo $link['url'] ?>" class="btn-link"><?php echo $link['title'] ?></a>
-                </div>
-			<?php endwhile;
-			woocommerce_catalog_ordering(); ?>
 		<?php endif; ?>
     </div>
 <?php }
