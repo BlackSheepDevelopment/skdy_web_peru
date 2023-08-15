@@ -44,6 +44,23 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 				<?php endwhile; ?>
             </div>
 		<?php endif; ?>
+		<?php if ( have_rows( 'banners' ) ):
+			while ( have_rows( 'banners' ) ): the_row(); ?>
+				<?php if ( get_sub_field( 'image_full' ) ): ?>
+                    <div class="full-width">
+						<?php $full = get_sub_field( 'image_full' ); ?>
+                        <a href="<?php echo $full['link']; ?>">
+                            <picture>
+								<?php $img = $full['image']; ?>
+                                <source srcset="<?php echo $img['desktop']['url'] ?>" media="(min-width: 551px)"/>
+                                <img src="<?php echo $img['mobile']['url'] ?>"
+                                     alt="<?php echo $img['mobile']['alt'] ?>">
+                            </picture>
+                        </a>
+                    </div>
+				<?php endif; ?>
+			<?php endwhile;
+		endif; ?>
 		<?php if ( have_rows( 'gallery' ) ): ?>
             <div id="gallery">
 				<?php while ( have_rows( 'gallery' ) ): the_row(); ?>
@@ -62,22 +79,5 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 				<?php endwhile; ?>
             </div>
 		<?php endif; ?>
-		<?php if ( have_rows( 'banners' ) ):
-			while ( have_rows( 'banners' ) ): the_row(); ?>
-				<?php if ( get_sub_field( 'image_full' ) ): ?>
-                    <div class="full-width">
-						<?php $full = get_sub_field( 'image_full' ); ?>
-                        <a href="<?php echo $full['link']; ?>">
-                            <picture>
-								<?php $img = $full['image']; ?>
-                                <source srcset="<?php echo $img['desktop']['url'] ?>" media="(min-width: 551px)"/>
-                                <img src="<?php echo $img['mobile']['url'] ?>"
-                                     alt="<?php echo $img['mobile']['alt'] ?>">
-                            </picture>
-                        </a>
-                    </div>
-				<?php endif; ?>
-			<?php endwhile;
-		endif; ?>
     </div>
 <?php get_footer();

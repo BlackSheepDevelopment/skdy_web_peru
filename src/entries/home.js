@@ -1,14 +1,16 @@
-import '../scss/home.scss';
+import "../scss/home.scss";
 
-import $ from 'jquery';
-import 'slick-carousel';
+import $ from "jquery";
+import "slick-carousel";
 
-$('#home-grid').find('section').click(function () {
-    window.location.href = jQuery(this).data('href');
-});
+$("#home-grid")
+    .find("section")
+    .click(function () {
+        window.location.href = jQuery(this).data("href");
+    });
 
-const gallery = $('#gallery');
-const gallery_count = gallery.find('.media').length;
+const gallery = $("#gallery");
+const gallery_count = gallery.find(".media").length;
 
 gallery.slick({
     slidesToShow: gallery_count,
@@ -19,8 +21,9 @@ gallery.slick({
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                dots: true
-            }
-        }
-    ]
+                dots: true,
+                arrows: true,
+            },
+        },
+    ],
 });
