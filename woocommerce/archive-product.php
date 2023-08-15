@@ -72,9 +72,8 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="filter">
 	<div class="filter__section">
-		<label for="filter-category__earphones">Audífonos</label>
-		<select name="product_cat__earphones" id="filter-category__earphones" class="filter-category__earphones">
-			<option value="">Todo</option>
+		<select name="product_cat__earphones" id="filter-category__earphones" class="filter-category__select">
+			<option value="">Audfonos</option>
 			<option value="true-wireless">True Wireless</option>
 			<option value="headphone">Headphones</option>
 			<option value="in-ear">In-Ear</option>
@@ -83,9 +82,8 @@ do_action( 'woocommerce_before_main_content' );
 
 
 	<div class="filter__section">
-		<label for="filter-category__earphones">Actividades</label>
-		<select name="product_cat__style" id="filter-category__earphones" class="filter-category__style">
-			<option value="">Todo</option>
+		<select name="product_cat__style" id="filter-category__earphones" class="filter-category__select">
+			<option value="">Actividades</option>
 			<option value="urbano">Urbano</option>
 			<option value="deportivo">Deportivo</option>
 			<option value="gaming">Gaming</option>
