@@ -171,30 +171,26 @@
   border-style: none;
   background-color: transparent;
   color: rgb(80, 80, 80);
+  border-top: 1.5px solid transparent;
   border-bottom: 1px solid rgb(80, 80, 80);
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
 .filter__section__button--active{
   color: black;
+  border-top: 0px solid transparent;
   border-bottom: 2.5px solid black;
   font-weight: 700; 
-  transition: all 0.3s ease-in-out;
 
 }
 
 .filter__section__button--ofertas{
   color: red;
-  transition: all 0.3s ease-in-out;
-
 }
 
 .filter__section__button--ofertas--active{
   border-bottom: 2.5px solid black;
   font-weight: 700; 
-  transition: all 0.3s ease-in-out;
-
 }
