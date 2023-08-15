@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="filter">
 	<div class="filter__section">
-		<button class="filter__section__button filter__section__button--active" id="">Ver Todo</button>
+		<button class="filter__section__button btn-active" id="">Ver Todo</button>
 		<button class="filter__section__button" id="true-wireless">True Wireless</button>
 		<button class="filter__section__button" id="headphones">Headphones</button>
 		<button class="filter__section__button" id="bluetooth">Bluetooth</button>

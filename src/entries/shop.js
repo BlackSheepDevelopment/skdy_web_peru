@@ -10,6 +10,14 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 $(".filter__section__button").on("click", function (event) {
     let products = $(".product");
     let cat_val = event.target.id;
+    event.target.className += " btn-active";
+
+    $(".filter__section__button").each(function (index, element) {
+        if (element.id !== cat_val) {
+            element.className = "filter__section__button";
+        }
+    });
+
     products.hide();
     if (cat_val !== "") {
         let filteredProducts = $(`.product_cat-${cat_val}`);
