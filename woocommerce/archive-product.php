@@ -90,7 +90,7 @@ do_action( 'woocommerce_before_main_content' );
 		</select>	
 	</div>
 
-	<div class="filter__section filter__section--checkbox">
+	<div class="filter__section filter-checkbox">
 		<p>Cacterísticas</p>
 		<div>
 			<div class="filter-checkbox__option" >
