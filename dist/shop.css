@@ -327,18 +327,6 @@
   font-weight: 500;
 }
 
-.filter-checkbox {
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  margin: 20px;
-}
-
-.filter-checkbox p {
-  font-weight: bold;
-}
-
 .filter-checkbox__option {
   display: flex;
   align-items: center;
