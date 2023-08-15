@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div>
     <label for="filter-category">Category:</label>
-    <select name="product_cat" id="filter-category">
+    <select name="product_cat" id="filter-category" class="filter-category">
         <option value="">All Categories</option>
         <?php
         $categories = get_terms( 'product_cat' );
