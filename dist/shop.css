@@ -13,7 +13,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: "Helvetica Neue LT", sans-serif;
-  padding: 2.5rem 0;
+  padding: 1.5rem 0;
   font-size: 3.2em;
 }
 @media (max-width: 768px) {
@@ -288,7 +288,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
+  width: 300px;
   gap: 15px;
 }
 
@@ -297,7 +297,7 @@
 }
 
 .shop-features__container__info__title {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
