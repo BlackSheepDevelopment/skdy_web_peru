@@ -313,18 +313,3 @@
   justify-content: space-between;
   padding: 20px 0;
 }
-
-.filter__section__button {
-  border-style: none;
-  background-color: transparent;
-  color: rgb(80, 80, 80);
-  border-bottom: 1px solid rgb(80, 80, 80);
-  padding: 10px 20px;
-}
-
-.filter__section__button--active {
-  color: black;
-  border-bottom: 1px solid black;
-  font-weight: 700;
-  cursor: pointer;
-}
