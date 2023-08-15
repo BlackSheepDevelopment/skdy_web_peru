@@ -70,7 +70,7 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 </div>
 
-<form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
+<div>
     <label for="filter-category">Category:</label>
     <select name="product_cat" id="filter-category">
         <option value="">All Categories</option>
@@ -82,7 +82,7 @@ do_action( 'woocommerce_before_main_content' );
         ?>
     </select>
     <button type="submit">Apply Filter</button>
-</form>
+</div>
 
 
 
@@ -102,40 +102,14 @@ if ( woocommerce_product_loop() ) {
 	woocommerce_product_loop_start();
 
 
-	/*
-		if ( wc_get_loop_prop( 'total' ) ) {
+	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
 			the_post();
 			do_action( 'woocommerce_shop_loop' );
 			wc_get_template_part( 'content', 'product' );
 		}
 	}
-	*/
-	
-	// Modify the query based on filter
-	if ( isset( $_GET['product_cat'] ) && $_GET['product_cat'] ) {
-		$args = array(
-			'post_type' => 'product',
-			'product_cat' => sanitize_text_field( $_GET['product_cat'] ),
-		);
-		$query = new WP_Query( $args );
-	} else {
-		$query = new WP_Query( 'post_type=product' );
-	}
-	
-	// Start the loop
-	if ( $query->have_posts() ) {
-		while ( $query->have_posts() ) {
-			$query->the_post();
-			// Display product content here
-			do_action( 'woocommerce_shop_loop' );
-			wc_get_template_part( 'content', 'product' );
-		}
-		wp_reset_postdata();
-	} else {
-		echo 'No products found.';
-	}
-	
+		
 
 	woocommerce_product_loop_end();
 
