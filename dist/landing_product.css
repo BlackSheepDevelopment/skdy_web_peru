@@ -88,9 +88,9 @@
   }
 }
 #main-container .container__content .layout.type-product .products .product {
-  margin: 0;
+  margin: 0 !important;
   padding: 1.42857rem 3rem !important;
-  width: 33% !important;
+  width: 30% !important;
 }
 @media (max-width: 768px) {
   #main-container .container__content .layout.type-product .products .product {
