@@ -70,32 +70,19 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 </div>
 
-<div class="product-filters">
-    <form id="product-filter-form" method="GET">
-        <div class="filter-group">
-            <h3>By Style</h3>
-            <select name="style[]">
-                <option value="sport">Sport</option>
-                <option value="urban">Urban</option>
-            </select>
-        </div>
-        <div class="filter-group">
-            <h3>By Type</h3>
-            <select name="type[]">
-                <option value="headphone">Headphone</option>
-                <option value="earbuds">Earbuds</option>
-                <option value="bluetooth">Bluetooth</option>
-            </select>
-        </div>
-        <div class="filter-group">
-            <h3>Bundles</h3>
-            <label><input type="radio" name="bundles" value="packs"> Packs</label>
-            <label><input type="radio" name="bundles" value="no-packs"> No Packs</label>
-        </div>
-        <button type="submit">Apply Filters</button>
-    </form>
-    <a href="<?php echo esc_url( remove_query_arg( array( 'style', 'type', 'bundles' ), get_permalink() ) ); ?>" class="clear-filters">Clear Filters</a>
-</div>
+<form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get">
+    <label for="filter-category">Category:</label>
+    <select name="product_cat" id="filter-category">
+        <option value="">All Categories</option>
+        <?php
+        $categories = get_terms( 'product_cat' );
+        foreach ( $categories as $category ) {
+            echo '<option value="' . esc_attr( $category->slug ) . '">' . esc_html( $category->name ) . '</option>';
+        }
+        ?>
+    </select>
+    <button type="submit">Apply Filter</button>
+</form>
 
 
 
@@ -114,18 +101,29 @@ if ( woocommerce_product_loop() ) {
 
 	woocommerce_product_loop_start();
 
-	if ( wc_get_loop_prop( 'total' ) ) {
-		while ( have_posts() ) {
-			the_post();
-
-			/**
-			 * Hook: woocommerce_shop_loop.
-			 */
-			do_action( 'woocommerce_shop_loop' );
-
-			wc_get_template_part( 'content', 'product' );
-		}
+	
+	// Modify the query based on filter
+	if ( isset( $_GET['product_cat'] ) && $_GET['product_cat'] ) {
+		$args = array(
+			'post_type' => 'product',
+			'product_cat' => sanitize_text_field( $_GET['product_cat'] ),
+		);
+		$query = new WP_Query( $args );
+	} else {
+		$query = new WP_Query( 'post_type=product' );
 	}
+	
+	// Start the loop
+	if ( $query->have_posts() ) {
+		while ( $query->have_posts() ) {
+			$query->the_post();
+			// Display product content here
+		}
+		wp_reset_postdata();
+	} else {
+		echo 'No products found.';
+	}
+	
 
 	woocommerce_product_loop_end();
 
