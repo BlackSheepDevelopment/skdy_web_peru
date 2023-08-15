@@ -18,11 +18,8 @@ $(".filter__section__button").on("click", function (event) {
     }
 
     $(".filter__section__button").each(function (index, element) {
-        if (element.id !== cat_val || element.id !== "ofertas") {
+        if (element.id !== cat_val) {
             element.className = "filter__section__button";
-        } else {
-            element.className =
-                "filter__section__button filter__section__button--ofertas";
         }
     });
 
