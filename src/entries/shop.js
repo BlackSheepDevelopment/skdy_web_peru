@@ -9,9 +9,9 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 
 $(".filter-category").on("change", function (event) {
     let cat_val = event.target.value;
-    let products = $(".product");
-    console.log(products);
-    console.log("heloo");
-    let filteredProducts = products.filter(`.${cat_val}`);
-    console.log(filteredProducts);
+    let new_products = $(`.${cat_val}`);
+    console.log(new_products);
+    // console.log("heloo");
+    // let filteredProducts = products.filter(`.${cat_val}`);
+    // console.log(filteredProducts);
 });
