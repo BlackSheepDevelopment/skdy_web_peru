@@ -164,6 +164,7 @@
 .filter{
   display: flex;
   justify-content: space-between;
+  padding: 20px 0;
 }
 
 .filter-category__select{
@@ -187,11 +188,7 @@
   font-size: 12px;
   font-weight: 500;
   border-bottom: 1px solid #000;
-}
-
-.filter-checkbox-title{
-  font-size: 1rem;
-  font-weight: 700;
+  gap: 10px;
 }
 
 .filter-checkbox-container{
@@ -227,7 +224,6 @@
 
 .filter__section--buttons{
   display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 

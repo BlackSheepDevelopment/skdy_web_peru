@@ -91,7 +91,7 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 
 	<div class="filter__section filter-checkbox">
-		<p class="filter-checkbox-title">Cacterísticas</p>
+		<p class="filter-checkbox-title">Cacterísticas: </p>
 		<div class="filter-checkbox-container">
 			<div class="filter-checkbox__option" >
 				<input class="filter-checkbox__option__input" type="checkbox" name="cb-autos" value="gusta">
