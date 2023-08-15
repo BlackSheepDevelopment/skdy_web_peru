@@ -72,46 +72,24 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="filter">
 	<div class="filter__section">
-		<select name="product_cat__earphones" id="filter-category__earphones" class="filter-category__select">
-			<option value="">Audfonos</option>
-			<option value="true-wireless">True Wireless</option>
-			<option value="headphone">Headphones</option>
-			<option value="in-ear">In-Ear</option>
-		</select>	
+		<button>Ver Todo</button>
+		<button>True Wireless</button>
+		<button>Headphones</button>
+		<button>Bluetooth</button>
+		<button>Cableados</button>
 	</div>
 
 
 	<div class="filter__section">
-		<select name="product_cat__style" id="filter-category__earphones" class="filter-category__select">
-			<option value="">Actividades</option>
-			<option value="urbano">Urbano</option>
-			<option value="deportivo">Deportivo</option>
-			<option value="gaming">Gaming</option>
-		</select>	
+		<label><input type="checkbox" id="cbox1" value="first_checkbox" /> Este es mi primer checkbox</label>
 	</div>
 
-	<div class="filter__section filter-checkbox">
-		<p class="filter-checkbox-title">Cacterísticas: </p>
-		<div class="filter-checkbox-container">
-			<div class="filter-checkbox__option" >
-				<input class="filter-checkbox__option__input" type="checkbox" name="cb-autos" value="gusta">
-				<p> Skull IQ</p> 
-			</div>
-			<div class="filter-checkbox__option">
-				<input class="filter-checkbox__option__input" type="checkbox" name="cb-deportes" value="gusta"> 
-				<p>Cancelación de Ruido</p>
-			</div>
+	<div class="filter__section">
 
-			<div class="filter-checkbox__option">
-				<input class="filter-checkbox__option__input" type="checkbox" name="cb-videojuegos" value="gusta"> 
-				<p>Edición Especial</p>
-			</div>
-		</div>
 	</div>
 
-	<div class="filter__section filter__section--buttons">
-		<button class="filter__section__button">Aplicar Filtro</button>
-		<button class="filter__section__button">Limpiar Filtro</button>
+	<div class="filter__section">
+
 	</div>
 
 </div>
