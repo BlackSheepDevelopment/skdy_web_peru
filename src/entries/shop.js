@@ -9,12 +9,12 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 
 $(".filter__section__button").on("click", function (event) {
     let products = $(".product");
-    console.log(event.target.id);
-    // products.hide();
-    // if (cat_val !== "") {
-    //     let filteredProducts = $(`.product_cat-${cat_val}`);
-    //     filteredProducts.show();
-    // } else {
-    //     products.show();
-    // }
+    let cat_val = event.target.id;
+    products.hide();
+    if (cat_val !== "") {
+        let filteredProducts = $(`.product_cat-${cat_val}`);
+        filteredProducts.show();
+    } else {
+        products.show();
+    }
 });
