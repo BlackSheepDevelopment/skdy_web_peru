@@ -65,9 +65,11 @@
 
 @mixin product {
   .product {
+    margin: 0;
     padding: 1.42857rem 3rem !important;
+    width: 33%;
     @media (max-width: 768px) {
-      width: 100% !important;
+      width: 50% !important;
     }
 
     .woocommerce-loop-product__link {

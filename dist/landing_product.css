@@ -88,11 +88,13 @@
   }
 }
 #main-container .container__content .layout.type-product .products .product {
+  margin: 0;
   padding: 1.42857rem 3rem !important;
+  width: 33%;
 }
 @media (max-width: 768px) {
   #main-container .container__content .layout.type-product .products .product {
-    width: 100% !important;
+    width: 50% !important;
   }
 }
 #main-container .container__content .layout.type-product .products .product .woocommerce-loop-product__link img {

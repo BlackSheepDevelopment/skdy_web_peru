@@ -125,12 +125,19 @@
   font-weight: 500;
 }
 
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .products .product {
+  margin: 0;
   padding: 1.42857rem 3rem !important;
+  width: 33%;
 }
 @media (max-width: 768px) {
   .products .product {
-    width: 100% !important;
+    width: 50% !important;
   }
 }
 .products .product .woocommerce-loop-product__link img {
