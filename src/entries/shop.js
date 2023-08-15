@@ -9,9 +9,13 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 
 $(".filter-category").on("change", function (event) {
     let cat_val = event.target.value;
-    let new_products = $(`.${cat_val}`);
-    console.log(new_products);
-    // console.log("heloo");
-    // let filteredProducts = products.filter(`.${cat_val}`);
-    // console.log(filteredProducts);
+    let products = $(".product");
+    // Filter products that also have the class "product-earbuds"
+    let filteredProducts = $(`.product_cat-${cat_val}`);
+
+    // Hide all products first
+    products.hide();
+
+    // Show only the filtered products
+    filteredProducts.show();
 });
