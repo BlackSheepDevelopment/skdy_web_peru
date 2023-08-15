@@ -81,7 +81,6 @@ do_action( 'woocommerce_before_main_content' );
         }
         ?>
     </select>
-    <button type="submit">Apply Filter</button>
 </div>
 
 
