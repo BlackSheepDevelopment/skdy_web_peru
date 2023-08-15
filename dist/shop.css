@@ -321,11 +321,11 @@
   border-bottom: 1px solid rgb(80, 80, 80);
   padding: 10px 20px;
   margin: 0 -5px;
+  cursor: pointer;
 }
 
 .filter__section__button--active {
   color: black;
   border-bottom: 1px solid black;
   font-weight: 700;
-  cursor: pointer;
 }
