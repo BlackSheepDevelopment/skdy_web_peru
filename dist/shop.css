@@ -127,7 +127,7 @@
 
 .products {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .products .product {

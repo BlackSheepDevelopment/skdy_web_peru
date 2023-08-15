@@ -70,17 +70,52 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 </div>
 
-<div>
-    <label for="filter-category">Category:</label>
-    <select name="product_cat" id="filter-category" class="filter-category">
-        <option value="">All Categories</option>
-        <?php
-        $categories = get_terms( 'product_cat' );
-        foreach ( $categories as $category ) {
-            echo '<option value="' . esc_attr( $category->slug ) . '">' . esc_html( $category->name ) . '</option>';
-        }
-        ?>
-    </select>
+<div class="filter">
+	<div class="filter__section">
+		<label for="filter-category__earphones">Audífonos</label>
+		<select name="product_cat__earphones" id="filter-category__earphones" class="filter-category__earphones">
+			<option value="">Todo</option>
+			<option value="true-wireless">True Wireless</option>
+			<option value="headphone">Headphones</option>
+			<option value="in-ear">In-Ear</option>
+		</select>	
+	</div>
+
+
+	<div class="filter__section">
+		<label for="filter-category__earphones">Actividades</label>
+		<select name="product_cat__style" id="filter-category__earphones" class="filter-category__style">
+			<option value="">Todo</option>
+			<option value="urbano">Urbano</option>
+			<option value="deportivo">Deportivo</option>
+			<option value="gaming">Gaming</option>
+		</select>	
+	</div>
+
+	<div class="filter__section filter__section--checkbox">
+		<p>Cacterísticas</p>
+		<div>
+			<div class="filter-checkbox__option" >
+				<input class="filter-checkbox__option__input" type="checkbox" name="cb-autos" value="gusta">
+				<p> Skull IQ</p> 
+			</div>
+			<div class="filter-checkbox__option">
+				<input class="filter-checkbox__option__input" type="checkbox" name="cb-deportes" value="gusta"> 
+				<p>Cancelación de Ruido</p>
+			</div>
+
+			<div class="filter-checkbox__option">
+				<input class="filter-checkbox__option__input" type="checkbox" name="cb-videojuegos" value="gusta"> 
+				<p>Edición Especial</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="filter__section filter__section--buttons">
+		<button>Aplicar Filtro</button>
+		<button>Limpiar Filtro</button>
+	</div>
+
 </div>
 
 
