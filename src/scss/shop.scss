@@ -167,7 +167,6 @@
   padding: 20px 0;
 }
 
-
 .filter__section__button{
   border-style: none;
   background-color: transparent;
@@ -179,5 +178,6 @@
 .filter__section__button--active{
   color: black;
   border-bottom: 1px solid black;
-  font-weight: 700;
+  font-weight: 700; 
+  cursor: pointer;
 }

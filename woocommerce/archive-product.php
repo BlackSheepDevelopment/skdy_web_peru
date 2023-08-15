@@ -71,7 +71,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="filter">
-	<div class="filter__section">
+	<div>
 		<button class="filter__section__button">Ver Todo</button>
 		<button class="filter__section__button">True Wireless</button>
 		<button class="filter__section__button">Headphones</button>
