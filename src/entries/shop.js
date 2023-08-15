@@ -7,7 +7,7 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
     $("#sidebar-shop .widget").slideToggle();
 });
 
-$("filter-category").on("change", function (event) {
+$(".filter-category").on("change", function (event) {
     let cat_val = event.target.value;
     let products = $(".product");
     console.log(products);
