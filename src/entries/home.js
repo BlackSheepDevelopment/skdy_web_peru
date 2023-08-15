@@ -22,7 +22,6 @@ gallery.slick({
             settings: {
                 slidesToShow: 1,
                 dots: true,
-                arrows: true,
             },
         },
     ],
