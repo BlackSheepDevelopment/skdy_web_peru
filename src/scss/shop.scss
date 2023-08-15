@@ -186,3 +186,8 @@
 .filter__section__button--ofertas{
   color: red;
 }
+
+.filter__section__button--ofertas--active{
+  border-bottom: 2.5px solid black;
+  font-weight: 700; 
+}

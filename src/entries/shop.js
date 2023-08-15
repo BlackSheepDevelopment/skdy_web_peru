@@ -10,7 +10,12 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 $(".filter__section__button").on("click", function (event) {
     let products = $(".product");
     let cat_val = event.target.id;
-    event.target.className += " filter__section__button--active";
+
+    if (cat_val === "ofertas") {
+        event.target.className += " filter__section__button--ofertas--active";
+    } else {
+        event.target.className += " filter__section__button--active";
+    }
 
     $(".filter__section__button").each(function (index, element) {
         if (element.id !== cat_val) {
