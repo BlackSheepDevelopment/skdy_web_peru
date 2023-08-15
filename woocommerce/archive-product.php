@@ -74,14 +74,14 @@ do_action( 'woocommerce_before_main_content' );
     <form id="product-filter-form" method="GET">
         <div class="filter-group">
             <h3>By Style</h3>
-            <select name="style[]" multiple>
+            <select name="style[]">
                 <option value="sport">Sport</option>
                 <option value="urban">Urban</option>
             </select>
         </div>
         <div class="filter-group">
             <h3>By Type</h3>
-            <select name="type[]" multiple>
+            <select name="type[]">
                 <option value="headphone">Headphone</option>
                 <option value="earbuds">Earbuds</option>
                 <option value="bluetooth">Bluetooth</option>
