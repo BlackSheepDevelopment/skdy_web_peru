@@ -17,11 +17,14 @@ $(".filter__section__button").on("click", function (event) {
         event.target.className += " filter__section__button--active";
     }
 
-    // $(".filter__section__button").each(function (index, element) {
-    //     if (element.id !== cat_val) {
-    //         element.className = "filter__section__button";
-    //     }
-    // });
+    $(".filter__section__button").each(function (index, element) {
+        if (element.id !== cat_val) {
+            element.className = "filter__section__button";
+            if (element.id === "ofertas") {
+                element.className += " filter__section__button--ofertas";
+            }
+        }
+    });
 
     products.hide();
     if (cat_val !== "") {
