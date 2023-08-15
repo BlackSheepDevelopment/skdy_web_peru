@@ -327,7 +327,22 @@
   font-weight: 500;
 }
 
+.filter-checkbox {
+  display: flex;
+}
+
+.filter-checkbox-container {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+}
+
 .filter-checkbox__option {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   margin-bottom: 10px;

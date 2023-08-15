@@ -92,7 +92,7 @@ do_action( 'woocommerce_before_main_content' );
 
 	<div class="filter__section filter-checkbox">
 		<p>Cacterísticas</p>
-		<div>
+		<div class="filter-checkbox-container">
 			<div class="filter-checkbox__option" >
 				<input class="filter-checkbox__option__input" type="checkbox" name="cb-autos" value="gusta">
 				<p> Skull IQ</p> 
