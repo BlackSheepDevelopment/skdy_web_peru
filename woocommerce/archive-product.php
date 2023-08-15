@@ -91,7 +91,7 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 
 	<div class="filter__section filter-checkbox">
-		<p>Cacterísticas</p>
+		<p class="filter-checkbox-title">Cacterísticas</p>
 		<div class="filter-checkbox-container">
 			<div class="filter-checkbox__option" >
 				<input class="filter-checkbox__option__input" type="checkbox" name="cb-autos" value="gusta">
@@ -110,8 +110,8 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 
 	<div class="filter__section filter__section--buttons">
-		<button>Aplicar Filtro</button>
-		<button>Limpiar Filtro</button>
+		<button class="filter__section__button">Aplicar Filtro</button>
+		<button class="filter__section__button">Limpiar Filtro</button>
 	</div>
 
 </div>
