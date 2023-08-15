@@ -15,5 +15,7 @@ $(".filter-category").on("change", function (event) {
     if (cat_val !== "") {
         let filteredProducts = $(`.product_cat-${cat_val}`);
         filteredProducts.show();
+    } else {
+        products.show();
     }
 });
