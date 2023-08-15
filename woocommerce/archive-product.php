@@ -70,32 +70,8 @@ do_action( 'woocommerce_before_main_content' );
 	</div>
 </div>
 
-<div class="product-filters">
-    <form id="product-filter-form" method="GET">
-        <div class="filter-group">
-            <h3>By Style</h3>
-            <select name="style[]" multiple>
-                <option value="sport">Sport</option>
-                <option value="urban">Urban</option>
-            </select>
-        </div>
-        <div class="filter-group">
-            <h3>By Type</h3>
-            <select name="type[]" multiple>
-                <option value="headphone">Headphone</option>
-                <option value="earbuds">Earbuds</option>
-                <option value="bluetooth">Bluetooth</option>
-            </select>
-        </div>
-        <div class="filter-group">
-            <h3>Bundles</h3>
-            <label><input type="radio" name="bundles" value="packs"> Packs</label>
-            <label><input type="radio" name="bundles" value="no-packs"> No Packs</label>
-        </div>
-        <button type="submit">Apply Filters</button>
-    </form>
-    <a href="<?php echo esc_url( remove_query_arg( array( 'style', 'type', 'bundles' ), get_permalink() ) ); ?>" class="clear-filters">Clear Filters</a>
-</div>
+<div>HELLO WORLD COMO ESTAN</div>
+
 
 
 <?php
