@@ -7,15 +7,14 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
     $("#sidebar-shop .widget").slideToggle();
 });
 
-$(".filter-category").on("change", function (event) {
-    let cat_val = event.target.value;
+$(".filter__section__button").on("click", function (event) {
     let products = $(".product");
-
-    products.hide();
-    if (cat_val !== "") {
-        let filteredProducts = $(`.product_cat-${cat_val}`);
-        filteredProducts.show();
-    } else {
-        products.show();
-    }
+    console.log(event.target.id);
+    // products.hide();
+    // if (cat_val !== "") {
+    //     let filteredProducts = $(`.product_cat-${cat_val}`);
+    //     filteredProducts.show();
+    // } else {
+    //     products.show();
+    // }
 });

@@ -179,7 +179,10 @@
 
 .filter__section__button--active{
   color: black;
-  border-bottom: 1px solid black;
+  border-bottom: 2.5px solid black;
   font-weight: 700; 
+}
 
+.filter__section__button--ofertas{
+  color: red;
 }
