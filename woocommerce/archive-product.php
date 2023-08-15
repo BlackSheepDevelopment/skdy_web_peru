@@ -79,17 +79,21 @@ do_action( 'woocommerce_before_main_content' );
 		<button>Cableados</button>
 	</div>
 
-
 	<div class="filter__section">
-		<label><input type="checkbox" id="cbox1" value="first_checkbox" /> Este es mi primer checkbox</label>
+		<button>Ver Todo</button>
+		<button>Deportivo</button>
+		<button>Urbano</button>
 	</div>
 
 	<div class="filter__section">
-
+		<label><input type="checkbox" id="cbox1" value="first_checkbox" /> ANC</label>
+		<label><input type="checkbox" id="cbox1" value="first_checkbox" /> Skull IQ</label>
+		<label><input type="checkbox" id="cbox1" value="first_checkbox" /> Limited</label>
 	</div>
 
 	<div class="filter__section">
-
+		<button>Aplicar</button>
+		<button>Limpiar</button>
 	</div>
 
 </div>
