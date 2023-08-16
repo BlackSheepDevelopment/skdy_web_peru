@@ -85,13 +85,6 @@ do_action( 'woocommerce_before_main_content' );
 		<button class="filter__section__button" id="urbano">Urbano</button>
 	</div>
 
-	<div class="filter__section">
-		<label><input type="checkbox" id="cbox1" value="first_checkbox"/> ANC</label>
-		<label><input type="checkbox" id="cbox1" value="first_checkbox"/> Skull IQ</label>
-		<label><input type="checkbox" id="cbox1" value="first_checkbox"/> Limited</label>
-	</div>
-
-
 </div>
 
 
