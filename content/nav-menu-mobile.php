@@ -8,7 +8,7 @@
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
-                    <a href="<?php echo get_permalink($ofertas_id); ?>" class="header header-ofertas">OFERTAS</a>
+                    <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="header header-ofertas">OFERTAS</a>
                 </article>
                 <article>
                     <?php $envios_page = get_page_by_title( 'Envío Rápido' );
