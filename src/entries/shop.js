@@ -46,21 +46,3 @@ $(".filter__section__button").on("click", function (event) {
         window.location.search = "";
     }
 });
-
-const shop_features = $(".shop-features");
-const shop_count = shop_features.find(".shop-features__container").length;
-
-shop_features.slick({
-    slidesToShow: shop_count,
-    dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                dots: true,
-            },
-        },
-    ],
-});
