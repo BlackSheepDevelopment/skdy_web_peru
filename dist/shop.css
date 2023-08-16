@@ -319,6 +319,11 @@
   flex-wrap: wrap;
   padding: 20px 0;
 }
+@media (max-width: 768px) {
+  .filter {
+    justify-content: center;
+  }
+}
 
 .filter__section__button {
   border-style: none;
@@ -329,6 +334,11 @@
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .filter__section__button {
+    flex-grow: 1;
+  }
 }
 
 .filter__section__button--active {
