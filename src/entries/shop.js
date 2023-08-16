@@ -7,7 +7,7 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
     $("#sidebar-shop .widget").slideToggle();
 });
 
-$document.ready(function () {
+$(document).ready(function () {
     const urlParams = new URLSearchParams(window.location.search);
     const cat = urlParams.get("cat");
 
