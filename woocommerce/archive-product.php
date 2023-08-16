@@ -64,7 +64,7 @@ do_action( 'woocommerce_before_main_content' );
 	<div class="shop-features__container">
 		<svg width="30" height="30" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16"> <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/> <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/> </svg>
 		<div class="shop-features__container__info">
-			<p class="shop-features__container__info__title">Tiempo de entrega de 2 a 4 días hábiles en Lima Metropolitana y Callao</p>
+			<p class="shop-features__container__info__title">Entrega de 1 a 4 días hábiles en Lima Metropolitana y Callao con Envío Rápido</p>
 		</div>
 		
 	</div>
@@ -76,6 +76,7 @@ do_action( 'woocommerce_before_main_content' );
 	<button class="filter__section__button" id="headphones">Headphones</button>
 	<button class="filter__section__button" id="bluetooth">Bluetooth</button>
 	<button class="filter__section__button" id="cableados">Cableados</button>
+	<button class="filter__section__button" id="accesorios">Accesorios</button>
 	<button class="filter__section__button" id="packs">Packs</button>
 	<button class="filter__section__button filter__section__button--ofertas " id="ofertas">OFERTAS</button>
 	<button class="filter__section__button" id="deportivo">Deportivo</button>
