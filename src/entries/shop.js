@@ -47,10 +47,10 @@ $(".filter__section__button").on("click", function (event) {
 });
 
 const filter_bar = $(".filter");
-const filter_count = gallery.find(".filter__section__button").length;
+const filter_counts = gallery.find(".filter__section__button").length;
 
 filter_bar.slick({
-    slidesToShow: filter_count,
+    slidesToShow: filter_counts,
     dots: false,
     arrows: false,
     responsive: [
