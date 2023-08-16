@@ -132,7 +132,7 @@
 }
 .products .product {
   margin: 0 !important;
-  padding: 1.42857rem 3rem !important;
+  padding: 1.42857rem 1rem !important;
   width: 25% !important;
 }
 @media (max-width: 1024px) {
@@ -185,6 +185,12 @@
   font-weight: 400 !important;
   font-size: 0.9em !important;
   color: #000 !important;
+}
+@media (max-width: 768px) {
+  .products {
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .woocommerce-pagination {
