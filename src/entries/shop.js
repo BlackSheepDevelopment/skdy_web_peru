@@ -40,7 +40,8 @@ $(".filter__section__button").on("click", function (event) {
 
     if (cat_val !== "") {
         urlParams.set("cat", cat_val);
+        window.location.search = urlParams;
+    } else {
+        window.location.search = "";
     }
-
-    window.location.search = urlParams;
 });
