@@ -1,6 +1,7 @@
 import "../scss/shop.scss";
 
 import $ from "jquery";
+import "slick-carousel";
 
 $("#sidebar-shop .mobile-collapse").click(function (event) {
     event.preventDefault();
