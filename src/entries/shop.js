@@ -45,3 +45,21 @@ $(".filter__section__button").on("click", function (event) {
         window.location.search = "";
     }
 });
+
+const filter_bar = $(".filter");
+const filter_count = gallery.find(".filter__section__button").length;
+
+filter_bar.slick({
+    slidesToShow: gallery_count,
+    dots: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                arrows: true,
+            },
+        },
+    ],
+});

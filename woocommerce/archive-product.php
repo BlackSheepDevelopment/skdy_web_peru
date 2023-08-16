@@ -71,23 +71,15 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="filter">
-	<div class="filter__Section__group filter__Section__group--sale">
 		<button class="filter__section__button" id="">Ver Todo</button>
 		<button class="filter__section__button" id="true-wireless">True Wireless</button>
 		<button class="filter__section__button" id="headphones">Headphones</button>
 		<button class="filter__section__button" id="bluetooth">Bluetooth</button>
 		<button class="filter__section__button" id="cableados">Cableados</button>
 		<button class="filter__section__button" id="packs">Packs</button>
-	</div>
-	<div class="filter__Section__group filter__Section__group--sale">
 		<button class="filter__section__button filter__section__button--ofertas " id="ofertas">OFERTAS</button>
-	</div>
-
-	<div class="filter__Section__group filter__Section__group--style">
 		<button class="filter__section__button" id="deportivo">Deportivo</button>
 		<button class="filter__section__button" id="urbano">Urbano</button>		
-	</div>
-	
 </div>
 
 
