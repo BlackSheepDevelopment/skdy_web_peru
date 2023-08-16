@@ -47,7 +47,7 @@ $(".filter__section__button").on("click", function (event) {
 });
 
 const filter_bar = $(".filter");
-const filter_counts = gallery.find(".filter__section__button").length;
+const filter_counts = filter_bar.find(".filter__section__button").length;
 
 filter_bar.slick({
     slidesToShow: filter_counts,
