@@ -194,9 +194,14 @@
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
-
-  @media (max-width: 768px) {
-    flex-grow: 1;
+  flex-grow: 1;
+  transition: 0.3s;
+  
+  :hover{
+    color: white;
+    font-weight: 700;
+    background-color: black; 
+    transition: 0.3s;
   }
 }
 
