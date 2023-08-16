@@ -79,6 +79,7 @@ do_action( 'woocommerce_before_main_content' );
 	<button class="filter__section__button" id="accesorios">Accesorios</button>
 	<button class="filter__section__button" id="packs">Packs</button>
 	<button class="filter__section__button filter__section__button--ofertas " id="ofertas">OFERTAS</button>
+	<button class="filter__section__button filter__section__button--ofertas " id="envio-rapido">ENVÍO RÁPIDO</button>
 	<button class="filter__section__button" id="deportivo">Deportivo</button>
 	<button class="filter__section__button" id="urbano">Urbano</button>		
 </div>
