@@ -67,7 +67,12 @@
   .product {
     margin: 0 !important;
     padding: 1.42857rem 3rem !important;
-    width: 30% !important;
+    width: 25% !important;
+
+    @media (max-width: 1024px) {
+      width: 33% !important;
+    }
+
     @media (max-width: 768px) {
       width: 50% !important;
     }
