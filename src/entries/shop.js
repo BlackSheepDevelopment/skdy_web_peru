@@ -50,7 +50,7 @@ const filter_bar = $(".filter");
 const filter_count = gallery.find(".filter__section__button").length;
 
 filter_bar.slick({
-    slidesToShow: gallery_count,
+    slidesToShow: filter_count,
     dots: false,
     arrows: false,
     responsive: [
