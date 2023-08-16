@@ -7,33 +7,35 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
     $("#sidebar-shop .widget").slideToggle();
 });
 
-$(".filter__section__button").on("click", function (event) {
-    let products = $(".product");
-    let cat_val = event.target.id;
+$document.ready(function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const cat = urlParams.get("cat");
 
-    if (cat_val === "ofertas") {
-        event.target.className += " filter__section__button--ofertas--active";
-    } else {
-        event.target.className += " filter__section__button--active";
+    if (cat !== null) {
+        $(".filter__section__button").each(function (index, element) {
+            if (element.id === cat) {
+                if (cat === "ofertas") {
+                    element.className +=
+                        " filter__section__button--ofertas--active";
+                } else {
+                    element.className += " filter__section__button--active";
+                }
+            }
+        });
     }
 
-    $(".filter__section__button").each(function (index, element) {
-        if (element.id !== cat_val) {
-            element.className = "filter__section__button";
-            if (element.id === "ofertas") {
-                element.className += " filter__section__button--ofertas";
-            }
-        }
-    });
-
+    let products = $(".product");
     products.hide();
-    if (cat_val !== "") {
-        let filteredProducts = $(`.product_cat-${cat_val}`);
+    if (cat !== null) {
+        let filteredProducts = $(`.product_cat-${cat}`);
         filteredProducts.show();
     } else {
         products.show();
     }
+});
 
+$(".filter__section__button").on("click", function (event) {
+    let cat_val = event.target.id;
     const urlParams = new URLSearchParams(window.location.search);
     urlParams.set("cat", cat_val);
     window.location.search = urlParams;
