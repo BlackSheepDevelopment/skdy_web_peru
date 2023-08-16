@@ -1,7 +1,6 @@
 import "../scss/shop.scss";
 
 import $ from "jquery";
-import "slick-carousel";
 
 $("#sidebar-shop .mobile-collapse").click(function (event) {
     event.preventDefault();
@@ -45,22 +44,4 @@ $(".filter__section__button").on("click", function (event) {
     } else {
         window.location.search = "";
     }
-});
-
-const filter_bar = $(".filter");
-const filter_counts = filter_bar.find(".filter__section__button").length;
-
-filter_bar.slick({
-    slidesToShow: filter_counts,
-    dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                arrows: true,
-            },
-        },
-    ],
 });
