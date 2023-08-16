@@ -164,9 +164,13 @@
 .filter{
   display: flex;
   justify-content: start;
-  gap: 25px;
   flex-wrap: wrap;
   padding: 20px 0;
+}
+
+.filter__Section__group{
+  display: flex;
+  justify-content: start;
 }
 
 .filter__section__button{
