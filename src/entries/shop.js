@@ -33,4 +33,8 @@ $(".filter__section__button").on("click", function (event) {
     } else {
         products.show();
     }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    urlParams.set("cat", cat_val);
+    window.location.search = urlParams;
 });
