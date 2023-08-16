@@ -11,18 +11,18 @@ $(document).ready(function () {
     const urlParams = new URLSearchParams(window.location.search);
     const cat = urlParams.get("cat");
 
-    if (cat !== null) {
-        $(".filter__section__button").each(function (index, element) {
-            if (element.id === cat) {
-                if (cat === "ofertas") {
-                    element.className +=
-                        " filter__section__button--ofertas--active";
-                } else {
-                    element.className += " filter__section__button--active";
-                }
+    $(".filter__section__button").each(function (index, element) {
+        if (element.id === cat) {
+            if (cat === "ofertas") {
+                element.className +=
+                    " filter__section__button--ofertas--active";
+            } else {
+                element.className += " filter__section__button--active";
             }
-        });
-    }
+        } else if (element.id === "" && cat === null) {
+            element.className += " filter__section__button--active";
+        }
+    });
 
     let products = $(".product");
     products.hide();
@@ -37,6 +37,10 @@ $(document).ready(function () {
 $(".filter__section__button").on("click", function (event) {
     let cat_val = event.target.id;
     const urlParams = new URLSearchParams(window.location.search);
-    urlParams.set("cat", cat_val);
+
+    if (cat_val !== "") {
+        urlParams.set("cat", cat_val);
+    }
+
     window.location.search = urlParams;
 });
