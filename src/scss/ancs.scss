@@ -1,8 +1,13 @@
-.main_anc{ 
-    padding: 0 10%;
-}
-
 .header_anc{
     font-size: 2rem;
 }
 
+.content_anc{ 
+    display: flex;
+    gap: 20px;
+    
+    @media (max-width: 768px){
+        flex-direction: column;
+        gap: 0px;
+    }
+}
