@@ -1,5 +1,24 @@
+
+.main_anc{
+    font-family: 'Helvetica Neue LT';
+    padding: 0 5%;
+    background-color: black;
+}
+
 .header_anc{
     font-size: 2rem;
+}
+
+.image_anc{
+    border-radius: 100px;
+    height: 100vh;
+    width: auto;
+    max-width: 50%;
+
+    @media (max-width: 768px){
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .content_anc{ 
@@ -10,4 +29,16 @@
         flex-direction: column;
         gap: 0px;
     }
+}
+
+
+.info_anc{
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 100px;
+    background-color: #D1D3CE;
+    color: #131313;
+    align-items: center
+    justify-content: center;
 }

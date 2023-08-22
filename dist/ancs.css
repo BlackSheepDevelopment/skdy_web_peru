@@ -1,5 +1,22 @@
+.main_anc {
+  font-family: "Helvetica Neue LT";
+}
+
 .header_anc {
   font-size: 2rem;
+}
+
+.image_anc {
+  border-radius: 100px;
+  height: 100vh;
+  width: auto;
+  max-width: 50%;
+}
+@media (max-width: 768px) {
+  .image_anc {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .content_anc {
