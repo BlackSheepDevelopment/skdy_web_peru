@@ -1,4 +1,4 @@
-
+@import "mixins";
 .main_anc{
     background-color: black;
 }
@@ -121,5 +121,5 @@
 }
 
 .product_anc_CTA{
-    
+    @include btn(#fff, #383838, #2c2c2d);
 }
