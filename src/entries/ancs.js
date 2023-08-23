@@ -13,7 +13,12 @@ let time = 0;
 
 function animate() {
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight / 3;
+
+    if (window.innerWidth < 768) {
+        canvas.height = window.innerHeight;
+    } else {
+        canvas.height = window.innerHeight / 3;
+    }
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 

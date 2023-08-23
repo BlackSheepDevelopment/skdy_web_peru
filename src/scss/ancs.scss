@@ -8,25 +8,23 @@
 
 
 .image_anc{
-    border-radius: 100px;
     height: 450px!important;  
     width: auto;
     max-width: 50%!important;
 
     @media (max-width: 768px){
         max-width: 100%!important;
+        padding: 0 40px;
         height: auto!important;
     }
 }
 
 .content_anc{ 
     display: flex;
-    gap: 20px;
     padding: 20px 10% 100px 10%;
     
     @media (max-width: 768px){
         flex-direction: column;
-        gap: 20px;
     }
 }
 
@@ -41,6 +39,12 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+
+    @media (max-width: 768px){
+        border-radius: 50px;
+        padding: 20px;
+        gap: 20px;
+    }
 }
 
 .header_anc{
@@ -139,7 +143,9 @@
     text-align: center;
     z-index: 2;
     color: #131313;
-    border-radius: 120px;
+
+    @media (max-width: 768px){
+    }
   }
 
   .sine-wave-container {
