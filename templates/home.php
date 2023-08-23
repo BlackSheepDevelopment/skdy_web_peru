@@ -17,7 +17,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div id="home-grid">
                 <source srcset="<?php echo get_template_directory_uri() ?>src/assets/MAIN_BANNER_MOV.png"
                         media="(max-width: 550px)"/>
-                <img src="<?php echo get_template_directory_uri() ?>src/assets/MAIN_BANNER_WEB_DESK.png" alt="Home Grid"
+                <img src="<?php echo get_template_directory_uri() ?>src/assets/MAIN_BANNER_WEB_DESK.png" alt="Home Grid v2"
                      class="home-grid">
             </div>
 		<?php endif; ?>
