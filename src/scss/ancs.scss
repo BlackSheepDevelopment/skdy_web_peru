@@ -125,3 +125,36 @@
 .product_anc_CTA{
     @include btn(#fff, #383838, #2c2c2d);
 }
+
+
+
+
+.sine-wave-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .point {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #3498db;
+    border-radius: 50%;
+  }
+
+  .info-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #333;
+  }
