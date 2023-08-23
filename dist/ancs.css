@@ -1,5 +1,4 @@
 .main_anc {
-  padding: 20px 10% 0px 10%;
   background-color: black;
 }
 
@@ -19,6 +18,7 @@
 .content_anc {
   display: flex;
   gap: 20px;
+  padding: 20px 10% 0px 10%;
 }
 @media (max-width: 768px) {
   .content_anc {
