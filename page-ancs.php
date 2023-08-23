@@ -101,7 +101,7 @@ get_header(); ?>
                             </p>
                         </li>
                     </ul>
-                    <a id="product_anc_CTA" class="product_anc_CTA" href="https://www.skullcandy.com/sesh-anc-wireless-earbuds/">¡COMPRALOS AQUÍ!</a>
+                    <a id="product_anc_CTA" class="product_anc_CTA" href="https://skullcandy.com.pe/producto/sesh-anc-true-wireless-earbuds/">¡COMPRALOS AQUÍ!</a>
                 </div>
 
             </div>
