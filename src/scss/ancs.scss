@@ -102,6 +102,11 @@
     display: flex;
     gap: 50px;
     align-items: center;
+
+    @media (max-width: 1280px){
+        flex-direction: column;    
+    }
+
 }
 
 .product_anc_general{
