@@ -12,36 +12,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </a>
     </div>
 <?php endif; ?>
-    <div class="main-container">
+    <div class="main-container`">
 		<?php if ( have_rows( 'header' ) ): ?>
             <div id="home-grid">
-				<?php while ( have_rows( 'header' ) ):
-					the_row(); ?>
-                    <section data-href="<?php the_sub_field( 'link' ); ?>">
-                        <div class="layer">
-							<?php if ( get_sub_field( 'title' ) ): ?>
-                                <h5><?php the_sub_field( 'title' ); ?></h5>
-							<?php endif; ?>
-							<?php if ( get_sub_field( 'text' ) ): ?>
-                                <p><?php the_sub_field( 'text' ); ?></p>
-							<?php endif; ?>
-							<?php if ( have_rows( 'call_to_actions' ) ): ?>
-                                <div class="cta-wrapper">
-									<?php while ( have_rows( 'call_to_actions' ) ): the_row(); ?>
-                                        <a href="<?php the_sub_field( 'cta_link' ); ?>"
-                                           class="cta"><?php the_sub_field( 'cta_text' ); ?></a>
-									<?php endwhile; ?>
-                                </div>
-							<?php endif; ?>
-                        </div>
-                        <picture>
-							<?php $background = get_sub_field( 'background' ); ?>
-                            <source srcset="<?php echo $background['desktop']['url'] ?>" media="(min-width: 551px)"/>
-                            <img src="<?php echo $background['mobile']['url'] ?>"
-                                 alt="<?php echo $background['mobile']['alt'] ?>">
-                        </picture>
-                    </section>
-				<?php endwhile; ?>
+                <source srcset="<?php echo get_template_directory_uri() ?>/assets/MAIN_BANNER_MOBILE.png"
+                        media="(max-width: 550px)"/>
+                <img src="<?php echo get_template_directory_uri() ?>/assets/MAIN_BANNER_WEB_DESK.png" alt="Home Grid"
+                     class="home-grid">
             </div>
 		<?php endif; ?>
 		<?php if ( have_rows( 'banners' ) ):
