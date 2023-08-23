@@ -28,7 +28,7 @@
 
 .image_anc {
   border-radius: 100px;
-  height: calc(100vh - 120px) !important;
+  height: 450px !important;
   width: auto;
   max-width: 50% !important;
 }
@@ -47,7 +47,7 @@
 @media (max-width: 768px) {
   .content_anc {
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
   }
 }
 
@@ -204,12 +204,13 @@
   text-align: center;
   z-index: 2;
   color: #131313;
+  border-radius: 120px;
 }
 
 .sine-wave-container {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 33vh;
   overflow: hidden;
   z-index: 1;
 }
