@@ -43,6 +43,28 @@ get_header(); ?>
             </ul>
         </div>
     </div>
+    <div class="products_anc">
+        <div class="products_anc_container">
+            <div class="products_anc_item">
+                <img class="products_anc_image" src="<?php echo get_template_directory_uri(); ?>/src/assets/SESH_ANC.png" alt="sesh">
+                <h3 class="products_anc_title">Sesh® ANC</h3>
+                <p class="products_anc_description">Cancelación de ruido activa, 5 horas de batería, tecnología Tile™, asistente de voz y botón de control de sonido.</p>
+                <a class="products_anc_link" href="https://www.skullcandy.pe/shop/audifonos/sesh-anc">Ver más</a>
+            </div>
+            <div class="products_anc_item">
+                <img class="products_anc_image" src="<?php echo get_template_directory_uri(); ?>/src/assets/ANC_INDY.png" alt="indy">
+                <h3 class="products_anc_title">Indy ANC</h3>
+                <p class="products_anc_description">Cancelación de ruido activa, 19 horas de batería, tecnología Tile™, asistente de voz y botón de control de sonido.</p>
+                <a class="products_anc_link" href="https://www.skullcandy.pe/shop/audifonos/indy-anc">Ver más</a>
+            </div>
+            <div class="products_anc_item">
+                <img class="products_anc_image" src="<?php echo get_template_directory_uri(); ?>/src/assets/ANC_METHOD.png" alt="method">
+                <h3 class="products_anc_title">Method ANC</h3>
+                <p class="products_anc_description">Cancelación de ruido activa, 6 horas de batería, tecnología Tile™, asistente de voz y botón de control de sonido.</p>
+                <a class="products_anc_link" href="https://www.skullcandy.pe/shop/audifonos/method-anc">Ver más</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 
