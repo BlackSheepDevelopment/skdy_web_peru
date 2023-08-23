@@ -3,12 +3,6 @@ get_header(); ?>
 
 <div class="main_anc">
     <div class="sine-wave-container">
-        <div class="info-container">
-            <h1>Welcome to the Information Page</h1>
-            <p>This is some information that you want to display on top of the animated background.</p>
-        </div>
-        <canvas id="sine-wave-canvas"></canvas>
-    </div>
     <div class="content_anc">	
         <img class="image_anc" src="<?php echo get_template_directory_uri(); ?>/src/assets/ANC_SIDEBANNER.png" alt="ancs">
         <div class="info_anc">
@@ -50,6 +44,9 @@ get_header(); ?>
             </ul>
         </div>
     </div>
+        <canvas id="sine-wave-canvas"></canvas>
+    </div>
+
     <div class="products_anc">
         <div class="products_anc_container">
             <?php
