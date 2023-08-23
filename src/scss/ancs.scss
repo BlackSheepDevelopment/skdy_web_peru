@@ -78,3 +78,26 @@
     padding: 50px 10%;
 
 }
+
+
+
+.product_anc_information{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.product_anc_general{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.product_anc_features{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-start;
+}
