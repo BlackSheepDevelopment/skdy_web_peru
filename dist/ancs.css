@@ -220,3 +220,8 @@
   overflow: hidden;
   z-index: 1;
 }
+@media (max-width: 1280px) {
+  .sine-wave-container {
+    height: 100vh;
+  }
+}

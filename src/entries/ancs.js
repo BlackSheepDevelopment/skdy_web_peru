@@ -14,7 +14,7 @@ let time = 0;
 function animate() {
     canvas.width = window.innerWidth;
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 1280) {
         canvas.height = window.innerHeight;
     } else {
         canvas.height = window.innerHeight / 3;
