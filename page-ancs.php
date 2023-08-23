@@ -11,7 +11,7 @@ get_header(); ?>
     <div class="content_anc">	
         <img class="image_anc" src="<?php echo get_template_directory_uri(); ?>/src/assets/ANC_SIDEBANNER.png" alt="ancs">
         <div class="info_anc">
-            <h2 class="subtitle_anc">Concentración total: </h2>
+            <h2 class="subtitle_anc">Concentración total</h2>
             <h3 class="smalltitle_anc">Vive el sonido, bloquea el ruido con el ANC de Skullcandy.</h3>
             <ul class="list_anc">
                 <li class="list_item_anc">
