@@ -15,10 +15,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     <div class="main-container`">
 		<?php if ( have_rows( 'header' ) ): ?>
             <div id="home-grid">
-                <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_DESK.png"
-                        media="(max-width: 551px)"/>
-                <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
-                     class="home-grid">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_DESK.png"
+                            media="(min-width: 551px)"/>
+                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
+                        class="home-grid">
+                </picture>
             </div>
 		<?php endif; ?>
 		<?php if ( have_rows( 'banners' ) ):
