@@ -12,7 +12,7 @@ const waveConfigs = [
 let time = 0;
 
 function animate() {
-    canvas.width = window.innerWidth / 2;
+    canvas.width = window.innerWidth;
     canvas.height = window.innerHeight / 2;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
