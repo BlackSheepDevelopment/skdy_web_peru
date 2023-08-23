@@ -1,6 +1,6 @@
 .main_anc {
   font-family: "Helvetica Neue LT";
-  padding: 0 5%;
+  padding: 0 10%;
   background-color: black;
 }
 
@@ -10,14 +10,14 @@
 
 .image_anc {
   border-radius: 100px;
-  height: 100vh;
+  height: calc(100vh - 120px) !important;
   width: auto;
-  max-width: 50%;
+  max-width: 50% !important;
 }
 @media (max-width: 768px) {
   .image_anc {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% !important;
+    height: auto !important;
   }
 }
 
