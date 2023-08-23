@@ -60,7 +60,12 @@
 }
 
 .list_item_anc {
+  display: flex;
+  gap: 10px;
   font-size: 1.2rem;
   color: #131313;
   font-weight: 600;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
