@@ -44,7 +44,7 @@
     color: #131313;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
 
     @media (max-width: 1280px){
         padding: 20px;
@@ -60,6 +60,7 @@
 
 .subtitle_anc{
     font-family: 'Helvetica Neue LT';
+    font-size: 2rem;
     @media (max-width: 1280px){
         font-size: 1.3rem;
         text-align: center;
@@ -79,7 +80,7 @@
 .list_item_anc{
     display: flex;
     gap: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #131313;
     font-weight: 600;
     list-style-type: none;
