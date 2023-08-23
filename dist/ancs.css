@@ -97,11 +97,19 @@
   justify-content: flex-start;
 }
 
+.product-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .product-features-item {
   display: flex;
   gap: 10px;
   color: #131313;
+  font-size: 1.2rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
