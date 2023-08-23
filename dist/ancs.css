@@ -80,6 +80,12 @@
 .subtitle_anc {
   font-family: "Helvetica Neue LT";
 }
+@media (max-width: 1280px) {
+  .subtitle_anc {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
 
 .text_anc {
   font-size: 1.3rem;
@@ -100,6 +106,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: center;
+}
+@media (max-width: 1280px) {
+  .list_item_anc {
+    font-size: 1rem;
+  }
 }
 
 .products_anc {
@@ -213,6 +225,12 @@
   z-index: 2;
   color: #131313;
 }
+@media (max-width: 1280px) {
+  .info-container {
+    margin: -40px 0;
+  }
+}
+
 .sine-wave-container {
   position: relative;
   width: 100%;
