@@ -54,3 +54,9 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.list_item_anc {
+  font-size: 1.2rem;
+  color: #131313;
+  font-weight: 600;
+}
