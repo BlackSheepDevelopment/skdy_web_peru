@@ -151,11 +151,15 @@
   display: flex;
   gap: 10px;
   color: #131313;
-  font-size: 1.2rem;
   list-style-type: none;
   margin: 0;
   padding: 0;
   align-items: center;
+}
+@media (max-width: 1280px) {
+  .product-features-item {
+    font-size: 1rem;
+  }
 }
 
 .product_anc_CTA {
@@ -241,5 +245,33 @@
 @media (max-width: 1280px) {
   .sine-wave-container {
     height: 100vh;
+  }
+}
+
+.product-features-item__icon {
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 1280px) {
+  .product-features-item__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-items: center !important;
+  align-items: center !important;
+}
+
+.product-title {
+  font-size: 1.5rem;
+}
+@media (max-width: 1280px) {
+  .product-title {
+    font-size: 1.2rem;
   }
 }
