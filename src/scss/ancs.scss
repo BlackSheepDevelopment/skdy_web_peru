@@ -92,6 +92,7 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
+    align-items: center;
 }
 
 .product_anc_features{
@@ -100,4 +101,13 @@
     gap: 20px;
     width: 100%;
     justify-content: flex-start;
+}
+
+.product-features-item{
+    display: flex;
+    gap: 10px;
+    color: #131313;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
