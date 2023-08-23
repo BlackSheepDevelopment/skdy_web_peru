@@ -12,9 +12,13 @@
     width: auto;
     max-width: 50%!important;
 
+    @media (max-width: 1280px){
+        max-width: 100%!important;
+        height: auto!important;
+    }
+
     @media (max-width: 768px){
         max-width: 100%!important;
-        padding: 0 40px;
         height: auto!important;
     }
 }
@@ -39,7 +43,7 @@
     justify-content: center;
     gap: 60px;
 
-    @media (max-width: 768px){
+    @media (max-width: 1280px){
         padding: 20px;
         gap: 20px;
     }
