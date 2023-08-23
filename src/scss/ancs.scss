@@ -23,7 +23,7 @@
     display: flex;
     padding: 20px 10% 100px 10%;
     
-    @media (max-width: 768px){
+    @media (max-width: 1280px){
         flex-direction: column;
     }
 }
