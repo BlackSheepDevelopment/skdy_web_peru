@@ -4,15 +4,13 @@ get_header(); ?>
 <div class="main_anc">
     <div class="sine-wave-container">
         <div class="info-container">
-            <h1>Welcome to the Information Page</h1>
-            <p>This is some information that you want to display on top of the animated background.</p>
+            <h1>Cancelación de Ruido (ANC)</h1>
         </div>
         <canvas id="sine-wave-canvas"></canvas>
     </div>
     <div class="content_anc">	
         <img class="image_anc" src="<?php echo get_template_directory_uri(); ?>/src/assets/ANC_SIDEBANNER.png" alt="ancs">
         <div class="info_anc">
-            <h1 class="header_anc">Cancelación de ruido Skullcandy</h1>
             <h2 class="subtitle_anc">Experimenta la Calma Absoluta: Descubre los Beneficios de la Cancelación Activa de Ruido.</h2>
             <ul class="list_anc">
                 <li class="list_item_anc">
