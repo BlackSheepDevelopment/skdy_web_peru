@@ -29,7 +29,7 @@ function animate() {
             ctx.lineTo(x, y);
         }
 
-        ctx.strokeStyle = "#3498db";
+        ctx.strokeStyle = "#FFFFFF";
         ctx.lineWidth = 2;
         ctx.stroke();
         ctx.closePath();
