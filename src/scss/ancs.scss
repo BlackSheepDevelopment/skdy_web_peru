@@ -8,9 +8,10 @@
 
 
 .image_anc{
-    height: 450px!important;  
+    height: calc(100vh - 50vh)!important;  
     width: auto;
     max-width: 50%!important;
+    border-radius: 20px;
 
     @media (max-width: 1280px){
         max-width: 100%!important;
@@ -27,6 +28,7 @@
     display: flex;
     padding: 20px 10% 100px 10%;
     justify-content: center;
+    gap: 30px;
     @media (max-width: 1280px){
         flex-direction: column;
     }
@@ -34,6 +36,7 @@
 
 
 .info_anc{
+    border-radius: 20px;
     padding: 0 5%;
     flex-direction: column;
     display: flex;
@@ -162,7 +165,7 @@
     text-align: center;
     z-index: 2;
     color: #131313;
-
+    border-radius: 20px;
     @media (max-width: 1280px){
         margin: -40px 0;
     }
