@@ -26,7 +26,7 @@
 .content_anc{ 
     display: flex;
     padding: 20px 10% 100px 10%;
-    
+    justify-content: center;
     @media (max-width: 1280px){
         flex-direction: column;
     }
