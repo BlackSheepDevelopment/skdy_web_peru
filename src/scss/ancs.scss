@@ -5,9 +5,7 @@
     background-color: black;
 }
 
-.header_anc{
-    font-size: 2rem;
-}
+
 
 .image_anc{
     border-radius: 100px;
@@ -33,7 +31,7 @@
 
 
 .info_anc{
-    padding: 50px;
+    padding: 0 5%;
     flex-direction: column;
     display: flex;
     border-radius: 100px;
@@ -41,4 +39,14 @@
     color: #131313;
     align-items: center;
     justify-content: center;
+    gap: 60px;
+}
+
+.header_anc{
+    font-size: 3.3rem;
+    color: #A98567;
+}
+
+.text_anc{
+    font-size: 1.3rem;
 }
