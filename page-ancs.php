@@ -101,7 +101,7 @@ get_header(); ?>
                             </p>
                         </li>
                     </ul>
-                    <a href="https://www.skullcandy.com/sesh-anc-wireless-earbuds/"></a>
+                    <a href="https://www.skullcandy.com/sesh-anc-wireless-earbuds/">¡COMPRALOS AQUÍ!</a>
                 </div>
 
             </div>
