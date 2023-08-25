@@ -184,6 +184,7 @@
 }
 
 .home-title__button {
+  display: block;
   position: relative;
   overflow: hidden;
   height: 3.17143rem;
@@ -197,15 +198,14 @@
   text-align: center;
   background: 0 0;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: bold;
   border-radius: 0;
   cursor: pointer;
   z-index: 1;
-  max-width: max-content;
 }
 .home-title__button:hover {
-  color: #fff;
+  color: #000;
 }
 .home-title__button:hover:after {
   width: 120%;
@@ -218,7 +218,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #383838;
+  background: #ededed;
 }
 .home-title__button:after {
   content: "";
@@ -227,7 +227,7 @@
   width: 20px;
   height: 100%;
   top: 0;
-  background: #2c2c2d;
+  background: #ddd;
   left: 50%;
   cursor: pointer;
   transform: translate(-50%) skew(20deg) scaleX(1);

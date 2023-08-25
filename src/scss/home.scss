@@ -92,8 +92,9 @@
 }
 
 .home-title__button{
-  @include btn(#fff, #383838, #2c2c2d);
-  max-width: max-content;
+  display: block;
+  @include btn(#000, #ededed, #ddd);
+
 }
 
 // FEATURED
