@@ -111,6 +111,7 @@
 #home-grid {
   width: 100%;
   height: auto;
+  padding-top: 25px;
 }
 
 .home-grid__picture {
@@ -118,7 +119,6 @@
 }
 
 .home-info {
-  padding-top: 25px;
   position: absolute;
   top: 50%;
   left: 15%;
@@ -207,5 +207,28 @@
 @media (max-width: 768px) {
   .full-width {
     padding: 20px 20px 0px 20px;
+  }
+}
+
+.wave-container {
+  display: flex;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.wave-bar {
+  width: 20px;
+  background-color: #3498db;
+  margin: 0 2px;
+  animation: waveAnimation 1s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+@keyframes waveAnimation {
+  0%, 100% {
+    transform: scaleY(0.5);
+  }
+  50% {
+    transform: scaleY(1.5);
   }
 }

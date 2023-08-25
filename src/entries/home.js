@@ -26,3 +26,18 @@ gallery.slick({
         },
     ],
 });
+
+const waveContainer = document.querySelector(".wave-container");
+const numBars = 10; // Number of wave bars
+
+function createWaveBars() {
+    for (let i = 0; i < numBars; i++) {
+        const frequency = Math.random() * 3 + 1; // Generate random frequency (adjust range as needed)
+        const waveBar = document.createElement("div");
+        waveBar.classList.add("wave-bar");
+        waveBar.style.animationDuration = frequency + "s"; // Set animation duration based on frequency
+        waveContainer.appendChild(waveBar);
+    }
+}
+
+createWaveBars();
