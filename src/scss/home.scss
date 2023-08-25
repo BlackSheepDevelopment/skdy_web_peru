@@ -135,31 +135,3 @@
   }
 }
 
-
-.sound-wave-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  background-color: transparent;
-  overflow: hidden;
-}
-
-.sound-wave {
-  flex: 1;
-  --frequency: 1;
-  height: 20px;
-  background-color: #3498db;
-  animation: soundWaveAnimation var(--frequency)s alternate infinite ease-in-out;
-}
-
-@keyframes soundWaveAnimation {
-  0% {
-      height: 20px;
-  }
-  100% {
-      height: 50px;
-  }
-}

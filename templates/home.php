@@ -14,11 +14,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
             <div id="home-grid">
-                <div class="sound-wave-bar">
-                    <div class="sound-wave" style="--frequency: 1;"></div>
-                    <div class="sound-wave" style="--frequency: 2;"></div>
-                    <div class="sound-wave" style="--frequency: 3;"></div>
-                </div>
                 <div class="home-picture">
                     <picture>
                         <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_DESK.png"
