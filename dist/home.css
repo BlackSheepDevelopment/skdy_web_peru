@@ -141,7 +141,7 @@
 @media (max-width: 1024px) {
   .home-info {
     top: 40%;
-    left: 5%;
+    left: 15%;
   }
 }
 
@@ -176,8 +176,10 @@
 
 @media (max-width: 1024px) {
   .home-title__image {
-    height: 30px;
-    width: auto;
+    position: absolute;
+    left: 25%;
+    height: 45px !important;
+    width: auto !important;
   }
 }
 
