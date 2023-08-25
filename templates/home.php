@@ -21,10 +21,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         class="home-grid">
                 </picture>
                 <div class="home-info">
-                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                     <p class="home-title">SINTONIZA</p>
                     <p class="home-title">CADA MOMENTO</p>
                     <p class="home-title home-title--bold">CON LA FUNCIÓN PERFECTA</p>
+                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                 </div>
                   
             </div>
