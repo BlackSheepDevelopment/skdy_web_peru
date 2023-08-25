@@ -111,6 +111,9 @@
 #home-grid {
   width: 100%;
   height: auto;
+}
+
+.home-grid__picture {
   border-radius: 35px;
 }
 

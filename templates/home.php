@@ -18,7 +18,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_DESK.png"
                             media="(min-width: 551px)"/>
                     <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
-                        class="home-grid">
+                        class="home-grid__picture">
                 </picture>
                 <div class="home-info">
                     <p class="home-title">SINTONIZA</p>
