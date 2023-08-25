@@ -160,12 +160,12 @@
 }
 @media (max-width: 1024px) {
   .home-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 640px) {
   .home-title {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 }
@@ -177,15 +177,6 @@
   .home-title--bold {
     font-size: 1.2rem;
     text-align: center;
-  }
-}
-
-@media (max-width: 1024px) {
-  .home-title__image {
-    position: absolute;
-    left: 25%;
-    height: 45px !important;
-    width: auto !important;
   }
 }
 
@@ -209,6 +200,7 @@
   border-radius: 0;
   cursor: pointer;
   z-index: 1;
+  margin-top: 2rem;
 }
 .home-title__button:hover {
   color: #000;

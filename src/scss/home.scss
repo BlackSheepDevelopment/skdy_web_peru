@@ -69,11 +69,11 @@
   color: white;
 
   @media (max-width: 1024px) {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   @media (max-width: 640px) {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 }
@@ -87,19 +87,13 @@
   }
 }
 
-.home-title__image{
 
-  @media (max-width: 1024px) {
-    position: absolute;
-    left: 25%;
-    height: 45px!important;
-    width: auto!important;
-  }
-}
 
 .home-title__button{
   display: block;
   @include btn(#000, #ededed, #ddd);
+  margin-top: 2rem;
+
 
   @media (max-width: 1024px) {
     margin-top: 7rem;
