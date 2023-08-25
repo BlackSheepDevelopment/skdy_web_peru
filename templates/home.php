@@ -15,9 +15,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     <div class="main-container">
             <div id="home-grid">
                 <div class="sound-wave-bar">
-                    <div class="sound-wave"></div>
-                    <div class="sound-wave"></div>
-                    <div class="sound-wave"></div>
+                    <div class="sound-wave" style="--frequency: 1;"></div>
+                    <div class="sound-wave" style="--frequency: 2;"></div>
+                    <div class="sound-wave" style="--frequency: 3;"></div>
                 </div>
                 <div class="home-picture">
                     <picture>
