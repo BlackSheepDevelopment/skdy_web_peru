@@ -49,8 +49,8 @@
   top: 50%;
   left: 15%;
 
-  @media (max-width: 1024px) {
-    top: 40%;
+  @media (max-width:1280px){
+    top: 30%;
     left: 15%;
   }
 }
@@ -94,6 +94,10 @@
 .home-title__button{
   display: block;
   @include btn(#000, #ededed, #ddd);
+
+  @media (max-width: 1024px) {
+    margin-top: 5rem;
+  }
 
 }
 

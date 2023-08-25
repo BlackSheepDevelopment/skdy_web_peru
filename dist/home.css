@@ -138,9 +138,9 @@
   top: 50%;
   left: 15%;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .home-info {
-    top: 40%;
+    top: 30%;
     left: 15%;
   }
 }
@@ -238,6 +238,11 @@
 }
 .home-title__button.disabled, .home-title__button:disabled {
   pointer-events: none;
+}
+@media (max-width: 1024px) {
+  .home-title__button {
+    margin-top: 5rem;
+  }
 }
 
 .top-products {
