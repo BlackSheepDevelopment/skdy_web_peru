@@ -120,13 +120,13 @@
 .home-info {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 3%;
 }
 
 .home-title {
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   text-align: start;
   color: white;
 }
