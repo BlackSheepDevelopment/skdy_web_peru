@@ -257,6 +257,16 @@
   }
 }
 
+.top-products-container__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-image {
+  width: 200px;
+}
+
 .product-details {
   display: flex;
   flex-direction: column;
