@@ -17,7 +17,7 @@
 }
 
 .main-container{ 
-  padding: 0 10%;
+  padding: 0 5%;
 
 }
 
@@ -25,6 +25,25 @@
   width: 100%;
   height: auto;
   border-radius: 35px;
+}
+
+.home-info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.home-title{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+}
+
+
+.home-title--bold{
+  font-weight: 900;
 }
 
 #gallery {
