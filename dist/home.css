@@ -240,6 +240,10 @@
   pointer-events: none;
 }
 
+.top-products {
+  padding: 30px 0;
+}
+
 .top-products__title {
   font-size: 2rem;
   font-weight: 700;
@@ -260,7 +264,7 @@
 .top-products-container__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .product-image {
@@ -275,14 +279,14 @@
 }
 
 .product-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 0.3rem;
   text-align: center;
 }
 
 .product-price {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
   text-align: center;
