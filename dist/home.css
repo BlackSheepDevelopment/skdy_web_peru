@@ -210,25 +210,33 @@
   }
 }
 
-.wave-container {
+.sound-wave-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
   display: flex;
-  align-items: flex-end;
-  height: 80vh;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+  animation: soundWaveAnimation 2s infinite linear;
 }
 
-.wave-bar {
+.sound-wave {
   width: 20px;
+  height: 20px;
   background-color: #3498db;
-  margin: 0 2px;
-  animation: waveAnimation 1s ease-in-out infinite;
-  transform-origin: bottom center;
+  opacity: 0.7;
+  border-radius: 10px;
 }
 
-@keyframes waveAnimation {
-  0%, 100% {
-    transform: scaleY(0.5);
+@keyframes soundWaveAnimation {
+  0% {
+    height: 20px;
   }
   50% {
-    transform: scaleY(1.5);
+    height: 50px;
+  }
+  100% {
+    height: 20px;
   }
 }
