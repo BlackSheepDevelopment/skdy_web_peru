@@ -19,12 +19,20 @@
 .main-container{ 
   padding: 0 5%;
 
+  @media(max-width: 1024px){
+    padding: 0;
+  }
+
 }
 
 #home-grid {
   width: 100%;
   height: auto;
-  padding-top: 25px;
+  padding-top: 15px;
+
+  @media(max-width: 1024px){
+    padding-top: 0;
+  }
 }
 
 .home-grid__picture{
@@ -35,6 +43,11 @@
   position: absolute;
   top: 50%;
   left: 15%;
+
+  @media (max-width: 1024px) {
+    top: 40%;
+    left: 5%;
+  }
 }
 
 .home-title{
@@ -43,12 +56,35 @@
   margin-bottom: 0.3rem;
   text-align: start;
   color: white;
+
+  @media (max-width: 1024px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
 
 .home-title--bold{
   font-weight: 900;
+
+  @media (max-width: 640px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
+
+.home-title__image{
+
+  @media (max-width: 1024px) {
+    height: 30px;
+    width: auto;
+  }
+}
+
 
 #gallery {
   display: flex;
