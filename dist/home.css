@@ -127,6 +127,11 @@
 .home-grid__picture {
   border-radius: 35px;
 }
+@media (max-width: 1024px) {
+  .home-grid__picture {
+    border-radius: 0;
+  }
+}
 
 .home-info {
   position: absolute;
