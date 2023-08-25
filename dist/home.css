@@ -104,10 +104,14 @@
   text-decoration: none;
 }
 
+.main-container {
+  padding: 0 5%;
+}
+
 #home-grid {
   width: 100%;
   height: auto;
-  max-height: calc(100vh - 58px) !important;
+  border-radius: 36px;
 }
 
 #gallery {

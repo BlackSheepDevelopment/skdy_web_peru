@@ -20,6 +20,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
                         class="home-grid">
                 </picture>
+                <img/>
             </div>
     </div>
 <?php get_footer();
