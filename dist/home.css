@@ -112,7 +112,7 @@
 .home-info {
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 10%;
 }
 @media (max-width: 1280px) {
   .home-info {
@@ -157,7 +157,7 @@
 }
 
 .home-grid__picture {
-  height: 90vh;
+  height: 90vh !important;
   width: 100%;
   object-fit: cover;
 }

@@ -28,7 +28,7 @@
 .home-info{
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 10%;
 
   @media (max-width:1280px){
     width: 100%;
@@ -69,7 +69,7 @@
 }
 
 .home-grid__picture{
-  height: $home_banner_size;
+  height: $home_banner_size!important;
   width: 100%;
   object-fit: cover;
 }
