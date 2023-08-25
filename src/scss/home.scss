@@ -17,14 +17,6 @@
   }
 }
 
-.main-container{ 
-  padding: 0 3%;
-
-  @media(max-width: 1024px){
-    padding: 0;
-  }
-
-}
 
 // HOME 
 #home-grid {
@@ -32,12 +24,6 @@
   height: $home_banner_size;
 }
 
-.home-grid__picture{
-  border-radius: 35px;
-  @media(max-width: 1024px){
-    border-radius: 0;
-  }
-}
 
 .home-info{
   position: absolute;

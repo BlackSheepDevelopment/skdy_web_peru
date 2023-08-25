@@ -104,27 +104,9 @@
   text-decoration: none;
 }
 
-.main-container {
-  padding: 0 3%;
-}
-@media (max-width: 1024px) {
-  .main-container {
-    padding: 0;
-  }
-}
-
 #home-grid {
   width: 100%;
   height: 90vh;
-}
-
-.home-grid__picture {
-  border-radius: 35px;
-}
-@media (max-width: 1024px) {
-  .home-grid__picture {
-    border-radius: 0;
-  }
 }
 
 .home-info {
