@@ -26,6 +26,7 @@
 
 }
 
+// HOME 
 #home-grid {
   width: 100%;
   height: auto;
@@ -71,7 +72,6 @@
   }
 }
 
-
 .home-title--bold{
   font-weight: 900;
 
@@ -91,11 +91,12 @@
   }
 }
 
-
 .home-title__button{
   @include btn(#fff, #383838, #2c2c2d);
   max-width: max-content;
 }
+
+// FEATURED
 
 #gallery {
   display: flex;
