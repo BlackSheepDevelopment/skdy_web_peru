@@ -2,6 +2,7 @@
 @import "mixins";
 @import "~slick-carousel/slick/slick";
 
+
 .shop-notice {
   width: 100%;
   background: #000;
@@ -90,6 +91,11 @@
   }
 }
 
+
+.home-title__button{
+  @include btn(#fff, #383838, #2c2c2d);
+  max-width: max-content;
+}
 
 #gallery {
   display: flex;
