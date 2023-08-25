@@ -115,13 +115,7 @@
 
 #home-grid {
   width: 100%;
-  height: auto;
-  padding-top: 15px;
-}
-@media (max-width: 1024px) {
-  #home-grid {
-    padding-top: 0;
-  }
+  height: 90vh;
 }
 
 .home-grid__picture {
@@ -178,6 +172,12 @@
     font-size: 1.2rem;
     text-align: center;
   }
+}
+
+.home-grid__picture {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .home-title__button {

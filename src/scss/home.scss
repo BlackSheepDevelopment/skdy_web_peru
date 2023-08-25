@@ -29,12 +29,7 @@
 // HOME 
 #home-grid {
   width: 100%;
-  height: auto;
-  padding-top: 15px;
-
-  @media(max-width: 1024px){
-    padding-top: 0;
-  }
+  height: $home_banner_size;
 }
 
 .home-grid__picture{
@@ -87,7 +82,11 @@
   }
 }
 
-
+.home-grid__picture{
+  height: $home_banner_size;
+  width: 100%;
+  object-fit: cover;
+}
 
 .home-title__button{
   display: block;
