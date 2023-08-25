@@ -268,7 +268,7 @@
 }
 
 .product-image {
-  width: 350px;
+  width: 280px;
 }
 
 .product-details {
@@ -279,15 +279,15 @@
 }
 
 .product-title {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   font-weight: 300 !important;
   margin-bottom: 0.3rem;
   text-align: center;
-  width: 15rem;
+  width: 20rem;
 }
 
 .product-price {
-  font-size: 0.7rem !important;
+  font-size: 0.8rem !important;
   font-weight: 500;
   margin-bottom: 0.3rem;
   text-align: center;
