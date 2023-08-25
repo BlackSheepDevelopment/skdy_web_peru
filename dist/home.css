@@ -242,6 +242,7 @@
 @media (max-width: 1024px) {
   .home-title__button {
     margin-top: 5rem;
+    margin-left: 3rem;
   }
 }
 
