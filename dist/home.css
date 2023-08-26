@@ -313,8 +313,13 @@
   border: none;
   margin: 0;
   font-size: 3rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
+}
+
+.categories-additionals__button:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
 }
 
 .categories-additionals__button--ofertas {
