@@ -314,6 +314,10 @@
   margin: 0;
 }
 
+.categories-additionals__button--ofertas {
+  background: url(assets/PACKS_BUTTON_HOME.efb6bbe823201863b75cd8747337ff9d.png) no-repeat center;
+}
+
 .categories-generals {
   display: flex;
   justify-content: space-between;

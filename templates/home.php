@@ -79,9 +79,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="categories">
             <div class="categories-additionals">
-                <button class="categories-additionals__button">
-                    <img class="categories-additionals__button__img" src="<?php echo get_template_directory_uri() ?>/src/assets/PACKS_BUTTON_HOME.png" />
-                    <p class="categories-additionals__button__title">OFERTAS</p>
+                <button class="categories-additionals__button categories-additionals__button--ofertas">
+                    OFERTAS
                 </button>
                 <button class="categories-additionals__button">PACKS</button>
             </div>
