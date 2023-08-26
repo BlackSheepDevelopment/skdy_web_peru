@@ -181,16 +181,19 @@
 
 .categories-additionals__button:hover{
   color: rgba(255, 255, 255, 1);
-  transition: 0.5s;
   font-size: 3.5rem;
+  transition: 0.5s;
 }
 
 .categories-additionals__button--ofertas{
   background: url(../assets/OFERTAS_BUTTON_HOME.png) no-repeat center;
+  background-size: cover;
+
 }
 
 .categories-additionals__button--packs{
   background: url(../assets/PACKS_BUTTON_HOME.png) no-repeat center;
+  background-size: cover;
 }
 
 .categories-generals{

@@ -320,16 +320,18 @@
 
 .categories-additionals__button:hover {
   color: rgb(255, 255, 255);
-  transition: 0.5s;
   font-size: 3.5rem;
+  transition: 0.5s;
 }
 
 .categories-additionals__button--ofertas {
   background: url(assets/OFERTAS_BUTTON_HOME.efb6bbe823201863b75cd8747337ff9d.png) no-repeat center;
+  background-size: cover;
 }
 
 .categories-additionals__button--packs {
   background: url(assets/PACKS_BUTTON_HOME.92a8175d773b7769175bf4269e465e65.png) no-repeat center;
+  background-size: cover;
 }
 
 .categories-generals {
