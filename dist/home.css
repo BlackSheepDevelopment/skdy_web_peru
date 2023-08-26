@@ -284,6 +284,15 @@
   text-align: center;
 }
 
+.categories {
+  padding: 50px 10%;
+}
+@media (max-width: 1280px) {
+  .categories {
+    padding: 50px 5%;
+  }
+}
+
 #gallery {
   display: flex;
   margin-bottom: -3px;
