@@ -356,6 +356,21 @@
   margin: 0;
 }
 
+.categories-additionals__button--headphones {
+  background: url(assets/HP_CATEGORY_CUT.0392f3e2c4249543ccf41dd73912c66c.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.categories-additionals__button--tw {
+  background: url(assets/TW_CATEGORY_CUT.f4eb57f1b531cf1224a6818d280d4143.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.categories-additionals__button--bluetooth {
+  background: url(assets/BT_CATEGORY_CUT.f32545bc5ee12f7432ea0372634bd5b0.jpg) no-repeat center;
+  background-size: cover;
+}
+
 #gallery {
   display: flex;
   margin-bottom: -3px;
