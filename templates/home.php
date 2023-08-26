@@ -14,12 +14,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
         <div id="home-grid">
-            <div class="home-picture">
+            <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
                     <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_DESK.png"
                             media="(min-width: 768px)"/>
                     <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
-                        class="home-grid__picture">
+                        class="skullcandy-homeimage">
                 </picture>
             </div>
 
@@ -79,7 +79,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="categories">
             <div class="categories-additionals">
-                <button class="categories-additionals__button">OFERTAS</button>
+                <button class="categories-additionals__button">
+                    <img class="categories-additionals__button__img" src="<?php echo get_template_directory_uri() ?>/src/assets/PACKS_BUTTON_HOME.png" />
+                    <p class="categories-additionals__button__title">OFERTAS</p>
+                </button>
                 <button class="categories-additionals__button">PACKS</button>
             </div>
             <div class="categories-generals">
