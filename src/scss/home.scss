@@ -49,7 +49,7 @@
   text-align: start;
   color: white;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     font-size: 2rem;
   }
 
@@ -80,7 +80,7 @@
   margin-top: 2rem;
 
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     margin-top: 1rem;
   }
 
@@ -89,7 +89,11 @@
 // FEATURED
 
 .top-products{
-  padding: 30px 0;
+  padding: 50px 10%;
+
+  @media (max-width: 1280px) {
+    padding: 50px 5%;
+  }
 }
 
 .top-products__title{
@@ -102,7 +106,7 @@
   justify-content: center;
   gap: 50px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     flex-direction: column;
     gap: 20px
   }
