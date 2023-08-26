@@ -321,6 +321,7 @@
 .categories-additionals__button:hover {
   color: rgb(255, 255, 255);
   transition: 0.5s;
+  font-size: 3.2rem;
 }
 
 .categories-additionals__button--ofertas {
