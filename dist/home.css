@@ -124,7 +124,7 @@
     justify-content: end;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
 }
 
@@ -325,7 +325,7 @@
 @media (max-width: 1280px) {
   .categories-additionals__button {
     font-size: 1.5rem;
-    padding: 80px 40px;
+    padding: 150px 40px;
   }
 }
 
@@ -372,7 +372,7 @@
 }
 @media (max-width: 1280px) {
   .categories-generals__button {
-    padding: 80px 40px;
+    padding: 150px 40px;
     font-size: 1.5rem;
   }
 }

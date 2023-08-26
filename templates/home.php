@@ -34,7 +34,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
         </div>
         <div class="top-products">
-            <div class="top-products__title">MÁS VENDIDOS</div>
+            <div class="top-products__title">Más vendidos.</div>
             <div class="top-products-container">
                 <div class="top-products-container__item">
                     <?php
@@ -78,6 +78,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
         </div>
         <div class="categories">
+            <div  class="top-products__title">Categorías.</div>
             <div class="categories-additionals">
                 <button class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</button>
                 <button class="categories-additionals__button categories-additionals__button--packs">PACKS</button>
