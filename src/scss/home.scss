@@ -177,13 +177,13 @@
   font-size:3rem; 
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .categories-additionals__button:hover{
   color: rgba(255, 255, 255, 1);
   font-size: 3.2rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .categories-additionals__button--ofertas{
@@ -211,14 +211,20 @@
 
 .categories-generals__button{
   flex-grow: 1;
-  padding: 60px 20px;
+  padding: 100px 20px;
   border-radius: 35px;
   border: none;
   margin: 0;
   font-size:3rem; 
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  transition: 0.5s;
+  transition: 0.2s;
+}
+
+.categories-generals__button:hover{
+  color: rgba(255, 255, 255, 1);
+  font-size: 3.2rem;
+  transition: 0.2s;
 }
 
 .categories-generals__button--headphones{
@@ -235,15 +241,6 @@
 .categories-generals__button--bluetooth{
   background: url(../assets/BT_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-}
-
-
-.categories-additionals__button{
-  flex-grow: 1;
-  padding: 10px 40px;
-  border-radius: 30px;
-  border: none;
-  margin: 0;
 }
 
 //  OLDS
