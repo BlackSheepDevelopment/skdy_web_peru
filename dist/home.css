@@ -229,7 +229,8 @@
 }
 
 .top-products {
-  padding: 50px 10%;
+  padding: 20px 10%;
+  padding-top: 50px;
 }
 @media (max-width: 1280px) {
   .top-products {
@@ -289,7 +290,7 @@
 
 .categories {
   font-family: "Helvetica Neue", sans-serif;
-  padding: 50px 10%;
+  padding: 20px 10%;
 }
 @media (max-width: 1280px) {
   .categories {
