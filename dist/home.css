@@ -106,7 +106,7 @@
 
 #home-grid {
   width: 100%;
-  height: 90vh;
+  height: 92vh;
 }
 
 .home-info {
@@ -134,7 +134,7 @@
   text-align: start;
   color: white;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .home-title {
     font-size: 2rem;
   }
@@ -157,7 +157,7 @@
 }
 
 .home-grid__picture {
-  height: 90vh !important;
+  height: 92vh !important;
   width: 100%;
   object-fit: cover;
 }
@@ -219,14 +219,19 @@
 .home-title__button.disabled, .home-title__button:disabled {
   pointer-events: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .home-title__button {
     margin-top: 1rem;
   }
 }
 
 .top-products {
-  padding: 30px 0;
+  padding: 50px 10%;
+}
+@media (max-width: 1280px) {
+  .top-products {
+    padding: 50px 5%;
+  }
 }
 
 .top-products__title {
@@ -236,10 +241,10 @@
 
 .top-products-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 50px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .top-products-container {
     flex-direction: column;
     gap: 20px;
