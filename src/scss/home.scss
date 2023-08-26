@@ -160,13 +160,31 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-
+  padding: 10px 0;
   @media (max-width: 1280px) {
     flex-direction: column;    
+    gap:20px
   }
 }
 
 .categories-additionals__button{
+  flex-grow: 1;
+  padding: 10px 40px;
+}
+
+
+.categories-generals{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 10px 0;
+  @media (max-width: 1280px) {
+    flex-direction: column;    
+    gap:20px
+  }
+}
+
+.categories-generals__button{
   flex-grow: 1;
   padding: 10px 40px;
 }
