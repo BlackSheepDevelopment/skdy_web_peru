@@ -178,11 +178,13 @@
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   transition: 0.3s;
+  filter: grayscale(100%);
 }
 
 .categories-additionals__button:hover{
   color: rgba(255, 255, 255, 1);
   transition: 0.3s;
+  filter: grayscale(0%);
 }
 
 .categories-additionals__button--ofertas{
@@ -218,31 +220,29 @@
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   transition: 0.2s;
+  filter: grayscale(100%);
 }
 
 .categories-generals__button:hover{
   color: rgba(255, 255, 255, 1);
   transition: 0.2s;
+  filter: grayscale(0%);
 }
 
 .categories-generals__button--headphones{
   background: url(../assets/HP_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .categories-generals__button--tw{
   background: url(../assets/TW_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
-
 }
 
 
 .categories-generals__button--bluetooth{
   background: url(../assets/BT_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 //  OLDS
