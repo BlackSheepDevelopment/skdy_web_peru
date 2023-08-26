@@ -77,5 +77,16 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
             </div>
         </div>
+        <div class="categories">
+            <div class="categories-additionals">
+                <button>OFERTAS</button>
+                <button>PACKS</button>
+            </div>
+            <div class="categories-generales">
+                <button>HEADPHONES</button>
+                <button>TRUE WIRELESS</button>
+                <button>BLUETOOTH</button>
+            </div>
+        </div>
     </div>
 <?php get_footer();
