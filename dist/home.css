@@ -236,7 +236,8 @@
 
 .top-products__title {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 900;
+  padding: 15px 0;
 }
 
 .top-products-container {
