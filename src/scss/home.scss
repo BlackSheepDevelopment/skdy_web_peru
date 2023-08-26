@@ -179,6 +179,10 @@
   font-weight: 700;
   transition: 0.3s;
   filter: grayscale(100%);
+
+  @media (max-width: 1280px) {
+    font-size: 1.5rem;
+  }
 }
 
 .categories-additionals__button:hover{
@@ -224,6 +228,7 @@
 
   @media (max-width: 1280px) {
     padding: 20px 40px;
+    font-size: 1.5rem;
   }
 
 }

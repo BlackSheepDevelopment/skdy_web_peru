@@ -319,6 +319,11 @@
   transition: 0.3s;
   filter: grayscale(100%);
 }
+@media (max-width: 1280px) {
+  .categories-additionals__button {
+    font-size: 1.5rem;
+  }
+}
 
 .categories-additionals__button:hover {
   color: rgb(255, 255, 255);
@@ -364,6 +369,7 @@
 @media (max-width: 1280px) {
   .categories-generals__button {
     padding: 20px 40px;
+    font-size: 1.5rem;
   }
 }
 
