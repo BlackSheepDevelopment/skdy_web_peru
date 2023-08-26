@@ -309,6 +309,9 @@
 .categories-additionals__button {
   flex-grow: 1;
   padding: 10px 40px;
+  border-radius: 35px;
+  border: none;
+  margin: 0;
 }
 
 .categories-generals {
@@ -327,6 +330,9 @@
 .categories-generals__button {
   flex-grow: 1;
   padding: 10px 40px;
+  border-radius: 35px;
+  border: none;
+  margin: 0;
 }
 
 #gallery {
