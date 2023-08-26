@@ -367,16 +367,19 @@
 .categories-generals__button--headphones {
   background: url(assets/HP_CATEGORY_CUT.0392f3e2c4249543ccf41dd73912c66c.jpg) no-repeat center;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .categories-generals__button--tw {
   background: url(assets/TW_CATEGORY_CUT.f4eb57f1b531cf1224a6818d280d4143.jpg) no-repeat center;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .categories-generals__button--bluetooth {
   background: url(assets/BT_CATEGORY_CUT.f32545bc5ee12f7432ea0372634bd5b0.jpg) no-repeat center;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #gallery {
