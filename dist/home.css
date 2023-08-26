@@ -293,6 +293,22 @@
   }
 }
 
+.categories-additionals {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media (max-width: 1280px) {
+  .categories-additionals {
+    flex-direction: column;
+  }
+}
+
+.categories-additionals__button {
+  flex-grow: 1;
+  padding: 10px 40px;
+}
+
 #gallery {
   display: flex;
   margin-bottom: -3px;

@@ -79,13 +79,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="categories">
             <div class="categories-additionals">
-                <button>OFERTAS</button>
-                <button>PACKS</button>
+                <button class="categories-additionals__button">OFERTAS</button>
+                <button class="categories-additionals__button">PACKS</button>
             </div>
             <div class="categories-generales">
-                <button>HEADPHONES</button>
-                <button>TRUE WIRELESS</button>
-                <button>BLUETOOTH</button>
+                <button class="categories-generales__button" >HEADPHONES</button>
+                <button class="categories-generales__button">TRUE WIRELESS</button>
+                <button class="categories-generales__button">BLUETOOTH</button>
             </div>
         </div>
     </div>
