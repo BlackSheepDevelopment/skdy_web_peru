@@ -37,10 +37,36 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="top-products__title">MÁS VENDIDOS</div>
             <div class="top-products-container">
                 <div class="top-products-container__item">
-                <?php
-                    $product_id = 110786;
-                    $product = wc_get_product($product_id);
-                ?>
+                    <?php
+                        $product_id = 110786;
+                        $product = wc_get_product($product_id);
+                    ?>
+                    <div class="product-image">
+                        <?php echo $product->get_image(); ?>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                        <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                    </div>
+                </div>
+                <div class="top-products-container__item">
+                    <?php
+                        $product_id = 156632;
+                        $product = wc_get_product($product_id);
+                    ?>
+                    <div class="product-image">
+                        <?php echo $product->get_image(); ?>
+                    </div>
+                    <div class="product-details">
+                        <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                        <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                    </div>
+                </div>
+                <div class="top-products-container__item">
+                    <?php
+                        $product_id = 113375;
+                        $product = wc_get_product($product_id);
+                    ?>
                     <div class="product-image">
                         <?php echo $product->get_image(); ?>
                     </div>
