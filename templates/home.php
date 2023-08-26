@@ -79,10 +79,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="categories">
             <div class="categories-additionals">
-                <button class="categories-additionals__button categories-additionals__button--ofertas">
-                    OFERTAS
-                </button>
-                <button class="categories-additionals__button">PACKS</button>
+                <button class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</button>
+                <button class="categories-additionals__button categories-additionals__button--packs">PACKS</button>
             </div>
             <div class="categories-generals">
                 <button class="categories-generals__button" >HEADPHONES</button>

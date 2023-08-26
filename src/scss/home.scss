@@ -169,13 +169,19 @@
 
 .categories-additionals__button{
   flex-grow: 1;
-  padding: 10px 40px;
+  padding: 5px 40px;
   border-radius: 35px;
   border: none;
   margin: 0;
+  font-size:3rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .categories-additionals__button--ofertas{
+  background: url(../assets/OFERTAS_BUTTON_HOME.png) no-repeat center;
+}
+
+.categories-additionals__button--packs{
   background: url(../assets/PACKS_BUTTON_HOME.png) no-repeat center;
 }
 
@@ -183,6 +189,7 @@
   display: flex;
   justify-content: space-between;
   gap: 30px;
+
   padding: 10px 0;
   @media (max-width: 1280px) {
     flex-direction: column;    
