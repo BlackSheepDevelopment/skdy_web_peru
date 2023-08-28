@@ -393,3 +393,22 @@
     width: 115px;
   }
 }
+
+
+.enterate{
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 20px 10%;
+
+  @media (max-width: 1280px) {
+    padding: 20px 5%;
+  }
+}
+
+.social{
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 20px 10%;
+
+  @media (max-width: 1280px) {
+    padding: 20px 5%;
+  }
+}
