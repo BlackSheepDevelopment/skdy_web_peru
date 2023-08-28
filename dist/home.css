@@ -484,20 +484,20 @@
 }
 
 .fixedbutton__img {
-  width: 35px;
+  width: 50px;
   height: auto;
   z-index: 1000;
 }
 
 .fixedbutton__text {
-  width: 130px;
+  width: 150px;
   font-style: "Helvetica Neue", sans-serif;
   padding: 3px 5px;
   padding-left: 20px;
-  margin-left: -15px;
+  margin-left: -20px;
   border-radius: 10px;
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
   text-align: left;
   color: black;
   background-color: white;
