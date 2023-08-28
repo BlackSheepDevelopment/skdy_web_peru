@@ -356,12 +356,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  border: 3px solid white ;
-  border-radius: 5px;
-  gap: 10px;
   z-index: 1000;
-  padding: 3px 5px;
 }
 
 .fixedbutton__img{
@@ -370,10 +365,10 @@
 }
 
 .fixedbutton__text{
+  padding: 3px 5px;
   font-size: 0.8rem;
   font-weight: 500;
-  margin-bottom: 0.3rem;
   text-align: center;
-  color: white;
-  padding: 10px 0;
+  color: black;
+  background-color: white;
 }
