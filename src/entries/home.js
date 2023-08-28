@@ -40,6 +40,7 @@ products_slider.slick({
                 centerMode: true,
                 centerPadding: "20px",
                 slidesToShow: 2,
+                dots: true,
             },
         },
         {
@@ -49,6 +50,7 @@ products_slider.slick({
                 centerMode: true,
                 centerPadding: "20px",
                 slidesToShow: 2,
+                dots: true,
             },
         },
     ],
