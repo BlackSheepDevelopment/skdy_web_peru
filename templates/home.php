@@ -100,7 +100,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     <div class="enterate__container__info">
                         <div class="enterate__container__item__title">Skullcandy ANC</div>
                         <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido para disfrutar al máximo tu música en cualquier lado</div>
-                        <button class="enterate__container__item__button">Entérate más</button>
+                        <a class="enterate__container__item__button">Entérate más</a>
                     </div>
 
                 </div>

@@ -407,10 +407,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap:20px
 }
 
 .enterate__container__info{
   max-width: 300px;
+  display:flex;
+  flex-direction: column;
+  gap:15px;
 }
 
 .enterate__container__item__title{
@@ -424,6 +428,7 @@
   margin-bottom: 0.3rem;
 }
 .enterate__container__item__button{
+  width: 100%;
   @include btn(#fff, #383838, #2c2c2d);
 }
 

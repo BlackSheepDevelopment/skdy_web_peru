@@ -527,10 +527,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .enterate__container__info {
   max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .enterate__container__item__title {
@@ -545,6 +549,7 @@
 }
 
 .enterate__container__item__button {
+  width: 100%;
   position: relative;
   overflow: hidden;
   height: 3.17143rem;
