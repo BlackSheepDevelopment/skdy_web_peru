@@ -490,6 +490,14 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .slick-slider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
 .slick-dots {
   display: flex;
   justify-content: center;

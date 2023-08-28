@@ -346,6 +346,14 @@
 }
 
 // SLICK STYLE
+.slick-slider{
+  @media (max-width: 1280px) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
 .slick-dots {
   // position: absolute;
   // bottom: 4rem;
