@@ -472,3 +472,9 @@
     padding: 20px 20px 0px 20px;
   }
 }
+
+#fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}

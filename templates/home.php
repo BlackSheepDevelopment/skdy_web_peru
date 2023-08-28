@@ -90,4 +90,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
         </div>
     </div>
+
+
+<a href="https://www.wa.link/xfavry/"><img src="<?php echo get_template_directory_uri() ?>/src/assets/SKDY_LOGO_CHAT.png" id="fixedbutton"></a>
+
 <?php get_footer();
