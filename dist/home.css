@@ -475,8 +475,8 @@
 
 #fixedbutton {
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  bottom: 30px;
+  right: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
