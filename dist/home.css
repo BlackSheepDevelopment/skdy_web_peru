@@ -326,7 +326,6 @@
 .categories-additionals__button {
   flex-grow: 1;
   padding: 20px 40px;
-  border-radius: 35px;
   border: none;
   margin: 0;
   font-size: 3rem;
@@ -379,7 +378,6 @@
 .categories-generals__button {
   flex-grow: 1;
   padding: 251px 20px;
-  border-radius: 35px;
   border: none;
   margin: 0;
   font-size: 3rem;
@@ -537,7 +535,7 @@
 }
 
 .enterate__container__info {
-  max-width: 300px;
+  max-width: 360px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -612,7 +610,7 @@
 }
 
 .enterate__container__item__picture__image {
-  width: 300px;
+  width: 360px;
   height: auto;
   object-fit: cover;
 }
