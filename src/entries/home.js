@@ -29,15 +29,26 @@ gallery.slick({
 
 const products_slider = $(".top-products-container");
 products_slider.slick({
+    centerMode: true,
+    centerPadding: "60px",
     slidesToShow: 3,
-    dots: false,
-    arrows: false,
     responsive: [
         {
-            breakpoint: 1280,
+            breakpoint: 768,
             settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: "40px",
                 slidesToShow: 1,
-                dots: true,
+            },
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 1,
             },
         },
     ],
