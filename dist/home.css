@@ -502,8 +502,8 @@
 }
 .slick-dots li button {
   display: block;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1rem;
+  height: 1rem;
   background: rgb(58, 58, 58);
   border-radius: 100%;
   font-size: 0;
@@ -511,8 +511,8 @@
   transition: 0.2s ease-in;
 }
 .slick-dots li.slick-active button {
-  width: 1rem;
-  height: 1rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 #gallery {
