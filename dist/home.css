@@ -249,6 +249,12 @@
   justify-content: space-around;
   gap: 100px;
 }
+@media (max-width: 1280px) {
+  .top-products-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
 .top-products-container__item {
   display: flex;
