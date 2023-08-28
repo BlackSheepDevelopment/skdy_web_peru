@@ -338,7 +338,7 @@
 @media (max-width: 1280px) {
   .categories-additionals__button {
     font-size: 1.5rem;
-    padding: 150px 40px;
+    padding: 40px 40px;
   }
 }
 
@@ -346,6 +346,11 @@
   color: rgb(255, 255, 255);
   transition: 0.3s;
   filter: grayscale(0%);
+}
+@media (max-width: 1280px) {
+  .categories-additionals__button:hover {
+    padding: 150px 40px;
+  }
 }
 
 .categories-additionals__button--ofertas {
@@ -385,7 +390,7 @@
 }
 @media (max-width: 1280px) {
   .categories-generals__button {
-    padding: 150px 40px;
+    padding: 40px 40px;
     font-size: 1.5rem;
   }
 }
@@ -394,6 +399,12 @@
   color: rgb(255, 255, 255);
   transition: 0.2s;
   filter: grayscale(0%);
+}
+@media (max-width: 1280px) {
+  .categories-generals__button:hover {
+    padding: 150px 40px;
+    font-size: 1.5rem;
+  }
 }
 
 .categories-generals__button--headphones {
