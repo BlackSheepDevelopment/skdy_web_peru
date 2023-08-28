@@ -91,11 +91,20 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="enterate">
             <div  class="top-products__title">ENTÉRATE.</div>
+            <div class="enterate__container">
+                <div class="enterate__container__item">
+                    <picture class="enterate__container__item__picture">
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ANC.png" alt="skkullcandy_enterate_1"
+                            class="enterate__container__item__picture__image">
+                    </picture>
+                    <div class="enterate__container__item__title"></div>
+                    <div class="enterate__container__item__subtitle"></div>
+                    <button class="enterate__container__item__button"></button>
+                </div>
+
+            </div>
         </div>
 
-        <div class="social">
-            <div  class="top-products__title">COMUNIDAD.</div>
-        </div>
     </div>
 
 
