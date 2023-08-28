@@ -149,6 +149,10 @@
   margin-bottom: 0.3rem;
   text-align: center;
   width: 20rem;
+
+  @media (max-width: 1280px) {
+    width: 10rem;
+  }
 }
 
 .product-price{

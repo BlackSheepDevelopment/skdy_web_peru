@@ -287,6 +287,11 @@
   text-align: center;
   width: 20rem;
 }
+@media (max-width: 1280px) {
+  .product-title {
+    width: 10rem;
+  }
+}
 
 .product-price {
   font-size: 0.8rem !important;
