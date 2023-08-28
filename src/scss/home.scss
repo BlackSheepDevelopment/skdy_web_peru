@@ -362,10 +362,11 @@
 .fixedbutton__img{
   width: 35px;
   height: auto;
+  z-index: 1000;
 }
 
 .fixedbutton__text{
-  width: 120px;
+  width: 130px;
   font-style: 'Helvetica Neue', sans-serif;
   padding: 3px 5px;
   padding-left: 15px;
