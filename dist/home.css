@@ -477,6 +477,15 @@
   position: fixed;
   bottom: 0px;
   right: 0px;
-  width: 150px;
+  width: 50px;
   height: auto;
+}
+
+.fixedbutton__text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
 }
