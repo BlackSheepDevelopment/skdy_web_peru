@@ -53,3 +53,11 @@ products_slider.slick({
         },
     ],
 });
+
+$(".slick-prev").html(
+    '<img src="/src/assets/left-arrow.svg" alt="arrow-left">'
+);
+
+$(".slick-next").html(
+    '<img src="/src/assets/right-arrow.svg" alt="arrow-right">'
+);
