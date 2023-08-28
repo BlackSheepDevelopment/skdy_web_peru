@@ -36,7 +36,7 @@ products_slider.slick({
         {
             breakpoint: 768,
             settings: {
-                arrows: true,
+                arrows: false,
                 centerMode: true,
                 centerPadding: "20px",
                 slidesToShow: 2,
@@ -45,7 +45,7 @@ products_slider.slick({
         {
             breakpoint: 480,
             settings: {
-                arrows: true,
+                arrows: false,
                 centerMode: true,
                 centerPadding: "20px",
                 slidesToShow: 2,
@@ -53,15 +53,3 @@ products_slider.slick({
         },
     ],
 });
-
-$(".slick-prev").html(
-    '<img src="' +
-        get_template_directory_uri() +
-        '/src/assets/left-arrow.svg" alt="arrow-left">'
-);
-
-$(".slick-next").html(
-    '<img src="' +
-        get_template_directory_uri() +
-        '/src/assets/right-arrow.svg" alt="arrow-right">'
-);
