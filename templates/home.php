@@ -97,9 +97,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ANC.png" alt="skkullcandy_enterate_1"
                             class="enterate__container__item__picture__image">
                     </picture>
-                    <div class="enterate__container__item__title"></div>
-                    <div class="enterate__container__item__subtitle"></div>
-                    <button class="enterate__container__item__button"></button>
+                    <div class="enterate__container__item__title">Skullcandy ANC</div>
+                    <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido para disfrutar al máximo tu música en cualquier lado</div>
+                    <button class="enterate__container__item__button">Entérate más</button>
                 </div>
 
             </div>
