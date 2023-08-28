@@ -483,6 +483,12 @@
   z-index: 1000;
   text-decoration: none;
 }
+@media (max-width: 1280px) {
+  #fixedbutton {
+    bottom: 10px;
+    right: 10px;
+  }
+}
 
 .fixedbutton__img {
   width: 50px;
@@ -491,7 +497,7 @@
 }
 @media (max-width: 1280px) {
   .fixedbutton__img {
-    width: 3cqw;
+    width: 30px;
   }
 }
 
