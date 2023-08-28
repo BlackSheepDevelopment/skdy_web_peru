@@ -353,6 +353,14 @@
   position: fixed;
   bottom: 0px;
   right: 0px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border: 2px solid white ;
+}
+
+.fixedbutton__img{
   width: 50px;
   height: auto;
 }

@@ -93,9 +93,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
 
 
-    <a href="https://www.wa.link/xfavry/">
-        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKDY_LOGO_CHAT.png" id="fixedbutton">
-        <p class="fixedbutton__text">¡Comunícate con nostros!</p>
+    <a href="https://www.wa.link/xfavry/" id="fixedbutton">
+        <img class="fixedbutton__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKDY_LOGO_CHAT.png" >
+        <p class="fixedbutton__text">¡Dale voz a tus preguntas!</p>
     </a>
 
 <?php get_footer();
