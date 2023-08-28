@@ -34,7 +34,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
         </div>
         <div class="top-products">
-            <div class="top-products__title">Más vendidos.</div>
+            <div class="top-products__title">MÁS VISTOS.</div>
             <div class="top-products-container">
                 <div class="top-products-container__item">
                     <?php
