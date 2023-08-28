@@ -512,11 +512,31 @@
   font-weight: 800;
   text-align: left;
   color: black;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.65);
 }
 @media (max-width: 1280px) {
   .fixedbutton__text {
     font-size: 0.5rem;
     width: 115px;
+  }
+}
+
+.enterate {
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 20px 10%;
+}
+@media (max-width: 1280px) {
+  .enterate {
+    padding: 20px 5%;
+  }
+}
+
+.social {
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 20px 10%;
+}
+@media (max-width: 1280px) {
+  .social {
+    padding: 20px 5%;
   }
 }

@@ -26,3 +26,19 @@ gallery.slick({
         },
     ],
 });
+
+const products_slider = $(".top-products-container");
+products_slider.slick({
+    slidesToShow: 3,
+    dots: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+            },
+        },
+    ],
+});
