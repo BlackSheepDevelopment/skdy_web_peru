@@ -64,8 +64,6 @@ products_slider.slick({
 
 const enterate_slider = $(".enterate__container");
 enterate_slider.slick({
-    centerMode: true,
-    centerPadding: "150px",
     slidesToShow: 3,
     responsive: [
         {
@@ -75,19 +73,6 @@ enterate_slider.slick({
         {
             breakpoint: 1280,
             settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: "20px",
-                slidesToShow: 2,
-                dots: true,
-                settings: "slick",
-            },
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
                 centerPadding: "20px",
                 slidesToShow: 1,
                 dots: true,
