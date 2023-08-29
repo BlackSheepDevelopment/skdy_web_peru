@@ -38,7 +38,7 @@ products_slider.slick({
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: "150px",
+                centerPadding: "20px",
                 slidesToShow: 2,
                 dots: true,
             },
@@ -49,7 +49,7 @@ products_slider.slick({
                 arrows: false,
                 centerMode: true,
                 centerPadding: "20px",
-                slidesToShow: 2,
+                slidesToShow: 1,
                 dots: true,
             },
         },
