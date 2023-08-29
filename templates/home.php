@@ -99,17 +99,40 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="enterate">
             <div  class="top-products__title">ENTÉRATE.</div>
             <div class="enterate__container">
-                <div class="enterate__container__item">
+                <div class="enterate__container__item" >
                     <picture class="enterate__container__item__picture">
                         <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ANC.png" alt="skkullcandy_enterate_1"
                             class="enterate__container__item__picture__image">
                     </picture>
                     <div class="enterate__container__info">
                         <div class="enterate__container__item__title">Skullcandy ANC</div>
-                        <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido para disfrutar al máximo tu música en cualquier lado</div>
-                        <a class="enterate__container__item__button">Entérate más</a>
+                        <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido para disfrutar al máximo tu música en cualquier lado.</div>
+                        <a class="enterate__container__item__button" href="https://skullcandy.com.pe/ancs/">Entérate más</a>
                     </div>
+                </div>
 
+                <div class="enterate__container__item">
+                    <picture class="enterate__container__item__picture">
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/ENVIOS_GRATIS_CROP.png" alt="skullcandy_enterate_2"
+                            class="enterate__container__item__picture__image">
+                    </picture>
+                    <div class="enterate__container__info">
+                        <div class="enterate__container__item__title">¡Envios gratis!</div>
+                        <div class="enterate__container__item__subtitle">Compra tus audífonos o packs y te lo envíamos gratis, sin monto mínimo.</div>
+                        <a class="enterate__container__item__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Entérate más</a>
+                    </div>
+                </div>
+
+                <div class="enterate__container__item">
+                    <picture class="enterate__container__item__picture">
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/VOLKSXSKDY.png" alt="skullcandy_enterate_3"
+                            class="enterate__container__item__picture__image">
+                    </picture>
+                    <div class="enterate__container__info">
+                        <div class="enterate__container__item__title">Skullcandy x Volkswagen</div>
+                        <div class="enterate__container__item__subtitle">Conoce más sobre nuevo el Volkswagen Polo y llévate un pack Skullcandy.</div>
+                        <a class="enterate__container__item__button" href="https://www.volkswagen.com.pe/es/modelos/polo.html">Entérate más</a>
+                    </div>
                 </div>
 
             </div>
