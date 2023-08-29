@@ -62,23 +62,23 @@ products_slider.slick({
     ],
 });
 
-const enterate_slider = $(".enterate__container");
-enterate_slider.slick({
-    slidesToShow: 3,
-    responsive: [
-        {
-            breakpoint: 9999,
-            settings: "unslick",
-        },
-        {
-            breakpoint: 1280,
-            settings: {
-                centerMode: true,
-                slidesToShow: 1,
-                dots: true,
-                arrows: false,
-                settings: "slick",
-            },
-        },
-    ],
-});
+// const enterate_slider = $(".enterate__container");
+// enterate_slider.slick({
+//     slidesToShow: 3,
+//     responsive: [
+//         {
+//             breakpoint: 9999,
+//             settings: "unslick",
+//         },
+//         {
+//             breakpoint: 1280,
+//             settings: {
+//                 centerMode: true,
+//                 slidesToShow: 1,
+//                 dots: true,
+//                 arrows: false,
+//                 settings: "slick",
+//             },
+//         },
+//     ],
+// });
