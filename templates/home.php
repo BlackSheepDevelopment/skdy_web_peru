@@ -106,7 +106,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture>
                     <div class="enterate__container__info">
                         <div class="enterate__container__item__title">Skullcandy ANC</div>
-                        <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido para disfrutar al máximo tu música en cualquier lado.</div>
+                        <div class="enterate__container__item__subtitle">Conoce nuestros productos con cancelación de ruido.</div>
                         <a class="enterate__container__item__button" href="https://skullcandy.com.pe/ancs/">Entérate más</a>
                     </div>
                 </div>
