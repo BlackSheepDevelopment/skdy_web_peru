@@ -129,7 +129,7 @@
 }
 
 .home-title {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
   text-align: start;
@@ -167,65 +167,24 @@
 
 .home-title__button {
   display: block;
-  position: relative;
-  overflow: hidden;
-  height: 3.17143rem;
-  line-height: 3.17143rem;
-  letter-spacing: 0.07143rem;
-  font-size: 0.75714rem;
-  text-transform: uppercase;
-  padding: 0 2.85714rem;
-  border: 0;
-  white-space: nowrap;
-  text-align: center;
-  background: 0 0;
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-  border-radius: 0;
-  cursor: pointer;
-  z-index: 1;
   margin-top: 2rem;
-}
-.home-title__button:hover {
-  color: #000;
-}
-.home-title__button:hover:after {
-  width: 120%;
-}
-.home-title__button:before {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #ededed;
-}
-.home-title__button:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: 20px;
-  height: 100%;
-  top: 0;
-  background: #ddd;
-  left: 50%;
-  cursor: pointer;
-  transform: translate(-50%) skew(20deg) scaleX(1);
-  transition: width 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.home-title__button.selected:after {
-  width: 120% !important;
-}
-.home-title__button.disabled, .home-title__button:disabled {
-  pointer-events: none;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 12.5rem;
+  font-weight: 700;
 }
 @media (max-width: 1280px) {
   .home-title__button {
     margin-top: 1rem;
   }
+}
+
+.home-title__button:active {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
 
 .top-products {
@@ -333,6 +292,8 @@
   font-weight: 700;
   transition: 0.3s;
   filter: grayscale(100%);
+  text-align: center;
+  text-decoration: none;
 }
 @media (max-width: 1280px) {
   .categories-additionals__button {
@@ -384,6 +345,8 @@
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
   filter: grayscale(100%);
 }
 @media (max-width: 1280px) {
