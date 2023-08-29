@@ -221,9 +221,6 @@
   color: rgba(255, 255, 255, 1);
   transition: 0.3s;
   filter: grayscale(0%);
-  @media (max-width: 1280px) {
-    padding: 150px 40px;
-  }
 }
 
 .categories-additionals__button--ofertas{
@@ -273,10 +270,6 @@
   color: rgba(255, 255, 255, 1);
   transition: 0.2s;
   filter: grayscale(0%);
-  @media (max-width: 1280px) {
-    padding: 150px 40px;
-    font-size: 1.5rem;
-  }
 }
 
 .categories-generals__button--headphones{
