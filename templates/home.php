@@ -29,14 +29,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
                 <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                 <div>
-                    <button class="home-title__button">COMPRA AHORA</button>
+                    <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
                 </div>
             </div>
         </div>
         <div class="top-products">
             <div class="top-products__title">MÁS VISTOS.</div>
             <div class="top-products-container">
-                <div class="top-products-container__item">
+                <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
                     <?php
                         $product_id = 110786;
                         $product = wc_get_product($product_id);
@@ -48,7 +48,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
                         <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                     </div>
-                </div>
+                </a>
                 <div class="top-products-container__item">
                     <?php
                         $product_id = 156632;
