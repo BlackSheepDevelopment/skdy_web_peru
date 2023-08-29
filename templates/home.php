@@ -36,19 +36,21 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="top-products">
             <div class="top-products__title">MÁS VISTOS.</div>
             <div class="top-products-container">
-                <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
+                <div>
                     <?php
                         $product_id = 110786;
                         $product = wc_get_product($product_id);
                     ?>
-                    <div class="product-image">
-                        <?php echo $product->get_image(); ?>
-                    </div>
-                    <div class="product-details">
-                        <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                        <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                    </div>
-                </a>
+                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
+                        <div class="product-image">
+                            <?php echo $product->get_image(); ?>
+                        </div>
+                        <div class="product-details">
+                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                        </div>
+                    </a>
+                </div>
                 <div class="top-products-container__item">
                     <?php
                         $product_id = 156632;
