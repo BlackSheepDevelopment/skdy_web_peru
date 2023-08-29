@@ -177,6 +177,7 @@
   text-decoration: none;
   text-align: center;
   width: 50%;
+  z-index: 1000;
 }
 @media (max-width: 1280px) {
   .home-title__button {
