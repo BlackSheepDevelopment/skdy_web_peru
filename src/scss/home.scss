@@ -85,16 +85,18 @@
   color: white;
   border: 4px solid white;
   padding: 10px 20px;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
+  text-align: center;
+  width: 50%;
 
   @media (max-width: 1280px) {
     margin-top: 1rem;
   }
 }
 
-.home-title__button:active{
+.home-title__button:hover{
   background-color: white;
   color: black;
   transition: 0.3s;
