@@ -540,6 +540,11 @@
   flex-direction: column;
   gap: 15px;
 }
+@media (max-width: 1280px) {
+  .enterate__container__info {
+    max-width: 300px;
+  }
+}
 
 .enterate__container__item__title {
   text-transform: uppercase;
@@ -613,6 +618,12 @@
   width: 400px;
   height: 400px !important;
   object-fit: cover;
+}
+@media (max-width: 1280px) {
+  .enterate__container__item__picture__image {
+    width: 350px;
+    height: 350px !important;
+  }
 }
 
 #gallery {

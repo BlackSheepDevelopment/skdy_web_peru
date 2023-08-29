@@ -415,6 +415,9 @@
   display:flex;
   flex-direction: column;
   gap:15px;
+  @media (max-width: 1280px) {
+    max-width: 300px;
+  }
 }
 
 .enterate__container__item__title{
@@ -436,6 +439,10 @@
   width: 400px;
   height: 400px!important;
   object-fit: cover;
+  @media (max-width: 1280px) {
+    width: 350px;
+    height: 350px!important;
+  }
 }
 
 //  OLDS

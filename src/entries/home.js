@@ -76,6 +76,7 @@ enterate_slider.slick({
                 centerPadding: "20px",
                 slidesToShow: 1,
                 dots: true,
+                arrows: false,
                 settings: "slick",
             },
         },
