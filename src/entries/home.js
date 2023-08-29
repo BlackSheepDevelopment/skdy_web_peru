@@ -45,6 +45,7 @@ products_slider.slick({
                 centerPadding: "20px",
                 slidesToShow: 2,
                 dots: true,
+                settings: "slick",
             },
         },
         {
@@ -55,6 +56,7 @@ products_slider.slick({
                 centerPadding: "20px",
                 slidesToShow: 1,
                 dots: true,
+                settings: "slick",
             },
         },
     ],
