@@ -34,7 +34,11 @@ products_slider.slick({
     slidesToShow: 3,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 9999,
+            settings: "unslick",
+        },
+        {
+            breakpoint: 1280,
             settings: {
                 arrows: false,
                 centerMode: true,
