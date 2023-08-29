@@ -73,6 +73,7 @@ enterate_slider.slick({
         {
             breakpoint: 1280,
             settings: {
+                centerMode: true,
                 slidesToShow: 1,
                 dots: true,
                 arrows: false,
