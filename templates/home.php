@@ -51,31 +51,36 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         </div>
                     </a>
                 </div>
-                <div class="top-products-container__item">
+                <div >
                     <?php
                         $product_id = 156632;
                         $product = wc_get_product($product_id);
                     ?>
-                    <div class="product-image">
-                        <?php echo $product->get_image(); ?>
-                    </div>
-                    <div class="product-details">
-                        <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                        <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                    </div>
+                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
+                        <div class="product-image">
+                            <?php echo $product->get_image(); ?>
+                        </div>
+                        <div class="product-details">
+                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                        </div>
+                    </a>
+
                 </div>
-                <div class="top-products-container__item">
+                <div>
                     <?php
                         $product_id = 113375;
                         $product = wc_get_product($product_id);
                     ?>
-                    <div class="product-image">
-                        <?php echo $product->get_image(); ?>
-                    </div>
-                    <div class="product-details">
-                        <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                        <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                    </div>
+                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
+                        <div class="product-image">
+                            <?php echo $product->get_image(); ?>
+                        </div>
+                        <div class="product-details">
+                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
