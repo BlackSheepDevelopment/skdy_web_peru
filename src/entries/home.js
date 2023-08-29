@@ -29,7 +29,7 @@ gallery.slick({
 
 const products_slider = $(".top-products-container");
 products_slider.slick({
-    centerMode: true,
+    centerMode: false,
     centerPadding: "60px",
     slidesToShow: 3,
     responsive: [
