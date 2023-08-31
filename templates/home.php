@@ -16,10 +16,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div id="home-grid">
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
-                    <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_DESK.png"
-                            media="(min-width: 768px)"/>
-                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/MAIN_BANNER_WEB_MOV.png" alt="Home Grid v2"
-                        id="skullcandy-homeimage" class="home-grid__picture">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/VIDEO_LANDSCAPE_WEB.mp4" autoplay muted loop></video>
                 </picture>
             </div>
 
