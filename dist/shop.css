@@ -10,8 +10,6 @@
 }
 
 .page-title {
-  color: white;
-  background-color: black;
   text-align: center;
   text-transform: uppercase;
   font-family: "Helvetica Neue LT", sans-serif;
@@ -285,8 +283,6 @@
 }
 
 .shop-features {
-  color: white;
-  background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 20px 5%;
