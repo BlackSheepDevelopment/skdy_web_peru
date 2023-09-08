@@ -37,12 +37,16 @@ $(document).ready(function () {
 
 $(".filter__section__button").on("click", function (event) {
     let cat_val = event.target.id;
-    const urlParams = new URLSearchParams(window.location.search);
+    let currentURL = window.location.href;
 
-    if (cat_val !== "") {
-        urlParams.set("cat", cat_val);
-        window.location.search = urlParams;
-    } else {
-        window.location.search = "";
-    }
+    console.log(currentURL);
+
+    // const urlParams = new URLSearchParams(window.location.search);
+
+    // if (cat_val !== "") {
+    //     urlParams.set("cat", cat_val);
+    //     window.location.search = urlParams;
+    // } else {
+    //     window.location.search = "";
+    // }
 });
