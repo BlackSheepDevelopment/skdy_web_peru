@@ -9,8 +9,14 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 });
 
 $(document).ready(function () {
-    const urlParams = new URLSearchParams(window.location.search);
-    const cat = urlParams.get("cat");
+    const url = new URL(window.location.search);
+    const paths = url.pathname.split("/").slice(1);
+
+    if (paths[1] !== undefined) {
+        let cat = paths[1];
+    } else {
+        let cat = null;
+    }
 
     $(".filter__section__button").each(function (index, element) {
         if (element.id === cat) {
@@ -25,14 +31,14 @@ $(document).ready(function () {
         }
     });
 
-    let products = $(".product");
-    products.hide();
-    if (cat !== null) {
-        let filteredProducts = $(`.product_cat-${cat}`);
-        filteredProducts.show();
-    } else {
-        products.show();
-    }
+    // let products = $(".product");
+    // products.hide();
+    // if (cat !== null) {
+    //     let filteredProducts = $(`.product_cat-${cat}`);
+    //     filteredProducts.show();
+    // } else {
+    //     products.show();
+    // }
 });
 
 $(".filter__section__button").on("click", function (event) {
