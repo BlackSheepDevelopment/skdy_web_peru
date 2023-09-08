@@ -458,6 +458,11 @@
 
 .shop-features{
   background-color: black;
+  width: 100%;
+}
+
+.shop-features__main{
+  background-color: black;
   display: flex;
   justify-content: space-around;
   padding: 20px 5%;
@@ -474,7 +479,8 @@
 .shop-features__title{
   padding: 15px 0;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  width: 100%;
 }
 
 .shop-features__container{
