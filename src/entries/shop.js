@@ -9,7 +9,7 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 });
 
 $(document).ready(function () {
-    const url = new URL(window.location.search);
+    const url = new URL(window.location.href);
     const paths = url.pathname.split("/").slice(1);
     console.log(paths);
     var cat = null;
