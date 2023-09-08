@@ -30,7 +30,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
             </div>
         </div>
-        <div class="shop-features reveal">
+        <div class="shop-features">
             <div class="shop-features__container">
                 <svg  width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                 <div class="shop-features__container__info">
@@ -53,7 +53,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
         </div>
 
-        <div class="top-products reveal">
+        <div class="top-products">
             <div class="top-products__title">MÁS VISTOS.</div>
             <div class="top-products-container">
                 <div>
@@ -104,7 +104,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
             </div>
         </div>
-        <div class="categories reveal">
+        <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
             <div class="categories-additionals">
                 <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</a>
@@ -116,7 +116,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <a href="https://skullcandy.com.pe/shop/?cat=true-wireless" class="categories-generals__button categories-generals__button--tw">TRUE WIRELESS</a>
             </div>
         </div>
-        <div class="enterate reveal">
+        <div class="enterate">
             <div  class="top-products__title">ENTÉRATE.</div>
             <div class="enterate__container">
                 <div class="enterate__container__item" >
