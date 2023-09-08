@@ -456,6 +456,49 @@
   }
 }
 
+.shop-features{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+  flex-direction: row;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 5%;
+  }
+}
+
+
+
+.shop-features__container{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap:15px;
+  
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+   }
+}
+
+.shop-features__container__info{
+  text-align: center;
+}
+
+.shop-features__container__info__title{
+  font-size: 0.6rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+
 //  OLDS
 
 #gallery {
@@ -512,3 +555,5 @@
     padding: 20px 20px 0px 20px;
   }
 }
+
+
