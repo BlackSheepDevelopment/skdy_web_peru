@@ -42,8 +42,8 @@ $(".filter__section__button").on("click", function (event) {
     let base = url.host;
 
     if (cat_val !== "") {
-        window.location.href = `${base}/shop/${cat_val}`;
+        window.location.href = `/shop/${cat_val}`;
     } else {
-        window.location.href = `${base}/shop/`;
+        window.location.href = `/shop/`;
     }
 });
