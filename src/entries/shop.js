@@ -38,15 +38,12 @@ $(document).ready(function () {
 $(".filter__section__button").on("click", function (event) {
     let cat_val = event.target.id;
     let currentURL = window.location.href;
+    let url = new URL(currentURL);
+    let base = url.host;
 
-    console.log(currentURL);
-
-    // const urlParams = new URLSearchParams(window.location.search);
-
-    // if (cat_val !== "") {
-    //     urlParams.set("cat", cat_val);
-    //     window.location.search = urlParams;
-    // } else {
-    //     window.location.search = "";
-    // }
+    if (cat_val !== "") {
+        window.location.href = `${base}/shop/${cat_val}`;
+    } else {
+        window.location.href = `${base}/shop/`;
+    }
 });
