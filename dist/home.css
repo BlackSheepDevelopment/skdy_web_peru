@@ -613,6 +613,12 @@
   width: 100%;
   font-weight: 600;
 }
+@media (max-width: 768px) {
+  .shop-features__title {
+    font-size: 1.2rem;
+    padding: 30px;
+  }
+}
 
 .shop-features__container {
   background-color: black;
