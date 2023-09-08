@@ -43,8 +43,8 @@ $(document).ready(function () {
 $(".filter__section__button").on("click", function (event) {
     let cat_val = event.target.id;
     let currentURL = window.location.href;
-    let url = new URL(currentURL);
-    let base = url.host;
+    // console.log(currentURL);
+    // let url = new URL(currentURL);
 
     if (cat_val !== "") {
         window.location.href = `/shop/${cat_val}`;
