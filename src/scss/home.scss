@@ -459,7 +459,7 @@
 .shop-features{
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px 5%;
   flex-direction: row;
 
@@ -489,16 +489,28 @@
    }
 }
 
+
+
 .shop-features__container__info{
   text-align: center;
 }
 
 .shop-features__container__info__title{
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
 //  OLDS
 
