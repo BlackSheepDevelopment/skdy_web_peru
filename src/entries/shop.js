@@ -11,11 +11,10 @@ $("#sidebar-shop .mobile-collapse").click(function (event) {
 $(document).ready(function () {
     const url = new URL(window.location.search);
     const paths = url.pathname.split("/").slice(1);
-
+    console.log(paths);
+    var cat = null;
     if (paths[1] !== undefined) {
-        let cat = paths[1];
-    } else {
-        let cat = null;
+        cat = paths[1];
     }
 
     $(".filter__section__button").each(function (index, element) {
