@@ -585,6 +585,7 @@
 }
 
 .shop-features {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 20px 5%;
@@ -621,7 +622,7 @@
 }
 
 .shop-features__container__info__title {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   font-weight: 800;
   margin-bottom: 1rem;
 }
