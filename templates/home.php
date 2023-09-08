@@ -177,7 +177,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
 
 
-    <a href="https://www.wa.link/xfavry/" id="fixedbutton">
+    <a href="https://www.wa.link/xfavry/" id="fixedbutton" target="_blank">
         <img class="fixedbutton__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKDY_LOGO_CHAT.png" >
         <p class="fixedbutton__text">DALE VOZ A TUS PREGUNTAS!!</p>
     </a>
