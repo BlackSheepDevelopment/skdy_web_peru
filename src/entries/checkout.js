@@ -323,6 +323,11 @@ const validateNumber = (number) => {
 };
 
 $(document).ready(function () {
+    $("#order_review").each(function () {
+        $(this).fadeIn();
+        $(this).css("display", "block");
+    });
+
     const billing_invoice = $("#billing_invoice_field").children();
     const span_billing = billing_invoice[1];
     const detail_span = span_billing.children[1];
