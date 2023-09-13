@@ -62,7 +62,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="top-products-container">
                 <div>
                     <?php
-                        $product_id = 110786;
+                        $product_id = 110786; 
                         $product = wc_get_product($product_id);
                     ?>
                     <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
@@ -93,7 +93,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
                 <div>
                     <?php
-                        $product_id = 113375;
+                        $product_id = 154637;
                         $product = wc_get_product($product_id);
                     ?>
                     <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
