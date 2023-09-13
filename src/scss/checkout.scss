@@ -213,6 +213,11 @@
 .woocommerce ul#shipping_method li {
   &:last-child {
     margin-bottom: 0;
+    width: 300px!important;
+
+    @media (max-width: 800px) {
+      width: 100%!important;
+    }
   }
 }
 
