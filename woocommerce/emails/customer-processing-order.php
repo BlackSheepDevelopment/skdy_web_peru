@@ -29,23 +29,24 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <?php /* translators: %s: Order number */ ?>
 <p> Hemos recibido tu orden:  #<?php printf( esc_html( $order->get_order_number() ) ); ?></p>
 
-<div>
-	<h3>Si tu compra fue con:</h3>
+<div style="padding-bottom:10px">
+	<h2>Si tu compra fue con:</h2>
 
-	<div style="padding: 15px; border: 1px solid #000; color:black">
-		<p style="font-size:0.9rem; color:black;">Envío Rápido</p>
-		<p>Se entregará entre 24 a 72 horas sólo para Lima Metropolitana.</p>
-		<a href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
+	<div style="padding: 8px; color:black">
+		<h3 style="font-size:0.9rem; color:black; margin: 0 0 6px">Envío Rápido</h3>
+		<p style="margin: 0 0 15px;">Se entregará entre 24 a 72 horas sólo para Lima Metropolitana.</p>
+		<a style="color:white; background-color:black; padding:8px 13px;" href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
 	</div>
-	<div style="padding: 15px; border: 1px solid #000; color:black;">
-		<p style="font-size:0.9rem; color:black;">Envío Regular</p>
-		<p>Se te entregará entre 48 a 72 horas sólo </p>
-		<p>*Para compras realizadas entre Lunes y Jueves: La página de seguimiento se activará a partir de las 10AM del siguiente día.</p>
-		<p>*Para compras realizadas entre Viernes y Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
-		<a style="padding" href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
+	<hr/>
+	<div style="padding: 8px; color:black;">
+		<h3 style="font-size:0.9rem; color:black; margin: 0 0 6px">Envío Regular</h3>
+		<p style="margin: 0 0 15px;">Se te entregará entre 48 a 72 horas sólo </p>
+		<a style="color:white; background-color:black; padding:8px 13px;" href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
+		<p style="margin:0 0 2px; font-size:0.8rem; color:gray; font-style:italic;">*Para compras realizadas entre Lunes y Jueves: La página de seguimiento se activará a partir de las 10AM del siguiente día.</p>
+		<p style="margin:0 0 2px; font-size:0.8rem; color:gray; font-style:italic;">**Para compras realizadas entre Viernes y Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
 	</div>
-	<a style="padding-top:10px color:black" href="https://skullcandy.com.pe/envios/">OBTÉN MÁS INFORMACIÓN AQUÍ</a></p>
-	<a style="padding-top:10px color:black" href="https://wa.link/xfavry">CHATEA CON NOSOTROS AQUÍ</a></p>
+	<p><a style="color:white; background-color:black; padding:8px 13px;" href="https://skullcandy.com.pe/envios/">OBTÉN MÁS INFORMACIÓN AQUÍ</a></p>
+	<p><a style="color:white; background-color:black; padding:8px 13px;" href="https://wa.link/xfavry">CHATEA CON NOSOTROS AQUÍ</a></p>
 </div>
 
 
