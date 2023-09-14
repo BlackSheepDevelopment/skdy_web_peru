@@ -27,23 +27,25 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
 <?php /* translators: %s: Order number */ ?>
-<p> Hemos recibido tu orden:  <?php printf( esc_html( $order->get_order_number() ) ); ?></p>
+<p> Hemos recibido tu orden:  #<?php printf( esc_html( $order->get_order_number() ) ); ?></p>
 
 <div>
-	<div>
-		<p>Si tu pedido es Envío Rápido</p>
-		<p>Tiempo de Envío: Entregas entre 24 a 72 horas solo para lima metropolitana.</p>
+	<h3>Si tu compra fue con:</h3>
+
+	<div style="padding: 15px; border: 1px solid #000; color:black">
+		<p style="font-size:0.9rem; color:black;">Envío Rápido</p>
+		<p>Se entregará entre 24 a 72 horas sólo para Lima Metropolitana.</p>
 		<a href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
 	</div>
-	<div>
-		<p>Si tu pedido es Envío Regular</p>
-		<p>Lunes a Jueves: La página de seguimiento se activará a partir de las 10AM del siguiente día.</p>
-		<p>Viernes a Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
-		<p>Tiempo de Envío: Entrega de 24 a 48 horas solo para Lima Metropolitana.</p>
-		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
+	<div style="padding: 15px; border: 1px solid #000; color:black;">
+		<p style="font-size:0.9rem; color:black;">Envío Regular</p>
+		<p>Se te entregará entre 48 a 72 horas sólo </p>
+		<p>*Para compras realizadas entre Lunes y Jueves: La página de seguimiento se activará a partir de las 10AM del siguiente día.</p>
+		<p>*Para compras realizadas entre Viernes y Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
+		<a style="padding" href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
 	</div>
-	<p>Si deseass inforamación sobre los envíos y tener mayor detalle, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a></p>
-	<p>Para comunicarte con nosotros al WhatsApp sobre tu pedido o algún problema con tu producto, haz click   <a href="https://wa.link/xfavry">aquí</a></p>
+	<a style="padding-top:10px color:black" href="https://skullcandy.com.pe/envios/">OBTÉN MÁS INFORMACIÓN AQUÍ</a></p>
+	<a style="padding-top:10px color:black" href="https://wa.link/xfavry">CHATEA CON NOSOTROS AQUÍ</a></p>
 </div>
 
 
