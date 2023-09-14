@@ -27,10 +27,27 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
 <?php /* translators: %s: Order number */ ?>
-<p><?php printf( esc_html__( 'Just to let you know &mdash; we\'ve received your order #%s:', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
+<p> Hemos recibido tu orden: <?php printf( esc_html( $order->get_order_number() ) ); ?></p>
 
+<div>
+	<div>
+		<p>Si tu pedido es Envío Rápido</p>
+	</div>
+	<div>
+		<p>Si tu pedido es Envío Regular</p>
+	</div>
+	<?php
+			$order_shipment = $order -> get_shipping_method();
+			if (preg_match('/\benvio rapido\b/iu', $input, $matches)) {
+				$result = $matches[0];
+			} elseif (preg_match('/\benvio regular\b/iu', $input, $matches)) {
+				$result = $matches[0];
+			}
+			echo '<div>' . htmlspecialchars($result) . '</div>';
+		?>
+</div>
 
-<p><?php printf(esc_html($order -> get_shipping_method()))?> </p>
+<a><?php printf(esc_html($order -> get_shipping_method()))?> </a>
 
 <?php
 
