@@ -38,7 +38,8 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 	<div>
 		<p>Si tu pedido es Envío Regular</p>
 		<p>Entrega de 24 a 48 horas solo para Lima Metropolitana.  Si compraste en otra Región, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a> </p>
-		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order -> get_billing_id()?>">Ver pedido</a>
+		<p><?php echo $order->get_meta('billing_id')?></p>
+		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=">Ver pedido</a>
 	</div>
 </div>
 
