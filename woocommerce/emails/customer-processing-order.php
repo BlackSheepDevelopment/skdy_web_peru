@@ -32,19 +32,14 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <div>
 	<div>
 		<p>Si tu pedido es Envío Rápido</p>
+		<p>Entregas entre 24 a 72 horas solo para lima metropolitana. Si compraste en otra Región, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a></p>
+		<a href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
 	</div>
 	<div>
 		<p>Si tu pedido es Envío Regular</p>
+		<p>Entrega de 24 a 48 horas solo para Lima Metropolitana.  Si compraste en otra Región, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a> </p>
+		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order -> get_billing_id()?>">Ver pedido</a>
 	</div>
-	<?php
-			$order_shipment = $order -> get_shipping_method();
-			if (preg_match('/\benvio rapido\b/iu', $input, $matches)) {
-				$result = $matches[0];
-			} elseif (preg_match('/\benvio regular\b/iu', $input, $matches)) {
-				$result = $matches[0];
-			}
-			echo '<div>'strtolower(iconv('UTF-8', 'ASCII//TRANSLIT', $result)) '</div>';
-		?>
 </div>
 
 <a><?php printf(esc_html($order -> get_shipping_method()))?> </a>
