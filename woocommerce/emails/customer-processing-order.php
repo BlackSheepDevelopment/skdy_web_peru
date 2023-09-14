@@ -32,12 +32,14 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <div>
 	<div>
 		<p>Si tu pedido es Envío Rápido</p>
-		<p>Entregas entre 24 a 72 horas solo para lima metropolitana. Si compraste en otra Región.</p>
+		<p>Tiempo de Envío: Entregas entre 24 a 72 horas solo para lima metropolitana.</p>
 		<a href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
 	</div>
 	<div>
 		<p>Si tu pedido es Envío Regular</p>
-		<p>Entrega de 24 a 48 horas solo para Lima Metropolitana.  Si compraste en otra Región.</p>
+		<p>Lunes a Jueves: La página de seguimiento se activará a partir de las 10AM del siguiente día.</p>
+		<p>Viernes a Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
+		<p>Tiempo de Envío: Entrega de 24 a 48 horas solo para Lima Metropolitana.</p>
 		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
 	</div>
 	<p>Si deseass inforamación sobre los envíos y tener mayor detalle, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a></p>
