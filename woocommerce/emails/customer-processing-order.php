@@ -47,8 +47,8 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 		<p style="margin:0 0 2px; font-size:0.8rem; color:gray; font-style:italic;">**Para compras realizadas entre Viernes y Domingo: La página de seguimiento se activará a partir del Lunes siguiente a las 10AM </p>
 	</div>
 	<hr/>
-	<p><a style="color:black; margin:0 0 10px" href="https://skullcandy.com.pe/envios/">Obtén más información aquí</a></p>
-	<p><a style="color:black; margin:0 0 10px" href="https://wa.link/xfavry">Obtén más información</a></p>
+	<p><a style="color:black; margin:0 0 10px" href="https://skullcandy.com.pe/envios/">Obtén más información acerca de tu pedido aquí</a></p>
+	<p><a style="color:black; margin:0 0 10px" href="https://wa.link/xfavry">Chatea con nosotros</a></p>
 </div>
 
 
