@@ -43,7 +43,7 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 			} elseif (preg_match('/\benvio regular\b/iu', $input, $matches)) {
 				$result = $matches[0];
 			}
-			echo '<div>' . htmlspecialchars($result) . '</div>';
+			echo '<div>'strtolower(iconv('UTF-8', 'ASCII//TRANSLIT', $result)) '</div>';
 		?>
 </div>
 
