@@ -32,18 +32,18 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <div>
 	<div>
 		<p>Si tu pedido es Envío Rápido</p>
-		<p>Entregas entre 24 a 72 horas solo para lima metropolitana. Si compraste en otra Región, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a></p>
+		<p>Entregas entre 24 a 72 horas solo para lima metropolitana. Si compraste en otra Región.</p>
 		<a href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
 	</div>
 	<div>
 		<p>Si tu pedido es Envío Regular</p>
-		<p>Entrega de 24 a 48 horas solo para Lima Metropolitana.  Si compraste en otra Región, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a> </p>
-		<p><?php echo $order->get_meta('billing_id')?></p>
-		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=">Ver pedido</a>
+		<p>Entrega de 24 a 48 horas solo para Lima Metropolitana.  Si compraste en otra Región.</p>
+		<a href="https://www.prime-express.pe/trackstatus/tracking/px-det-op.php?npedido=<?php echo $order -> get_order_number()?>&dni=<?php echo $order->get_meta('billing_id')?>">Ver pedido</a>
 	</div>
+	<p>Si deseass inforamación sobre los envíos y tener mayor detalle, haz click <a href="https://skullcandy.com.pe/envios/">aquí</a></p>
+	<p>Para comunicarte con nosotros al WhatsApp sobre tu pedido o algún problema con tu producto, haz click   <a href="https://wa.link/xfavry">aquí</a></p>
 </div>
 
-<a><?php printf(esc_html($order -> get_shipping_method()))?> </a>
 
 <?php
 
