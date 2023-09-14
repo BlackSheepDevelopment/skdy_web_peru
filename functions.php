@@ -688,7 +688,6 @@ function visit_location_script() { ?>
     <script>
 		const text = `
 		<div class="more-notice">
-			<p class="more-notice__text">Envío Rápido hasta agotar stock. Si no hay Envío Rápido cambia a Envío Regular automáticamente.</p>
 			<a class="more-notice__check" href="<?php echo home_url('/envios')?>">
 				<button class="more-notice__button">
 					REVISA AQUÍ ANTES DE COMPRAR
@@ -700,7 +699,6 @@ function visit_location_script() { ?>
 
         function showProductNotice() {
             const _class = jQuery('#select_location option:selected').attr('class');
-			// const text = '<p class="more-notice" >Envío Rápido hasta agotar stock. Si no hay Envío Rápido cambia a Envío Regular en el checkout. <a class="more-notice__check" href="https://skullcandy.com.pe/legales" target="_blank">REVISA AQUÍ ANTES DE COMPRAR</a> </p>'
 			// jQuery('.product-notice').html(text);
         }
 
