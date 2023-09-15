@@ -293,13 +293,17 @@
 .categories-generals__button--headphones{
   background: url(../assets/HP_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-  background-position-y: -130px;
+  @media (max-width: 1280px) {
+    background-position-y: -130px;
+  }
 }
 
 .categories-generals__button--tw{
   background: url(../assets/TW_CATEGORY_CUT.jpg) no-repeat center;
   background-size: cover;
-  background-position-y: -50px;
+  @media (max-width: 1280px) {
+    background-position-y: -50px;
+  }
 }
 
 
