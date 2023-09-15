@@ -49,6 +49,7 @@
   margin-bottom: 0.3rem;
   text-align: start;
   color: white;
+  display: none;
 
   @media (max-width: 1280px) {
     font-size: 2rem;
@@ -75,7 +76,7 @@
   height: $home_banner_size!important;
   width: 100%;
   object-fit: cover;
-  filter: brightness(0.4)
+  // filter: brightness(0.4)
 }
 
 .home-title__button{
@@ -103,6 +104,10 @@
   background-color: white;
   color: black;
   transition: 0.3s;
+}
+
+.home-title__image{
+  padding-top: 250px;
 }
 
 // FEATURED
