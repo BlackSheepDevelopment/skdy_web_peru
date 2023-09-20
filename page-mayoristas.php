@@ -10,6 +10,9 @@ get_header(); ?>
         <div class="forms-mayoristas">
             <?php echo do_shortcode( '[contact-form-7 id="161606" title="formulario-mayoristas"]' ); ?>
         </div>
+        <div class="forms-adicional">
+            <p class="forms-adicional__content"> Si deseas contactarte por otro medio, por favor comunícate con nuestro canal de atención al cliente <a href="https://www.wa.link/xfavry/">aquí</a>. También puedes enviarnos un correo a atencioncliente@blacksheep.com.pe</p>
+        </div>
     </div>
 </div>
 

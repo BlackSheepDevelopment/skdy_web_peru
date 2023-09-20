@@ -82,3 +82,9 @@
     font-size: 14px;
   }
 }
+.forms-adicional__content {
+  padding: 25px 0;
+  font-size: 1.5rem;
+  color: black;
+  font-style: italic;
+}
