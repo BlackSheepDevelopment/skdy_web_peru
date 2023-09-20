@@ -37,6 +37,9 @@
         <div class="right">
             <ul class="menu">
                 <li data-menu="mega-menu-support">
+                    <a href="https://skullcandy.com.pe/mayoristas/">Mayoristas</a>
+                </li>
+                <li data-menu="mega-menu-support">
                     <a href="#"><?php _e( 'Soporte', 'skullcandy' ) ?></a>
                 </li>
             </ul>
