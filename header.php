@@ -36,7 +36,7 @@
         </div>
         <div class="right">
             <ul class="menu">
-                <li data-menu="mega-menu-support">
+                <li class="mega-menu-item">
                     <a href="https://skullcandy.com.pe/mayoristas/">Mayoristas</a>
                 </li>
                 <li data-menu="mega-menu-support">
