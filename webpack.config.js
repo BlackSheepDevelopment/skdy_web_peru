@@ -21,6 +21,7 @@ module.exports = function (env) {
             envios: "./src/entries/envios.js",
             landing_product: "./src/entries/landing_product.js",
             ancs: "./src/entries/ancs.js",
+            mayoristas: "./src/entries/mayoristas.js",
         },
         target: "web",
         mode: env.NODE_ENV,
