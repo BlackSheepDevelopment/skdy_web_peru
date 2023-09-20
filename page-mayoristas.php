@@ -1,4 +1,4 @@
-<?php set_query_var( 'ENTRY', 'mayorista' );
+<?php set_query_var( 'ENTRY', 'mayoristas' );
 get_header(); ?>
 
 <div class="main">
