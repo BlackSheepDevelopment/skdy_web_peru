@@ -98,7 +98,8 @@ $primary-color: #000000;
   cursor: pointer;
 
   &:hover {
-    background-color: darken($primary-color, 10%);
+    background-color: white;
+    color: black
   }
 }
 

@@ -72,7 +72,8 @@
   cursor: pointer;
 }
 .forms_label__button:hover {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
