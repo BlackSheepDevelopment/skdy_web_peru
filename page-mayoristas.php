@@ -7,7 +7,7 @@ get_header(); ?>
         <p>
             Gracias por tu interés en comprar Skullcandy para tu negocio. Por favor, ingresa tus datos en el formulario y nosotros nos contactaremos contigo. 
         </p>
-        <div>
+        <div class="forms-mayoristas">
             <?php echo do_shortcode( '[contact-form-7 id="161606" title="formulario-mayoristas"]' ); ?>
         </div>
     </div>
