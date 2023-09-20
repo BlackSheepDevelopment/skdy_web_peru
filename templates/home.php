@@ -62,7 +62,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="top-products-container">
                 <div>
                     <?php
-                        $product_id = 110786; 
+                        $product_id = 170253; 
                         $product = wc_get_product($product_id);
                     ?>
                     <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
@@ -73,11 +73,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
                             <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                         </div>
+                        <p class="product-off">HASTA 12 CUOTAS SIN INTERÉSES</p>
                     </a>
                 </div>
                 <div >
                     <?php
-                        $product_id = 156632;
+                        $product_id = 5278;
                         $product = wc_get_product($product_id);
                     ?>
                     <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
@@ -88,6 +89,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
                             <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                         </div>
+                        <p class="product-off">HASTA 12 CUOTAS SIN INTERÉSES</p>
                     </a>
 
                 </div>
