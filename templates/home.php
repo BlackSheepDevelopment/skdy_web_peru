@@ -58,73 +58,28 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
 
         <div class="top-products">
-            <div class="top-products__title">MÁS VISTOS.</div>
-            <div class="top-products-container">
-                <div>
-                    <?php
-                        $product_id = 5278; 
-                        $product = wc_get_product($product_id);
-                    ?>
-                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
-                        <div class="product-image">
-                            <?php echo $product->get_image(); ?>
-                        </div>
-                        <div class="product-details">
-                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                        </div>
-                        <p class="product-off">CUOTAS SIN INTERÉSES</p>
-                    </a>
+            <?php if (have_rows('carrusel')): ?>
+                <div class="top-products__title">MÁS VISTOS.</div>
+                <div class="top-products-container">
+                   <?php while(have_rows('carrusel')): the_row(); ?>
+                    <div>
+                        <?php
+                            $product_id = get_sub_field('id'); 
+                            $product = wc_get_product($product_id);
+                        ?>
+                        <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
+                            <div class="product-image">
+                                <?php echo $product->get_image(); ?>
+                            </div>
+                            <div class="product-details">
+                                <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+                                <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+                            </div>
+                            <p class="product-off"><?php get_sub_field('anuncio') ?></p>
+                        </a>
+                    </div>
                 </div>
-                <div >
-                    <?php
-                        $product_id = 5278;
-                        $product = wc_get_product($product_id);
-                    ?>
-                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
-                        <div class="product-image">
-                            <?php echo $product->get_image(); ?>
-                        </div>
-                        <div class="product-details">
-                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                        </div>
-                        <p class="product-off">CUOTAS SIN INTERÉSES</p>
-                    </a>
-
-                </div>
-                <div>
-                    <?php
-                        $product_id = 110773;
-                        $product = wc_get_product($product_id);
-                    ?>
-                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
-                        <div class="product-image">
-                            <?php echo $product->get_image(); ?>
-                        </div>
-                        <div class="product-details">
-                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                        </div>
-                        <p class="product-off">40% OFF</p>
-                    </a>
-                </div>
-                <div>
-                    <?php
-                        $product_id = 71241;
-                        $product = wc_get_product($product_id);
-                    ?>
-                    <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
-                        <div class="product-image">
-                            <?php echo $product->get_image(); ?>
-                        </div>
-                        <div class="product-details">
-                            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-                            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-                        </div>
-                    </a>
-                </div>
-            </div>
+            <?php endif; ?>
         </div>
         <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
