@@ -78,6 +78,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <p class="product-off"><?php get_sub_field('anuncio') ?></p>
                         </a>
                     </div>
+                    <?php endwhile ?>
                 </div>
             <?php endif; ?>
         </div>
