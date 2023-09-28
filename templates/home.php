@@ -147,4 +147,19 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <p class="fixedbutton__text">DALE VOZ A TUS PREGUNTAS!!</p>
     </a>
 
+    <div clas="home-popup">
+        <div class="home-popup__header">
+            <button class="home-popup__header__close">&times;</button>
+        </div>
+        <div class="home-popup__body">
+            <p class="home-popup__body__title">¡Bienvenido a Skullcandy!</p>
+            <p class="home-popup__body__subtitle">Inscríbete a nuestro boletín por correo y accede a eventos y promociones exclusivas. </p>
+            <p class="home-popup__body__offer">Recibe un 10% de descuento en tu primera compra.</p>
+            <div class="home-popup__body__forms">
+            <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
+            </div>
+            <p clas="home-popup__body__terms">*Aplica términos y condiciones</p>
+        </div>
+    </div>
+
 <?php get_footer();
