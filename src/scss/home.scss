@@ -655,21 +655,7 @@
 }
 
 .home-popup__forms__submit{
-  margin: 15px 0;
-  background-color: black;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-  }
+  @include btn(#fff, #383838, #2c2c2d);
 }
 
 #overlay{
