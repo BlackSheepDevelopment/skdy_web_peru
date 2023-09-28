@@ -162,4 +162,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
     </div>
 
+    <div id="overlay"></div>
+
 <?php get_footer();
