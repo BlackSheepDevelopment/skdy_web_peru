@@ -554,7 +554,7 @@
 // }
 
 //  OLDS
-
+  
 #gallery {
   display: flex;
   margin-bottom: -3px;
@@ -621,6 +621,36 @@
   width: 500px;
   max-width: 81%;
   color: white;
+  font-family: "Helvetica Neue LT", sans-serif;
+}
+
+.home-popup__body__title{
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.home-popup__body__subtitle{ 
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.home-popup__body__offer{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.home-popup__forms__input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 #overlay{
