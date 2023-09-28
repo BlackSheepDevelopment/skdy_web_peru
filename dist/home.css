@@ -739,8 +739,8 @@
 }
 
 .home-popup__body__logo {
-  height: 101px;
-  width: auto;
+  height: 101px !important;
+  width: auto !important;
 }
 
 .home-popup__body__subtitle {
