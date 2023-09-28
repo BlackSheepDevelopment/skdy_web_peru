@@ -147,7 +147,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <p class="fixedbutton__text">DALE VOZ A TUS PREGUNTAS!!</p>
     </a>
 
-    <div clas="home-popup">
+    <div class="home-popup">
         <div class="home-popup__header">
             <button class="home-popup__header__close">&times;</button>
         </div>
@@ -158,7 +158,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-popup__body__forms">
             <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
             </div>
-            <p clas="home-popup__body__terms">*Aplica términos y condiciones</p>
+            <p class="home-popup__body__terms">*Aplica términos y condiciones</p>
         </div>
     </div>
 
