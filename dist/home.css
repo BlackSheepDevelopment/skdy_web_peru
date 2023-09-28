@@ -731,6 +731,14 @@
   padding: 3% 5%;
 }
 
+.home-popup__body__first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
 .home-popup__body__title {
   font-size: 1.1rem;
   font-weight: 700;
