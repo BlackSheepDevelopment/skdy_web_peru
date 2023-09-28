@@ -76,7 +76,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                                 <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                             </div>
                             <?php if(get_sub_field('anuncio')): ?>
-                                <p class="product-off"><?php get_sub_field('anuncio') ?></p>
+                                <p class="product-off"><?php echo get_sub_field('anuncio') ?></p>
                             <?php endif; ?>
                         </a>
                     </div>
