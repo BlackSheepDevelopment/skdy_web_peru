@@ -153,6 +153,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="home-popup__body">
             <p class="home-popup__body__title">¡Bienvenido a Skullcandy!</p>
+            <src class="home-popup__body__logo" src="<?php echo get_template_directory_uri() ?>/src/assets/logo-white.png"/>
             <p class="home-popup__body__subtitle">Inscríbete a nuestro boletín por correo y accede a eventos y promociones exclusivas. </p>
             <p class="home-popup__body__offer">Recibe un 10% de descuento en tu primera compra.</p>
             <div class="home-popup__body__forms">
