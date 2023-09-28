@@ -780,14 +780,14 @@
   text-align: center;
   background: 0 0;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: bold;
   border-radius: 0;
   cursor: pointer;
   z-index: 1;
 }
 .home-popup__forms__submit:hover {
-  color: #fff;
+  color: #000;
 }
 .home-popup__forms__submit:hover:after {
   width: 120%;
@@ -800,7 +800,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #383838;
+  background: #f6f6f6;
 }
 .home-popup__forms__submit:after {
   content: "";
@@ -809,7 +809,7 @@
   width: 20px;
   height: 100%;
   top: 0;
-  background: #2c2c2d;
+  background: #fff;
   left: 50%;
   cursor: pointer;
   transform: translate(-50%) skew(20deg) scaleX(1);
