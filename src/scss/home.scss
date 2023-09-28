@@ -652,10 +652,19 @@
   border: 1px solid #ccc;
   border-radius: 4.1px;
   font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .home-popup__forms__submit{
   @include btn(#fff, #383838, #2c2c2d);
+}
+
+.home-popup__body__terms{
+  font-size: 0.7rem;
+  font-weight: 200;
+  font-style: italic;
+  padding: 10px 0;
+  text-align: center;
 }
 
 #overlay{
