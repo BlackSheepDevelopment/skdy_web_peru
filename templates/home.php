@@ -62,7 +62,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="top-products-container">
                 <div>
                     <?php
-                        $product_id = 170253; 
+                        $product_id = 5278; 
                         $product = wc_get_product($product_id);
                     ?>
                     <a class="top-products-container__item" href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
