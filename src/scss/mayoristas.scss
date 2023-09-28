@@ -99,7 +99,9 @@ $primary-color: #000000;
 
   &:hover {
     background-color: white;
-    color: black
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
   }
 }
 
