@@ -73,7 +73,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
                             <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                         </div>
-                        <p class="product-off">HASTA 12 CUOTAS SIN INTERÉSES</p>
+                        <p class="product-off">CUOTAS SIN INTERÉSES</p>
                     </a>
                 </div>
                 <div >
@@ -89,7 +89,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
                             <p class="product-price"><?php echo $product->get_price_html(); ?></p>
                         </div>
-                        <p class="product-off">HASTA 12 CUOTAS SIN INTERÉSES</p>
+                        <p class="product-off">CUOTAS SIN INTERÉSES</p>
                     </a>
 
                 </div>
