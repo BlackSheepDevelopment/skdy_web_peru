@@ -639,7 +639,7 @@
 }
 
 .home-popup__body__subtitle{ 
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   font-weight: 300;
   padding: 30px 0 20px 0;
   text-align: center;
@@ -662,7 +662,7 @@
   width: 100%;
   padding: 0 15px;
   border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 15px;
   border-radius: 0px!important;
 }
@@ -673,10 +673,12 @@
 }
 
 .home-popup__forms__submit{
+  font-size: 12px;
   padding: 10px 20px;
   font-family:  "Helvetica Neue LT", sans-serif;;
   color:black;
   background-color: white;
+  border: none;
 
   :hover{
     background-color: #ccc;

@@ -157,7 +157,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-popup__body__forms">
             <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
             </div>
-            <p class="home-popup__body__terms">Al enviar tu información aceptas los términos y condiciones</p>
         </div>
     </div>
 
