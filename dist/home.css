@@ -719,6 +719,7 @@
 
 .home-popup-newsletter {
   max-height: 600px;
+  z-index: 100;
 }
 
 .home-popup {
@@ -727,7 +728,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
-  z-index: 100;
   width: 551px;
   max-width: 81%;
   color: white;
