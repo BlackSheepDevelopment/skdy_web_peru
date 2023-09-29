@@ -698,7 +698,11 @@
 
   border: white 1px solid;
 
-  :active{
+  &:hover{
+    background-color: #ccc;
+  }
+
+  &:active{
     background-color: black;
     color: white;
     border: 1px solid white;
