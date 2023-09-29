@@ -63,8 +63,8 @@ products_slider.slick({
 });
 
 $(".home-popup__header__close").click(function () {
-    $("#overlay").css("display", "block");
-    $("#overlay").css("display", "block");
+    $("#overlay").css("display", "none");
+    $("home-popup").css("display", "none");
 });
 
 // function reveal() {
