@@ -152,10 +152,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <button class="home-popup__header__close">&times;</button>
         </div>
         <div class="home-popup__body">
-            <div class="home-popup__body__first">
-                <p class="home-popup__body__subtitle">Inscríbete a nuestro newsletter por correo y accede a eventos y promociones exclusivas. </p>
-            </div>         
             <p class="home-popup__body__offer">Recibe un 10% de descuento en tu siguiente compra.</p>
+            <p class="home-popup__body__subtitle">Inscríbete a nuestro newsletter por correo y accede a eventos y promociones exclusivas. </p>
             <div class="home-popup__body__forms">
             <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
             </div>

@@ -744,14 +744,6 @@
   font-size: 2.5rem;
 }
 
-.home-popup__body__first {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0;
-}
-
 .home-popup__body__subtitle {
   font-size: 0.9rem;
   font-weight: 300;
@@ -760,7 +752,7 @@
 }
 
 .home-popup__body__offer {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   padding: 24px 0;
   text-align: center;
