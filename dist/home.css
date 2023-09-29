@@ -725,12 +725,19 @@
   left: 50%;
   transform: translate(-64%, -50%);
   display: flex;
+  width: 900px;
+  max-width: 80%;
+}
+
+@media (max-width: 1280px) {
+  .home-popup__image {
+    display: none;
+  }
 }
 
 .home-popup {
   background-color: black;
   width: 551px;
-  max-width: 81%;
   color: white;
   font-family: "Helvetica Neue LT", sans-serif;
   padding: 1% 5% 3.1% 5%;
@@ -767,6 +774,7 @@
 }
 
 .home-popup__body__forms {
+  padding-top: 50px;
   font-size: 12px;
 }
 
