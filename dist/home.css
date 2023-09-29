@@ -772,6 +772,11 @@
   margin-bottom: 15px;
 }
 
+.forms-popup-news {
+  display: flex;
+  justify-content: center;
+}
+
 .home-popup__forms__submit {
   padding: 10px 20px;
   font-family: "Helvetica Neue LT", sans-serif;
