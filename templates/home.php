@@ -149,7 +149,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
 
     <div class="home-popup-newsletter">
-        <img alt="crusher-newsletter-img" class="home-popup__image" src="<?php echo get_template_directory_uri() ?>/src/assets/CRUSHER_NEWS.jpg"/>
+        <img alt="crusher-newsletter-img" class="home-popup__image" src="<?php echo get_template_directory_uri() ?>/src/assets/CRUSHER_NEWS_2.jpg"/>
         <div class="home-popup">
             <div class="home-popup__content">
                 <div class="home-popup__header">
