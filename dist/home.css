@@ -795,6 +795,10 @@
   display: none !important;
 }
 
+.wpcf7-response-output {
+  display: none !important;
+}
+
 .home-popup__body__terms {
   font-size: 0.6rem;
   font-weight: 200;
