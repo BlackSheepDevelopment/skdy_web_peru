@@ -147,22 +147,25 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <p class="fixedbutton__text">DALE VOZ A TUS PREGUNTAS!!</p>
     </a>
 
-    <div class="home-popup">
+
+    <div class="home-popup-newsletter">
         <img class="home-popup__image" src="<?php echo get_template_directory_uri() ?>/src/assets/CRUSHER_NEWS.jpg"/>
-        <div class="home-popup__content">
-            <div class="home-popup__header">
-                <button class="home-popup__header__close">&times;</button>
-            </div>
-            <div class="home-popup__body">
-                <p class="home-popup__body__offer">¡Recibe un 10% de descuento en tu siguiente compra!</p>
-                <p class="home-popup__body__subtitle">Sé parte de nuestra comunidad y accede a eventos y promociones exclusivas. </p>
-                <div class="home-popup__body__forms">
-                <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
+        <div class="home-popup">
+            <div class="home-popup__content">
+                <div class="home-popup__header">
+                    <button class="home-popup__header__close">&times;</button>
+                </div>
+                <div class="home-popup__body">
+                    <p class="home-popup__body__offer">¡Recibe un 10% de descuento en tu siguiente compra!</p>
+                    <p class="home-popup__body__subtitle">Sé parte de nuestra comunidad y accede a eventos y promociones exclusivas. </p>
+                    <div class="home-popup__body__forms">
+                    <?php echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
+
 
     <div id="overlay"></div>
 
