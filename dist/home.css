@@ -764,8 +764,9 @@
 }
 
 .home-popup__forms__input {
+  height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 0 15px;
   border: 1px solid #ccc;
   font-size: 16px;
   margin-bottom: 15px;
