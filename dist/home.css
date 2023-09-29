@@ -800,9 +800,13 @@
   color: black;
   background-color: white;
   border: none;
+  cursor: pointer;
+  border: white 1px solid;
 }
-.home-popup__forms__submit :hover {
-  background-color: #ccc;
+.home-popup__forms__submit :active {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
 .wpcf7-spinner {
