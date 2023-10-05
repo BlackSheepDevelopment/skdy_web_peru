@@ -27,42 +27,42 @@ gallery.slick({
     ],
 });
 
-$(document).ready(function () {
-    const products_slider = $(".top-products-container");
-    products_slider.slick({
-        centerMode: true,
-        centerPadding: "150px",
-        slidesToShow: 3,
-        responsive: [
-            {
-                breakpoint: 9999,
-                settings: "unslick",
-            },
-            {
-                breakpoint: 1280,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: "20px",
-                    slidesToShow: 2,
-                    dots: true,
-                    settings: "slick",
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    centerPadding: "20px",
-                    slidesToShow: 1,
-                    dots: true,
-                    settings: "slick",
-                },
-            },
-        ],
-    });
-});
+// $(document).ready(function () {
+//     const products_slider = $(".top-products-container");
+//     products_slider.slick({
+//         centerMode: true,
+//         centerPadding: "150px",
+//         slidesToShow: 3,
+//         responsive: [
+//             {
+//                 breakpoint: 9999,
+//                 settings: "unslick",
+//             },
+//             {
+//                 breakpoint: 1280,
+//                 settings: {
+//                     arrows: false,
+//                     centerMode: true,
+//                     centerPadding: "20px",
+//                     slidesToShow: 2,
+//                     dots: true,
+//                     settings: "slick",
+//                 },
+//             },
+//             {
+//                 breakpoint: 480,
+//                 settings: {
+//                     arrows: false,
+//                     centerMode: true,
+//                     centerPadding: "20px",
+//                     slidesToShow: 1,
+//                     dots: true,
+//                     settings: "slick",
+//                 },
+//             },
+//         ],
+//     });
+// });
 
 $(".home-popup__header__close").click(function () {
     $("#overlay").css("display", "none");
