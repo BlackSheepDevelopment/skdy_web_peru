@@ -8,12 +8,7 @@
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
-                    <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="header header-ofertas">OFERTAS</a>
-                </article>
-                <article>
-                    <?php $envios_page = get_page_by_title( 'Envío Rápido' );
-                          $envios_id = $envios_page -> ID; ?>
-                    <a href="<?php echo get_permalink($envios_id); ?>" class="header">ENVÍO RÁPIDO</a>
+                    <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">SOLO X HORAS</a>
                 </article>
                 <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
