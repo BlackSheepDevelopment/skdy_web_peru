@@ -27,6 +27,11 @@
                         <span><?php echo get_the_title( wc_get_page_id( 'shop' ) ) ?></span>
                     </a>
                 </li>
+                <li>
+                    <a href="https://skullcandy.com.pe/shop/ofertas/">
+                        <span>OFERTAS</span>
+                    </a>
+                </li>
                 <li data-menu="mega-menu-inside">
                     <a href="#">
                         <span><?php _e( 'Inside Skullcandy', 'skullcandy' ) ?></span>
