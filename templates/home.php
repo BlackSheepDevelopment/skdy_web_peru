@@ -62,7 +62,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <div class="top-products__title">MÁS VISTOS.</div>
                 <div class="top-products-container">
                    <?php while(have_rows('carrusel')): the_row(); ?>
-                    <div>
                         <?php
                             $product_id = get_sub_field('id'); 
                             $product = wc_get_product($product_id);
@@ -79,7 +78,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                                 <p class="product-off"><?php echo get_sub_field('anuncio') ?></p>
                             <?php endif; ?>
                         </a>
-                    </div>
                     <?php endwhile ?>
                 </div>
             <?php endif; ?>
