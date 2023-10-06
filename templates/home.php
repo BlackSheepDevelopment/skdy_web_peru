@@ -151,14 +151,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
 
     </div>
-
-
-
     <a href="https://www.wa.link/xfavry/" id="fixedbutton" target="_blank">
         <img class="fixedbutton__img" src="<?php echo get_template_directory_uri() ?>/src/assets/AYUDA_WSP.png" >
     </a>
-
-
     <div class="home-popup-newsletter">
         <img alt="crusher-newsletter-img" class="home-popup__image" src="<?php echo get_template_directory_uri() ?>/src/assets/CRUSHER_NEWS_2.jpg"/>
         <div class="home-popup">
