@@ -44,6 +44,7 @@
 }
 
 .home-grid__prev{
+  padding: 0px 20px;
   position: absolute;
   left: 0;
   top: 50%;
@@ -57,6 +58,7 @@
 }
 
 .home-grid__next{
+  padding: 0px 20px;
   position: absolute;
   right: 0;
   top: 50%;
@@ -71,7 +73,9 @@
 }
 
 .home-grid__arrow__img{
-  background-color: white!important;
+  color: white!important;
+  height: 100px!important;
+  width: auto!important;
 }
 
 .home-title{
