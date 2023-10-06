@@ -22,7 +22,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </button>
             <button class="home-grid__next">
                 
-                <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 16">
+                <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64">
                     <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,12H0Z" transform="translate(12) rotate(90)"/>
                 </svg>  
             </button>
