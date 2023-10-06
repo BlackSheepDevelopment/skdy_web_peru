@@ -128,6 +128,18 @@
   }
 }
 
+.home-grid__prev {
+  position: relative;
+  left: 0;
+  top: 50%;
+}
+
+.home-grid__next {
+  position: relative;
+  right: 0;
+  top: 50%;
+}
+
 .home-title {
   font-size: 2.2rem;
   font-weight: 500;
