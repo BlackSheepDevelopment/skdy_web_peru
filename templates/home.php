@@ -27,8 +27,11 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </svg>  
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
-                <picture>
-                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
+                <picture class="home-grid__video">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_SKDY.mp4" autoplay muted loop playsinline> </video>
+                </picture>
+                <picture class="home-grid__video">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_V3_2.mp4" autoplay muted loop playsinline> </video>
                 </picture>
                 <picture class="home-grid__video">
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_NEWGEN.mp4" autoplay muted loop playsinline> </video>
@@ -36,14 +39,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
 
             <div class="home-info">
-                <p class="home-title">SKULLWEEK</p>
-                <p class="home-title">¡Disfruta de las mejores promociones, regalos y packs!</p>
+                <p class="home-title">SINTONIZA</p>
+                <p class="home-title">CADA MOMENTO.</p>
                 <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
                 <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                 <div>
                     <a class="home-title__button" href="https://skullcandy.com.pe/shop/ofertas">COMPRA AHORA</a>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="shop-features">
             <p class="shop-features__title">Por cada compra en Skullcandy, te garantizamos</p>
