@@ -15,8 +15,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     <div class="main-container">
         <div id="home-grid">
             <div class="home-picture" id="skullcandy-peru-container">
-                <picture>
+                <picture class="home-grid__video">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_SKDY.mp4" autoplay muted loop playsinline> </video>
+                </picture>
+                <picture class="home-grid__video">
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_V3_2.mp4" autoplay muted loop playsinline> </video>
+                </picture>
+                <picture class="home-grid__video">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_NEWGEN.mp4" autoplay muted loop playsinline> </video>
                 </picture>
             </div>
 
