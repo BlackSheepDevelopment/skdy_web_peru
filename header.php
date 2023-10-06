@@ -29,7 +29,7 @@
                 </li>
                 <li>
                     <a href="https://skullcandy.com.pe/shop/ofertas/">
-                        <span>SOLO X HORAS</span>
+                        <span>OFERTAS</span>
                     </a>
                 </li>
                 <li data-menu="mega-menu-inside">
