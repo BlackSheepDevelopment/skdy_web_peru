@@ -250,11 +250,12 @@
   .top-products-container {
     flex-direction: column;
     padding: 20px 20px 40px 20px;
+    gap: 20px;
+    align-items: center;
   }
 }
 
 .top-products-container__item {
-  position: relative;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -450,13 +451,13 @@
 }
 
 .fixedbutton__img {
-  width: 50px;
+  width: 100px !important;
   height: auto;
   z-index: 1000;
 }
 @media (max-width: 1280px) {
   .fixedbutton__img {
-    width: 30px;
+    width: 80px !important;
   }
 }
 
