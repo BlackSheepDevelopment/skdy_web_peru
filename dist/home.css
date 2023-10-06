@@ -112,13 +112,13 @@
 .home-info {
   position: absolute;
   top: 30%;
-  padding-left: 50px;
+  padding-left: 2%;
 }
 @media (max-width: 1280px) {
   .home-info {
     position: absolute;
     top: 30%;
-    padding: 0 10%;
+    padding: 0 3%;
     display: flex;
     justify-content: end;
     align-items: center;
