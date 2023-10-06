@@ -18,6 +18,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <picture>
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                 </picture>
+                <picture class="home-grid__video">
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_NEWGEN.mp4" autoplay muted loop playsinline> </video>
+                </picture>
             </div>
 
             <div class="home-info">
