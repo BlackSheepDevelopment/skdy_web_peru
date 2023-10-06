@@ -132,12 +132,24 @@
   position: relative;
   left: 0;
   top: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
 }
 
 .home-grid__next {
   position: relative;
   right: 0;
   top: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  cursor: pointer;
 }
 
 .home-title {
