@@ -14,13 +14,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
         <div id="home-grid">
-            <button>
+            <button class="home-grid__prev">
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-prev.svg" alt="nav-prev-arrow"
-                class="home-grid__prev">
+                class="home-grid__prev__img">
             </button>
-            <button>
+            <button class="home-grid__next">
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-next.svg" alt="nav-prev-arrow"
-                class="home-grid__next">
+                class="home-grid__next__img">
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
