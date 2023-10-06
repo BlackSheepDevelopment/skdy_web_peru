@@ -19,8 +19,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 class="home-grid__arrow__img">
             </button>
             <button class="home-grid__next">
-                <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-next.svg" alt="nav-prev-arrow"
-                class="home-grid__arrow__img">
+                <svg class=".home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="36" height="48" viewBox="0 0 12 16">
+                    <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,12H0Z" transform="translate(12) rotate(90)"/>
+                </svg>  
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
