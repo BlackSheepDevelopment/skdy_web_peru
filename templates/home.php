@@ -28,6 +28,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
                 <div>
+                    
                     <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_SKDY.mp4" autoplay muted loop playsinline> </video>
                     </picture>
