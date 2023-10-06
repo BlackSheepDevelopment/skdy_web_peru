@@ -48,21 +48,11 @@ gallery.slick({
 // });
 
 const home_videos = $(".home-picture");
-const home_videos_count = home_videos.find(".home-grid__video").length;
-
 home_videos.slick({
-    slidesToShow: home_videos_count,
+    slidesToShow: 1,
+    arrows: true,
+    slidesToScroll: 1,
     dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                dots: true,
-            },
-        },
-    ],
 });
 
 // $(document).ready(function () {
