@@ -55,6 +55,8 @@ home_videos.slick({
     dots: false,
     prevArrow: $(".home-grid__prev"),
     nextArrow: $(".home-grid__next"),
+    autoplay: true,
+    autoplaySpeed: 5000,
 });
 
 // $(document).ready(function () {
