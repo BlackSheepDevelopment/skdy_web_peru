@@ -61,8 +61,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <?php if (have_rows('carrusel')): ?>
                 <div class="top-products__title">MÁS VISTOS.</div>
                 <div class="top-products-container">
-                   <?php while(have_rows('carrusel')): the_row(); ?>
-                        <?php
+                   <?php while(have_rows('carrusel')): the_row();                   
                             $product_id = get_sub_field('id'); 
                             $product = wc_get_product($product_id);
                         ?>
