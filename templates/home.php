@@ -15,9 +15,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     <div class="main-container">
         <div id="home-grid">
             <button class="home-grid__prev">
-                <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 16">
-                    <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,12H0Z" transform="translate(12) rotate(90)"/>
-                </svg>  
+                <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 16 64">
+                    <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
+                </svg>
+
             </button>
             <button class="home-grid__next">
                 
