@@ -44,7 +44,7 @@
 }
 
 .home-grid__prev{
-  position: relative;
+  position: absolute;
   left: 0;
   top: 50%;
   background-color: transparent;
@@ -53,10 +53,11 @@
   margin: 0;
   border: none;
   cursor: pointer;
+  z-index: 99;
 }
 
 .home-grid__next{
-  position: relative;
+  position: absolute;
   right: 0;
   top: 50%;
   background-color: transparent;
@@ -65,6 +66,12 @@
   margin: 0;
   border: none;
   cursor: pointer;
+  z-index: 99;
+
+}
+
+.home-grid__arrow__img{
+  background-color: white!important;
 }
 
 .home-title{
