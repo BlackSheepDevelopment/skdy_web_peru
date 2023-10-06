@@ -27,25 +27,25 @@ gallery.slick({
     ],
 });
 
-const products_slider = $(".top-products-container");
-const products_slider_count = products_slider.find(
-    ".top-products-container__item"
-).length;
+// const products_slider = $(".top-products-container");
+// const products_slider_count = products_slider.find(
+//     ".top-products-container__item"
+// ).length;
 
-products_slider.slick({
-    slidesToShow: products_slider_count,
-    dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                dots: true,
-            },
-        },
-    ],
-});
+// products_slider.slick({
+//     slidesToShow: products_slider_count,
+//     dots: false,
+//     arrows: false,
+//     responsive: [
+//         {
+//             breakpoint: 768,
+//             settings: {
+//                 slidesToShow: 1,
+//                 dots: true,
+//             },
+//         },
+//     ],
+// });
 
 // $(document).ready(function () {
 //     const products_slider = $(".top-products-container");
