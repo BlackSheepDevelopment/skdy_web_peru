@@ -16,11 +16,11 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div id="home-grid">
             <button class="home-grid__prev">
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-prev.svg" alt="nav-prev-arrow"
-                class="home-grid__prev__img">
+                class="home-grid__arrow__img">
             </button>
             <button class="home-grid__next">
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-next.svg" alt="nav-prev-arrow"
-                class="home-grid__next__img">
+                class="home-grid__arrow__img">
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture class="home-grid__video">
