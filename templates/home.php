@@ -14,6 +14,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
         <div id="home-grid">
+            <button>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-prev.svg" alt="nav-prev-arrow"
+                class="home-grid__prev">
+            </button>
+            <button>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/nav-next.svg" alt="nav-prev-arrow"
+                class="home-grid__next">
+            </button>
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
