@@ -53,8 +53,8 @@ home_videos.slick({
     arrows: true,
     slidesToScroll: 1,
     dots: false,
-    prevArrow: $(".home-picture__prev"),
-    nextArrow: $(".home-picture__next"),
+    prevArrow: $(".home-grid__prev"),
+    nextArrow: $(".home-grid__next"),
 });
 
 // $(document).ready(function () {
