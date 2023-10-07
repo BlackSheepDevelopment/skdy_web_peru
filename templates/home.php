@@ -16,15 +16,15 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div id="home-grid">
             <div class="home-picture" id="skullcandy-peru-container">
                 <picture>
-                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_V3_2.mp4" autoplay muted loop playsinline> </video>
+                    <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                 </picture>
             </div>
 
             <div class="home-info">
-                <p class="home-title">SINTONIZA</p>
-                <p class="home-title">CADA MOMENTO.</p>
-                <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
-                <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                <p class="home-title">PRE SKULL WEEK</p>
+                <p class="home-title">APROVECHA LAS OFERTAS</p>
+                <!-- <p class="home-title home-title--bold">VIVE LA MÚSICA</p> -->
+                <!-- <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                 <div>
                     <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
                 </div>
