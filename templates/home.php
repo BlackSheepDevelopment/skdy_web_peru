@@ -27,6 +27,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </svg>  
             </button>
             <div class="home-picture" id="skullcandy-peru-container">
+<<<<<<< HEAD
                 <picture class="home-grid__video">
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_SKDY.mp4" autoplay muted loop playsinline> </video>
                 </picture>
@@ -36,6 +37,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <picture class="home-grid__video">
                     <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_WEB_NEWGEN.mp4" autoplay muted loop playsinline> </video>
                 </picture>
+=======
+>>>>>>> 4fb2f34af225573adc2ef887e74952a0db106bc3
                 <div>
                     
                     <picture class="home-grid__video">
@@ -65,7 +68,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
             </div>
 
-            <div class="home-info">
+            <!-- <div class="home-info">
                 <p class="home-title">SINTONIZA</p>
                 <p class="home-title">CADA MOMENTO.</p>
                 <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
