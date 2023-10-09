@@ -106,7 +106,7 @@
 
 #home-grid {
   width: 100%;
-  height: 92vh;
+  height: 90vh;
 }
 
 .home-info {
@@ -191,7 +191,7 @@
 }
 
 .home-grid__picture {
-  height: 92vh !important;
+  height: 90vh !important;
   width: 100%;
   object-fit: cover;
 }
