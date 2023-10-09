@@ -190,6 +190,15 @@
   }
 }
 
+.home-title--desktop {
+  display: block;
+}
+@media (max-width: 1280px) {
+  .home-title--desktop {
+    display: none;
+  }
+}
+
 .home-grid__picture {
   height: 90vh !important;
   width: 100%;

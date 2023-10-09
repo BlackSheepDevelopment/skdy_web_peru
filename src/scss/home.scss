@@ -108,6 +108,13 @@
   }
 }
 
+.home-title--desktop{
+  display: block;
+  @media (max-width: 1280px) {
+    display: none;
+  }
+}
+
 .home-grid__picture{
   height: $home_banner_size!important;
   width: 100%;
