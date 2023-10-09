@@ -186,7 +186,7 @@
 @media (max-width: 768px) {
   #product-header .container .summary {
     width: 100%;
-    margin: 0 !important;
+    margin-top: 115% !important;
   }
 }
 #product-header .container .summary .header-title {
