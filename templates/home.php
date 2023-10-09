@@ -21,7 +21,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
 
             <div class="home-info">
-                <p class="home-title">SkullWeek</p>
+                <p class="home-title">SKULLWEEK</p>
                 <p class="home-title">¡Disfruta de las mejores promociones, regalos y packs!</p>
                 <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
                 <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
