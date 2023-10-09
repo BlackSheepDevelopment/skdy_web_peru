@@ -14,7 +14,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
         <div id="home-grid">
-            <!-- <button class="home-grid__prev">
+            <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
                 </svg>
@@ -25,19 +25,32 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,12H0Z" transform="translate(12) rotate(90)"/>
                 </svg>  
-            </button> -->
+            </button>
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
-                            <p class="home-title">SINTONIZA</p>
-                            <p class="home-title">CADA MOMENTO.</p>
+                            <p class="home-title home-title--bold">SKULLWEEK</p>
+                            <p class="home-title">Aprovecha nuestros packs y regalos sorpresa.</p>
                             <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
                             <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
                                 <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div>
+                    <picture class="home-grid__video">
+                        <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
+                    </picture>
+                    <div class="home-info">
+                            <p class="home-title home-title--bold">NUEVA GENERACIÓN</p>
+                            <p class="home-title">Smokin'Buds</p>
+                            <div>
+                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡COMPRALOS YA!</a>
                             </div>
                     </div>
                 </div>
