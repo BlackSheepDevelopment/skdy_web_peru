@@ -21,12 +21,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div>
 
             <div class="home-info">
-                <p class="home-title">Comienza PRE-SKULLWEEK</p>
-                <p class="home-title">¡Aprovecha las ofertas!</p>
+                <p class="home-title">SkullWeek</p>
+                <p class="home-title">¡Disfruta de las mejores promociones, regalos y packs!</p>
                 <p class="home-title home-title--bold">VIVE LA MÚSICA</p>
                 <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                 <div>
-                    <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                    <a class="home-title__button" href="https://skullcandy.com.pe/shop/ofertas">COMPRA AHORA</a>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
             <div class="categories-additionals">
-                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</a>
+                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">SKULLWEEK</a>
                 <a href="https://skullcandy.com.pe/shop/?cat=packs" class="categories-additionals__button categories-additionals__button--packs">PACKS</a>
             </div>
             <div class="categories-generals">

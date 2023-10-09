@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="filter">
 	<button class="filter__section__button" id="">Ver Todo</button>
-	<button class="filter__section__button filter__section__button--ofertas " id="ofertas">OFERTAS</button>
+	<button class="filter__section__button filter__section__button--ofertas " id="ofertas">SKULLWEEK</button>
 	<button class="filter__section__button" id="packs">PACKS</button>
 	<button class="filter__section__button" id="true-wireless">True Wireless</button>
 	<button class="filter__section__button" id="headphones">Headphones</button>
