@@ -44,9 +44,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <div>
                     <picture class="home-grid__video">
                         <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4"
-                            media="(min-width: 1080px)"/>
+                            media="(min-width: 792px)"/>
                         <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
                     </picture>
+
                     <div class="home-info">
                             <p class="home-title home-title--bold">SMOKIN' BUDS</p>
                             <p class="home-title home-title">ESTILO. POTENCIA. CALIDAD.</p>
