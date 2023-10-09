@@ -51,7 +51,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <p class="home-title home-title--bold">Smokin'Buds</p>
                             <p class="home-title">ESTILO. POTENCIA. CALIDAD.</p>
                             <div>
-                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡COMPRALOS YA!</a>
+                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡COMPRALOS YA!</a>
                             </div>
                     </div>
                 </div>
