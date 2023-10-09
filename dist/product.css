@@ -186,8 +186,11 @@
 @media (max-width: 768px) {
   #product-header .container .summary {
     width: 100%;
-    margin-top: 115% !important;
+    margin: 0 !important;
   }
+}
+#product-header .container .summary .cuotealo-available-product {
+  margin-top: 100% !important;
 }
 #product-header .container .summary .header-title {
   color: #fff;
@@ -252,11 +255,6 @@
 }
 #product-header .container .summary form.cart {
   margin-bottom: 1.42857rem;
-}
-@media (max-width: 768px) {
-  #product-header .container .summary form.cart {
-    margin-top: 100%;
-  }
 }
 #product-header .container .summary form.cart .single_variation_wrap {
   margin-top: 1rem;
