@@ -47,9 +47,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
-                            <p class="home-title">NUEVA GENERACIÓN</p>
                             <p class="home-title home-title--bold">Smokin'Buds</p>
-                            <p class="home-title">ESTILO. POTENCIA. CALIDAD.</p>
+                            <p class="home-title home-title--bold">ESTILO. POTENCIA. CALIDAD.</p>
                             <div>
                                 <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡COMPRALOS YA!</a>
                             </div>
