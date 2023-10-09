@@ -48,7 +48,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">NUEVA GENERACIÓN</p>
-                            <p class="home-title">Smokin'Buds</p>
+                            <p class="home-title home-title--bold">Smokin'Buds</p>
+                            <p class="home-title home-title--bold">ESTILO. POTENCIA. CALIDAD.</p>
                             <div>
                                 <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡COMPRALOS YA!</a>
                             </div>
