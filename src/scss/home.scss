@@ -115,6 +115,20 @@
   // filter: brightness(0.4)
 }
 
+.home-grid__picture--desktop{
+  display: block;
+  @media (max-width: 1080px) {
+    display: none;
+  }
+}
+
+.home-grid__picture--mobile{
+  display: none;
+  @media (max-width: 1080px) {
+    display: block;
+  }
+}
+
 .home-title__button{
   display: block;
   // @include btn(#000, #ededed, #ddd);

@@ -196,6 +196,24 @@
   object-fit: cover;
 }
 
+.home-grid__picture--desktop {
+  display: block;
+}
+@media (max-width: 1080px) {
+  .home-grid__picture--desktop {
+    display: none;
+  }
+}
+
+.home-grid__picture--mobile {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .home-grid__picture--mobile {
+    display: block;
+  }
+}
+
 .home-title__button {
   display: block;
   margin-top: 2rem;
