@@ -859,7 +859,7 @@
   text-align: center;
 }
 
-.home-popup__image {
+.home-popup-image {
   z-index: 100;
   position: fixed;
   top: 50%;
@@ -870,7 +870,7 @@
   object-fit: cover;
 }
 @media (max-width: 1280px) {
-  .home-popup__image {
+  .home-popup-image {
     width: 350px;
   }
 }
