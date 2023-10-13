@@ -762,6 +762,11 @@
 
 // Home Pop-up Image
 .home-popup__image{
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -50%);
   width: 500px;
   height: auto;
   object-fit: cover;
