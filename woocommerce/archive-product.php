@@ -30,6 +30,9 @@ get_header( 'shop' );
  */
 do_action( 'woocommerce_before_main_content' );
 
+
+
+
 ?>
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
@@ -96,6 +99,17 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
 
+	// Add a custom query to order products by price
+	function custom_woocommerce_archive_product_query( $query ) {
+		if ( is_shop() && $query->is_main_query() ) {
+			$query->set( 'orderby', 'price' );
+			$query->set( 'order', 'ASC' ); // You can change this to 'DESC' for descending order
+		}
+	}
+	add_action( 'pre_get_posts', 'custom_woocommerce_archive_product_query' );
+
+
+
 	woocommerce_product_loop_start();
 
 
@@ -107,9 +121,11 @@ if ( woocommerce_product_loop() ) {
 		}
 	}
 
-	echo do_shortcode('[products orderby="price"]');
+	// echo do_shortcode('[products orderby="price"]');
 
 	woocommerce_product_loop_end();
+	
+	remove_action( 'pre_get_posts', 'custom_woocommerce_archive_product_query' );
 
 	/**
 	 * Hook: woocommerce_after_shop_loop.
