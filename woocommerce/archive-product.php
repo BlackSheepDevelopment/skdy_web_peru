@@ -106,7 +106,8 @@ if ( woocommerce_product_loop() ) {
 			wc_get_template_part( 'content', 'product' );
 		}
 	}
-		
+
+	echo do_shortcode('[products orderby="price"]');
 
 	woocommerce_product_loop_end();
 
