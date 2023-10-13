@@ -752,6 +752,36 @@
   }
 }
 
+.home-popup__body__terms{
+  font-size: 0.6rem;
+  font-weight: 200;
+  font-style: italic;
+  padding: 10px 0;
+  text-align: center;
+}
+
+// Home Pop-up Image
+.home-popup__image{
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  @media (max-width: 1280px) {
+    width: 350px;
+  }
+}
+
+.home-popup-image__close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: black;
+  border:none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
 .wpcf7-spinner{
   display: none!important;
 }
@@ -760,13 +790,7 @@
   display: none!important;
 }
 
-.home-popup__body__terms{
-  font-size: 0.6rem;
-  font-weight: 200;
-  font-style: italic;
-  padding: 10px 0;
-  text-align: center;
-}
+
 
 #overlay{
   display: none!important;

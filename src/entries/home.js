@@ -99,6 +99,7 @@ home_videos.slick({
 $(".home-popup__header__close").click(function () {
     $("#overlay").css("display", "none");
     $(".home-popup-newsletter").css("display", "none");
+    $(".home-popup-image").css("display", "none");
 });
 
 // function reveal() {
