@@ -30,9 +30,6 @@ get_header( 'shop' );
  */
 do_action( 'woocommerce_before_main_content' );
 
-
-
-
 ?>
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
@@ -99,53 +96,21 @@ if ( woocommerce_product_loop() ) {
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
 
-	
-    // Create a custom query to order products by price
-    $args = array(
-        'post_type' => 'product',
-        'posts_per_page' => -1, // Display all products
-        'orderby' => 'meta_value_num',
-        'meta_key' => '_price',
-        'order' => 'ASC', // You can change this to 'DESC' for descending order
-    );
-
-    $custom_query = new WP_Query( $args );
-
-    if ( $custom_query->have_posts() ) {
-        while ( $custom_query->have_posts() ) {
-            $custom_query->the_post();
-            do_action( 'woocommerce_shop_loop' );
-            wc_get_template_part( 'content', 'product' );
-        }
-    }
-
-	// // Add a custom query to order products by price
-	// function custom_woocommerce_archive_product_query( $query ) {
-	// 	if ( is_shop() && $query->is_main_query() ) {
-	// 		$query->set( 'orderby', 'price' );
-	// 		$query->set( 'order', 'ASC' ); // You can change this to 'DESC' for descending order
-	// 	}
-	// }
-	// add_action( 'pre_get_posts', 'custom_woocommerce_archive_product_query' );
+	woocommerce_product_loop_start();
 
 
+	if ( wc_get_loop_prop( 'total' ) ) {
+		while ( have_posts() ) {
+			the_post();
+			do_action( 'woocommerce_shop_loop' );
+			wc_get_template_part( 'content', 'product' );
+		}
+	}
 
-	// woocommerce_product_loop_start();
+	 echo do_shortcode( '[products limit="1 columns="1" ids="' . get_sub_field( 'product' ) . '" ]' );
+		
 
-
-	// if ( wc_get_loop_prop( 'total' ) ) {
-	// 	while ( have_posts() ) {
-	// 		the_post();
-	// 		do_action( 'woocommerce_shop_loop' );
-	// 		wc_get_template_part( 'content', 'product' );
-	// 	}
-	// }
-
-	// echo do_shortcode('[products orderby="price"]');
-
-	// woocommerce_product_loop_end();
-
-	// remove_action( 'pre_get_posts', 'custom_woocommerce_archive_product_query' );
+	woocommerce_product_loop_end();
 
 	/**
 	 * Hook: woocommerce_after_shop_loop.
