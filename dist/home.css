@@ -757,7 +757,6 @@
 }
 
 .home-popup-newsletter {
-  display: none !important;
   max-height: 600px;
   z-index: 100;
   position: fixed;
