@@ -128,7 +128,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
             <div class="categories-additionals">
-                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">SKULLWEEK</a>
+                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</a>
                 <a href="https://skullcandy.com.pe/shop/?cat=packs" class="categories-additionals__button categories-additionals__button--packs">PACKS</a>
             </div>
             <div class="categories-generals">

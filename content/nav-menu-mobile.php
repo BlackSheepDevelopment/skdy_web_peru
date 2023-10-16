@@ -8,7 +8,6 @@
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
-                    <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">SKULLWEEK</a>
                     <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">OFERTAS</a>
                 </article>
                 <article>
