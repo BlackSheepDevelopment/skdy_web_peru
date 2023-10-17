@@ -1,7 +1,7 @@
 <?php set_query_var( 'ENTRY', 'tienda_retail' );
 get_header(); ?>
 
-<div class="main">
+<div class="main_retailers">
     <div class="header">Tienda para Mayoristas</div>
     <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
     <ul class="mayorista-features">
