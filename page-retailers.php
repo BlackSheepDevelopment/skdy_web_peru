@@ -22,10 +22,26 @@ get_header(); ?>
             // Check if there are products in the array
             if (!empty($products)) {
                 foreach ($products as $product) {
+                    $variations = $product->get_available_variations();
                     ?> 
                     <a href="<?php echo $product -> get_permalink() ?>">
                         <p> <?php echo $product->get_name() ?></p> 
                     </a>
+
+                    <div class="list-swatches">
+                        <?php foreach ( $variations as $variation ) {
+                            $name = $variation['attributes']['attribute_color'];
+                            ?>
+                                <a class="swatch-link"
+                                href="<?php echo $product->get_permalink(); ?>?attribute_color=<?php echo $name ?>">
+                                    <img src="<?php echo $variation['image']['url'] ?>"
+                                        alt="<?php echo $name; ?>"
+                                        title="<?php echo $name; ?>">
+                                </a>
+                        <?php } 
+                        ?>
+                    </div>
+
                     <?php
                 }
             } else {
