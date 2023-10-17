@@ -81,19 +81,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/entries/tienda_retail.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/entries/retailers.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/entries/tienda_retail.js":
-/*!**************************************!*\
-  !*** ./src/entries/tienda_retail.js ***!
-  \**************************************/
+/***/ "./src/entries/retailers.js":
+/*!**********************************!*\
+  !*** ./src/entries/retailers.js ***!
+  \**********************************/
 /*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_retailers_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/retailers.scss */ \"./src/scss/retailers.scss\");\n/* harmony import */ var _scss_retailers_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_retailers_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/entries/retailers.js?");
+
+/***/ }),
+
+/***/ "./src/scss/retailers.scss":
+/*!*********************************!*\
+  !*** ./src/scss/retailers.scss ***!
+  \*********************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open '/home/rauloestu/skdy_web_peru/src/entries/tienda_retail.js'\");\n\n//# sourceURL=webpack:///./src/entries/tienda_retail.js?");
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/retailers.scss?");
 
 /***/ })
 
