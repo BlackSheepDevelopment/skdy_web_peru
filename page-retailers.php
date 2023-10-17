@@ -15,7 +15,7 @@ get_header(); ?>
         <div clas="mayorista-store__title">
             PRODUCTOS
         </div>
-        <?php print_r($woocommerce->get('products')); ?>
+        <?php echo($woocommerce->get('products')); ?>
     </div>
 </div>
 
