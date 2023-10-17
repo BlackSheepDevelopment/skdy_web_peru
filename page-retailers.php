@@ -26,6 +26,7 @@ get_header(); ?>
                         ?>
                         <div class="product-container">
                             <?php $variations = $product->get_available_variations(); ?> 
+                            <p><?php echo sizeof($variations); ?></p>
                             <a href="<?php echo $product -> get_permalink() ?>" class="product">
                                 <div class="product-image">
                                     <?php echo $product->get_image(); ?>
