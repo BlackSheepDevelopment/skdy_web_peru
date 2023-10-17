@@ -16,7 +16,7 @@ get_header(); ?>
             PRODUCTOS
         </div>
         <?php 
-            $args = array('visibility' => 'catalog');
+            $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ),);
             $products = wc_get_products($args);
 
             // Check if there are products in the array
