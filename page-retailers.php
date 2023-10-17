@@ -22,7 +22,11 @@ get_header(); ?>
             // Check if there are products in the array
             if (!empty($products)) {
                 foreach ($products as $product) {
-                    echo '<p>' . $product->get_name() . '</p>';
+                    ?> 
+                    <a href="<?php echo $product -> get_permalink()  ?>">
+                        <img src="<?php echo wp_get_attachment_image_src( $product->get_image_id(), 'single-post-thumbnail' )[0] ?>" alt="<?php echo $product->get_name() ?>">
+                        <?php echo $product->get_name() ?>
+                    </a>                   
                 }
             } else {
                 echo '<p>No products found.</p>';
