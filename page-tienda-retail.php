@@ -2,6 +2,7 @@
 get_header(); ?>
 
 <div class="main">
+    HELLO
 </div>
 
 
