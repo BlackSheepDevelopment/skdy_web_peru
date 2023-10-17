@@ -39,6 +39,7 @@
 .product-list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
 
@@ -49,7 +50,6 @@
 
 .product{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     margin-bottom: 20px;
     padding: 20px;
