@@ -24,8 +24,7 @@ get_header(); ?>
                 foreach ($products as $product) {
                     ?> 
                     <a href="<?php echo $product -> get_permalink()  ?>">
-                        <img src="<?php echo wp_get_attachment_image_src( $product->get_image_id(), 'single-post-thumbnail' )[0] ?>" alt="<?php echo $product->get_name() ?>">
-                        <?php echo $product->get_name() ?>
+                        <p> <?php echo $product->get_name() ?></p> 
                     </a>                   
                 }
             } else {
