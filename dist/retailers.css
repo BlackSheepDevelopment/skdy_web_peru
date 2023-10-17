@@ -43,8 +43,15 @@
   margin-bottom: 20px;
 }
 
+.product-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .product {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin-bottom: 20px;
   padding: 20px;
