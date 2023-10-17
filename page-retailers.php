@@ -15,7 +15,16 @@ get_header(); ?>
         <div clas="mayorista-store__title">
             PRODUCTOS
         </div>
-        <?php echo($woocommerce->get('products')); ?>
+        <?php 
+            $args = array('visibility' => 'catalog',);
+            $products = wc_get_products( $args ); 
+        ?>
+        <p><?php  echo $products ?></p>
+<!-- 
+        <div class="product-details">
+            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
+            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
+        </div> -->
     </div>
 </div>
 
