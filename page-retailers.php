@@ -37,6 +37,7 @@ get_header(); ?>
                                     <img src="<?php echo $variation['image']['url'] ?>"
                                         alt="<?php echo $name; ?>"
                                         title="<?php echo $name; ?>">
+                                    <p class="swatch-name"><?php echo $name; ?></p>
                                 </a>
                         <?php } 
                         ?>
