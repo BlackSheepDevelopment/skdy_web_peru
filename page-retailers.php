@@ -24,12 +24,12 @@ get_header(); ?>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
-                        <div class="product">
+                        <div class="product-container">
                             <?php $variations = $product->get_available_variations(); ?> 
-                            <a href="<?php echo $product -> get_permalink() ?>">
-                                <p> <?php echo $product->get_name() ?></p>
-                                <img src="<?php echo $product->get_image() ?>" alt="<?php echo $product->get_name() ?>">
-                                <p> <?php echo $product->get_price_html() ?></p>
+                            <a href="<?php echo $product -> get_permalink() ?>" class="product">
+                                <p class="product-name"> <?php echo $product->get_name() ?></p>
+                                <img clas="product-image" src="<?php echo $product->get_image() ?>" alt="<?php echo $product->get_name() ?>">
+                                <p clas="product-price"> <?php echo $product->get_price_html() ?></p>
                             </a>
 
                             <div class="list-swatches">
@@ -40,7 +40,8 @@ get_header(); ?>
                                         href="<?php echo $product->get_permalink(); ?>?attribute_color=<?php echo $name ?>">
                                             <img src="<?php echo $variation['image']['url'] ?>"
                                                 alt="<?php echo $name; ?>"
-                                                title="<?php echo $name; ?>">
+                                                title="<?php echo $name; ?>" class="swatch-image">
+                                                
                                             <p class="swatch-name"><?php echo $name; ?></p>
                                         </a>
                                 <?php } ?>
