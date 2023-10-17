@@ -28,7 +28,6 @@ get_header(); ?>
                             <?php $variations = $product->get_available_variations(); ?> 
                             <a href="<?php echo $product -> get_permalink() ?>" class="product">
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
-                                <img class="product-image" src="<?php echo $product->get_image()?>"/>
                                 <p clas="product-price"> <?php echo $product->get_price_html() ?></p>
                             </a>
 
