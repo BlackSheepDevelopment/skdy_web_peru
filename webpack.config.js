@@ -22,7 +22,7 @@ module.exports = function (env) {
             landing_product: "./src/entries/landing_product.js",
             ancs: "./src/entries/ancs.js",
             mayoristas: "./src/entries/mayoristas.js",
-            tienda_retail: "./src/entries/tienda_retail.js",
+            tienda_retail: "./src/entries/retailers.js",
         },
         target: "web",
         mode: env.NODE_ENV,
