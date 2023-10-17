@@ -103,7 +103,10 @@
       }
 
       #cuotealo-available-product{
-        margin-top: 100%!important;
+        margin-bottom:10px;
+        @media (max-width: 768px) {
+          margin-top: 100%!important;
+        }
       }
 
       .header-title {
