@@ -23,9 +23,10 @@ get_header(); ?>
             if (!empty($products)) {
                 foreach ($products as $product) {
                     ?> 
-                    <a href="<?php echo $product -> get_permalink()  ?>">
+                    <a href="<?php echo $product -> get_permalink() ?>">
                         <p> <?php echo $product->get_name() ?></p> 
-                    </a>                   
+                    </a>
+                    <?php
                 }
             } else {
                 echo '<p>No products found.</p>';
