@@ -1,4 +1,4 @@
-<?php set_query_var( 'ENTRY', 'tienda-retail' );
+<?php set_query_var( 'ENTRY', 'tienda_retail' );
 get_header(); ?>
 
 <div class="main">
