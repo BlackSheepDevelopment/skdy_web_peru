@@ -1,3 +1,13 @@
+
+.main_retailers{
+    width: 85%;
+    max-width: 111.42857rem;
+    margin: 0 auto;
+  
+    @media (max-width: 768px) {
+      width: 95%;
+    }
+}
 .header{
     font-family: "Helvetica Neue LT", sans-serif;
     color:black;
@@ -47,6 +57,7 @@
 .product-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px
 }
 
@@ -75,6 +86,7 @@
         font-family: "Helvetica Neue LT", sans-serif;
         color:black;
         padding: 20px;
+        width: 200px;
         text-align: center;
         font-size: 1.2rem;
         font-weight: bold;
