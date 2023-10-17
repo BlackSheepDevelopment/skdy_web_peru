@@ -48,13 +48,14 @@
 
 .product-list{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 20px;
 }
 
 .product-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
