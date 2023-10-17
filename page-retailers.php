@@ -16,15 +16,19 @@ get_header(); ?>
             PRODUCTOS
         </div>
         <?php 
-            $args = array('visibility' => 'catalog',);
-            $products = wc_get_products( $args ); 
+            $args = array('visibility' => 'catalog');
+            $products = wc_get_products($args);
+
+            // Check if there are products in the array
+            if (!empty($products)) {
+                foreach ($products as $product) {
+                    echo '<p>' . $product->get_name() . '</p>';
+                }
+            } else {
+                echo '<p>No products found.</p>';
+            }
         ?>
-        <p><?php  echo $products ?></p>
-<!-- 
-        <div class="product-details">
-            <h2 class="product-title"><?php echo $product->get_name(); ?></h2>
-            <p class="product-price"><?php echo $product->get_price_html(); ?></p>
-        </div> -->
+
     </div>
 </div>
 
