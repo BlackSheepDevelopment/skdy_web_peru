@@ -88,7 +88,7 @@
         padding: 10px 0;
         width: 250px;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 2.5rem;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -126,5 +126,9 @@
     .swatch-image{
         width: 100px;
         height: auto!important;
+    }
+
+    .swatch-name{
+        width: 50px;
     }
 }

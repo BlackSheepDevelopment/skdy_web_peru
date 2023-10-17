@@ -49,22 +49,12 @@ get_header(); ?>
                                                         <img src="<?php echo $variation['image']['url'] ?>"
                                                             alt="<?php echo $name; ?>"
                                                             title="<?php echo $name; ?>" class="swatch-image">
-                                                            
                                                         <p class="swatch-name"><?php echo $name; ?></p>
                                                     </a>
                                             <?php }
                                         } ?>
                                 </div>
                             </div>
-
-
-
-
-                            <p><?php echo sizeof($variations); ?></p>
-
-
-
-                            
                         </div>
                     <?php } ?>
                 </div>
