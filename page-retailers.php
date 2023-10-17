@@ -2,7 +2,7 @@
 get_header(); ?>
 
 <div class="main_retailers">
-    <div class="header">Tienda para Mayoristas</div>
+    <div class="header">Tienda para Mayorista</div>
     <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
     <ul class="mayorista-features">
         <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
