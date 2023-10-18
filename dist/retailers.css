@@ -112,7 +112,8 @@
 
 .swatch-elements {
   display: flex;
-  gap: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .swatch-link {
@@ -132,4 +133,5 @@
 }
 .swatch-link .swatch-name {
   text-align: center;
+  font-size: 0.8rem;
 }
