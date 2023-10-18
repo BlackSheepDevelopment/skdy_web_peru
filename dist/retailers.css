@@ -34,6 +34,14 @@
   gap: 20px;
   padding: 0 10%;
 }
+@media (max-width: 768px) {
+  .mayorista-features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
 .mayorista-features li {
   width: calc(25% - 50px);
   list-style: none;
@@ -48,6 +56,11 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .mayorista-features li {
+    width: 100%;
+  }
 }
 .mayorista-features .item-number {
   width: 60px;
