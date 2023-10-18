@@ -4,11 +4,6 @@
   color: white;
   padding-bottom: 50px;
 }
-@media (max-width: 768px) {
-  .main-header {
-    width: 95%;
-  }
-}
 
 .header {
   font-family: "Helvetica Neue LT", sans-serif;
@@ -17,6 +12,11 @@
   font-size: 3rem;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .header {
+    font-size: 2rem;
+  }
+}
 
 .subtitle {
   font-family: "Helvetica Neue LT", sans-serif;
@@ -24,6 +24,11 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .subtitle {
+    font-size: 1rem;
+  }
 }
 
 .mayorista-features {
@@ -68,6 +73,12 @@
   font-weight: bold;
   border: 3px solid white;
   border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .mayorista-features .item-number {
+    font-size: 2rem;
+    width: 40;
+  }
 }
 
 .mayorista-store__header {
