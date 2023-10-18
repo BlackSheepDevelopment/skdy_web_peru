@@ -51,12 +51,14 @@
 }
 
 .mayorista-store__header__store {
-  font-size: 1.5rem;
+  font-family: "Helvetica Neue LT", sans-serif;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .mayorista-store__header__subtitle {
-  font-size: 1.2rem;
+  font-family: "Helvetica Neue LT", sans-serif;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
