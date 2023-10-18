@@ -114,8 +114,7 @@
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  padding-right: 10px;
-  border-right: 1px solid black;
+  padding: 0 10px;
 }
 .product-price .product-price__mayorista {
   color: #000;
@@ -124,6 +123,7 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
+  padding: 0 10px;
 }
 
 .list-swatches {
