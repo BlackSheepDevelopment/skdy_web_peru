@@ -76,6 +76,12 @@
   gap: 30px;
   align-items: baseline;
 }
+@media (max-width: 768px) {
+  .mayorista-store__header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 
 .mayorista-store__header__store {
   font-family: "Helvetica Neue LT", sans-serif;
