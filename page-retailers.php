@@ -5,8 +5,7 @@ get_header(); ?>
 
     <div class="main-header">
         <div class="header">COMPRAS AL POR MAYOR</div>
-        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda.</p>
-        <p class="subtitle">Por favor, ten en cuenta las siguientes indicaciones:</p>
+        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda.Por favor, ten en cuenta las siguientes indicaciones</p>
         <ul class="mayorista-features">
             <li class="mayorista-features__item">
                 <p class="item-number">1</p>
@@ -25,7 +24,6 @@ get_header(); ?>
                 <p>Completa el proceso de facturación indicando tu RUC y la dirección de despacho</p>
             </li>
         </ul>
-        <p class="subtitle">Para mayor información comunícate por nuestro WhatsApp</p>
     </div>
 
 
