@@ -53,7 +53,7 @@ get_header(); ?>
                                     <p class="product-category">
                                         <?php $categories_product = $product -> get_category_ids()
                                             foreach($categories_product as $category){
-                                                echo $category->name;
+                                                echo $category;
                                             }
                                         
                                         
