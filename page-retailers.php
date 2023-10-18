@@ -54,7 +54,9 @@ get_header(); ?>
                                         <?php $categories_product = $product -> get_category_ids() ?>
                                         <?php foreach ($categories_product as $category_product) {
                                             $category = get_term_by('id', $category_product, 'product_cat');
-                                            echo $category->name;
+                                            if ($category->name != 'retailer' && $category->name != 'PACKS' && $category->name != 'Envío Rápido'){
+                                                echo $category->name;
+                                            }
                                         } ?>
                                     </p>
                                     <div class="product-price">
