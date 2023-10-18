@@ -31,6 +31,7 @@ get_header(); ?>
                                 <div class="product-detail">
                                     <p class="product-category">True Wireless</p>
                                     <p class="product-price"> <?php echo $product->get_price_html() ?></p>
+                                    <p class="product-price"> <?php echo $product->get_price() ?></p>
                                 </div>
 
                             </div>
