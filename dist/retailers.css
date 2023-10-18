@@ -52,6 +52,9 @@
 }
 
 .product {
+  text-decoration: none;
+  color: black;
+  font-family: "Helvetica Neue LT", sans-serif;
   width: calc(33.33% - 10px);
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -67,6 +70,23 @@
 .product-image {
   width: 100%;
   height: auto;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .list-swatches {
