@@ -38,6 +38,7 @@ get_header(); ?>
                                     <?php 
                                         if(sizeof($variations) > 1){
                                             ?> <p class="swatch-title">También disponible en:</p>
+                                            
                                             <div class="swatch-elements"> <?php
                                                 foreach ( $variations as $variation ) {
                                                     $name = $variation['attributes']['attribute_color'];
