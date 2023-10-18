@@ -5,7 +5,7 @@ get_header(); ?>
 
     <div class="main-header">
         <div class="header">MAYORISTAS</div>
-        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Por favor, ten en cuenta las siguientes indicaciones</p>
+        <!-- <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Por favor, ten en cuenta las siguientes indicaciones</p> -->
         <ul class="mayorista-features">
             <li class="mayorista-features__item">
                 <p class="item-number">1</p>

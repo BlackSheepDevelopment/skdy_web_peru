@@ -9,7 +9,7 @@
   font-family: "Helvetica Neue LT", sans-serif;
   padding: 20px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 @media (max-width: 768px) {
@@ -23,7 +23,6 @@
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;
-  padding-bottom: 20px;
 }
 @media (max-width: 768px) {
   .subtitle {
@@ -37,7 +36,7 @@
   justify-content: space-around;
   margin-bottom: 20px;
   gap: 20px;
-  padding: 0 10%;
+  padding: 0 5%;
 }
 @media (max-width: 768px) {
   .mayorista-features {
@@ -67,7 +66,7 @@
   }
 }
 .mayorista-features .item-number {
-  width: 130px;
+  width: 100px;
   text-align: center;
   font-size: 2rem;
   padding: 10px;
