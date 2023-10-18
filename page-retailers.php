@@ -35,6 +35,8 @@ get_header(); ?>
 
                                 <?php if ( have_rows( 'tech_specs', $product -> get_id()) ): ?>
                                     <div class="tech-specs">
+                                        <?php echo $product->get_short_description(); ?>
+                                        <?php echo $product->get_id(); ?>
                                         <?php while ( have_rows( 'tech_specs' ) ): the_row() ?>
                                             <div class="spec">
                                                 <?php $icon = get_sub_field( 'icon' ) ?>
