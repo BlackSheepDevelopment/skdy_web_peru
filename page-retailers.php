@@ -38,7 +38,7 @@ get_header(); ?>
             if (!empty($products)) { ?>
                 <div class="mayorista-store__header">
                     <p class="mayorista-store__header__store">TIENDA</p>
-                    <p class="mayorista-store__header__subtitle">Encuentra <?php echo sizeof($products)?> productos</p>
+                    <p class="mayorista-store__header__subtitle">(<?php echo sizeof($products)?> productos)</p>
                 </div>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
