@@ -1,22 +1,19 @@
 
-.main_retailers{
+
+.main-header{
     width: 85%;
     max-width: 111.42857rem;
     margin: 0 auto;
-  
-    @media (max-width: 768px) {
-      width: 95%;
-    }
-}
-
-.main-header{
     background-color: black;
     color:white;
+
+    @media (max-width: 768px) {
+        width: 95%;
+      }
 }
 
 .header{
     font-family: "Helvetica Neue LT", sans-serif;
-    color:black;
     padding: 20px;
     text-align: center;
     font-size: 3rem;
@@ -25,7 +22,6 @@
 
 .subtitle{
     font-family: "Helvetica Neue LT", sans-serif;
-    color:black;
     padding: 20px;
     text-align: center;
     font-size: 1.5rem;
@@ -64,6 +60,16 @@
 .mayorista-store__header__subtitle{
     font-size: 1.2rem;
     font-weight: normal;
+}
+
+.mayorista-store{
+    width: 85%;
+    max-width: 111.42857rem;
+    margin: 0 auto;
+  
+    @media (max-width: 768px) {
+      width: 95%;
+    }
 }
 
 
