@@ -9,19 +9,19 @@ get_header(); ?>
         <ul class="mayorista-features">
             <li class="mayorista-features__item">
                 <p class="item-number">1</p>
-                <p>Nuestro catálogo mayorista está disponible desde compras mayores a S/.750</p>
+                <p>Nuestro catálogo mayorista está disponible desde compras mayores a S/.750.</p>
             </li>
             <li class="mayorista-features__item">
                 <p class="item-number">2</p>
-                <p>Seleccione los productos que deseas comprar y agrégalos al carrito</p>
+                <p>Seleccione los productos que deseas comprar y agrégalos al carrito.</p>
             </li>
             <li class="mayorista-features__item">
                 <p class="item-number">3</p>
-                <p>Modifica la cantidad de unidades deseadas en el carrito</p>
+                <p>Modifica la cantidad de unidades deseadas en el carrito.</p>
             </li>
             <li class="mayorista-features__item">
                 <p class="item-number">4</p>
-                <p>Completa el proceso de facturación indicando tu RUC y la dirección de despacho</p>
+                <p>Finaliza la compra indicando tu RUC y la dirección de despacho.</p>
             </li>
         </ul>
     </div>
