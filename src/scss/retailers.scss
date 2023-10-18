@@ -1,8 +1,6 @@
 
 
 .main-header{
-    width: 85%;
-    max-width: 111.42857rem;
     margin: 0 auto;
     background-color: black;
     color:white;
@@ -48,8 +46,10 @@
 }
 
 .mayorista-store__header{
+    font-family: "Helvetica Neue LT", sans-serif;
     display: flex;
     gap:30px;
+    align-items: baseline;
 }
 
 .mayorista-store__header__store{
