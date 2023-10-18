@@ -106,6 +106,17 @@
     justify-content: space-between;
 }
 
+.product-price{
+    del{
+        color: #999;
+    }
+    ins{
+        color: #000;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
 
 
 .list-swatches{
