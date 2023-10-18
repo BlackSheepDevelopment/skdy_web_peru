@@ -43,7 +43,7 @@ get_header(); ?>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
-                        <a class="product" href="<?php echo $product -> get_permalink() ?>">
+                        <div class="product">
                             <?php $variations = $product->get_available_variations(); ?> 
                             <div class="product-image">
                                     <?php echo $product->get_image(); ?>
@@ -74,7 +74,19 @@ get_header(); ?>
                                 </div>
 
                             </div>
-                        </a>
+                            <?php
+                                echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+                                sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
+                                    esc_url( $product->add_to_cart_url() ),
+                                    esc_attr( $product->get_id() ),
+                                    esc_attr( $product->get_sku() ),
+                                    $product->is_purchasable() ? 'add_to_cart_button' : '',
+                                    esc_attr( $product->get_type() ),
+                                    esc_html( $product->add_to_cart_text() )
+                                    ),
+                                $product );
+                            ?>
+                        </div>
                     <?php } ?>
                 </div>
                 <?php
