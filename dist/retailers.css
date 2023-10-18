@@ -162,6 +162,7 @@
   height: auto;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   .product-image {
