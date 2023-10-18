@@ -60,10 +60,9 @@
   color: black;
   font-family: "Helvetica Neue LT", sans-serif;
   width: calc(33.33% - 30px);
-  margin-bottom: 20px;
   box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid transparent;
+  padding: 35px;
+  border: 3px solid transparent;
   border-radius: 24px;
   transition: all 0.3s ease-in-out;
 }
