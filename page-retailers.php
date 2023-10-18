@@ -30,7 +30,8 @@ get_header(); ?>
 
     <div class="mayorista-store">
         <?php 
-            $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ), 'limit' => -1);
+            // $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ), 'limit' => -1);
+            $args = array('category' => array( 'retailer' ), 'limit' => -1);
             $products = wc_get_products($args);
 
             // Check if there are products in the array
@@ -54,7 +55,7 @@ get_header(); ?>
                                         <?php $categories_product = $product -> get_category_ids() ?>
                                         <?php foreach ($categories_product as $category_product) {
                                             $category = get_term_by('id', $category_product, 'product_cat');
-                                            if ($category->name != 'retailer' && $category->name != 'Urbano' && $category->name != 'Envío Rápido'){
+                                            if ($category->name != 'Urbano' && $category->name != 'Envío Rápido'){
                                                 echo $category->name;
                                             }
                                         } ?>
