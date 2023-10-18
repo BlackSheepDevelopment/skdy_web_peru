@@ -82,6 +82,10 @@
   margin-bottom: 20px;
 }
 
+.product-info {
+  width: 100%;
+}
+
 .product-name {
   font-family: "Helvetica Neue LT", sans-serif;
   color: black;
