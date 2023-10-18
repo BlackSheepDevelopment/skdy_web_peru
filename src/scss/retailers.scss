@@ -76,34 +76,33 @@
     text-decoration: none;
     color: black;
     align-items: center;
+}
 
+.product-image{
+    width: 300px!important;
+    height: auto!important;
+    margin-bottom: 20px;
+}
 
-    .product-image{
-        width: 300px!important;
-        height: auto!important;
-        margin-bottom: 20px;
-    }
+.product-name{
+    font-family: "Helvetica Neue LT", sans-serif;
+    color:black;
+    padding: 10px 0;
+    width: 250px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
-    .product-name{
-        font-family: "Helvetica Neue LT", sans-serif;
-        color:black;
-        padding: 10px 0;
-        width: 250px;
-        text-align: center;
-        font-size: 2.5rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    .product-price{
-        font-family: "Helvetica Neue LT", sans-serif;
-        color:black;
-        padding: 20px;
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
+.product-price{
+    font-family: "Helvetica Neue LT", sans-serif;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .list-swatches{

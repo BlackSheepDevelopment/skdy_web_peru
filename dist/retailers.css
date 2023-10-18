@@ -75,12 +75,14 @@
   color: black;
   align-items: center;
 }
-.product .product-image {
+
+.product-image {
   width: 300px !important;
   height: auto !important;
   margin-bottom: 20px;
 }
-.product .product-name {
+
+.product-name {
   font-family: "Helvetica Neue LT", sans-serif;
   color: black;
   padding: 10px 0;
@@ -90,7 +92,8 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-.product .product-price {
+
+.product-price {
   font-family: "Helvetica Neue LT", sans-serif;
   color: black;
   padding: 20px;
