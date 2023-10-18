@@ -30,7 +30,7 @@ get_header(); ?>
 
     <div class="mayorista-store">
         <?php 
-            $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ), 'limit' => 10);
+            $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ), 'limit' => 3);
             $products = wc_get_products($args);
 
             // Check if there are products in the array
