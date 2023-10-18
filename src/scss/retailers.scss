@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -116,7 +116,12 @@
 .swatch-elements{
     display: flex;
     gap:40px;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+}
+
+.swatch-title{
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 .swatch-link{
@@ -124,7 +129,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap:10px;
+    gap:5px;
     text-decoration: none;
     color: black;    
 
@@ -132,7 +137,7 @@
     text-decoration: none;
 
     .swatch-image{
-        width: 100px;
+        width: 80px;
         height: auto!important;
     }
 
