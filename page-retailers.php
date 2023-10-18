@@ -31,7 +31,7 @@ get_header(); ?>
                                 <div class="product-detail">
                                     <p class="product-category">True Wireless</p>
                                     <p class="product-price"> <?php echo $product->get_price_html() ?></p>
-                                    <p class="product-price"> <?php echo $product->get_price() ?></p>
+                                    <p class="product-price"> PRECIO MAYORISTA: <?php echo intval($product->get_price())*0.9 ?></p>
                                 </div>
 
                             </div>
