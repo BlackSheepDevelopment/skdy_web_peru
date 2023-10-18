@@ -53,7 +53,7 @@
   color: white;
   padding: 20px;
   padding-bottom: 10px;
-  text-align: center;
+  text-align: left;
   font-size: 1rem;
   font-weight: normal;
   display: flex;
@@ -137,7 +137,6 @@
   font-family: "Helvetica Neue LT", sans-serif;
   width: calc(33.33% - 30px);
   box-sizing: border-box;
-  padding: 35px;
   border: 3px solid transparent;
   border-radius: 24px;
   transition: all 0.3s ease-in-out;
@@ -162,7 +161,7 @@
 
 .product-image {
   padding: 20px 0;
-  width: 100%;
+  width: 70%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -177,6 +176,8 @@
 .product-info {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
+  padding-bottom: 15px;
 }
 
 .product-name {
