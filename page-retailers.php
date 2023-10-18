@@ -33,6 +33,19 @@ get_header(); ?>
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
                                 <p class="product-price"> <?php echo $product->get_price_html() ?></p>
 
+                                <?php if ( have_rows( 'tech_specs', $product -> get_id()) ): ?>
+                                    <div class="tech-specs">
+                                        <?php while ( have_rows( 'tech_specs' ) ): the_row() ?>
+                                            <div class="spec">
+                                                <?php $icon = get_sub_field( 'icon' ) ?>
+                                                <img src="<?php echo $icon['url'] ?>" alt="<?php echo $icon['alt'] ?>">
+                                                <span><?php the_sub_field( 'title' ); ?></span>
+                                            </div>
+                                        <?php endwhile; ?>
+                                    </div>
+                                <?php endif; ?>
+
+
                                 <div class="list-swatches">
                                     <?php 
                                         if(sizeof($variations) > 1){
