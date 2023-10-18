@@ -65,18 +65,17 @@
     margin-bottom: 20px; // Add some margin between products
     box-sizing: border-box;
     padding: 10px; // Add padding or other styles as needed
+    border: 1px solid transparent;
+
+    transition: all 0.3s ease-in-out;
 
     @media (max-width: 768px) {
         width: calc(50% - 10px); 
     }
 
     &:hover{
-        animation: pulse 0.5s;
-        background-color: black;
-        color: white;
-        .product-image{
-            background-color: white;
-        }
+        transform: scale(1.05);
+        border: 1px solid black;
     }
 }
 
