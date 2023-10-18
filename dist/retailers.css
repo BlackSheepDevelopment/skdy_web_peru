@@ -68,6 +68,14 @@
     width: calc(50% - 10px);
   }
 }
+.product:hover {
+  animation: pulse 0.5s;
+  background-color: black;
+  color: white;
+}
+.product:hover .product-image {
+  background-color: white;
+}
 
 .product-image {
   padding: 20px 0;
