@@ -5,12 +5,23 @@ get_header(); ?>
 
     <div class="main-header">
         <div class="header">COMPRAS AL POR MAYOR</div>
-        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
+        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda.</p>
+        <p class="subtitle">Por favor, ten en cuenta las siguientes indicaciones:</p>
         <ul class="mayorista-features">
-            <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
-            <li class="mayorista-features__item">Despacho de los productos a tu almacén</li>
-            <li class="mayorista-features__item">Pago en línea mediante tarjeta de crédito o débito. Si deseas realizar algún depósito bancario, contáctate con contacto@blacksheep.com.pe</li>
+            <li class="mayorista-features__item">
+                1. Nuestro catálogo mayorista está disponible desde compras mayores a S/.750.
+            </li>
+            <li class="mayorista-features__item">
+                2. Seleccione los productos que deseas comprar y agrégalos al carrito.
+            </li>
+            <li class="mayorista-features__item">
+                3. Modifica la cantidad de unidades deseadas en el carrito.
+            </li>
+            <li class="mayorista-features__item">
+                4. Completa el proceso de facturación indicando tu RUC y la dirección de despacho
+            </li>
         </ul>
+        <p class="subtitle">Para mayor información comunícate por nuestro WhatsApp</p>
     </div>
 
 
@@ -61,6 +72,10 @@ get_header(); ?>
         ?>
 
     </div>
+
+    <a href="https://www.wa.link/xfavry/" id="fixedbutton" target="_blank">
+        <img class="fixedbutton__img" src="<?php echo get_template_directory_uri() ?>/src/assets/AYUDA_WSP.png" >
+    </a>
 </div>
 
 
