@@ -52,14 +52,11 @@ get_header(); ?>
                                 <div class="product-detail">
                                     <p class="product-category">
                                         <?php $categories_product = $product -> get_category_ids()
-                                            foreach($categories_product as $category){
-                                                echo $category;
+                                            foreach($categories_product as $category_id){
+                                                ?> <p> <?php echo intval($category_id);?></p> 
+                                                <?php
                                             }
-                                        
-                                        
                                         ?>
-                                    
-                                    
                                     </p>
                                     <div class="product-price">
                                         <div class="product-price__normal">
