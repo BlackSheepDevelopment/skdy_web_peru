@@ -33,11 +33,11 @@ get_header(); ?>
                                     <div class="product-price">
                                         <div class="product-price__normal">
                                             <p>Normal</p>
-                                            <p>  <?php echo intval($product->get_price()) ?></p>
+                                            <p>S/.<?php echo intval($product->get_price()) ?></p>
                                         </div>
                                         <div class="product-price__mayorista">
                                             <p>Mayorista</p>
-                                            <p>  <?php echo intval($product->get_price())*0.9 ?></p>
+                                            <p>S/.<?php echo intval($product->get_price())*0.9 ?></p>
                                         </div>
                                     </div>
                                 </div>

@@ -130,12 +130,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
     .product-price__normal{
         color: #999;
         font-size: 0.9rem;
         display: flex;
         flex-direction: column;
         text-decoration: none;
+        padding-right: 10px;
         border-right: 1px solid black;
     }
     .product-price__mayorista{
