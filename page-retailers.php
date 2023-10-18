@@ -74,7 +74,7 @@ get_header(); ?>
                                 </div>
 
                             </div>
-                            <?php echo do_shortcode('[wcmlim_locations_popup]'); ?>
+                            <?php echo do_shortcode('[wcmlim_locations_switch]'); ?>
                         </div>
                     <?php } ?>
                 </div>
