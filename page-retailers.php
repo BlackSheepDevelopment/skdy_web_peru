@@ -56,7 +56,7 @@ get_header(); ?>
                                         <?php foreach ($categories_product as $category_product) {
                                             $category = get_term_by('id', $category_product, 'product_cat');
                                             $cname = $category->name;
-                                            if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailers' && $cname != 'Ofertas' ){
+                                            if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' ){
                                                 echo $category->name;
                                             }
                                         } ?>
