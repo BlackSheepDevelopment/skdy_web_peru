@@ -61,7 +61,6 @@
   width: calc(33.33% - 10px);
   margin-bottom: 20px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
   padding: 10px;
 }
 @media (max-width: 768px) {
