@@ -2,13 +2,17 @@
 get_header(); ?>
 
 <div class="main_retailers">
-    <div class="header">Compras al por mayor</div>
-    <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
-    <ul class="mayorista-features">
-        <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
-        <li class="mayorista-features__item">Despacho de los productos a tu almacén</li>
-        <li class="mayorista-features__item">Pago en línea mediante tarjeta de crédito o débito. Si deseas realizar algún depósito bancario, contáctate con contacto@blacksheep.com.pe</li>
-    </ul>
+
+    <div class="main-header">
+        <div class="header">COMPRAS AL POR MAYOR</div>
+        <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
+        <ul class="mayorista-features">
+            <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
+            <li class="mayorista-features__item">Despacho de los productos a tu almacén</li>
+            <li class="mayorista-features__item">Pago en línea mediante tarjeta de crédito o débito. Si deseas realizar algún depósito bancario, contáctate con contacto@blacksheep.com.pe</li>
+        </ul>
+    </div>
+
 
 
     <div class="mayorista-store">
@@ -20,7 +24,7 @@ get_header(); ?>
             if (!empty($products)) { ?>
                 <div class="mayorista-store__header">
                     <p class="mayorista-store__header__store">TIENDA</p>
-                    <p class="mayorista-store__header__subtitle">Encuentra <?php echo sizeof($product)?> productos</p>
+                    <p class="mayorista-store__header__subtitle">Encuentra <?php echo sizeof($products)?> productos</p>
                 </div>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {

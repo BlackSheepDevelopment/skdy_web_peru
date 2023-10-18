@@ -9,6 +9,11 @@
   }
 }
 
+.main-header {
+  background-color: black;
+  color: white;
+}
+
 .header {
   font-family: "Helvetica Neue LT", sans-serif;
   color: black;
@@ -16,7 +21,6 @@
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
 .subtitle {
@@ -30,11 +34,13 @@
 
 .mayorista-features {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   margin-bottom: 20px;
+  gap: 20px;
 }
 .mayorista-features li {
+  width: calc(33.33% - 50px);
   list-style: none;
   font-family: "Helvetica Neue LT", sans-serif;
   color: black;
@@ -42,7 +48,6 @@
   text-align: center;
   font-size: 1rem;
   font-weight: normal;
-  margin-bottom: 20px;
 }
 
 .mayorista-store__header {
