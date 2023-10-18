@@ -9,16 +9,20 @@ get_header(); ?>
         <p class="subtitle">Por favor, ten en cuenta las siguientes indicaciones:</p>
         <ul class="mayorista-features">
             <li class="mayorista-features__item">
-                1. Nuestro catálogo mayorista está disponible desde compras mayores a S/.750.
+                <p class="item-number">1</p>
+                <p>Nuestro catálogo mayorista está disponible desde compras mayores a S/.750</p>
             </li>
             <li class="mayorista-features__item">
-                2. Seleccione los productos que deseas comprar y agrégalos al carrito.
+                <p class="item-number">2</p>
+                <p>Seleccione los productos que deseas comprar y agrégalos al carrito</p>
             </li>
             <li class="mayorista-features__item">
-                3. Modifica la cantidad de unidades deseadas en el carrito.
+                <p class="item-number">3</p>
+                <p>Modifica la cantidad de unidades deseadas en el carrito</p>
             </li>
             <li class="mayorista-features__item">
-                4. Completa el proceso de facturación indicando tu RUC y la dirección de despacho
+                <p class="item-number">4</p>
+                <p>Completa el proceso de facturación indicando tu RUC y la dirección de despacho</p>
             </li>
         </ul>
         <p class="subtitle">Para mayor información comunícate por nuestro WhatsApp</p>

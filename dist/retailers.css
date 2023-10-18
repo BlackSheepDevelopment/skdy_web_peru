@@ -33,14 +33,17 @@
   gap: 20px;
 }
 .mayorista-features li {
-  width: calc(33.33% - 50px);
+  width: calc(25% - 50px);
   list-style: none;
   font-family: "Helvetica Neue LT", sans-serif;
-  color: black;
+  color: white;
   padding: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mayorista-store__header {
