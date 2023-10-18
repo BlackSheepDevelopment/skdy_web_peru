@@ -50,7 +50,17 @@ get_header(); ?>
                             <div class="product-info">
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
                                 <div class="product-detail">
-                                    <p class="product-category">True Wireless</p>
+                                    <p class="product-category">
+                                        <?php $categories_product = $product -> get_category_ids()
+                                            foreach($categories_product as $category){
+                                                echo $category->name;
+                                            }
+                                        
+                                        
+                                        ?>
+                                    
+                                    
+                                    </p>
                                     <div class="product-price">
                                         <div class="product-price__normal">
                                             <p>Normal</p>
