@@ -129,7 +129,7 @@
 .product {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
   text-decoration: none;
   color: black;
   font-family: "Helvetica Neue LT", sans-serif;
