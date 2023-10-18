@@ -46,14 +46,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap:10px
+        gap:20px;
+        align-items: center;
     }
 
     .item-number{
         width: 60px;
         font-size: 3rem;
         font-weight: bold;
-        border: 2px solid white;
+        border: 3px solid white;
         border-radius: 50%;
     }
 }
