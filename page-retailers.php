@@ -2,7 +2,7 @@
 get_header(); ?>
 
 <div class="main_retailers">
-    <div class="header">Tienda para Mayorista</div>
+    <div class="header">MAYORISTAS</div>
     <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
     <ul class="mayorista-features">
         <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
@@ -12,9 +12,6 @@ get_header(); ?>
 
 
     <div class="mayorista-store">
-        <div clas="mayorista-store__title">
-            PRODUCTOS
-        </div>
         <?php 
             $args = array('visibility' => 'catalog', 'category' => array( 'retailer' ),);
             $products = wc_get_products($args);
@@ -41,7 +38,7 @@ get_header(); ?>
                                     <?php 
                                         if(sizeof($variations) > 1){
                                             ?> <p class="swatch-title">También disponible en:</p>
-                                            <div clas="swatch-elements"> <?php
+                                            <div class="swatch-elements"> <?php
                                                 foreach ( $variations as $variation ) {
                                                     $name = $variation['attributes']['attribute_color'];
                                                     ?>

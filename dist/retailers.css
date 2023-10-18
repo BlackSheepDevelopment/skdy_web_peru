@@ -108,6 +108,11 @@
   width: 500px;
 }
 
+.swatch-elements {
+  display: flex;
+  gap: 10px;
+}
+
 .swatch-link {
   display: flex;
   flex-direction: column;

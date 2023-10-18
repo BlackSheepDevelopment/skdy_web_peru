@@ -46,6 +46,7 @@
     }
 }
 
+
 .product-list{
     display: flex;
     flex-direction: column;
@@ -111,6 +112,11 @@
     justify-content: space-around;
     margin-bottom: 20px;    
     width: 500px;
+}
+
+.swatch-elements{
+    display: flex;
+    gap:10px;
 }
 
 .swatch-link{
