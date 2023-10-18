@@ -21,40 +21,43 @@ get_header(); ?>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
-                        <div class="product-container">
+                        <a class="product" href="<?php echo $product -> get_permalink() ?>">
                             <?php $variations = $product->get_available_variations(); ?> 
-
                             <div class="product-image">
-                                <a href="<?php echo $product -> get_permalink() ?>" class="product-link">
                                     <?php echo $product->get_image(); ?>
-                                </a>
                             </div>
+
+                            <div class="list-swatches">
+                                <?php 
+                                    if(sizeof($variations) > 1){
+                                    ?> <p class="swatch-title">También disponible en:</p>
+                                    <div class="swatch-elements"> <?php
+                                        foreach ( $variations as $variation ) {
+                                            $name = $variation['attributes']['attribute_color'];
+                                            ?>
+                                                <a class="swatch-link"
+                                                href="<?php echo $product->get_permalink(); ?>?attribute_color=<?php echo $name ?>">
+                                                    <img src="<?php echo $variation['image']['url'] ?>"
+                                                        alt="<?php echo $name; ?>"
+                                                        title="<?php echo $name; ?>" class="swatch-image">
+                                                    <p class="swatch-name"><?php echo $name; ?></p>
+                                                </a>
+                                        <?php } ?>
+                                    </div>
+                                    <?php
+                                } ?>
+                            </div>
+
+
                             <div class="product-info">
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
-                                <p class="product-price"> <?php echo $product->get_price_html() ?></p>
-                                <div class="list-swatches">
-                                    <?php 
-                                        if(sizeof($variations) > 1){
-                                            ?> <p class="swatch-title">También disponible en:</p>
-
-                                            <div class="swatch-elements"> <?php
-                                                foreach ( $variations as $variation ) {
-                                                    $name = $variation['attributes']['attribute_color'];
-                                                    ?>
-                                                        <a class="swatch-link"
-                                                        href="<?php echo $product->get_permalink(); ?>?attribute_color=<?php echo $name ?>">
-                                                            <img src="<?php echo $variation['image']['url'] ?>"
-                                                                alt="<?php echo $name; ?>"
-                                                                title="<?php echo $name; ?>" class="swatch-image">
-                                                            <p class="swatch-name"><?php echo $name; ?></p>
-                                                        </a>
-                                                <?php } ?>
-                                            </div>
-                                            <?php
-                                        } ?>
+                                <div class="product-detail">
+                                    <p class="product-category">True Wireless</p>
+                                    <p class="product-price"> <?php echo $product->get_price_html() ?></p>
                                 </div>
+
                             </div>
-                        </div>
+                        </a>
                     <?php } ?>
                 </div>
                 <?php
