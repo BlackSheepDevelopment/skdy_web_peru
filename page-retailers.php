@@ -2,7 +2,7 @@
 get_header(); ?>
 
 <div class="main_retailers">
-    <div class="header">MAYORISTAS</div>
+    <div class="header">Compras al por mayor</div>
     <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Nosotros te ofrecemos:</p>
     <ul class="mayorista-features">
         <li class="mayorista-features__item">Nuestro catálogo mayorista está disponible desde compras mínimas de S/.750</li>
@@ -18,6 +18,10 @@ get_header(); ?>
 
             // Check if there are products in the array
             if (!empty($products)) { ?>
+                <div class="mayorista-store__header">
+                    <p class="mayorista-store__header__store">TIENDA</p>
+                    <p class="mayorista-store__header__subtitle">Encuentra <?php echo sizeof($product)?> productos</p>
+                </div>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
