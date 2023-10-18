@@ -4,7 +4,7 @@
     margin: 0 auto;
     background-color: black;
     color:white;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .header{
@@ -20,10 +20,10 @@
 
 .subtitle{
     font-family: "Helvetica Neue LT", sans-serif;
-    padding: 20px;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 20px;
 
     @media (max-width: 768px) {
         font-size: 1rem;
@@ -46,17 +46,18 @@
     }
 
     li{
-        width: calc(25% - 50px);
+        // width: calc(25% - 50px);
         list-style: none;
         font-family: "Helvetica Neue LT", sans-serif;
         color:white;
         padding: 20px;
+        padding-bottom: 10px;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: normal;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        // flex-direction: column;
+        justify-content: start;
         gap:20px;
         align-items: center;
 
@@ -67,15 +68,17 @@
     }
 
     .item-number{
-        width: 60px;
-        font-size: 3rem;
+        width: 100px;
+        text-align: center;
+        font-size: 2rem;
+        padding: 10px;
         font-weight: bold;
         border: 3px solid white;
         border-radius: 50%;
 
         @media (max-width: 768px) {
-            font-size: 2rem;
-            width: 40;
+            font-size: 1.5rem;
+            width: 50px;
         }
     }
 }
@@ -106,6 +109,7 @@
 
 .mayorista-store{
     padding: 50px 0;
+    padding-top: 15px;
     width: 85%;
     max-width: 111.42857rem;
     margin: 0 auto;
@@ -121,7 +125,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap:30px;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 
