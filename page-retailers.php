@@ -37,7 +37,7 @@ get_header(); ?>
                                     <div class="tech-specs">
                                         <?php echo $product->get_short_description(); ?>
                                         <?php echo $product->get_id(); ?>
-                                        <?php while ( have_rows( 'tech_specs' ) ): the_row() ?>
+                                        <?php while ( have_rows( 'tech_specs' , $product -> get_id()) ): the_row() ?>
                                             <div class="spec">
                                                 <?php $icon = get_sub_field( 'icon' ) ?>
                                                 <img src="<?php echo $icon['url'] ?>" alt="<?php echo $icon['alt'] ?>">
