@@ -26,29 +26,6 @@ get_header(); ?>
                             <div class="product-image">
                                     <?php echo $product->get_image(); ?>
                             </div>
-
-                            <div class="list-swatches">
-                                <?php 
-                                    if(sizeof($variations) > 1){
-                                    ?> <p class="swatch-title">También disponible en:</p>
-                                    <div class="swatch-elements"> <?php
-                                        foreach ( $variations as $variation ) {
-                                            $name = $variation['attributes']['attribute_color'];
-                                            ?>
-                                                <a class="swatch-link"
-                                                href="<?php echo $product->get_permalink(); ?>?attribute_color=<?php echo $name ?>">
-                                                    <img src="<?php echo $variation['image']['url'] ?>"
-                                                        alt="<?php echo $name; ?>"
-                                                        title="<?php echo $name; ?>" class="swatch-image">
-                                                    <p class="swatch-name"><?php echo $name; ?></p>
-                                                </a>
-                                        <?php } ?>
-                                    </div>
-                                    <?php
-                                } ?>
-                            </div>
-
-
                             <div class="product-info">
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
                                 <div class="product-detail">
