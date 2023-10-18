@@ -160,8 +160,8 @@
 }
 
 .product-image {
-  padding: 20px 0;
-  width: 70%;
+  padding-top: 10px;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
