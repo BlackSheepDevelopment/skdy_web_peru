@@ -102,20 +102,26 @@
   justify-content: space-between;
 }
 
-.product-price del {
+.product-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product-price .product-price__normal {
   color: #999;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-right: 1px solid black;
 }
-.product-price ins {
+.product-price .product-price__mayorista {
   color: #000;
   font-size: 1.25rem;
   font-weight: bold;
   text-decoration: none;
-}
-.product-price bdi {
-  color: #000;
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .list-swatches {

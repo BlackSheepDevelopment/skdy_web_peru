@@ -30,8 +30,16 @@ get_header(); ?>
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
                                 <div class="product-detail">
                                     <p class="product-category">True Wireless</p>
-                                    <p class="product-price"> <?php echo $product->get_price_html() ?></p>
-                                    <p class="product-price"> PRECIO MAYORISTA: <?php echo intval($product->get_price())*0.9 ?></p>
+                                    <div class="product-price">
+                                        <div class="product-price__normal">
+                                            <p>Normal</p>
+                                            <p>  <?php echo intval($product->get_price()) ?></p>
+                                        </div>
+                                        <div class="product-price__mayorista">
+                                            <p>Mayorista</p>
+                                            <p>  <?php echo intval($product->get_price())*0.9 ?></p>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
