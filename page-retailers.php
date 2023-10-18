@@ -31,7 +31,6 @@ get_header(); ?>
                             </div>
                             <div class="product-info">
                                 <p class="product-name"> <?php echo $product->get_name() ?></p>
-                                <!-- Add specs here -->
                                 <p class="product-price"> <?php echo $product->get_price_html() ?></p>
 
                                 <div class="list-swatches">
