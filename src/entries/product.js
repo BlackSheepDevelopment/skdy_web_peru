@@ -123,6 +123,6 @@ $(document).ready(function () {
         let number = val.slice(2);
         let newNumber = (parseInt(number) * 0.9).toFixed(2);
 
-        $(".price ins span bdi").text(`S/.${newNumber.toString()}`);
+        $(".price ins span bdi").text(`Mayorista: S/.${newNumber.toString()}`);
     }
 });
