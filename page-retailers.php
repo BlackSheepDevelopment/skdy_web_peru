@@ -75,6 +75,7 @@ get_header(); ?>
 
                             </div>
                             <?php
+                            
                                 echo apply_filters( 'woocommerce_loop_add_to_cart_link',
                                     sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
                                         esc_url( $product->add_to_cart_url() ),
