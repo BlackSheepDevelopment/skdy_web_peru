@@ -91,6 +91,15 @@
   display: none;
 }
 
+.mayorista_header {
+  background-color: black;
+  padding: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: none;
+  position: absolute;
+}
+
 .woocommerce-notices-wrapper {
   display: none;
 }
