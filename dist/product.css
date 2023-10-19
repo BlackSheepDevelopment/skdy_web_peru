@@ -98,6 +98,7 @@
   font-weight: bold;
   display: none;
   position: absolute;
+  z-index: 99;
 }
 
 .woocommerce-notices-wrapper {
