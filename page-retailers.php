@@ -43,7 +43,7 @@ get_header(); ?>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
-                        <a class="product" href="<?php $product -> get_permalink() ?>">
+                        <a class="product" href="<?php echo $product -> get_permalink() ?>">
                             <?php $variations = $product->get_available_variations(); ?> 
                             <div class="product-image">
                                     <?php echo $product->get_image(); ?>
