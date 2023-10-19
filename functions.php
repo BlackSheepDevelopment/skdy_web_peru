@@ -269,6 +269,9 @@ add_action( 'woocommerce_before_single_product_summary', 'product_header_before'
 function product_header_before() {
 	$layout = get_query_var( 'LAYOUT' ); ?>
     <div id="product-header">
+		<div class="mayorista_header">
+			COMO MAYORISTA TIENES UN DESCUENTO DEL 10% EN TODOS LOS PRODUCTOS POR COMPRAS MAYORES A S/.1500. AÑADE TUS UNIDADES EN EL CARRITO
+		</div>
 		<?php if ( $layout == 'layout-1' ): ?>
             <div class="background">
                 <picture>
