@@ -4,12 +4,12 @@ get_header(); ?>
 <div class="main_retailers">
 
     <div class="main-header">
-        <div class="header">MAYORISTAS</div>
+        <div class="header">TIENDAS PEQUEÑAS</div>
         <!-- <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Por favor, ten en cuenta las siguientes indicaciones</p> -->
         <ul class="mayorista-features">
             <li class="mayorista-features__item">
                 <p class="item-number">1</p>
-                <p>Nuestro catálogo mayorista está disponible desde compras mayores a S/.750.</p>
+                <p>Nuestro catálogo para tiendas pequeñas está disponible desde compras mayores a S/.750.</p>
             </li>
             <li class="mayorista-features__item">
                 <p class="item-number">2</p>
