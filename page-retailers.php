@@ -74,6 +74,8 @@ get_header(); ?>
                                 </div>
 
                             </div>
+
+                            
                             <a href="<?php the_permalink(); ?>" class="more">More info</a>
                             <a href="<?php  $add_to_cart = do_shortcode('[add_to_cart_url id="'.$product->get_id().'"]'); echo $add_to_cart;?>" class="more">Buy now</a>
                         </div>
