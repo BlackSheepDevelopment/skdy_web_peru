@@ -119,5 +119,7 @@ $(document).ready(function () {
 
     if (type === "mayorist") {
         $(".mayorista_header").css("display", "block");
+        console.log($(".price ins span bdi").text());
+        $(".price ins span bdi").text("1.000.000");
     }
 });
