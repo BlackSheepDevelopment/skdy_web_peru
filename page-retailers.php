@@ -43,7 +43,7 @@ get_header(); ?>
                 <div class="product-list"> <?php
                     foreach ($products as $product) {
                         ?>
-                        <div class="product">
+                        <a class="product" href="<?php $product -> get_permalink() ?>">
                             <?php $variations = $product->get_available_variations(); ?> 
                             <div class="product-image">
                                     <?php echo $product->get_image(); ?>
@@ -74,11 +74,7 @@ get_header(); ?>
                                 </div>
 
                             </div>
-
-                            
-                            <a href="<?php the_permalink(); ?>" class="more">More info</a>
-                            <a href="<?php  $add_to_cart = do_shortcode('[add_to_cart_url id="'.$product->get_id().'"]'); echo $add_to_cart;?>" class="more">Buy now</a>
-                        </div>
+                        </a>
                     <?php } ?>
                 </div>
                 <?php
