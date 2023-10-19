@@ -94,11 +94,19 @@
 .mayorista_header {
   background-color: black;
   padding: 30px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   display: none;
   position: absolute;
-  z-index: 99;
+  z-index: 98;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .mayorista_header {
+    display: 0.8rem;
+  }
 }
 
 .woocommerce-notices-wrapper {
