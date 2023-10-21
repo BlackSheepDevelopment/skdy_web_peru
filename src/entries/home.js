@@ -59,6 +59,16 @@ home_videos.slick({
     // autoplaySpeed: 3000,
 });
 
+const shop_features = $(".shop-features__main");
+shop_features.slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    // prevArrow: $(".shop-features__prev"),
+    // nextArrow: $(".shop-features__next"),
+    // autoplay: true,
+    // autoplaySpeed: 3000,
+});
 // $(document).ready(function () {
 //     const products_slider = $(".top-products-container");
 //     products_slider.slick({
