@@ -128,10 +128,9 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    console.log("testig leght");
+    console.log($(".cuotealo-available-product").length);
     if ($(".cuotealo-available-product").length === 0) {
-        console.log("NO CUOTEALO");
         $(".variations_form").addClass("no-cuotealo");
-    } else {
-        console.log("SI CUOTEALO");
     }
 });
