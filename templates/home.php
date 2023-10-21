@@ -202,13 +202,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
     </div> -->
 
-    <!-- <div class="home-popup-image">
+    <div class="home-popup-image">
         
-        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLWEEK_ENVIOS_GRATIS.jpg"/>
+        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SOLO2_SKDYCYBER.jpg"/>
         <button class="home-popup-image__close">&times;</button>
-    </div> -->
+    </div>
 
 
-    <!-- <div id="overlay"></div> -->
+    <div id="overlay"></div>
 
 <?php get_footer();
