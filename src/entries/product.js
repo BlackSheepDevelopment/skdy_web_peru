@@ -129,6 +129,9 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     if ($(".cuotealo-available-product").length === 0) {
+        console.log("NO CUOTEALO");
         $(".variations_form").addClass("no-cuotealo");
+    } else {
+        console.log("SI CUOTEALO");
     }
 });
