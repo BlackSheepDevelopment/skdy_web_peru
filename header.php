@@ -41,12 +41,12 @@
         </div>
         <div class="right">
             <ul class="menu">
-            <li class="mega-menu-item">
-                    <a href="https://dev.skullcandy.com.pe/retailers/">Tiendas Pequeñas</a>
-                </li>
                 <!-- <li class="mega-menu-item">
-                    <a href="https://skullcandy.com.pe/mayoristas/">Mayoristas</a>
+                    <a href="https://dev.skullcandy.com.pe/retailers/">Tiendas Pequeñas</a>
                 </li> -->
+                <li class="mega-menu-item">
+                    <a href="https://skullcandy.com.pe/mayoristas/">Mayoristas</a>
+                </li>
                 <li data-menu="mega-menu-support">
                     <a href="#"><?php _e( 'Soporte', 'skullcandy' ) ?></a>
                 </li>
