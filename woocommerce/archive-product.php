@@ -107,9 +107,8 @@ if ( woocommerce_product_loop() ) {
 		}
 	}
 
-	 echo do_shortcode( '[products limit="1 columns="1" ids="' . get_sub_field( 'product' ) . '" ]' );
+	//  echo do_shortcode( '[products limit="1 columns="1" ids="' . get_sub_field( 'product' ) . '" ]' );
 		
-
 	woocommerce_product_loop_end();
 
 	/**
