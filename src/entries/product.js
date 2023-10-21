@@ -126,3 +126,9 @@ $(document).ready(function () {
         $(".price ins span bdi").text(`Mayorista: S/.${newNumber.toString()}`);
     }
 });
+
+$(document).ready(function () {
+    if ($(".cuotealo-available-product").length === 0) {
+        $(".variations_form").addClass("no-cuotealo");
+    }
+});

@@ -1593,3 +1593,9 @@ body.layout-2 #product-header .container .more-tech-specs .text {
 .woocommerce-product-details__short-description {
   display: none !important;
 }
+
+@media (max-width: 768px) {
+  .no-cuotealo {
+    margin-top: 100% !important;
+  }
+}

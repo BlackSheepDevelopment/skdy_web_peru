@@ -1369,3 +1369,9 @@ body.layout-2 {
 .woocommerce-product-details__short-description{
   display: none!important;
 }
+
+.no-cuotealo{
+  @media(max-width: 768px){
+    margin-top: 100%!important;
+  }
+}
