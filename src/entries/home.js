@@ -61,13 +61,18 @@ home_videos.slick({
 
 const shop_features = $(".shop-features__main");
 shop_features.slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    dots: true,
-    // prevArrow: $(".shop-features__prev"),
-    // nextArrow: $(".shop-features__next"),
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    slidesToShow: 3,
+    dots: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                dots: true,
+            },
+        },
+    ],
 });
 // $(document).ready(function () {
 //     const products_slider = $(".top-products-container");
