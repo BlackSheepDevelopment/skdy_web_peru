@@ -128,9 +128,15 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    console.log("testig leght");
-    console.log($(".cuotealo-available-product").length);
-    if ($(".cuotealo-available-product").length === 0) {
+    console.log("Testing de cuotealo y list swatches");
+    console.log($("#cuotealo-available-product").length);
+    console.log($(".variations_form").length);
+
+    if ($("#cuotealo-available-product").length === 0) {
         $(".variations_form").addClass("no-cuotealo");
+    }
+
+    if ($(".list-swatches").length !== 0) {
+        $("#cuotealo-available-product").addClass("list-swatches-cuotealo");
     }
 });

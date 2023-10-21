@@ -123,7 +123,7 @@
       #cuotealo-available-product{
         margin-bottom:10px;
         @media (max-width: 768px) {
-          margin-top: 100%!important;
+          margin-top: 100%;
         }
       }
 
@@ -1373,5 +1373,11 @@ body.layout-2 {
 .no-cuotealo{
   @media(max-width: 768px){
     margin-top: 100%!important;
+  }
+}
+
+.list-swatches-cuotealo{
+  @media(max-width: 768px){
+    margin-top: 0%!important;
   }
 }
