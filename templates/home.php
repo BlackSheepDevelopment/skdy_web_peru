@@ -13,7 +13,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     </div>
 <?php endif; ?>
     <div class="main-container">
-        <div id="home-grid-2">
+        <div class="home-grid-2">
             <!-- <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
