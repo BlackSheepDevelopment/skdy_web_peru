@@ -814,3 +814,45 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+.home-grid-2{
+  display: grid;
+  grid-template-columns: 66% 33%;
+  grid-template-rows: auto auto;
+  gap: 10px; /* Adjust the gap to your preference */
+
+  /* Optional styles for the parent container */
+  /* You can add padding, margins, or other styles as needed */
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.home-grid-2 > div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* To ensure the images don't overflow the container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Optional styles for the individual containers */
+  /* You can add borders, background colors, etc. as needed */
+  border: 1px solid black;
+}
+
+.home-grid-2 > div:first-child {
+  grid-column: span 2;
+}
+
+/* Styles for the second and third image containers */
+.home-grid-2 > div:nth-child(2),
+.home-grid-2 > div:nth-child(3) {
+  grid-row: span 1;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .home-grid-2 {
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+}

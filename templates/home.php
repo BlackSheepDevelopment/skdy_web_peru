@@ -13,8 +13,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     </div>
 <?php endif; ?>
     <div class="main-container">
-        <div id="home-grid">
-            <button class="home-grid__prev">
+        <div id="home-grid-2">
+            <!-- <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
                 </svg>
@@ -29,28 +29,28 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
                             <p class="home-title">Vive la música al máximo.</p>
-                            <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
                             </div>
                     </div>
                 </div>
 
                 <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
                     </picture>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">SMOKIN' BUDS</p>
                             <p class="home-title home-title home-title--desktop">ESTILO. POTENCIA. CALIDAD.</p>
-                            <img class="home-title__image home-title--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
                                 <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡COMPRALOS YA!</a>
                             </div>
@@ -59,20 +59,33 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME_MOVIL.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME_MOVIL.mp4" autoplay muted loop playsinline> </video>
                     </picture>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">DIME</p>
                             <p class="home-title home-title home-title--desktop">PEQUEÑOS Y RESISTENTES.</p>
-                            <img class="home-title__image home-title--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
                                 <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡COMPRALOS YA!</a>
                             </div>
                     </div>
                 </div>
+            </div> -->
+
+            <div>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png"/>
             </div>
+
+            <div>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2.png"/>
+            </div>
+
+            <div>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_3.png"/>
+            </div>
+
         </div>
         <div class="shop-features">
             <p class="shop-features__title">Por cada compra en Skullcandy, te garantizamos</p>
