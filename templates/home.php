@@ -204,7 +204,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
     <div class="home-popup-image">
         
-        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SOLO2_SKDYCYBER.jpg"/>
+        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SOLO1_SKDYCYBER.jpg"/>
         <button class="home-popup-image__close">&times;</button>
     </div>
 
