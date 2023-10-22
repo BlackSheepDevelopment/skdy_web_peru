@@ -912,6 +912,7 @@
 }
 
 .home-grid-2 {
+  background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -920,7 +921,7 @@
 }
 @media (min-aspect-ratio: 5/4) {
   .home-grid-2 {
-    height: calc(100vh - 58px);
+    height: calc(98vh - 58px);
   }
 }
 @media (max-width: 768px) {

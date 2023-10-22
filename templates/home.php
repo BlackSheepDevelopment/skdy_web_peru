@@ -75,7 +75,11 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </div> -->
 
             <section>
-                <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png"/>
+                <picture>
+                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
+                                alt="mobile-main-banner">
+                </picture>
             </section>
 
             <section>
