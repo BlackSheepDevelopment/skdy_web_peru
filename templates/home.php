@@ -74,17 +74,17 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div>
             </div> -->
 
-            <div>
+            <section>
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png"/>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2.png"/>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_3.png"/>
-            </div>
+            </section>
 
         </div>
         <div class="shop-features">
