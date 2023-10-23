@@ -317,10 +317,14 @@
 
 .shop-features__container__info__title {
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 1.49rem;
 =======
   font-size: 1.5rem;
 >>>>>>> :sparkles: Update correct store values
+=======
+  font-size: 1.49rem;
+>>>>>>> :sparkles: Update shop
   font-weight: 700;
 }
 @media (max-width: 768px) {
