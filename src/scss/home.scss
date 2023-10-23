@@ -969,4 +969,12 @@
   top: 75%;
   left: 38%;
   width: 300px!important;
+
+  @media (max-width: 1280px) {
+    top: 80%;
+    left: 25%;
+    width: 150px!important;
+    font-size: 1.3rem;
+
+  }
 }
