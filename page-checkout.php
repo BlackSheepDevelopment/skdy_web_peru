@@ -27,7 +27,7 @@ get_header(); ?>
 				<div class="shop-features__container">
 					<svg width="75" height="75" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16"> <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/> <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/> </svg>
 					<div class="shop-features__container__info">
-						<p class="shop-features__container__info__title">Tiempo de entrega de 2 a 4 días hábiles en Lima Metropolitana y Callao</p>
+						<p class="shop-features__container__info__title">Cómpralo antes de las 4:00 PM y te lo entregamos al día siguiente (Lima Metropolitana y Callao) </p>
 					</div>
 					
 				</div>
@@ -51,30 +51,16 @@ get_header(); ?>
 
 		<div class="checkout_additional_info">
 			<div class="checkout_additional_info__title">
-				RECUERDA
+				PROMOCIONES SKULLCYBER 
 			</div>
 
 			<div class="checkout_additional_info__content">
 				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">El tiempo de entrega por Envío Rápido es de 1 a 3 días habiles y Envío Regular de 2 a 4 días hábiles
-					(solo Lima Metropolitana y Callao sin contar Sábados, Domingos y feriados).</p>
-					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/envios'); ?>">
-						Ver más
-					</a>			
+					<p class="checkout_additional_info__element__label">Compra desde 3 cuotas sin intereses para productos mayores a S/.89 (Válido con tarjetas BBVA, BCP y Diners Club)</p>			
 				</div>
 
 				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">El tiempo de entrega a provincia es de 4 a 15 días hábiles según la región.</p>
-					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/envios'); ?>">
-						Ver más
-					</a>
-				</div>
-
-				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">Entérate sobre nuestra política de cambios y devoluciones.</p>
-					<a class="checkout_additional_info__element__btn" href="<?php echo home_url('/politica-de-cambios-y-garantias'); ?>">
-						Ver más
-					</a>
+					<p class="checkout_additional_info__element__label">Utiliza el cupón CUOTEALO_SKULLCYBER al pagar con Cuotéalo y recibe descuento de S/.100 para productos mayores a S/.249</p>
 				</div>
 			</div>
 		</div>
