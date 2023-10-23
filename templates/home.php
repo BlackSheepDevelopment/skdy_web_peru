@@ -80,7 +80,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
                                 alt="mobile-main-banner">
                 </picture>
-                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
+                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
             </section>
 
             <section>
