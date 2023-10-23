@@ -146,9 +146,9 @@
 
 .shop-features__container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  width: 300px;
+  // width: 300px;
   gap:15px;
   
   @media (max-width: 768px) {
@@ -163,9 +163,12 @@
 }
 
 .shop-features__container__info__title{
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+   }
 }
 
 
