@@ -147,6 +147,7 @@
 .shop-features__container{
   display: flex;
   flex-direction: row;
+  flex-direction: row;
   align-items: center;
   // width: 300px;
   gap:15px;
@@ -164,6 +165,7 @@
 
 .shop-features__container__info__title{
   font-size: 1.49rem;
+  font-size: 1.5rem;
   font-weight: 700;
   // margin-bottom: 1rem;
   @media (max-width: 768px) {
