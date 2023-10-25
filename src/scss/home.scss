@@ -997,7 +997,10 @@
   border-radius: 50%;
 
   &:hover{
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(198, 198, 198);
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
   }
 }
 
