@@ -1141,17 +1141,16 @@
 .home-grid__social__item {
   display: flex;
   align-items: center;
-  width: 50px;
   padding: 10px;
   height: auto;
   background-color: transparent;
   border-radius: 50%;
 }
 .home-grid__social__item:hover {
-  background-color: black;
-  -webkit-transition: background-color 250ms linear;
-  -ms-transition: background-color 250ms linear;
-  transition: background-color 250ms linear;
+  background-color: white;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
 }
 
 .home-grid__social__item--name {
@@ -1160,8 +1159,11 @@
 }
 
 .icon-social__fb {
-  fill: black;
+  fill: white;
 }
 .icon-social__fb:hover {
-  fill: white;
+  fill: black;
+  -webkit-transition: fill 500ms linear;
+  -ms-transition: fill 500ms linear;
+  transition: fill 500ms linear;
 }
