@@ -58,10 +58,6 @@ get_header(); ?>
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">Compra desde 3 cuotas sin intereses para productos mayores a S/.89 (Válido con tarjetas BBVA, BCP y Diners Club)</p>			
 				</div>
-
-				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">Utiliza el cupón CUOTEALO_SKULLCYBER al pagar con Cuotéalo y recibe descuento de S/.100 para productos mayores a S/.249</p>
-				</div>
 			</div>
 		</div>
     </div>
