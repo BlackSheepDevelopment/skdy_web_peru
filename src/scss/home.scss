@@ -999,9 +999,9 @@
 
   &:hover{
     background-color: white;
-    -webkit-transition: background-color 500ms linear;
-    -ms-transition: background-color 500ms linear;
-    transition: background-color 500ms linear;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
   }
 }
 
@@ -1015,9 +1015,9 @@
   fill: white;
   &:hover{
     fill: black;
-    -webkit-transition: fill 500ms linear;
-    -ms-transition: fill 500ms linear;
-    transition: fill 500ms linear;
+    -webkit-transition: fill 300ms linear;
+    -ms-transition: fill 300ms linear;
+    transition: fill 300ms linear;
   }
 }
 

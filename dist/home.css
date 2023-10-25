@@ -1148,9 +1148,9 @@
 }
 .home-grid__social__item:hover {
   background-color: white;
-  -webkit-transition: background-color 500ms linear;
-  -ms-transition: background-color 500ms linear;
-  transition: background-color 500ms linear;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
 }
 
 .home-grid__social__item--name {
@@ -1163,7 +1163,7 @@
 }
 .icon-social__fb:hover {
   fill: black;
-  -webkit-transition: fill 500ms linear;
-  -ms-transition: fill 500ms linear;
-  transition: fill 500ms linear;
+  -webkit-transition: fill 300ms linear;
+  -ms-transition: fill 300ms linear;
+  transition: fill 300ms linear;
 }
