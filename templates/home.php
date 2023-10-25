@@ -14,6 +14,21 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 <?php endif; ?>
     <div class="main-container">
         <div class="home-grid-2">
+
+            <div class="home-grid__social">
+                <a class="home-grid__social__item" href="https://www.facebook.com/skullcandy.pe/?locale=es_LA" target="_blank">
+                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/FB_SVG.svg" />
+                </a>
+                <a class="home-grid__social__item" href="https://www.instagram.com/skullcandyperu/?hl=es-la" target="_blank">
+                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/IG_SVG.svg"/>
+                </a>
+                <a class="home-grid__social__item" href="https://www.tiktok.com/@skullcandyperu">
+                    <img src="<?php echo get_template_directory_uri() ?>/src/assets/TT_SVG.svg"/>
+                </a>
+                <div class="home-grid__social__item home-grid__social__item--name">NEWSLETTER</div>
+
+            </div>
+
             <!-- <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
