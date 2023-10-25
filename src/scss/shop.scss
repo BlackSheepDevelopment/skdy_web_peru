@@ -181,11 +181,17 @@
   }
 }
 
-.filter-categories{
+.filter{
   width: 15%;
   @media (max-width: 1280px) {
     width: 100%;
   }
+}
+
+.filter-categories{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 
 .filter-categories__title{
