@@ -987,6 +987,9 @@
   display: flex;
   flex-direction: column;
   gap:10px;
+  @media (max-width: 1280px) {
+    display: none;
+  }
 }
 
 .home-grid__social__item{
@@ -1003,6 +1006,8 @@
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;
   }
+
+
 }
 
 .home-grid__social__item--name{

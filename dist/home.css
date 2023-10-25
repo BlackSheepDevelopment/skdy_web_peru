@@ -1137,6 +1137,11 @@
   flex-direction: column;
   gap: 10px;
 }
+@media (max-width: 1280px) {
+  .home-grid__social {
+    display: none;
+  }
+}
 
 .home-grid__social__item {
   display: flex;
