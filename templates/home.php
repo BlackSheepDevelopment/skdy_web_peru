@@ -27,7 +27,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-grid__social__item home-grid__social__item--name">NEWSLETTER</div>
         </div>
 
-
         <div class="home-grid-2">
             <!-- <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
