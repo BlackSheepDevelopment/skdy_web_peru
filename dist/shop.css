@@ -358,6 +358,7 @@
 
 .filter-categories__options {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .filter__section__button {
