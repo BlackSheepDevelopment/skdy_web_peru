@@ -16,7 +16,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
         <div class="home-grid__social">
             <a class="home-grid__social__item" href="https://www.facebook.com/skullcandy.pe/?locale=es_LA" target="_blank">
-                <div class="icons8-facebook"></div>
+                <img src="<?php echo get_template_directory_uri() ?>/src/assets/FB_SVG.svg" />
             </a>
             <a class="home-grid__social__item" href="https://www.instagram.com/skullcandyperu/?hl=es-la" target="_blank">
                 <img src="<?php echo get_template_directory_uri() ?>/src/assets/IG_SVG.svg"/>
