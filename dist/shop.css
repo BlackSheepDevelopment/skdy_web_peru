@@ -328,6 +328,7 @@
 .main-shop-menu {
   display: flex;
   gap: 25px;
+  padding-top: 50px;
 }
 @media (max-width: 1280px) {
   .main-shop-menu {
@@ -352,8 +353,9 @@
 }
 
 .filter-categories__title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
 .filter-categories__options {
@@ -363,7 +365,6 @@
 
 .filter__section__button {
   height: 250px;
-  min-width: 300px;
   border-style: none;
   background-color: transparent;
   color: rgb(80, 80, 80);
@@ -433,4 +434,8 @@
   .shop-store {
     width: 100%;
   }
+}
+
+#bar-menu {
+  display: none;
 }
