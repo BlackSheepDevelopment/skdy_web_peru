@@ -983,13 +983,15 @@
   z-index: 99;
   position: absolute;
   top: 20%;
-  left: 5%;
+  left: 1%;
   display: flex;
   flex-direction: column;
   gap:10px;
 }
 
 .home-grid__social__item{
+  display: flex;
+  align-items: center;
   width: 50px;
   padding: 10px;
   height: auto;
@@ -1004,4 +1006,17 @@
   }
 }
 
+.home-grid__social__item--name{
+  width: 100%;
+  border-radius: 0px;
+}
+
+
+.icon-social__fb{
+  fill: black;
+
+  &:hover{
+    fill: white;
+  }
+}
 
