@@ -325,19 +325,38 @@
   }
 }
 
-.filter {
+.main-shop-menu {
   display: flex;
-  justify-content: start;
-  flex-wrap: wrap;
-  padding: 20px 0;
+  gap: 25px;
 }
-@media (max-width: 768px) {
-  .filter {
-    justify-content: center;
+@media (max-width: 1280px) {
+  .main-shop-menu {
+    flex-direction: column;
+    gap: 0px;
   }
 }
 
+.filter-categories {
+  width: 15%;
+}
+@media (max-width: 1280px) {
+  .filter-categories {
+    width: 100%;
+  }
+}
+
+.filter-categories__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.filter-categories__options {
+  display: flex;
+}
+
 .filter__section__button {
+  height: 250px;
+  min-width: 300px;
   border-style: none;
   background-color: transparent;
   color: rgb(80, 80, 80);
@@ -398,4 +417,13 @@
 .slick-dots li.slick-active button {
   width: 1.25rem;
   height: 1.25rem;
+}
+
+.shop-store {
+  width: 85%;
+}
+@media (max-width: 1280px) {
+  .shop-store {
+    width: 100%;
+  }
 }

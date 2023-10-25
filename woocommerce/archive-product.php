@@ -74,19 +74,22 @@ do_action( 'woocommerce_before_main_content' );
 <div class="main-shop-menu">
 
 	<div class="filter">
-		<button class="filter__section__button" id="">Ver Todo</button>
-		<button class="filter__section__button filter__section__button--ofertas " id="ofertas">SKULLCYBER</button>
-		<button class="filter__section__button" id="packs">PACKS</button>
-		<button class="filter__section__button" id="true-wireless">True Wireless</button>
-		<button class="filter__section__button" id="headphones">Headphones</button>
-		<button class="filter__section__button" id="bluetooth">Bluetooth</button>
-		<button class="filter__section__button" id="cableados">Cableados</button>
-		<button class="filter__section__button" id="accesorios">Accesorios</button>
+		<div class="filter-categories">
+			<div class="filter-categories__title">Categorías</div>
+			<div class="filter-categories__options">
+				<button class="filter__section__button" id="">Todo</button>
+				<button class="filter__section__button filter__section__button--ofertas " id="ofertas">Skullcyber</button>
+				<button class="filter__section__button" id="packs">Packs</button>
+				<button class="filter__section__button" id="true-wireless">True Wireless</button>
+				<button class="filter__section__button" id="headphones">Headphones</button>
+				<button class="filter__section__button" id="bluetooth">Bluetooth</button>
+				<button class="filter__section__button" id="cableados">Cableados</button>
+				<button class="filter__section__button" id="accesorios">Accesorios</button>
+			</div>
+		</div>
 	</div>
 
-	<div>
-		HOLA COMO ESTAS
-	</div>
+
 	<div class="shop-store">
 		<?php
 		if ( woocommerce_product_loop() ) {
