@@ -995,11 +995,11 @@
   width: 50px;
   padding: 10px;
   height: auto;
-  background-color: white;
+  background-color: transparent;
   border-radius: 50%;
 
   &:hover{
-    background-color: rgb(198, 198, 198);
+    background-color: black;
     -webkit-transition: background-color 250ms linear;
     -ms-transition: background-color 250ms linear;
     transition: background-color 250ms linear;
@@ -1014,7 +1014,6 @@
 
 .icon-social__fb{
   fill: black;
-
   &:hover{
     fill: white;
   }

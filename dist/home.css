@@ -1144,11 +1144,11 @@
   width: 50px;
   padding: 10px;
   height: auto;
-  background-color: white;
+  background-color: transparent;
   border-radius: 50%;
 }
 .home-grid__social__item:hover {
-  background-color: rgb(198, 198, 198);
+  background-color: black;
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
