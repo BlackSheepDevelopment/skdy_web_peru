@@ -71,7 +71,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 
-<div>
+<div class="main-shop-menu">
 
 	<div class="filter">
 		<button class="filter__section__button" id="">Ver Todo</button>
@@ -84,7 +84,7 @@ do_action( 'woocommerce_before_main_content' );
 		<button class="filter__section__button" id="accesorios">Accesorios</button>
 	</div>
 
-	<div>
+	<div class="shop-store">
 		<?php
 		if ( woocommerce_product_loop() ) {
 
