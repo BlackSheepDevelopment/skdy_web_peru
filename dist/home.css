@@ -1141,7 +1141,7 @@
 .home-grid__social__item {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 2px;
   height: auto;
   background-color: transparent;
   border-radius: 50%;
