@@ -218,13 +218,13 @@
   transition: 0.35s;
   font-size: 1.2rem;
 
-  color: #0000;
+  --c: #0000; /* the color */
   background: 
-    linear-gradient(90deg,#1095c1 50%,#000 0) 
-    var(--_p,100%)/200% no-repeat;
-  -webkit-background-clip: text;
-          background-clip: text;
-  transition: .4s;
+    linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
   
   // &:hover{
   //   font-weight: 700;
@@ -236,7 +236,7 @@
   // }
 
   &:hover{
-    --_p: 0%;
+    --_p: 100%
   }	
 }
 
