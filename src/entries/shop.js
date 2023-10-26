@@ -53,19 +53,18 @@ $(".filter__section__button").on("click", function (event) {
     }
 });
 
-$(".filter-categories__options").slick({
-    slidesToShow: 2,
-    arrows: false,
+$(".slick-testing").slick({
+    slidesToShow: 4,
     dots: false,
+    arrows: false,
     responsive: [
         {
-            breakpoint: 1280,
+            breakpoint: 768,
             settings: {
-                slidesToScroll: 2,
-                infinite: true,
+                slidesToShow: 1,
+                dots: false,
             },
         },
     ],
 });
-
 // filter-categories__options

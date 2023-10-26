@@ -208,14 +208,14 @@
   padding-bottom: 25px;
 }
 
-// .filter-categories__options{
-//   display: flex;
-//   flex-direction: column;
-//   @media (max-width: 1280px) {
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//   }
-// }
+.filter-categories__options{
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1280px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 .filter__section__button{
   cursor: pointer;
