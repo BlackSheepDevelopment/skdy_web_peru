@@ -190,17 +190,6 @@
   }
 }
 
-.product-detail {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-@media (max-width: 768px) {
-  .product-detail {
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 768px) {
   .product-category {
     display: none;
@@ -246,6 +235,17 @@
   .product-price .product-price__mayorista {
     font-size: 0.8rem;
     padding: 0;
+  }
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .product-detail {
+    flex-direction: column;
   }
 }
 

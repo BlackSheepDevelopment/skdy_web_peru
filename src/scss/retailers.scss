@@ -190,23 +190,11 @@
     }
 }
 
-.product-detail{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    @media (max-width: 768px) {
-        flex-direction: column;
-    }
-}
-
-
 .product-category{
     @media (max-width: 768px) {
         display: none;
     }
 }
-
 
 .product-price{
     display: flex;
@@ -248,6 +236,19 @@
 
     }
 }
+
+.product-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+
+
 
 
 .list-swatches{

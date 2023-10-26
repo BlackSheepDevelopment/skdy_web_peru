@@ -25,6 +25,40 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 <li <?php wc_product_class( '', $product ); ?>>
+
+	<a class="product" href="<?php echo $product -> get_permalink() ?>?type=mayorist">
+		<?php $variations = $product->get_available_variations(); ?> 
+		<div class="product-image">
+				<?php echo $product->get_image(); ?>
+		</div>
+		<div class="product-info">
+			<p class="product-name"> <?php echo $product->get_name() ?></p>
+			<div class="product-detail">
+				<p class="product-category">
+					<?php $categories_product = $product -> get_category_ids() ?>
+					<?php foreach ($categories_product as $category_product) {
+						$category = get_term_by('id', $category_product, 'product_cat');
+						$cname = $category->name;
+						if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' ){
+							echo $category->name;
+						}
+					} ?>
+				</p>
+				<div class="product-price">
+					<div class="product-price__normal">
+						<p>Normal</p>
+						<p>S/.<?php echo intval($product->get_price()) ?></p>
+					</div>
+					<div class="product-price__mayorista">
+						<p>Mayorista</p>
+						<p>S/.<?php echo intval($product->get_price())*0.9 ?></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</a>
+
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
@@ -54,7 +88,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_rating - 5
 	 * @hooked woocommerce_template_loop_price - 10
 	 */
-	do_action( 'woocommerce_after_shop_loop_item_title' );
+	// do_action( 'woocommerce_after_shop_loop_item_title' );
 
 	/**
 	 * Hook: woocommerce_after_shop_loop_item.
@@ -62,6 +96,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_product_link_close - 5
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
-	do_action( 'woocommerce_after_shop_loop_item' );
+	// do_action( 'woocommerce_after_shop_loop_item' );
 	?>
 </li>
