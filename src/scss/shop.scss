@@ -207,17 +207,16 @@
 }
 
 .filter__section__button{
-  height: 250px;
   border-style: none;
   background-color: transparent;
   color: rgb(80, 80, 80);
-  border-top: 1.5px solid transparent;
   border-bottom: 1px solid rgb(80, 80, 80);
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
   flex-grow: 1;
   transition: 0.3s;
+  font-size: 1.2rem;
   
   &:hover{
     color: white;
@@ -230,9 +229,7 @@
 .filter__section__button--active{
   color: black;
   font-size: 1rem;
-  border-top: 0px solid transparent;
-  border-bottom: 5px solid black;
-  font-weight: 800; 
+  border-bottom: 1px solid black;
 
 }
 
