@@ -364,9 +364,14 @@
 }
 
 .filter__section__button {
+  cursor: pointer;
+  border: 0px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 0.9rem;
   --c: black; /* the color */
-  color: rgba(0, 0, 0, 0);
-  background: linear-gradient(90deg, #fff 50%, var(--c) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) 100% no-repeat;
+  color: #000000;
+  background: linear-gradient(90deg, #ffffff 50%, var(--c) 0) calc(100% - var(--_p, 0%))/200% 100%, linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) 100% no-repeat;
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
   transition: 0.5s;
