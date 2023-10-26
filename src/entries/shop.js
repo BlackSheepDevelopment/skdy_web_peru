@@ -30,14 +30,23 @@ $(document).ready(function () {
         }
     });
 
-    // let products = $(".product");
-    // products.hide();
-    // if (cat !== null) {
-    //     let filteredProducts = $(`.product_cat-${cat}`);
-    //     filteredProducts.show();
-    // } else {
-    //     products.show();
-    // }
+    const slickTesting = $("#slick-testing");
+    const slickTestingCount = $("#slick-testing div").length;
+
+    slickTesting.slick({
+        slidesToShow: slickTestingCount,
+        dots: false,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                },
+            },
+        ],
+    });
 });
 
 $(".filter__section__button").on("click", function (event) {
@@ -53,21 +62,4 @@ $(".filter__section__button").on("click", function (event) {
     }
 });
 
-const slickTesting = $("#slick-testing");
-const slickTestingCount = $("#slick-testing div").length;
-
-slickTesting.slick({
-    slidesToShow: slickTestingCount,
-    dots: false,
-    arrows: false,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                dots: true,
-            },
-        },
-    ],
-});
 // filter-categories__options
