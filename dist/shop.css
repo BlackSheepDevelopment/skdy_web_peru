@@ -366,7 +366,7 @@
 .filter__section__button {
   border-style: none;
   background-color: transparent;
-  color: rgb(80, 80, 80);
+  color: black;
   border: 3px solid transparent;
   padding: 10px 20px;
   margin: 0 -5px;
