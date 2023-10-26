@@ -65,7 +65,7 @@ slickTesting.slick({
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                dots: false,
+                dots: true,
             },
         },
     ],
