@@ -99,7 +99,7 @@
 }
 @media (max-width: 768px) {
   #main-container .container__content .layout.type-product .products .product {
-    width: 50% !important;
+    width: 100% !important;
   }
 }
 #main-container .container__content .layout.type-product .products .product .woocommerce-loop-product__link img {

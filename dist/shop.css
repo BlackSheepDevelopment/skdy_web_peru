@@ -1,20 +1,11 @@
-#primary {
-  width: 85%;
-  max-width: 111.42857rem;
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  #primary {
-    width: 95%;
-  }
-}
-
 .page-title {
   text-align: center;
   text-transform: uppercase;
   font-family: "Helvetica Neue LT", sans-serif;
   padding: 1.5rem 0;
   font-size: 3.2em;
+  background-color: black;
+  color: white;
 }
 @media (max-width: 768px) {
   .page-title {
@@ -142,7 +133,7 @@
 }
 @media (max-width: 768px) {
   .products .product {
-    width: 50% !important;
+    width: 100% !important;
   }
 }
 .products .product .woocommerce-loop-product__link img {
@@ -285,7 +276,7 @@
 .shop-features {
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%;
+  padding: 20px 15%;
   flex-direction: row;
 }
 @media (max-width: 768px) {
@@ -293,7 +284,6 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 5px 5%;
   }
 }
 
@@ -362,6 +352,12 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1280px) {
+  .filter-categories__options {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 .filter__section__button {
   cursor: pointer;
@@ -378,6 +374,12 @@
 }
 .filter__section__button:hover {
   --_p: 100% ;
+}
+@media (max-width: 1280px) {
+  .filter__section__button {
+    flex-grow: 1;
+    width: 50%;
+  }
 }
 
 .filter__section__button--active {

@@ -1,15 +1,15 @@
 @import "constants";
 @import "mixins";
 
-#primary {
-  width: 85%;
-  max-width: 111.42857rem;
-  margin: 0 auto;
+// #primary {
+  // width: 85%;
+  // max-width: 111.42857rem;
+  // margin: 0 auto;
 
-  @media (max-width: 768px) {
-    width: 95%;
-  }
-}
+  // @media (max-width: 768px) {
+  //   width: 95%;
+  // }
+// }
 
 .page-title {
   text-align: center;
@@ -17,6 +17,8 @@
   font-family: $titleFont;
   padding: 1.5rem 0;
   font-size: 3.2em;
+  background-color: black;
+  color: white;
 
   @media (max-width: 768px) {
     font-size: 2.25rem;
@@ -133,14 +135,13 @@
 .shop-features{
   display: flex;
   justify-content: space-between;
-  padding: 20px 5%;
+  padding: 20px 15%;
   flex-direction: row;
 
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 5px 5%;
   }
 }
 
@@ -204,6 +205,10 @@
 .filter-categories__options{
   display: flex;
   flex-direction: column;
+  @media (max-width: 1280px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .filter__section__button{
@@ -224,6 +229,10 @@
   &:hover{
     --_p: 100%
   }	
+  @media (max-width: 1280px) {
+    flex-grow: 1;
+    width: 50%;
+  }
 }
 
 .filter__section__button--active{
