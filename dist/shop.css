@@ -372,7 +372,7 @@
   margin: 0 -5px;
   cursor: pointer;
   flex-grow: 1;
-  transition: 0.3s;
+  transition: 0.35s;
   font-size: 1.2rem;
 }
 .filter__section__button:hover {
