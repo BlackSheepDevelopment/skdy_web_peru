@@ -74,10 +74,10 @@ do_action( 'woocommerce_before_main_content' );
 <div class="main-shop-menu">
 
 	<div id="slick-testing">
-		<div>1</div>
-		<div>2</div>
-		<div>3</div>
-		<div>4</div>
+		<div class="slick-item slick-item-1">1</div>
+		<div class="slick-item slick-item-2">2</div>
+		<div class="slick-item slick-item-3">3</div>
+		<div class="slick-item slick-item-4">4</div>
 	</div>
 
 	<div class="filter">

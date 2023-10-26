@@ -438,6 +438,24 @@
   }
 }
 
+.slick-item {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.slick-item-1 {
+  background-color: red;
+}
+
+.slick-item-2 {
+  background-color: green;
+}
+
+.slick-item-3 {
+  background-color: yellow;
+}
+
 #bar-menu {
   display: none;
 }
