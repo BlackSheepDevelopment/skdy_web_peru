@@ -72,14 +72,6 @@ do_action( 'woocommerce_before_main_content' );
 
 
 <div class="main-shop-menu">
-
-	<div id="slick-testing">
-		<div class="slick-item slick-item-1">1</div>
-		<div class="slick-item slick-item-2">2</div>
-		<div class="slick-item slick-item-3">3</div>
-		<div class="slick-item slick-item-4">4</div>
-	</div>
-
 	<div class="filter">
 		<div class="filter-categories">
 			<div class="filter-categories__title">Categorías</div>
@@ -88,10 +80,10 @@ do_action( 'woocommerce_before_main_content' );
 				<button class="filter__section__button filter__section__button--ofertas " id="ofertas">SKULLCYBER</button>
 				<button class="filter__section__button" id="packs">Packs</button>
 				<button class="filter__section__button" id="true-wireless">True Wireless</button>
-				<!-- <button class="filter__section__button" id="headphones">Headphones</button>
+				<button class="filter__section__button" id="headphones">Headphones</button>
 				<button class="filter__section__button" id="bluetooth">Bluetooth</button>
 				<button class="filter__section__button" id="cableados">Cableados</button>
-				<button class="filter__section__button" id="accesorios">Accesorios</button> -->
+				<button class="filter__section__button" id="accesorios">Accesorios</button>
 			</div>
 		</div>
 	</div>
