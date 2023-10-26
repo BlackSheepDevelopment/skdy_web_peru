@@ -361,6 +361,7 @@
 .filter-categories__options {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .filter__section__button {
