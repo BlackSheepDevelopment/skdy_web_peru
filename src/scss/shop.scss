@@ -219,7 +219,7 @@
 
   --c: black; /* the color */
   background: 
-    linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(90deg,white 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
     linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
   -webkit-background-clip: text,padding-box;
           background-clip: text,padding-box;
