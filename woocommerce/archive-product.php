@@ -73,7 +73,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="main-shop-menu">
 
-	<div class="slick-testing">
+	<div id="slick-testing">
 		<div>1</div>
 		<div>2</div>
 		<div>3</div>

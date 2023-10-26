@@ -53,8 +53,11 @@ $(".filter__section__button").on("click", function (event) {
     }
 });
 
-$(".slick-testing").slick({
-    slidesToShow: 4,
+const slickTesting = $("#slick-testing");
+const slickTestingCount = $("#slick-testing div").length;
+
+slickTesting.slick({
+    slidesToShow: slickTestingCount,
     dots: false,
     arrows: false,
     responsive: [
