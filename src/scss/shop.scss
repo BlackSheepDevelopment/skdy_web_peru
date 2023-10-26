@@ -212,8 +212,8 @@
   padding: 10px;
   font-weight: 700;
   font-size: 0.9rem;
-  --c: black; /* the color */
   color: #0000;
+  --c: black; /* the color */
   background: 
     linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
     linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
