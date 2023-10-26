@@ -212,7 +212,7 @@
   padding: 10px;
   font-weight: 700;
   font-size: 0.9rem;
-  color: #0000;
+  color: transparent;
   --c: black; /* the color */
   background: 
     linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
@@ -233,7 +233,7 @@
 }
 
 .filter__section__button--ofertas{
-  color: red;
+  --c: red;
 }
 
 .filter__section__button--ofertas--active{
