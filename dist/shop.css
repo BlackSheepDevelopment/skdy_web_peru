@@ -376,14 +376,19 @@
   font-size: 1.2rem;
 }
 .filter__section__button:hover {
-  color: white;
+  color: black;
   font-weight: 700;
-  background-color: black;
-  transition: 0.3s;
+  border: 2px solid black;
+  transition: 0.4s;
+  -webkit-transition: border 300ms linear;
+  -ms-transition: border 300ms linear;
+  transition: border 300ms linear;
 }
 
 .filter__section__button--active {
-  color: black;
+  color: white;
+  font-weight: 800;
+  background-color: black;
   border: 2px solid black;
 }
 
