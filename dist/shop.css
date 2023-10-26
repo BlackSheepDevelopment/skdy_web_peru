@@ -374,14 +374,14 @@
   flex-grow: 1;
   transition: 0.35s;
   font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0);
+  background: linear-gradient(90deg, #1095c1 50%, #000 0) var(--_p, 100%)/200% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: 0.4s;
 }
 .filter__section__button:hover {
-  font-weight: 700;
-  border: 3px solid black;
-  transition: 0.4s;
-  -webkit-transition: border 300ms linear;
-  -ms-transition: border 300ms linear;
-  transition: border 300ms linear;
+  --_p: 0%;
 }
 
 .filter__section__button--active {
