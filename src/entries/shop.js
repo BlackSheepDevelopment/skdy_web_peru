@@ -55,6 +55,8 @@ $(".filter__section__button").on("click", function (event) {
 
 $(".filter-categories__options").slick({
     slidesToShow: 2,
+    arrows: false,
+    dots: false,
     responsive: [
         {
             breakpoint: 1280,
