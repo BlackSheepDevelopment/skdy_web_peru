@@ -203,7 +203,8 @@
 
 .filter-categories__options{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
 }
 
 .filter__section__button{
