@@ -183,7 +183,6 @@
   
   @media (max-width: 1280px) {
     flex-direction: column;
-    width: 95%;
     gap:10px;
   }
 }
@@ -254,7 +253,6 @@
 }
 
 .filter__section__button--ofertas--active{
-  border-bottom: 2.5px solid black;
   font-weight: 700; 
 }
 
