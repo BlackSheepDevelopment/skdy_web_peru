@@ -357,7 +357,7 @@
 .filter__section__button {
   cursor: pointer;
   border: 0px;
-  padding: 10px;
+  padding: 9px;
   font-weight: 700;
   font-size: 0.9rem;
   --c: black; /* the color */
