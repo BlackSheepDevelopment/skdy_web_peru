@@ -367,7 +367,7 @@
   border-style: none;
   background-color: transparent;
   color: rgb(80, 80, 80);
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
@@ -376,9 +376,8 @@
   font-size: 1.2rem;
 }
 .filter__section__button:hover {
-  color: black;
   font-weight: 700;
-  border: 2px solid black;
+  border: 3px solid black;
   transition: 0.4s;
   -webkit-transition: border 300ms linear;
   -ms-transition: border 300ms linear;
@@ -389,7 +388,7 @@
   color: white;
   font-weight: 800;
   background-color: black;
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 .filter__section__button--ofertas {
