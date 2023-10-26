@@ -367,7 +367,6 @@
   border-style: none;
   background-color: transparent;
   color: black;
-  border: 3px solid transparent;
   padding: 10px 20px;
   margin: 0 -5px;
   cursor: pointer;
@@ -388,7 +387,6 @@
   font-weight: 700;
   color: white;
   background-color: black;
-  border: 3px solid black;
 }
 
 .filter__section__button--ofertas {
