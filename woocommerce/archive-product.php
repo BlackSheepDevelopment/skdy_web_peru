@@ -91,6 +91,7 @@ do_action( 'woocommerce_before_main_content' );
 
 
 	<div class="shop-store">
+		<div class="filter-categories__title">Productos</div>
 		<?php
 		if ( woocommerce_product_loop() ) {
 
