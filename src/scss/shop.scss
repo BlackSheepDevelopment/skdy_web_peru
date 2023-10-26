@@ -207,32 +207,14 @@
 }
 
 .filter__section__button{
-  border-style: none;
-  background-color: transparent;
-  color: black;
-  padding: 10px 20px;
-  margin: 0 -5px;
-  cursor: pointer;
-  flex-grow: 1;
-  transition: 0.35s;
-  font-size: 1.2rem;
-
   --c: black; /* the color */
+  color: #0000;
   background: 
-    linear-gradient(90deg,white 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
     linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
   -webkit-background-clip: text,padding-box;
           background-clip: text,padding-box;
-  transition: 0.51s;
-  
-  // &:hover{
-  //   font-weight: 700;
-  //   border: 3px solid black;
-  //   transition: 0.4s;
-  //   -webkit-transition: border 300ms linear;
-  //   -ms-transition: border 300ms linear;
-  //   transition: border 300ms linear;
-  // }
+  transition: 0.5s;
 
   &:hover{
     --_p: 100%
