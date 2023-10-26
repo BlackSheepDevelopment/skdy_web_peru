@@ -24,9 +24,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<!-- <li <?php #wc_product_class( '', $product ); ?>> -->
+<li <?php wc_product_class( '', $product ); ?>>
 
-	<a class="product" href="<?php echo $product -> get_permalink() ?>?type=mayorist">
+	<a href="<?php echo $product -> get_permalink() ?>">
 		<?php $variations = $product->get_available_variations(); ?> 
 		<div class="product-image">
 				<?php echo $product->get_image(); ?>
@@ -55,7 +55,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</a>
 
@@ -98,4 +97,4 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	// do_action( 'woocommerce_after_shop_loop_item' );
 	?>
-<!-- </li> -->
+</li>
