@@ -52,3 +52,11 @@ $(".filter__section__button").on("click", function (event) {
         window.location.href = `/shop/`;
     }
 });
+
+$(".filter-categories__options").slick({
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    infinite: true,
+});
+
+// filter-categories__options
