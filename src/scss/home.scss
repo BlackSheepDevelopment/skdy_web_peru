@@ -154,7 +154,11 @@
   width: 60%;
   border-radius: 25px;
   // width: 100%;
+<<<<<<< HEAD
   z-index: 997;
+=======
+  z-index: 98;
+>>>>>>> :sparkles: Change home banenr
   @media (max-width: 1280px) {
     margin-top: 1rem;
     width: 100%;
@@ -773,7 +777,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-51%, -50%);
-  width: 500px;
+  width: 900px;
   height: auto;
   object-fit: cover;
   @media (max-width: 1280px) {
