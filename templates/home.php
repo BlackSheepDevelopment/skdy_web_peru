@@ -271,6 +271,5 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
 
     <!-- <div id="overlay"></div> -->
->>>>>>> :sparkles: Change home banenr
 
 <?php get_footer();
