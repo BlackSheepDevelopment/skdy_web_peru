@@ -88,7 +88,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_3_NEW.jpg"/>
+                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
             </section>
 
         </div>
@@ -220,12 +220,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
     </div> -->
 
-    <div class="home-popup-image">
-        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
-        <button class="home-popup-image__close">&times;</button>
-    </div>
+    <!-- <div class="home-popup-image"> -->
+        <!-- <img alt="popup-img" class="home-popup-image__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/> -->
+        <!-- <button class="home-popup-image__close">&times;</button> -->
+    <!-- </div> -->
 
 
-    <div id="overlay"></div>
+    <!-- <div id="overlay"></div> -->
 
 <?php get_footer();
