@@ -26,7 +26,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 <li <?php wc_product_class( '', $product ); ?>>
 
-	<a href="<?php echo $product -> get_permalink() ?>">
+	<a class="product-ref" href="<?php echo $product -> get_permalink() ?>">
 		<?php $variations = $product->get_available_variations(); ?> 
 		<div class="product-image">
 				<?php echo $product->get_image(); ?>
@@ -46,12 +46,12 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				</p>
 				<div class="product-price">
 					<div class="product-price__normal">
-						<p>Normal</p>
-						<p>S/.<?php echo intval($product->get_price()) ?></p>
+						<p>Antes</p>
+						<p>S/.<?php echo intval($product->get_regular_price()) ?></p>
 					</div>
 					<div class="product-price__mayorista">
-						<p>Mayorista</p>
-						<p>S/.<?php echo intval($product->get_price())*0.9 ?></p>
+						<p>Ahora</p>
+						<p>S/.<?php echo intval($product->get_sale_price()) ?></p>
 					</div>
 				</div>
 			</div>
