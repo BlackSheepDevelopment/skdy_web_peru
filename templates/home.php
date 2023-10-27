@@ -115,12 +115,16 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
             <section>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
                 <a class="button_banner__secondary">
                     <p class="home-title--bold">OFERTAS</p>
                     <p>¡Compra ahora! </p>
                     
                 </a>
+=======
+                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
+>>>>>>> :sparkles: Change home banenr
 =======
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
 >>>>>>> :sparkles: Change home banenr
@@ -256,6 +260,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     </div> -->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="home-popup-image">
         
         <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POP_UP_TT.png"/>
@@ -269,6 +274,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <!-- <button class="home-popup-image__close">&times;</button> -->
     <!-- </div> -->
 
+=======
+    <!-- <div class="home-popup-image"> -->
+        <!-- <img alt="popup-img" class="home-popup-image__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/> -->
+        <!-- <button class="home-popup-image__close">&times;</button> -->
+    <!-- </div> -->
+
+>>>>>>> :sparkles: Change home banenr
 
     <!-- <div id="overlay"></div> -->
 
