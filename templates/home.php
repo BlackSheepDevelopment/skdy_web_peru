@@ -55,10 +55,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
-                            <p class="home-title">Aprovecha la oferta con lentes de regalo.</p>
+                            <p class="home-title">Vive la música al máximo.</p>
                             <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
+                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
                             </div>
                     </div>
                 </div> -->
@@ -71,7 +71,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">SMOKIN' BUDS</p>
-                            <p class="home-title home-title home-title--desktop">Estilo, potencia y calidad.</p>
+                            <p class="home-title home-title home-title--desktop">ESTILO. POTENCIA. CALIDAD.</p>
                             <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
                                 <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡Compralos ya!</a>
@@ -87,47 +87,30 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">DIME</p>
-                            <p class="home-title home-title home-title--desktop">Pequeños y resistentes</p>
+                            <p class="home-title home-title home-title--desktop">PEQUEÑOS Y RESISTENTES.</p>
                             <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡Compralos ya!</a>
+                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡COMPRALOS YA!</a>
                             </div>
                     </div>
-                </div> -->
-            <!-- </div> -->
+                </div>
+            </div> -->
 
             <!-- <section>
                 <picture>
-                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
+                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
                                 alt="mobile-main-banner">
                 </picture>
-                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Conoce más!</a>
+                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
-                <a class="button_banner__secondary">
-                    <p class="home-title--bold">NUEVO PACK</p>
-                    <p>Compra Dime XT + Cassette</p>
-                </a>
+                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
             </section>
 
             <section>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
-                <a class="button_banner__secondary">
-                    <p class="home-title--bold">OFERTAS</p>
-                    <p>¡Compra ahora! </p>
-                    
-                </a>
-=======
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
->>>>>>> :sparkles: Change home banenr
-=======
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
->>>>>>> :sparkles: Change home banenr
             </section>
 
         </div>
