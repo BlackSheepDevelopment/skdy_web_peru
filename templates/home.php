@@ -33,7 +33,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
-                            <p class="home-title">¡Compra un producto y llévate un lente de regalo!</p>
+                            <p class="home-title">¡Compra un producto seleccionado y te regalamos un lente!</p>
                             <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
                                 <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
