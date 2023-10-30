@@ -51,7 +51,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <!-- <div class="home-picture" id="skullcandy-peru-container">                -->
                 <!-- <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
@@ -65,8 +65,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 <!-- <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
                     </picture>
 
                     <div class="home-info">
@@ -81,8 +81,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 <!-- <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME_MOVIL.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME_MOVIL.mp4" autoplay muted loop playsinline> </video>
                     </picture>
 
                     <div class="home-info">
@@ -96,7 +96,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </div> -->
             <!-- </div> -->
 
-            <section>
+            <!-- <section>
                 <picture>
                         <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
                         <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
