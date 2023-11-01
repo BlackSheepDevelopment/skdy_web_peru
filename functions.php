@@ -1044,3 +1044,11 @@ if ( !function_exists( 'wp_password_change_notification' ) ) {
 
 // Add number of products per page
 add_filter( 'loop_shop_per_page', create_function( '$products', 'return 50;' ), 30 );
+
+// Create store for retailers
+function add_retailers_role(){ 
+	add_role( 'retailer', 'Retailer', array( 
+		'read' => true, 
+		'level_0' => true ) );
+}
+add_action('init', 'add_retailers_role');
