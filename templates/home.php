@@ -57,7 +57,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <p class="home-title">Vive la música al máximo.</p>
                             <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
                     </div>
                 </div>
@@ -70,10 +70,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">SMOKIN' BUDS</p>
-                            <p class="home-title home-title home-title--desktop">ESTILO. POTENCIA. CALIDAD.</p>
+                            <p class="home-title home-title home-title--desktop">Estilo, potencia y calidad.</p>
                             <img class="home-title__image home-title--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡COMPRALOS YA!</a>
+                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡Compralos ya!</a>
                             </div>
                     </div>
                 </div>
@@ -86,10 +86,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">DIME</p>
-                            <p class="home-title home-title home-title--desktop">PEQUEÑOS Y RESISTENTES.</p>
+                            <p class="home-title home-title home-title--desktop">Pequeños y resistentes</p>
                             <img class="home-title__image home-title--desktop" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡COMPRALOS YA!</a>
+                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡Compralos ya!</a>
                             </div>
                     </div>
                 </div>
