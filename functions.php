@@ -1054,3 +1054,42 @@ function add_retailers_role(){
 add_action('init', 'add_retailers_role');
 
 //  Add form validation
+// testing: raul.retailer/123456
+
+function handle_registration_login() {
+    if (isset($_POST['username_retailer']) && isset($_POST['password_retailer'])) {
+        $username = sanitize_user($_POST['username_retailer']);
+        $password = sanitize_text_field($_POST['password_retailer']);
+
+        // Create or authenticate the user
+        // $user_id = wp_create_user($username, $password);
+
+        if (!is_wp_error($user_id)) {
+            // if ($is_private_customer) {
+            //     $user = new WP_User($user_id);
+            //     $user->add_role('private_shop_customer');
+            // }
+
+            // Log the user in
+            $creds = array(
+                'user_login'    => $username,
+                'user_password' => $password,
+                'remember'      => true,
+            );
+
+            $user = wp_signon($creds);
+
+            if (is_wp_error($user)) {
+                // Handle login error
+            } else {
+                // Redirect to the private shop or another desired page
+                wp_redirect(home_url('/mayoristas/'));
+                exit;
+            }
+        } else {
+            // Handle registration error
+		
+        }
+    }
+}
+add_action('init', 'handle_registration_login');
