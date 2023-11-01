@@ -1083,7 +1083,7 @@ function handle_registration_login() {
                 // Handle login error
             } else {
                 // Redirect to the private shop or another desired page
-                wp_redirect(home_url('/mayoristas/'));
+                wp_redirect(home_url('/retailers/'));
                 exit;
             }
         } else {
