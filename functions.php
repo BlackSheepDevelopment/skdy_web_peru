@@ -1052,3 +1052,5 @@ function add_retailers_role(){
 		'level_0' => true ) );
 }
 add_action('init', 'add_retailers_role');
+
+//  Add form validation

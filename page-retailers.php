@@ -96,6 +96,19 @@ get_header(); ?>
 ?>
     <div>
         <p>Debes ser un usuario registrado como tienda pequeña para acceder a esta página.</p>
+        <p>Por favor, ingresa tus credenciales.</p>
+        <form action="" method="post">
+            <label for="username_retailer">Username:</label>
+            <input type="text" name="username" id="username" required>
+            
+            <label for="password_retailer">Password:</label>
+            <input type="password" name="password" id="password" required>
+            
+            <input type="checkbox" name="private_shop_customer" id="private_shop_customer">
+            <label for="private_shop_customer">Sign up as a Private Shop Customer</label>
+            <input type="submit" value="Register/Log In">
+        </form>
+
     </div>
 <?php
 } ?>
