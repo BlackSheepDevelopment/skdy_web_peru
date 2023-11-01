@@ -34,8 +34,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <!-- <div class="home-grid__social__item home-grid__social__item--name">NEWSLETTER</div> -->
         </div>
 
-        <div class="home-grid-2">
-            <!-- <button class="home-grid__prev">
+        <div id="home-grid">
+            <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
                 </svg>
@@ -50,14 +50,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
                             <p class="home-title">Vive la música al máximo.</p>
-                            <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
                             </div>
                     </div>
                 </div>
@@ -93,24 +93,24 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <section>
+            <!-- <section>
                 <picture>
-                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
+                        <source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
+                        <img src="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
                                 alt="mobile-main-banner">
                 </picture>
-                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                <a class="home-title__button button__banner" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
+                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_3_NEW.jpg"/>
-            </section>
+                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_3_NEW.jpg"/>
+            </section> -->
 
         </div>
         <div class="shop-features">
