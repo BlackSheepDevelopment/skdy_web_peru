@@ -237,7 +237,7 @@
   font-weight: 600;
   text-decoration: none;
   text-align: center;
-  width: 50%;
+  width: 60%;
   z-index: 1000;
 }
 @media (max-width: 1280px) {
@@ -251,7 +251,6 @@
   background-color: white;
   color: black;
   font-style: italic;
-  font-size: 1.8rem;
   transition: 0.3s;
 }
 
