@@ -327,3 +327,22 @@
     gap: 10px;
   }
 }
+
+.main_forms__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.main_forms__login__forms {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main_forms__login__forms__input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
