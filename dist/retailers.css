@@ -354,6 +354,7 @@
   border: 1px solid #ccc;
   font-size: 1rem;
   font-family: "Helvetica Neue LT", sans-serif;
+  width: 100% !important;
 }
 
 .main_forms__register__forms > form {
