@@ -314,3 +314,16 @@
     width: 80px !important;
   }
 }
+
+.main_forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+@media (max-width: 768px) {
+  .main_forms {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
