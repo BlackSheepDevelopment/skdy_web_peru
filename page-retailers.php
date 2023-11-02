@@ -120,17 +120,13 @@ get_header(); ?>
                     Inicia sesión
                 </p>
 
-                <div class="main_forms__login__forms" >
-                    <form class="" action="" method="post">
-                        <label for="username_retailer">Usuario:</label>
-                        <input type="text" name="username_retailer" id="username_retailer" required>
-                        
-                        <label for="password_retailer">Contraseña:</label>
-                        <input type="password" name="password_retailer" id="password_retailer" required>
-                        
-                        <input type="submit" value="Register/Log In">
-                    </form>
-                </div>
+                <form class="main_forms__login__forms" action="" method="post">
+                    <input class="main_forms__login__forms__input" type="text" name="username_retailer" id="username_retailer" required placeholder="Usuario">
+                    
+                    <input class="main_forms__login__forms__input" type="password" name="password_retailer" id="password_retailer" required placeholder="Contraseña">
+                    
+                    <input type="submit" value="Register/Log In">
+                </form>
 
             </div>
 
