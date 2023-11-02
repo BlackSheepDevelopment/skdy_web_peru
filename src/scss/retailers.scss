@@ -361,6 +361,8 @@
     }
 
     .forms_label__input{
+        width: 100%;
+        max-width: 500px;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
@@ -371,12 +373,13 @@
     
     
     .forms_label__textinput{
+        width: 100%!important;
+        max-width: 500px!important;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid #ccc;
         font-size: 1rem;
         font-family: "Helvetica Neue LT", sans-serif;
-        width: 100%!important;
     }
 }
 
@@ -394,6 +397,8 @@
 }
 
 .main_forms__login__forms__input{
+    width: 100%;
+    max-width: 500px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -401,6 +406,8 @@
 }
 
 .main_forms__login__forms__submit{
+    width: 100%!important;
+    max-width: 500px!important;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -412,6 +419,8 @@
 }
 
 .forms_label__button {
+    width: 100%!important;
+    max-width: 500px!important;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
