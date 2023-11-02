@@ -344,6 +344,12 @@
 
 .main_forms__register__forms{
 
+    .init{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .forms_label__input{
         padding: 10px;
         border-radius: 5px;
@@ -362,12 +368,6 @@
         font-family: "Helvetica Neue LT", sans-serif;
         width: 100%!important;
     }
-}
-
-.main_forms__register__forms > form{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 
