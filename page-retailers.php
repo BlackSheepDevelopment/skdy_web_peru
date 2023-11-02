@@ -94,50 +94,50 @@ get_header(); ?>
 <?php
 } else{
 ?>
-    <div class="main_forms">
-        <div class="main_forms__register">
-            
-            <p class="main-title">
-                Regístrate como mayorista
-            </p>
+    <div class="main">
+        <div class="main-header">
+                <div class="header">TIENDAS PEQUEÑAS</div>
+                <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Regístrate o Inicia Sesión.</p>
+        </div>
 
-            <div class="forms-register">
-                <div class="forms-mayoristas">
+        <div class="main_forms">
+
+            <div class="main_forms__register">
+                
+                <p class="main_forms__title">
+                    Regístrate
+                </p>
+
+                <div class="main_forms__register__forms">
                     <?php echo do_shortcode( '[contact-form-7 id="171612" title="formulario-mayoristas"]' ); ?>
                 </div>
-                <div class="forms-adicional">
-                    <p class="forms-adicional__content"> Si deseas contactarte por otro medio, por favor comunícate con nuestro canal de atención al cliente <a href="https://www.wa.link/xfavry/">aquí</a>. También puedes enviarnos un correo a atencioncliente@blacksheep.com.pe</p>
+
+            </div>
+
+            <div class="main_forms__login">
+
+                <p class="main_forms__title">
+                    Inicia sesión
+                </p>
+
+                <div class="main_forms__login__forms" >
+                    <form class="" action="" method="post">
+                        <label for="username_retailer">Usuario:</label>
+                        <input type="text" name="username_retailer" id="username_retailer" required>
+                        
+                        <label for="password_retailer">Contraseña:</label>
+                        <input type="password" name="password_retailer" id="password_retailer" required>
+                        
+                        <input type="submit" value="Register/Log In">
+                    </form>
                 </div>
+
             </div>
 
         </div>
-
-        <div class="main_forms__login">
-
-            <p class="main-title">
-                    Regístrate como mayorista
-            </p>
-
-            <div class="forms-login" >
-                <p>Debes ser un usuario registrado como tienda pequeña para acceder a esta página.</p>
-                <p>Por favor, ingresa tus credenciales.</p>
-                <form action="" method="post">
-                    <label for="username_retailer">Usuario:</label>
-                    <input type="text" name="username_retailer" id="username_retailer" required>
-                    
-                    <label for="password_retailer">Contraseña:</label>
-                    <input type="password" name="password_retailer" id="password_retailer" required>
-                    
-                    <input type="submit" value="Register/Log In">
-                </form>
-            </div>
-
-        </div>
-
-
-
 
     </div>
+
 <?php
 } ?>
 
