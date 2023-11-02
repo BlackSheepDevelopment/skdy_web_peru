@@ -362,6 +362,12 @@
   width: 100% !important;
 }
 
+.main_forms__separator {
+  width: 5px;
+  height: 100%;
+  background-color: #ccc;
+}
+
 .main_forms__login__forms {
   display: flex;
   flex-direction: column;
