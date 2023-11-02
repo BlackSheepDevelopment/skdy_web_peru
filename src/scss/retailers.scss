@@ -335,6 +335,11 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 50px;
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    }
 }
 
 .main_forms__register__forms{
@@ -350,7 +355,7 @@
 .main_forms__login__forms{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .main_forms__login__forms__input{
