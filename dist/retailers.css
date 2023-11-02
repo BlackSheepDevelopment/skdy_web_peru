@@ -354,6 +354,12 @@
   font-size: 1rem;
 }
 
+.main_forms__register__forms > forms {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main_forms__login__forms {
   display: flex;
   flex-direction: column;
