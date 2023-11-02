@@ -108,6 +108,10 @@ get_header(); ?>
                     Regístrate
                 </p>
 
+                <p class="main_forms__subtitle">
+                    Si deseas comprar Skullcandy para tu tienda, por favor completa el siguiente formulario y nos pondremos en contacto contigo.
+                </p>
+
                 <div class="main_forms__register__forms">
                     <?php echo do_shortcode( '[contact-form-7 id="171612" title="formulario-mayoristas"]' ); ?>
                 </div>
@@ -119,6 +123,10 @@ get_header(); ?>
 
                 <p class="main_forms__title">
                     Inicia sesión
+                </p>
+
+                <p class="main_forms__subtitle">
+                    Si ya tienes una cuenta, por favor ingresa tus datos.
                 </p>
 
                 <form class="main_forms__login__forms" action="" method="post">

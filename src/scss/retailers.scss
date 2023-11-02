@@ -344,6 +344,18 @@
     }
 }
 
+.main_forms__subtitle{
+    font-size: 1rem;
+    font-weight: 500;
+    // text-align: center;
+    padding-bottom: 50px;
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+        padding-bottom: 15px;
+    }
+
+}
+
 .main_forms__register{
     width: 100%;
 }
@@ -369,6 +381,10 @@
         font-size: 1rem;
         font-family: "Helvetica Neue LT", sans-serif;
 
+        @media (max-width: 1280px) {
+            max-width: 100%;
+        }
+
     }
     
     
@@ -380,6 +396,9 @@
         border: 1px solid #ccc;
         font-size: 1rem;
         font-family: "Helvetica Neue LT", sans-serif;
+        @media (max-width: 1280px) {
+            max-width: 100%;
+        }
     }
 }
 
@@ -403,6 +422,10 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 1rem;
+
+    @media (max-width: 1280px) {
+        max-width: 100%;
+    }
 }
 
 .main_forms__login__forms__submit{
@@ -416,6 +439,10 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+
+    @media (max-width: 1280px) {
+        max-width: 100%;
+    }
 }
 
 .forms_label__button {
@@ -430,4 +457,8 @@
     font-weight: bold;
     cursor: pointer;
     width: 100%;
+
+    @media (max-width: 1280px) {
+        max-width: 100%;
+    }
 }

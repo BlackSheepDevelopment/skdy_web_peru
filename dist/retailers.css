@@ -342,6 +342,18 @@
   }
 }
 
+.main_forms__subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .main_forms__subtitle {
+    font-size: 0.8rem;
+    padding-bottom: 15px;
+  }
+}
+
 .main_forms__register {
   width: 100%;
 }
@@ -364,6 +376,11 @@
   font-size: 1rem;
   font-family: "Helvetica Neue LT", sans-serif;
 }
+@media (max-width: 1280px) {
+  .main_forms__register__forms .forms_label__input {
+    max-width: 100%;
+  }
+}
 .main_forms__register__forms .forms_label__textinput {
   width: 100% !important;
   max-width: 500px !important;
@@ -372,6 +389,11 @@
   border: 1px solid #ccc;
   font-size: 1rem;
   font-family: "Helvetica Neue LT", sans-serif;
+}
+@media (max-width: 1280px) {
+  .main_forms__register__forms .forms_label__textinput {
+    max-width: 100%;
+  }
 }
 
 .main_forms__separator {
@@ -393,6 +415,11 @@
   border: 1px solid #ccc;
   font-size: 1rem;
 }
+@media (max-width: 1280px) {
+  .main_forms__login__forms__input {
+    max-width: 100%;
+  }
+}
 
 .main_forms__login__forms__submit {
   width: 100% !important;
@@ -405,6 +432,11 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+@media (max-width: 1280px) {
+  .main_forms__login__forms__submit {
+    max-width: 100%;
+  }
 }
 
 .forms_label__button {
@@ -419,4 +451,9 @@
   font-weight: bold;
   cursor: pointer;
   width: 100%;
+}
+@media (max-width: 1280px) {
+  .forms_label__button {
+    max-width: 100%;
+  }
 }
