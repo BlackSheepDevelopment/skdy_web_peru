@@ -125,7 +125,7 @@ get_header(); ?>
                     
                     <input class="main_forms__login__forms__input" type="password" name="password_retailer" id="password_retailer" required placeholder="Contraseña">
                     
-                    <input type="submit" value="Register/Log In">
+                    <input class="main_forms__login__forms__submit" type="submit" value="Acceder">
                 </form>
 
             </div>
