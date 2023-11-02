@@ -334,6 +334,13 @@
   text-align: center;
 }
 
+.main_forms__register__forms .forms_label__input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
 .main_forms__login__forms {
   display: flex;
   flex-direction: column;
