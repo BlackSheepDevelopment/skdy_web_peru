@@ -324,10 +324,12 @@
     flex-direction: row;
     justify-content: center;
     gap: 25px;
+    padding: 0 10%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
         flex-direction: column;
         gap: 10px;
+        padding: 0 2%;
     }
 }
 
@@ -340,6 +342,14 @@
         font-size: 1.2rem;
         padding:15px 0;
     }
+}
+
+.main_forms__register{
+    width: 100%;
+}
+
+.main_forms__login{
+    width: 100%;
 }
 
 .main_forms__register__forms{
@@ -369,6 +379,7 @@
         width: 100%!important;
     }
 }
+
 
 
 .main_forms__separator{
