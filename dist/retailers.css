@@ -375,7 +375,18 @@
   font-size: 1rem;
 }
 
-.main_forms__login__forms__submit .forms_label__button {
+.main_forms__login__forms__submit {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forms_label__button {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
