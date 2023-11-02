@@ -320,13 +320,13 @@
   flex-direction: row;
   justify-content: center;
   gap: 25px;
-  padding: 0 10%;
+  padding: 3% 10%;
 }
 @media (max-width: 1280px) {
   .main_forms {
     flex-direction: column;
     gap: 10px;
-    padding: 0 2%;
+    padding: 2%;
   }
 }
 
@@ -373,9 +373,8 @@
 }
 
 .main_forms__separator {
-  width: 5px;
-  height: 100%;
-  background-color: #ccc;
+  width: 3px;
+  background-color: #3d3c3c;
 }
 
 .main_forms__login__forms {

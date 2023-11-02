@@ -114,7 +114,7 @@ get_header(); ?>
 
             </div>
 
-            <span class="main_forms__separator">h</span>
+            <span class="main_forms__separator"></span>
             <div class="main_forms__login">
 
                 <p class="main_forms__title">
