@@ -333,7 +333,6 @@
 .main_forms__title {
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center;
   padding: 50px 0;
 }
 @media (max-width: 768px) {
