@@ -470,9 +470,13 @@
 
 .product-price {
   display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  gap: 10px;
+  margin-top: 10px;
 }
 .product-price .product-price__only {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-right: 5px;
 }
@@ -482,7 +486,7 @@
   }
 }
 .product-price .product-price__after {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #C5312D;
 }
