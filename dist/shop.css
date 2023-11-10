@@ -415,9 +415,14 @@
     width: calc(45% - 10px);
     padding: 20px !important;
     justify-content: start;
-    height: 280px;
+    height: 100%;
     border: 0.1px solid #d3d3d3 !important;
     border-radius: 0px;
+  }
+}
+@media (max-width: 520px) {
+  .product {
+    height: 520px;
   }
 }
 .product:hover {
