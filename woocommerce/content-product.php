@@ -39,18 +39,20 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					<?php foreach ($categories_product as $category_product) {
 						$category = get_term_by('id', $category_product, 'product_cat');
 						$cname = $category->name;
-						if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' ){
+						if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' && $cname != 'Ver todo' ){
 							echo $category->name;
 						}
 					} ?>
 				</p>
 				<div class="product-price">
+					<?php 
+						$price_html = $product->get_price_html();
+						$price_html_array = price_array($price_html);
+ 					?>
 					<div class="product-price__normal">
-						<p>Antes</p>
-						<p>S/.<?php echo $product->get_regular_price() ?></p>
+						<p><?php echo $product->get_price_html();?></p>
 					</div>
 					<div class="product-price__mayorista">
-						<p>Ahora</p>
 						<p>S/.<?php echo $product->get_price() ?></p>
 					</div>
 				</div>
