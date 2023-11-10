@@ -324,12 +324,22 @@
   transition: all 0.3s ease-in-out;
   margin: 0!important;
 
+  @media (max-width: 1280px) {
+    width: calc(33% - 30px); 
+    padding: 20px!important;
+    justify-content: start ;
+    height: 350px;
+    border: 0.1px solid #d3d3d3!important;
+    border-radius: 0px;
+  }
+
   @media (max-width: 768px) {
       width: calc(45% - 10px); 
-      padding: 5px;
+      padding: 20px!important;
       justify-content: start ;
-      height: 320px;
+      height: 280px;
       border: 0.1px solid #d3d3d3!important;
+      border-radius: 0px;
     }
 
   &:hover{
