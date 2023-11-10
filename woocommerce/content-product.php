@@ -45,18 +45,14 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					} ?>
 				</p>
 				<div class="product-price">
-					<?php 
-						$variation_product_id = $product_variations [0]['variation_id'];
-						$variation_product = new WC_Product_Variation( $variation_product_id );
-					?>
 					
 					<div class="product-price__normal">
-						<p>Hace tiempo</p>
-						<p>S/.<?php echo $variation_product ->get_regular_price(); ?></p>
+						<p>Antes</p>
+						<p>S/.<?php echo $product ->get_variation_regular_price( 'max' ); ?></p>
 					</div>
 					<div class="product-price__mayorista">
 						<p>Ahora</p>
-						<p>S/.<?php echo $variation_product ->get_sale_price(); ?></p>
+						<p>S/.<?php echo $product ->get_variation_sale_price( 'max' ); ?></p>
 					</div>
 				</div>
 			</div>
