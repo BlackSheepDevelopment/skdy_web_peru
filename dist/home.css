@@ -238,7 +238,7 @@
   text-decoration: none;
   text-align: center;
   width: 60%;
-  z-index: 1000;
+  z-index: 997;
 }
 @media (max-width: 1280px) {
   .home-title__button {
@@ -1184,11 +1184,15 @@
 .button_banner__secondary {
   background-color: #FF7E00;
   color: black;
-  font-size: 1.8rem;
   position: absolute;
   top: 75%;
   left: 35%;
   width: 300px !important;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
 }
 @media (max-width: 758px) {
   .button_banner__secondary {
