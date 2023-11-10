@@ -238,6 +238,7 @@
   text-decoration: none;
   text-align: center;
   width: 60%;
+  border-radius: 25px;
   z-index: 997;
 }
 @media (max-width: 1280px) {
@@ -1182,7 +1183,7 @@
 }
 
 .button_banner__secondary {
-  background-color: #FF7E00;
+  background-color: rgba(255, 126, 0, 0.5);
   color: black;
   position: absolute;
   top: 75%;
@@ -1193,12 +1194,20 @@
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  border-radius: 25px;
 }
 @media (max-width: 758px) {
   .button_banner__secondary {
+    background-color: rgba(255, 126, 0, 0.5);
     top: 70%;
-    left: 28%;
-    width: 200px !important;
-    font-size: 1.3rem;
+    left: 22%;
+    width: 250px !important;
+    font-size: 1.6rem;
   }
+}
+.button_banner__secondary :active {
+  background-color: #ff7e00;
+  color: black;
+  font-style: italic;
+  transition: 0.3s;
 }
