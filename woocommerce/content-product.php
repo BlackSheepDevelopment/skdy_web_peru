@@ -45,12 +45,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					} ?>
 				</p>
 				<div class="product-price">
-					<div class="product-price__normal">
-						<p><?php echo $product->get_price_html();?></p>
-					</div>
-					<div class="product-price__mayorista">
-						<p>S/.<?php echo $product->get_price() ?></p>
-					</div>
+					<?php echo $product->get_price_html();?>
 				</div>
 			</div>
 		</div>
