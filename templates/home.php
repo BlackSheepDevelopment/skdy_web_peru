@@ -107,12 +107,19 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
             <section>
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
-                <a class="button_banner__secondary">¡Compra Dime XT + Cassette!</a>
+                <a class="button_banner__secondary">
+                    <p class="home-title--bold">NUEVO PACK</p>
+                    <p>Compra Dime XT + Cassette</p>
+                </a>
             </section>
 
             <section>
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
-                <a class="button_banner__secondary">¡Compra ahora!</a>
+                <a class="button_banner__secondary">
+                    <p class="home-title--bold">OFERTAS</p>
+                    <p>¡Compra ahora! </p>
+                    
+                </a>
             </section>
 
         </div>
