@@ -531,6 +531,6 @@
 }
 @media (max-width: 768px) {
   .product-price .product-price__before {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 }
