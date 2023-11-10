@@ -1180,3 +1180,21 @@
   -ms-transition: fill 300ms linear;
   transition: fill 300ms linear;
 }
+
+.button_banner__secondary {
+  background-color: #FF7E00;
+  color: black;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  width: 300px !important;
+}
+@media (max-width: 758px) {
+  .button_banner__secondary {
+    top: 70%;
+    left: 28%;
+    width: 200px !important;
+    font-size: 1.3rem;
+  }
+}
