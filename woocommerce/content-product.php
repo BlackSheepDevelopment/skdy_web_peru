@@ -48,6 +48,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					
 					<div class="product-price__normal">
 						<p>Antes</p>
+						
 						<p>S/.<?php echo $product->get_price() ?></p>
 					</div>
 					<div class="product-price__mayorista">
