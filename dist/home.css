@@ -993,7 +993,6 @@
 .home-grid-2 section picture img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .home-grid-2 section .layer {
   width: 100%;
