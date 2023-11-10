@@ -248,7 +248,7 @@
 }
 
 .home-title__button:hover {
-  background-color: white;
+  background-color: #ff7e00;
   color: black;
   font-style: italic;
   transition: 0.3s;
@@ -1109,18 +1109,18 @@
 }
 
 .button__banner {
-  background-color: transparent;
-  color: white;
+  background-color: #FF7E00;
+  color: black;
   font-size: 1.8rem;
   position: absolute;
   top: 75%;
-  left: 38%;
+  left: 35%;
   width: 300px !important;
 }
-@media (max-width: 1280px) {
+@media (max-width: 758px) {
   .button__banner {
-    top: 80%;
-    left: 25%;
+    top: 70%;
+    left: 30%;
     width: 150px !important;
     font-size: 1.3rem;
   }
