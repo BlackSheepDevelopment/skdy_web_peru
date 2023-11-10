@@ -46,17 +46,15 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				</p>
 				<div class="product-price">
 					<!-- Show only regular price if is not on sale -->
-					<?php if ( $product->is_on_sale() ) : ?>
-						<div class="product-price__normal">
-							<p>Antes</p>
-							<p>S/.<?php echo $product ->get_variation_regular_price( 'max' ); ?></p>
-						</div>
-					<?php endif; ?>
-					<div class="product-price__mayorista">
-						<p>Ahora</p>
-						<p>S/.<?php echo $product ->get_variation_sale_price( 'max' ); ?></p>
-					</div>
-					
+					<?php if ( $product->is_on_sale() ) { ?>
+						<p class="product-price__only">S/.<?php echo $product ->get_variation_regular_price( 'max' ); ?></p>
+					<?php }
+					else{ ?>
+						<p class="product-price__after">S/.<?php echo $product ->get_variation_sale_price( 'max' ); ?></p>
+						<p class="product-price__before">S/.<?php echo $product ->get_variation_regular_price( 'max' ); ?></p>
+					<?php } ?>
+
+
 				</div>
 			</div>
 		</div>
