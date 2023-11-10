@@ -52,7 +52,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					?>
 					
 					<div class="product-price__normal">
-						<p>Antes</p>
+						<p>Hace tiempo</p>
 						<p>S/.<?php echo $variation_product ->regular_price; ?></p>
 					</div>
 					<div class="product-price__mayorista">
