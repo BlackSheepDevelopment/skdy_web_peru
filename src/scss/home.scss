@@ -145,7 +145,7 @@
   margin-top: 2rem;
   background-color: transparent;
   color: white;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #ff7e00;
   padding: 10px 20px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -831,7 +831,7 @@
   @media (max-width: 768px) {
     display: block;
     height: auto;
-    padding: 20px 20px 0px 20px;
+    padding: 0px;
   }
 
   section {
@@ -876,6 +876,10 @@
 
     &:nth-child(2) {
       grid-area: second;
+      @media (max-width: 768px) {
+        object-fit: cover;
+      }
+
     }
 
     &:nth-child(3) {
@@ -883,6 +887,10 @@
 
       img {
         object-position: top;
+
+          @media (max-width: 768px) {
+          object-fit: cover;
+        }
       }
     }
 

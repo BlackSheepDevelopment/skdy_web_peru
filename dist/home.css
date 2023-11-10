@@ -231,7 +231,7 @@
   margin-top: 2rem;
   background-color: transparent;
   color: white;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #ff7e00;
   padding: 10px 20px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -930,7 +930,7 @@
   .home-grid-2 {
     display: block;
     height: auto;
-    padding: 20px 20px 0px 20px;
+    padding: 0px;
   }
 }
 .home-grid-2 section {
@@ -977,11 +977,21 @@
 .home-grid-2 section:nth-child(2) {
   grid-area: second;
 }
+@media (max-width: 768px) {
+  .home-grid-2 section:nth-child(2) {
+    object-fit: cover;
+  }
+}
 .home-grid-2 section:nth-child(3) {
   grid-area: third;
 }
 .home-grid-2 section:nth-child(3) img {
   object-position: top;
+}
+@media (max-width: 768px) {
+  .home-grid-2 section:nth-child(3) img {
+    object-fit: cover;
+  }
 }
 .home-grid-2 section picture {
   position: absolute;
