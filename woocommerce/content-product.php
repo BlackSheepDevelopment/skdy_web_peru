@@ -49,11 +49,11 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					<div class="product-price__normal">
 						<p>Antes</p>
 						
-						<p>S/.<?php echo $product->get_price() ?></p>
+						<p>S/.<?php echo $product->get_regular_price() ?></p>
 					</div>
 					<div class="product-price__mayorista">
 						<p>Ahora</p>
-						<p>S/.<?php echo $product->get_price() ?></p>
+						<p>S/.<?php echo $product->get_sale_price() ?></p>
 					</div>
 				</div>
 			</div>
