@@ -481,20 +481,6 @@
     align-items: baseline;
   }
 }
-.product-price .product-price__normal {
-  color: #999;
-  font-size: 0.9rem;
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  padding: 0 10px;
-}
-@media (max-width: 768px) {
-  .product-price .product-price__normal {
-    font-size: 0.8rem;
-    padding: 0;
-  }
-}
 .product-price .product-price__mayorista {
   color: #000;
   font-size: 1.25rem;

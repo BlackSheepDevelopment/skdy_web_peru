@@ -45,7 +45,15 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					} ?>
 				</p>
 				<div class="product-price">
-					<?php echo $product->get_price_html();?>
+					
+					<div class="product-price__normal">
+						<p>Antes</p>
+						<p>S/.<?php echo $product->get_pr() ?></p>
+					</div>
+					<div class="product-price__mayorista">
+						<p>Ahora</p>
+						<p>S/.<?php echo $product->get_price() ?></p>
+					</div>
 				</div>
 			</div>
 		</div>
