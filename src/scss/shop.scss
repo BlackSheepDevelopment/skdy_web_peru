@@ -88,7 +88,8 @@
 
   @media (max-width: 768px) {
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
+    gap: 0px
   }
 }
 
@@ -185,6 +186,9 @@
   @media (max-width: 1280px) {
     flex-direction: column;
     gap:10px;
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 30px;
   }
 }
 
@@ -321,6 +325,7 @@
       width: calc(45% - 10px); 
       padding: 5px;
       justify-content: start ;
+      width: 320px;
   }
 
   &:hover{
@@ -365,7 +370,7 @@
   margin-bottom: 10px;
 
   @media (max-width: 768px) {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
   }
 }
 
