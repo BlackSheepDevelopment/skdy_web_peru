@@ -45,10 +45,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					} ?>
 				</p>
 				<div class="product-price">
-					<?php 
-						$price_html = $product->get_price_html();
-						$price_html_array = price_array($price_html);
- 					?>
 					<div class="product-price__normal">
 						<p><?php echo $product->get_price_html();?></p>
 					</div>
