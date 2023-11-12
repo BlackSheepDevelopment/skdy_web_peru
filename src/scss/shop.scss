@@ -457,10 +457,13 @@
 
 .shop_banner{
   width: 100%;
+  display: flex;
+  justify-content: center;
   > img{
     border-radius: 50px;
 
     @media (max-width: 768px) {
+      width: 80%;
     }
   }
 }

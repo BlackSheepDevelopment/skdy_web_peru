@@ -555,10 +555,18 @@
 
 .shop_banner {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .shop_banner > img {
   border-radius: 50px;
 }
+@media (max-width: 768px) {
+  .shop_banner > img {
+    width: 80%;
+  }
+}
+
 @media (max-width: 768px) {
   .shop_banner--compras {
     display: none;
