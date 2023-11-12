@@ -47,11 +47,6 @@ do_action( 'woocommerce_before_main_content' );
 	?>
 </header>
 
-<picture class="shop_banner">
-		<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
-		<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
-					alt="mobile-main-banner">
-</picture>
 
 <!-- <div class="shop-features">
 	<div class="shop-features__container">
@@ -98,6 +93,12 @@ do_action( 'woocommerce_before_main_content' );
 
 	<div class="shop-store">
 		<div class="filter-categories__title">Productos</div>
+		<picture class="shop_banner">
+			<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
+			<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
+						alt="mobile-main-banner">
+		</picture>
+
 		<?php
 		if ( woocommerce_product_loop() ) {
 
