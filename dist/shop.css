@@ -538,8 +538,19 @@
 .shop_banner {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background-color: #C5312D;
+  background-color: transparent;
   margin-bottom: 50px;
+}
+.shop_banner > img {
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .shop_banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 }
