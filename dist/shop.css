@@ -534,3 +534,12 @@
     font-size: 0.5rem;
   }
 }
+
+.shop_banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C5312D;
+  margin-bottom: 50px;
+}

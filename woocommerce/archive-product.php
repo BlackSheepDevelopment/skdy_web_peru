@@ -47,7 +47,13 @@ do_action( 'woocommerce_before_main_content' );
 	?>
 </header>
 
-<div class="shop-features">
+<picture class="shop_banner">
+		<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
+		<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
+					alt="mobile-main-banner">
+</picture>
+
+<!-- <div class="shop-features">
 	<div class="shop-features__container">
 		<svg  width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
 		<div class="shop-features__container__info">
@@ -68,13 +74,9 @@ do_action( 'woocommerce_before_main_content' );
 		</div>
 	</div>
 
-</div>
+</div> -->
 
-<picture>
-		<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
-		<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
-					alt="mobile-main-banner">
-</picture>
+
 
 <div class="main-shop-menu">
 	<div class="filter">
