@@ -660,7 +660,7 @@
 .home-popup-newsletter{
   // display: none!important;
   max-height: 600px;
-  z-index: 1000;
+  z-index: 1001;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -768,7 +768,7 @@
 
 // Home Pop-up Image
 .home-popup-image{
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 50%;
   left: 50%;

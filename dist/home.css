@@ -763,7 +763,7 @@
 
 .home-popup-newsletter {
   max-height: 600px;
-  z-index: 1000;
+  z-index: 1001;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -865,7 +865,7 @@
 }
 
 .home-popup-image {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 50%;
   left: 50%;
