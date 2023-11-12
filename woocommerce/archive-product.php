@@ -66,8 +66,12 @@ do_action( 'woocommerce_before_main_content' );
 		<div class="shop-features__container__info">
 			<p class="shop-features__container__info__title">Entrega de 1 a 4 días hábiles en Lima Metropolitana y Callao con Envío Rápido</p>
 		</div>
-		
 	</div>
+	<picture>
+		<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
+		<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
+					alt="mobile-main-banner">
+	</picture>
 </div>
 
 
