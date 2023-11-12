@@ -763,7 +763,7 @@
 
 .home-popup-newsletter {
   max-height: 600px;
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -907,7 +907,7 @@
 #overlay {
   width: 100vw;
   height: 100vh;
-  z-index: 99;
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
