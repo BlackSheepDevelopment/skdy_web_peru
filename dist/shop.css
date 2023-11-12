@@ -542,6 +542,7 @@
   align-items: center;
   background-color: transparent;
   margin-bottom: 50px;
+  gap: 20px;
 }
 @media (max-width: 768px) {
   .banners {
@@ -552,10 +553,12 @@
   }
 }
 
+.shop_banner {
+  width: 100%;
+}
 .shop_banner > img {
   border-radius: 50px;
 }
-
 @media (max-width: 768px) {
   .shop_banner--compras {
     display: none;

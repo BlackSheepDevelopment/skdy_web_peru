@@ -102,7 +102,7 @@ do_action( 'woocommerce_before_main_content' );
 
 			<picture class="shop_banner shop_banner--envio">
 				<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
-				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
+				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS_MOV`.png"
 							alt="mobile-main-banner">
 			</picture>
 		</div>
