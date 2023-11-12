@@ -535,22 +535,29 @@
   }
 }
 
-.shop_banner {
+.banners {
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   background-color: transparent;
   margin-bottom: 50px;
 }
-.shop_banner > img {
-  border-radius: 50px;
-}
 @media (max-width: 768px) {
-  .shop_banner {
+  .banners {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+  }
+}
+
+.shop_banner > img {
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .shop_banner--compras {
+    display: none;
   }
 }
