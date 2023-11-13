@@ -41,7 +41,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 						$cname = $category->name;
 						if ($cname != 'Urbano' && $cname != 'Deportivo' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' && $cname != 'Ver todo' ){
 							echo $category->name;
-							echo " / ";
 						}
 					} ?>
 				</p>
