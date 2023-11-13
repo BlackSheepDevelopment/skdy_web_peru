@@ -154,19 +154,10 @@
   width: 60%;
   border-radius: 25px;
   // width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
   z-index: 997;
-=======
-  z-index: 98;
->>>>>>> :sparkles: Change home banenr
-=======
-  z-index: 98;
->>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
   @media (max-width: 1280px) {
     margin-top: 1rem;
     width: 100%;
-
   }
 }
 
@@ -766,9 +757,9 @@
   }
 }
 
-.home-popup__body__terms{
-  font-size: 0.6rem;
-  font-weight: 200;
+  .home-popup__body__terms{
+    font-size: 0.6rem;
+    font-weight: 200;
   font-style: italic;
   padding: 10px 0;
   text-align: center;
