@@ -39,8 +39,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					<?php foreach ($categories_product as $category_product) {
 						$category = get_term_by('id', $category_product, 'product_cat');
 						$cname = $category->name;
-						if ($cname != 'Urbano' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' && $cname != 'Ver todo' ){
+						if ($cname != 'Urbano' && $cname != 'Deportivo' && $cname != 'Envío Rápido' && $cname != 'retailer' && $cname != 'Ofertas' && $cname != 'PACKS' && $cname != 'Ver todo' ){
 							echo $category->name;
+							echo " / ";
 						}
 					} ?>
 				</p>
