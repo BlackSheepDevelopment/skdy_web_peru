@@ -195,6 +195,9 @@
 .filter{
   width: 15%;
   padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
   @media (max-width: 1280px) {
     width: 100%;
     padding: 0 10px;
