@@ -8,7 +8,11 @@
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
+<<<<<<< HEAD
                     <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">SKULLDAYS</a>
+=======
+                    <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">OFERTAS</a>
+>>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
                 </article>
                 <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>
