@@ -29,11 +29,7 @@
                 </li>
                 <li>
                     <a href="https://skullcandy.com.pe/shop/ofertas/">
-<<<<<<< HEAD
                         <span>OFERTAS SKULLDAYS</span>
-=======
-                        <span>SKULLDAYS</span>
->>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
                     </a>
                 </li>
                 <li data-menu="mega-menu-inside">
