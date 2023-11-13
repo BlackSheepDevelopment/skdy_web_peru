@@ -120,18 +120,14 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </section>
 
             <section>
-<<<<<<< HEAD
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
-                <a class="button_banner__secondary">
+                <a class="button_banner__secondary" href="https://skullcandy.com.pe/shop/ofertas/">
                     <p class="home-title--bold">OFERTAS</p>
                     <p>¡Compra ahora! </p>
                     
                 </a>
-=======
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
->>>>>>> :sparkles: Change home banenr
             </section>
-=======
                 </div>
             </div>
 
