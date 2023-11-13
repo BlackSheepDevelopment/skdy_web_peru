@@ -51,12 +51,15 @@ get_header(); ?>
 
 		<div class="checkout_additional_info">
 			<div class="checkout_additional_info__title">
-				PROMOCIONES SKULLCYBER 
+				PROMOCIONES SKULLDAYS  
 			</div>
 
 			<div class="checkout_additional_info__content">
 				<div class="checkout_additional_info__element">
 					<p class="checkout_additional_info__element__label">Compra desde 3 cuotas sin intereses para productos mayores a S/.89 (Válido con tarjetas BBVA, BCP y Diners Club)</p>			
+				</div>
+				<div class="checkout_additional_info__element">
+					<p class="checkout_additional_info__element__label">Utiliza el cupón CUOTEALO y recibe S/.100 de descuento si compras con Cuotéalo BCP.</p>			
 				</div>
 			</div>
 		</div>
