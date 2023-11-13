@@ -46,7 +46,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 				</p>
 				<div class="product-price">
 					<!-- Show only regular price if is not on sale -->
-					<?php if ( $product ->get_variation_sale_price( 'max' ) == '' ) { ?>
+					<?php if ( $product ->get_variation_sale_price( 'max' ) == '' || intval($product ->get_variation_sale_price( 'max' )) ==  intval($product ->get_variation_regular_price( 'max' )) ) { ?>
 						<p class="product-price__only">S/.<?php echo $product ->get_variation_regular_price( 'max' ); ?></p>
 					<?php }
 					else{ ?>
