@@ -195,6 +195,9 @@
 .filter{
   width: 15%;
   padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
   @media (max-width: 1280px) {
     width: 100%;
     padding: 0 10px;
@@ -475,9 +478,11 @@
 }
 
 .filter__CTA{
+  font-weight: 600;
   font-size: 1.2rem;
   color: white;
   background-color: black;
   border-radius: 25px;
   padding: 10px 20px;
+  text-decoration: none;
 }
