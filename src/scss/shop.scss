@@ -187,7 +187,7 @@
     flex-direction: column;
     gap:10px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0px;
     padding-top: 30px;
   }
 }
@@ -329,7 +329,7 @@
 
   @media (max-width: 768px) {
       width: calc(45% - 10px); 
-      padding: 20px!important;
+      padding: 0px!important;
       justify-content: start ;
       height: 100%;
       border: 0.1px solid #d3d3d3!important;
@@ -390,6 +390,7 @@
   margin-bottom: 10px;
 
   @media (max-width: 768px) {
+      padding: 0 10px;
       font-size: 0.8rem;
   }
 }
@@ -410,6 +411,9 @@
   gap: 10px;
   margin-top: 10px;
 
+  @media (max-width: 768px) {
+      padding: 0 10px;
+  }
 
   .product-price__only{
       font-size: 1.2rem;
