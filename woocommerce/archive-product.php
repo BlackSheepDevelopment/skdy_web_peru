@@ -95,6 +95,9 @@ do_action( 'woocommerce_before_main_content' );
 				<button class="filter__section__button" id="accesorios">Accesorios</button>
 			</div>
 		</div>
+		<div class="filter-categories">
+			<a class="filter__CTA" href="https://www.wa.link/xfavry/" target="_blank">¡Compra en nuestras oficinas, reserva tu experiencia Skullcandy ya!</a>
+		</div>
 	</div>
 
 
