@@ -71,7 +71,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">SMOKIN' BUDS</p>
-<<<<<<< HEAD
                             <p class="home-title home-title home-title--desktop">Estilo, potencia y calidad.</p>
                             <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
@@ -88,29 +87,27 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold ">DIME</p>
-<<<<<<< HEAD
                             <p class="home-title home-title home-title--desktop">Pequeños y resistentes</p>
                             <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡COMPRALOS YA!</a>
+                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡Compralos ya!</a>
                             </div>
                     </div>
-<<<<<<< HEAD
                 </div> -->
             <!-- </div> -->
 
             <section>
                 <picture>
-                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png" media="(min-width: 758px)"/>
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png"
+                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
                                 alt="mobile-main-banner">
                 </picture>
-                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
+                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Conoce más!</a>
             </section>
 
             <section>
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
-                <a class="button_banner__secondary" href="https://skullcandy.com.pe/producto/pack-dimext-cassettebt/">
+                <a class="button_banner__secondary">
                     <p class="home-title--bold">NUEVO PACK</p>
                     <p>Compra Dime XT + Cassette</p>
                 </a>
@@ -118,35 +115,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
             <section>
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
-                <a class="button_banner__secondary" href="https://skullcandy.com.pe/shop/ofertas/">
+                <a class="button_banner__secondary">
                     <p class="home-title--bold">OFERTAS</p>
                     <p>¡Compra ahora! </p>
                     
                 </a>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
             </section>
-                </div>
-            </div>
-
-            <!-- <section>
-                <picture>
-                        <source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
-                                alt="mobile-main-banner">
-                </picture>
-                <a class="home-title__button button__banner" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
-            </section>
-
-            <section>
-                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
-            </section>
-
-            <section>
-                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
-            </section> -->
-
-        </div>
-
 
         </div>
         <div class="shop-features">
@@ -203,7 +177,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
             <div class="categories-additionals">
-                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">SKULLDAYS</a>
+                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</a>
                 <a href="https://skullcandy.com.pe/shop/?cat=packs" class="categories-additionals__button categories-additionals__button--packs">PACKS</a>
             </div>
             <div class="categories-generals">
@@ -284,18 +258,5 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     </div>
 
     <div id="overlay"></div>
-=======
-=======
->>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
-    <!-- <div class="home-popup-image"> -->
-        <!-- <img alt="popup-img" class="home-popup-image__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/> -->
-        <!-- <button class="home-popup-image__close">&times;</button> -->
-    <!-- </div> -->
-
-
-    <!-- <div id="overlay"></div> -->
->>>>>>> :sparkles: Change home banenr
-
-
 
 <?php get_footer();
