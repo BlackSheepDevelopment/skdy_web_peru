@@ -40,15 +40,16 @@ defined( 'ABSPATH' ) || exit;
 						<?php echo wc_get_formatted_cart_item_data( $cart_item ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 					</td>
 					<td class="product-total">
-						<?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); ?>
+						<!-- <?php #echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); ?> -->
 						<!-- Get discount for this product -->
 						<?php 
+							echo '<span>' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							global $product_discounts;
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 							?>
 							<?php 
-							if ( $discount > 0 ) {
+							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
 								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
 							}
 						?>
