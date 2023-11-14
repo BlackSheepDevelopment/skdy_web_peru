@@ -485,15 +485,10 @@
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 1250px) {
-    width: 75%;
-    line-height: 1.6;
-  }
-  
   @media (max-width: 768px) {
-    // background: url(../assets/BANNER_MOV_COMPRAS.jpg);
     height: 300px;
-    width: 85%;
+    align-items: start;
+    width: 100%;
     line-height: 1.6;
   }
 }
@@ -516,11 +511,14 @@
   @media (max-width: 1200) {
     font-size: 1.7rem;
     line-height: 1.7;
+    width: 75%;
   }
 
   @media (max-width: 768px) {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-top: 30px;
+    width: 85%;
+
   }
 }
 
