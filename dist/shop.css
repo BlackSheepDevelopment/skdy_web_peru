@@ -592,6 +592,11 @@
     line-height: 1.6;
   }
 }
+@media (max-width: 500px) {
+  .main-shop__banner {
+    height: 150px;
+  }
+}
 
 .main-shop__title {
   font-size: 2.4rem;
@@ -623,7 +628,7 @@
 }
 @media (max-width: 500px) {
   .main-shop__title {
-    font-size: 1.8rem;
+    font-size: 1.2 rem;
     padding-top: 0px;
     width: 85%;
   }
