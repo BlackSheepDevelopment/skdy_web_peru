@@ -1093,3 +1093,25 @@ function handle_registration_login() {
     }
 }
 add_action('init', 'handle_registration_login');
+
+add_filter( 'woocommerce_coupon_get_discount_amount', 'alter_shop_coupon_data', 20, 5 );
+function alter_shop_coupon_data( $round, $discounting_amount, $cart_item, $single, $coupon ){
+
+    // Related coupons codes to be defined in this array (you can set many)
+    $coupon_codes = array('skulldays');
+
+    // Product IDs for fixed discount
+    $product_ids_fixed_discount = array(1093); // Replace with your actual product IDs
+
+    $fixed_discount_amount = 10.00; // Replace with your desired fixed discount amount
+
+    ## ---- The code: Applying fixed discount for specific product IDs ---- ##
+
+    if ( $coupon->is_type('fixed_product') && in_array( $coupon->get_code(), $coupon_codes ) ) {
+        if( in_array( $cart_item['product_id'], $product_ids_fixed_discount ) ){
+
+            $round = round( min( $fixed_discount_amount, $discounting_amount ), wc_get_rounding_precision() );
+        }
+    }
+    return $round;
+}
