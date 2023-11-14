@@ -584,10 +584,17 @@
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1250px) {
+  .main-shop__banner {
+    width: 75%;
+    line-height: 1.6;
+  }
+}
 @media (max-width: 768px) {
   .main-shop__banner {
     height: 300px;
-    align-items: start;
+    width: 85%;
+    line-height: 1.6;
   }
 }
 
