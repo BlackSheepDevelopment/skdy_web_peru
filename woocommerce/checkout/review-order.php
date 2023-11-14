@@ -43,7 +43,8 @@ defined( 'ABSPATH' ) || exit;
 						<?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						<!-- Get discount for this product -->
 						<?php 
-							$discount = 0;
+							$discount = 0; ?>
+							<p> Descuento: <?php echo $discount; ?> </p>
 							$discount = get_post_meta( $_product->get_id(), 'discount', true );
 							if ( $discount > 0 ) {
 								echo '<span class="discount">-'. $discount .'%</span>';
