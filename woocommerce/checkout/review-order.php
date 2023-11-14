@@ -43,7 +43,7 @@ defined( 'ABSPATH' ) || exit;
 						<!-- <?php #echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); ?> -->
 						<!-- Get discount for this product -->
 						<?php 
-							echo '<span>' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
+							// echo '<span>' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							global $product_discounts;
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
