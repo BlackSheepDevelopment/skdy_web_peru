@@ -44,6 +44,7 @@ defined( 'ABSPATH' ) || exit;
 						<!-- Get discount for this product -->
 						<?php 
 							$product_id = $cart_item['product_id'];
+							global $product_discounts;
 							 
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 							?>
