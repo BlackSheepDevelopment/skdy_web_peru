@@ -5,10 +5,13 @@ define('WC_TEMPLATE_DEBUG_MODE', true);
 
 global $product_discounts;
 $product_discounts = array(
-    161842 => 40.00, // S/.40 por el Indy XT
-    161882 => 130.00, // S/.130 por el Sesh ANC
-    105230 => 20.00, // S/.20 por el Hesh Evo
-    110773 => 70.00 // S/.70 por el Push Active
+	// Productos en live
+	173957=>40.00,
+	// Developer values 
+    // 161842 => 40.00, // S/.40 por el Indy XT
+    // 161882 => 130.00, // S/.130 por el Sesh ANC
+    // 105230 => 20.00, // S/.20 por el Hesh Evo
+    // 110773 => 70.00 // S/.70 por el Push Active
 );
 
 
