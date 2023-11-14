@@ -26,11 +26,7 @@
     }
   }
 
-  .discount-product-item{
-    color: #C5312D;
-    font-size: 1.2rem;
-    font-style: italic;
-  }
+
 
   .woocommerce form.checkout_coupon,
   .woocommerce form.login {
@@ -127,6 +123,12 @@
           td {
             border-top: 1px solid rgba(#000, .1);
             width: 100%;
+            
+            .discount-product-item{
+              color: #C5312D;
+              font-size: 1.2rem;
+              font-style: italic;
+            }
           }
         }
         th{

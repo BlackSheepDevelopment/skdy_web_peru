@@ -49,11 +49,6 @@
     padding: 2.8rem 0;
   }
 }
-#main-container .discount-product-item {
-  color: #C5312D;
-  font-size: 1.2rem;
-  font-style: italic;
-}
 #main-container .woocommerce form.checkout_coupon,
 #main-container .woocommerce form.login {
   border: none;
@@ -187,6 +182,11 @@
 #main-container .shop_table tbody tr:first-child td {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
+}
+#main-container .shop_table tbody tr:first-child td .discount-product-item {
+  color: #C5312D;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 #main-container .shop_table tbody tr th {
   width: 100%;
