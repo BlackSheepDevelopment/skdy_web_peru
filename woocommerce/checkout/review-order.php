@@ -43,27 +43,12 @@ defined( 'ABSPATH' ) || exit;
 						<?php echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						<!-- Get discount for this product -->
 						<?php 
-							$discount = 0; // Default discount value
-
-							// Check if there is a coupon applied
-							if ( WC()->cart->applied_coupons ) {
-								$applied_coupons = WC()->cart->get_applied_coupons();
-
-								// You may need to adjust this loop based on your specific logic for coupon discounts
-								foreach ( $applied_coupons as $coupon_code ) {
-									$coupon = new WC_Coupon( $coupon_code );
-
-									// Check if the coupon is applicable to the current product
-									if ( $coupon->is_valid_for_product( $_product, $cart_item, WC()->cart ) ) {
-										$discount = $coupon->get_discount_amount();
-										break; // Stop the loop once a valid coupon is found
-									}
-								}
-							}
+							$product_id = $cart_item['product_id'];
+							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 
 							if ( $discount > 0 ) {
-								echo '<p> Descuento: ' . $discount . '</p>';
-								echo '<span class="discount">-' . $discount . '%</span>';
+								echo '<p> Descuento: ' . wc_price( $discount ) . '</p>'; // Display discount as a price
+								echo '<span class="discount">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
 							}
 						?>
 					</td>
