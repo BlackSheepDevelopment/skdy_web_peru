@@ -36,11 +36,16 @@ do_action( 'woocommerce_before_main_content' );
 		<!-- <h1 class="woocommerce-products-header__title page-title page-title-shop"><?php #woocommerce_page_title(); ?></h1> -->
 	<?php endif; ?>
 
-	<picture class="main-shop__banner">
-				<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
-				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg"
-							alt="mobile-main-banner">
-	</picture>
+	<div>
+		<picture class="main-shop__banner">
+					<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
+					<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg"
+								alt="mobile-main-banner">
+		</picture>
+		<p class="main-shop__title">DESCUBRE LAS OFERTAS IMPERDIBLES USANDO EL CUPÓN <span class="main-shop__feature">SKULLDAYS</span></p>
+	</div>
+
+
 
 	<?php
 	/**
