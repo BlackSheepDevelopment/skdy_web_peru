@@ -101,23 +101,19 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
             <section>
                 <picture>
-                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_1_MOV.png"
+                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png" media="(min-width: 758px)"/>
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png"
                                 alt="mobile-main-banner">
                 </picture>
                 <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">COMPRA AHORA</a>
             </section>
 
             <section>
-<<<<<<< HEAD
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
-=======
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
                 <a class="button_banner__secondary" href="https://skullcandy.com.pe/producto/pack-dimext-cassettebt/">
                     <p class="home-title--bold">NUEVO PACK</p>
                     <p>Compra Dime XT + Cassette</p>
                 </a>
->>>>>>> a7a61fbea5f6922598333f9cf53fce7f715ba977
             </section>
 
             <section>
@@ -148,7 +144,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <section>
                 <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
             </section> -->
->>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
 
         </div>
 
