@@ -44,8 +44,16 @@ defined( 'ABSPATH' ) || exit;
 						<!-- Get discount for this product -->
 						<?php 
 							$product_id = $cart_item['product_id'];
+							 
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
+							?>
 
+							<p> <? echo $product_id  ?></p>
+							<p> <? echo $discount  ?></p>
+							
+							
+							
+							<?php 
 							if ( $discount > 0 ) {
 								echo '<p> Descuento: ' . wc_price( $discount ) . '</p>'; // Display discount as a price
 								echo '<span class="discount">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
