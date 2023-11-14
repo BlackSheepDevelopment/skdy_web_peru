@@ -49,8 +49,7 @@ defined( 'ABSPATH' ) || exit;
 							?>
 							<?php 
 							if ( $discount > 0 ) {
-								echo '<p> Descuento: ' . wc_price( $discount ) . '</p>'; // Display discount as a price
-								echo '<span class="discount">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
+								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
 							}
 						?>
 					</td>

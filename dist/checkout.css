@@ -676,3 +676,9 @@ label[for=billing_district2] {
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
+.discount-product-item {
+  color: #C5312D;
+  font-size: 1.2rem;
+  font-style: italic;
+}
