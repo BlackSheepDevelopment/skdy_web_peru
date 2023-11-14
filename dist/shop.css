@@ -586,11 +586,7 @@
 }
 @media (max-width: 768px) {
   .main-shop__banner {
-    background: url(assets/BANNER_MOV_COMPRAS.bda3f70871c22307009b5ef10328590e.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
+    height: 300px;
     align-items: start;
   }
 }
@@ -604,6 +600,17 @@
   letter-spacing: -2px;
   margin: auto;
 }
+@media (max-width: 1600px) {
+  .main-shop__title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1200) {
+  .main-shop__title {
+    font-size: 1.7rem;
+    line-height: 1.7;
+  }
+}
 @media (max-width: 768px) {
   .main-shop__title {
     font-size: 1.5rem;
@@ -613,4 +620,7 @@
 
 .main-shop__feature {
   color: #ff7e00;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
 }
