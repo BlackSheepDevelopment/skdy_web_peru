@@ -5,7 +5,7 @@
 
 .shop-notice {
   width: 100%;
-  background: #EB6123;
+  background: #D6F665;
   padding: .3rem .75rem .5rem;
   text-align: center;
   border-top: 1px solid #2c2c2d;
@@ -158,6 +158,7 @@
   @media (max-width: 1280px) {
     margin-top: 1rem;
     width: 100%;
+
   }
 }
 
@@ -757,9 +758,9 @@
   }
 }
 
-  .home-popup__body__terms{
-    font-size: 0.6rem;
-    font-weight: 200;
+.home-popup__body__terms{
+  font-size: 0.6rem;
+  font-weight: 200;
   font-style: italic;
   padding: 10px 0;
   text-align: center;
@@ -772,7 +773,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-51%, -50%);
-  width: 900px;
+  width: 500px;
   height: auto;
   object-fit: cover;
   @media (max-width: 1280px) {
