@@ -508,7 +508,7 @@
     font-size: 2rem;
   }
 
-  @media (max-width: 1200) {
+  @media (max-width: 1200px) {
     font-size: 1.7rem;
     line-height: 1.7;
     width: 75%;
@@ -518,7 +518,12 @@
     font-size: 2.3rem;
     padding-top: 30px;
     width: 85%;
+  }
 
+  @media (max-width: 500px) {
+    font-size: 1.8rem;
+    padding-top: 0px;
+    width: 85%;
   }
 }
 
