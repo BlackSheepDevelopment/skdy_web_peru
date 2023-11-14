@@ -574,15 +574,15 @@
 }
 
 .main-shop__banner {
-  width: 100%;
-  height: auto;
   background: url(assets/BANNER_WEB_COMPRAS.a065aad20bb5c3d66a1877b78cd96581.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 0;
-  padding-top: 11.69%; /* (img-height / img-width * container-width) */
-  /* (853 / 1280 * 100) */
+  height: 250px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 768px) {
   .main-shop__banner {
@@ -591,20 +591,24 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
-    padding-top: 150%;
+    align-items: start;
   }
 }
 
 .main-shop__title {
-  position: absolute;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 900;
   color: black;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   text-align: center;
+  width: 30%;
+  letter-spacing: -2px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .main-shop__title {
+    font-size: 1.5rem;
+    padding-top: 30px;
+  }
 }
 
 .main-shop__feature {
