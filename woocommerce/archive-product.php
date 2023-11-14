@@ -51,11 +51,11 @@ do_action( 'woocommerce_before_main_content' );
 	?>
 </header>
 
-<div>
-	<picture class="main-shop__banner">
-		<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
-		<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg" alt="mobile-main-banner">
-	</picture>
+<div class="main-shop__banner">
+	<!-- <picture class="main-shop__banner">
+		<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
+		<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg" alt="mobile-main-banner">
+	</picture> -->
 	<p class="main-shop__title">DESCUBRE LAS OFERTAS IMPERDIBLES USANDO EL CUPÓN <span class="main-shop__feature">SKULLDAYS</span></p>
 </div>
 

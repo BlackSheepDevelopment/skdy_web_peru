@@ -576,11 +576,12 @@
 .main-shop__banner {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  background: url(assets/BANNER_WEB_COMPRAS.a065aad20bb5c3d66a1877b78cd96581.jpg) no-repeat center;
 }
 @media (max-width: 768px) {
-  .main-shop__banner > img {
-    width: 100%;
+  .main-shop__banner {
+    background: url(assets/BANNER_MOV_COMPRAS.bda3f70871c22307009b5ef10328590e.jpg) no-repeat center;
+    background-size: cover;
   }
 }
 
