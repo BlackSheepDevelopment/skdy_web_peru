@@ -481,7 +481,6 @@
   }
 }
 
-<<<<<<< HEAD
 .main-shop__banner{ 
   background: url(../assets/BANNER_WEB_COMPRAS.jpg);
   background-size: cover;
@@ -511,16 +510,6 @@
   font-size: 2.4rem;
   font-weight: 800;
   color:black;
-=======
-.filter__CTA{
-  font-weight: 600;
-  font-size: 1rem;
-  color: white;
-  background-color: black;
-  border-radius: 25px;
-  padding: 15px 25px;
-  text-decoration: none;
->>>>>>> a7a61fbea5f6922598333f9cf53fce7f715ba977
   text-align: center;
   letter-spacing: 0.2px;
   border: 1px solid transparent;
@@ -529,27 +518,11 @@
     color: black;
     background-color: white;
     border: 1px solid black;
-<<<<<<< HEAD
-=======
-    -webkit-transition: background-color 300ms linear;
-    -ms-transition: background-color 300ms linear;
-    transition: background-color 300ms linear;
->>>>>>> a7a61fbea5f6922598333f9cf53fce7f715ba977
   }
 
   &:active{
     color: black;
     border: 1px solid black;
     background-color: white;
-<<<<<<< HEAD
-=======
-    -webkit-transition: background-color 300ms linear;
-    -ms-transition: background-color 300ms linear;
-    transition: background-color 300ms linear;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
->>>>>>> a7a61fbea5f6922598333f9cf53fce7f715ba977
   }
 }
