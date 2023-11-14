@@ -595,7 +595,7 @@
 
 .main-shop__title {
   font-size: 2.4rem;
-  font-weight: 900;
+  font-weight: 800;
   color: black;
   text-align: center;
   width: 30%;
@@ -616,7 +616,7 @@
 }
 @media (max-width: 768px) {
   .main-shop__title {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     padding-top: 30px;
     width: 85%;
   }
