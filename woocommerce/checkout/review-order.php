@@ -44,7 +44,9 @@ defined( 'ABSPATH' ) || exit;
 						<!-- Get discount for this product -->
 						<?php 
 							$discount = 0; ?>
-							<p> Descuento: <?php echo $discount; ?> </p>
+							<p> Descuento: <?php echo $discount; ?> </p> 
+
+							<?php
 							$discount = get_post_meta( $_product->get_id(), 'discount', true );
 							if ( $discount > 0 ) {
 								echo '<span class="discount">-'. $discount .'%</span>';
