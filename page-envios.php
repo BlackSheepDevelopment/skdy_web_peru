@@ -26,7 +26,7 @@ get_header(); ?>
                             - Lima Metropolitana: Entre 1 a 3 días hábiles (dependiendo de la zona)
                         </li>
                         <li class="envio-container--item">
-                            - Lima Provincias y Regiones: Entre 4 a 15 días hábiles (<a class="envios-container__content__more" href="https://skullcandy.com.pe/wp-content/uploads/2022/01/LEAD-TIME-A-NIVEL-NACIONAL.pdf">Ver zonas de cobertura</a>)
+                            - Lima Provincias y Regiones: Entre 4 a 15 días hábiles 
                         </li>
                     </ul>
 
