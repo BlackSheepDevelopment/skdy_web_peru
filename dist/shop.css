@@ -572,3 +572,9 @@
     display: none;
   }
 }
+
+.main-shop__banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

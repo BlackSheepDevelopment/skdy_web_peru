@@ -33,8 +33,14 @@ do_action( 'woocommerce_before_main_content' );
 ?>
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-		<h1 class="woocommerce-products-header__title page-title page-title-shop"><?php woocommerce_page_title(); ?></h1>
+		<!-- <h1 class="woocommerce-products-header__title page-title page-title-shop"><?php #woocommerce_page_title(); ?></h1> -->
 	<?php endif; ?>
+
+	<picture class="main-shop__banner">
+				<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
+				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg"
+							alt="mobile-main-banner">
+	</picture>
 
 	<?php
 	/**
