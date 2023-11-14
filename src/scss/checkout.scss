@@ -26,6 +26,12 @@
     }
   }
 
+  .discount-product-item{
+    color: #C5312D;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
   .woocommerce form.checkout_coupon,
   .woocommerce form.login {
     border: none;
@@ -512,8 +518,3 @@ label[for=billing_district2] {
 }
 
 
-.discount-product-item{
-  color: #C5312D;
-  font-size: 1.2rem;
-  font-style: italic;
-}
