@@ -3,6 +3,14 @@
 require dirname( __FILE__ ) . '/post-types/mood.php';
 define('WC_TEMPLATE_DEBUG_MODE', true);
 
+global $product_discounts;
+$product_discounts = array(
+    161842 => 40.00, // S/.40 por el Indy XT
+    161882 => 130.00, // S/.130 por el Sesh ANC
+    105230 => 20.00, // S/.20 por el Hesh Evo
+    110773 => 70.00 // S/.70 por el Push Active
+);
+
 
 function theme_support() {
 	add_theme_support( 'post-thumbnails' );
@@ -1101,12 +1109,7 @@ function alter_shop_coupon_data( $round, $discounting_amount, $cart_item, $singl
     $coupon_codes = array('skulldays');
 
     // Associative array of product IDs and their corresponding fixed discounts
-    $product_discounts = array(
-        161842 => 40.00, // S/.40 por el Indy XT
-        161882 => 130.00, // S/.130 por el Sesh ANC
-		105230 => 20.00, // S/.20 por el Hesh Evo
-		110773 => 70.00 // S/.70 por el Push Active
-    );
+    global $product_discounts;
 
     ## ---- The code: Applying different fixed discounts for specific product IDs ---- ##
 
