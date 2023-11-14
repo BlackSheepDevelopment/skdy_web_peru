@@ -116,7 +116,15 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </section>
 
             <section>
+<<<<<<< HEAD
                 <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/CYBER_BANNER_2_NEW.jpg"/>
+=======
+                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
+                <a class="button_banner__secondary" href="https://skullcandy.com.pe/producto/pack-dimext-cassettebt/">
+                    <p class="home-title--bold">NUEVO PACK</p>
+                    <p>Compra Dime XT + Cassette</p>
+                </a>
+>>>>>>> a7a61fbea5f6922598333f9cf53fce7f715ba977
             </section>
 
             <section>
@@ -148,6 +156,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POPUP_WEB_DCTO.jpg"/>
             </section> -->
 >>>>>>> d7b0de1e9a946d7aab1f11372f0e3bc1a7745a64
+
+        </div>
+
 
         </div>
         <div class="shop-features">
@@ -204,7 +215,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="categories">
             <div  class="top-products__title">CATEGORÍAS.</div>
             <div class="categories-additionals">
-                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">OFERTAS</a>
+                <a href="https://skullcandy.com.pe/shop/?cat=ofertas" class="categories-additionals__button categories-additionals__button--ofertas">SKULLDAYS</a>
                 <a href="https://skullcandy.com.pe/shop/?cat=packs" class="categories-additionals__button categories-additionals__button--packs">PACKS</a>
             </div>
             <div class="categories-generals">
@@ -296,5 +307,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
     <!-- <div id="overlay"></div> -->
 >>>>>>> :sparkles: Change home banenr
+
+
 
 <?php get_footer();
