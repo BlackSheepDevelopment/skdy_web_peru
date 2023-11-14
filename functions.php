@@ -1100,18 +1100,25 @@ function alter_shop_coupon_data( $round, $discounting_amount, $cart_item, $singl
     // Related coupons codes to be defined in this array (you can set many)
     $coupon_codes = array('skulldays');
 
-    // Product IDs for fixed discount
-    $product_ids_fixed_discount = array(1093); // Replace with your actual product IDs
+    // Associative array of product IDs and their corresponding fixed discounts
+    $product_discounts = array(
+        161842 => 40.00, // S/.40 por el Indy XT
+        161882 => 130.00, // S/.130 por el Sesh ANC
+		105230 => 20.00, // S/.20 por el Hesh Evo
+		110773 => 70.00 // S/.70 por el Push Active
+    );
 
-    $fixed_discount_amount = 10.00; // Replace with your desired fixed discount amount
-
-    ## ---- The code: Applying fixed discount for specific product IDs ---- ##
+    ## ---- The code: Applying different fixed discounts for specific product IDs ---- ##
 
     if ( $coupon->is_type('fixed_product') && in_array( $coupon->get_code(), $coupon_codes ) ) {
-        if( in_array( $cart_item['product_id'], $product_ids_fixed_discount ) ){
+        $product_id = $cart_item['product_id'];
 
-            $round = round( min( $fixed_discount_amount, $discounting_amount ), wc_get_rounding_precision() );
-        }
+        if( isset( $product_discounts[ $product_id ] ) ){
+            $fixed_discount_amount = $product_discounts[ $product_id ];
+            $round = round($fixed_discount_amount, wc_get_rounding_precision() );
+        }else{
+			$round = 0;
+		}
     }
     return $round;
 }
