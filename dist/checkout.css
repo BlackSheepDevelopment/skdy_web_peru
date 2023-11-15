@@ -189,6 +189,11 @@
   font-weight: 800;
   font-style: italic;
 }
+#main-container .shop_table tbody tr:first-child td .pricing-product-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
 #main-container .shop_table tbody tr th {
   width: 100%;
 }

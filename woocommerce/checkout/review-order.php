@@ -57,8 +57,19 @@ defined( 'ABSPATH' ) || exit;
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 
 							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
-								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
+								?> 
+								<div class="pricing-product-item">
+									<?php
+										echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
+										echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
+									?>
+								</div>
+
+								<?php
 								echo '<span class="final-product-item">' .  wc_price($real_price - $discount)  . '</span>';
+							}
+							else{
+								echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							}
 						?>
 					</td>
