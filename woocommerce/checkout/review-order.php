@@ -48,12 +48,12 @@ defined( 'ABSPATH' ) || exit;
 							global $product_discounts;
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
-							
+
 							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
 								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
 								// echo '<span class="discount-product-item">-' . round( ( $discount / WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) ) * 100 ) . '%</span>'; // Display discount as a percentage
 								// Show final discounted price, convert the values to numbers first
-								echo '<span class="final-product-item">' . wc_price(  (float)$real_price -  (float)$discount ) . '</span>';
+								echo '<span class="final-product-item">' . wc_price( $real_price) . '</span>';
 							}
 						?>
 					</td>
