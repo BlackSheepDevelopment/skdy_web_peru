@@ -52,7 +52,7 @@ defined( 'ABSPATH' ) || exit;
 							$real_price = isset($matches[0]) ? (float) $matches[0] : 0;
 
 
-							echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
+							// echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 
