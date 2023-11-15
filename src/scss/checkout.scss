@@ -126,10 +126,13 @@
             border-top: 1px solid rgba(#000, .1);
             width: 100%;
 
-            .original-product-item{
-              text-decoration: line-through;
+
+            .final-product-item{
               font-weight: 700;
               font-size: 1rem;
+            }
+            .original-product-item{
+              text-decoration: line-through;
             }
             
             .discount-product-item{
@@ -152,11 +155,13 @@
 
           .original-product-item{
             text-decoration: line-through;
+          }
+          
+          .final-product-item{
             font-weight: 700;
             font-size: 1rem;
           }
           
-
           .pricing-product-item{
             display: flex;
             gap:3px;
