@@ -28,6 +28,15 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 
 	<a class="product-ref" href="<?php echo $product -> get_permalink() ?>">
 		<?php $variations = $product->get_available_variations(); ?> 
+
+		<?php
+			global $product_discounts;
+			$product_id = $product->get_id();
+			if (array_key_exists($product_id, $product_discounts)) {
+				// Product ID exists in the array, so display the <p> container
+				echo '<p class="product-discount">SKULLDAYS</p>';
+			}
+		?>
 		<div class="product-image">
 				<?php echo $product->get_image(); ?>
 		</div>
