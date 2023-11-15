@@ -51,9 +51,9 @@ defined( 'ABSPATH' ) || exit;
 							<?php 
 							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
 								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
-								echo '<span class="discount-product-item">-' . round( ( $discount / WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) ) * 100 ) . '%</span>'; // Display discount as a percentage
-								// Show final discounted price
-								echo '<span class="discount-product-item">' . wc_price( WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) - $discount ) . '</span>';
+								// echo '<span class="discount-product-item">-' . round( ( $discount / WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) ) * 100 ) . '%</span>'; // Display discount as a percentage
+								// Show final discounted price, convert the values to numbers first
+								echo '<span class="final-product-item">' . wc_price(  (float)WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) -  (float)$discount ) . '</span>';
 							}
 						?>
 					</td>
