@@ -43,17 +43,17 @@ defined( 'ABSPATH' ) || exit;
 						<!-- <?php #echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key ); ?> -->
 						<!-- Get discount for this product -->
 						<?php 
+							$real_price = WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] );
 							echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							global $product_discounts;
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
-							?>
-							<?php 
+							
 							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
 								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
 								// echo '<span class="discount-product-item">-' . round( ( $discount / WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) ) * 100 ) . '%</span>'; // Display discount as a percentage
 								// Show final discounted price, convert the values to numbers first
-								echo '<span class="final-product-item">' . wc_price(  (float)WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) -  (float)$discount ) . '</span>';
+								echo '<span class="final-product-item">' . wc_price(  (float)$real_price -  (float)$discount ) . '</span>';
 							}
 						?>
 					</td>
