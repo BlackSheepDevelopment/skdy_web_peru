@@ -106,10 +106,12 @@
     width: 85%;
     max-width: 111.42857rem;
     margin: 0 7.5%;
+    background-color: transparent!important;
     @media (max-width: 768px) {
       position: static;
       width: 90%;
       margin: 0 5%;
+      background-color: transparent!important;
     }
 
     .summary {
@@ -1121,7 +1123,7 @@ body.layout-2 {
     }
 
     .container {
-      background: transparent !important;
+      background-color: transparent !important;
       position: static;
       width: 40%;
       max-width: 111.42857rem;
