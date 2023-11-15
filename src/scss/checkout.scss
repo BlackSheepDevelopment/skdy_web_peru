@@ -125,6 +125,12 @@
           td {
             border-top: 1px solid rgba(#000, .1);
             width: 100%;
+
+            .original-product-item{
+              text-decoration: line-through;
+              font-weight: 700;
+              font-size: 1rem;
+            }
             
             .discount-product-item{
               color: #C5312D;
@@ -135,7 +141,6 @@
 
             .pricing-product-item{
               display: flex;
-              flex-direction: column;
               gap:3px;
             }
           }
@@ -145,6 +150,18 @@
         }
         td {
 
+          .original-product-item{
+            text-decoration: line-through;
+            font-weight: 700;
+            font-size: 1rem;
+          }
+          
+
+          .pricing-product-item{
+            display: flex;
+            gap:3px;
+          }
+           
           .discount-product-item{
             color: #C5312D;
             font-size: 0.8rem;
