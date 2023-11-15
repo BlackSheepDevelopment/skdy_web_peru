@@ -370,6 +370,11 @@
   letter-spacing: 0.8px;
   padding: 5px 10px;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+      font-size: 0.5rem;
+      left: 50%;
+  }
 }
 
 .product-image{
