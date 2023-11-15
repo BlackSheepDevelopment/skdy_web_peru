@@ -44,16 +44,21 @@ defined( 'ABSPATH' ) || exit;
 						<!-- Get discount for this product -->
 						<?php 
 							global $product_discounts;
-							$real_price = WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] );
+							// Get the original price before any discounts as HTML
+							$subtotal_html = WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] );
+
+							// Extract the float value from the HTML using regex
+							preg_match('/[-+]?[0-9]*\.?[0-9]+/', strip_tags($subtotal_html), $matches);
+							$real_price = isset($matches[0]) ? (float) $matches[0] : 0;
+
+
 							echo '<span class="original-product-item">' . WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) . '</span>'; // Display original price	
 							$product_id = $cart_item['product_id'];
 							$discount = isset( $product_discounts[ $product_id ] ) ? $product_discounts[ $product_id ] : 0;
 
 							if ( $discount > 0 && WC()->cart->has_discount( 'skulldays' )) {
 								echo '<span class="discount-product-item">-' . wc_price( $discount ) . '</span>'; // Display discount as a price
-								// echo '<span class="discount-product-item">-' . round( ( $discount / WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ) ) * 100 ) . '%</span>'; // Display discount as a percentage
-								// Show final discounted price, convert the values to numbers first
-								echo '<span class="final-product-item">' . wc_price( $real_price) . '</span>';
+								echo '<span class="final-product-item">' .  wc_price($real_price - $discount)  . '</span>';
 							}
 						?>
 					</td>
