@@ -179,12 +179,6 @@
 #main-container .shop_table thead th {
   width: 100%;
 }
-#main-container .shop_table tbody tr .discount-product-item {
-  color: #C5312D;
-  font-size: 0.8rem;
-  font-weight: 800;
-  font-style: italic;
-}
 #main-container .shop_table tbody tr:first-child td {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -202,6 +196,12 @@
   border-top: none;
   padding: 0 12px;
   width: 100%;
+}
+#main-container .shop_table tbody tr td .discount-product-item {
+  color: #C5312D;
+  font-size: 0.8rem;
+  font-weight: 800;
+  font-style: italic;
 }
 #main-container .shop_table tfoot tr {
   width: 100%;
