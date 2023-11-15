@@ -360,12 +360,16 @@
 
 .product-discount{
   position: absolute;
-  top: 0;
-  left: 0;
-  color: #C5312D;
-  font-weight: bold;
+  top: 3%;
+  left: 60%;
+  background-color: #FF7900;
+  font-weight: 700;
   font-size: 0.8rem;
   margin-bottom: 10px;
+  color:white;
+  letter-spacing: 0.8px;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 .product-image{
