@@ -473,7 +473,7 @@
     margin: 0 auto;
     width: 85%;
     max-width: 111.42857rem;
-    padding: 50px 0;
+    padding: 250px 0;
     padding-top: 15px;
     display: flex;
     flex-direction: column;
@@ -482,19 +482,23 @@
     gap: 20px;
 
     .information-left__content{
+        font-size: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        font-size: 1.5rem;
     }
     .information-left__button{
+        text-decoration: none;
+        text-align: center;
         width: 100%;
         max-width: 500px;
-        padding: 10px;
-        border-radius: 5px;
+        padding: 20px 10px;
+        border-radius: 15px;
         border: 1px solid #ccc;
-        font-size: 1rem;
+        font-size: 1.3rem;
         background-color: #000;
         color: white;
         font-weight: bold;
