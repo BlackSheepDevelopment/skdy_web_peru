@@ -14,8 +14,12 @@ get_header(); ?>
 
     // Check if any of the fields are empty
     if (empty($partner_company) || empty($partner_ruc) || empty($partner_recieve_name) || empty($partner_recieve_lastname) || empty($partner_recieve_id)) {
-        // At least one field is empty
-        echo "Not all fields are filled in.";
+    ?>
+        <div class="information-left">
+            <p class="information-left__content">Por favor, completa todos los campos requeridos para comenzar a comprar</p>
+            <a class="information-left__button">Ingresa tus datos</a>
+        </div>
+    <?php
     } 
     else{
     ?>
