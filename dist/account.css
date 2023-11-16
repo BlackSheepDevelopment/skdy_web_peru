@@ -339,6 +339,10 @@
 .woocommerce-account .woocommerce-MyAccount-content .button[type=submit].disabled, .woocommerce-account .woocommerce-MyAccount-content .button[type=submit]:disabled {
   pointer-events: none;
 }
+.woocommerce-account .woocommerce-MyAccount-content .retailer_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 .woocommerce-account .woocommerce-Address {
   border: 1px solid #ddd;
   padding: 2rem 2rem;
@@ -429,9 +433,4 @@ mark {
   border-radius: 0 !important;
   padding: 2rem !important;
   margin-top: 1rem !important;
-}
-
-.retailer_title {
-  font-size: 1.5rem;
-  font-weight: 600;
 }

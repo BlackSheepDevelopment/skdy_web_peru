@@ -231,6 +231,12 @@
       margin-top: 2rem;
       @include btn(#fff, #383838, #2c2c2d);
     }
+
+    .retailer_title{ 
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
   }
 
   .woocommerce-Address {
@@ -336,8 +342,3 @@ mark {
   }
 }
 
-
-.retailer_title{ 
-  font-size: 1.5rem;
-  font-weight: 600;
-}
