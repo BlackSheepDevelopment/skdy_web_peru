@@ -1,0 +1,240 @@
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir=rtl] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.main {
+  padding: 0 10%;
+}
+
+.envios-main__title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  padding: 0 0 30px;
+}
+
+.envios-container {
+  display: flex;
+  gap: 25px;
+  line-height: 2rem;
+}
+
+.envios-container__left, .envios-container__right {
+  width: 50%;
+  padding: 30px 20px;
+}
+
+.envios-container__left__title, .envios-container__right__title {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.envios-container__left__content, .envios-container__right__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.11rem;
+}
+
+.envios-container__content__more {
+  color: black;
+  font-weight: 700;
+}
+
+.envios-container--important {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.envio-container--list {
+  list-style-type: none;
+}
+
+.envio-container--item {
+  padding: 10px 0;
+}
+
+.envios-container__back {
+  position: relative;
+  overflow: hidden;
+  height: 3.17143rem;
+  line-height: 3.17143rem;
+  letter-spacing: 0.07143rem;
+  font-size: 0.75714rem;
+  text-transform: uppercase;
+  padding: 0 2.85714rem;
+  border: 0;
+  white-space: nowrap;
+  text-align: center;
+  background: 0 0;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  cursor: pointer;
+  z-index: 1;
+  color: #fff !important;
+  padding: 0px 2.1rem !important;
+}
+.envios-container__back:hover {
+  color: #fff;
+}
+.envios-container__back:hover:after {
+  width: 120%;
+}
+.envios-container__back:before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #383838;
+}
+.envios-container__back:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 20px;
+  height: 100%;
+  top: 0;
+  background: #2c2c2d;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-50%) skew(20deg) scaleX(1);
+  transition: width 0.36s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.envios-container__back.selected:after {
+  width: 120% !important;
+}
+.envios-container__back.disabled, .envios-container__back:disabled {
+  pointer-events: none;
+}
+
+.envios-container__back__container {
+  padding: 30px 0 0 30px;
+}
+
+.envios-container--first-check {
+  padding: 10px 0;
+}
+
+.envios-container__left {
+  border-right: 2px solid black;
+}
+
+@media (max-width: 768px) {
+  .envios-main {
+    padding: 0 20px 20px 20px;
+  }
+  .envios-main__header {
+    flex-direction: column;
+  }
+  .envios-container {
+    flex-direction: column;
+  }
+  .envios-container__left, .envios-container__right {
+    width: 100%;
+  }
+  .envios-container__back__container {
+    padding: 30px;
+  }
+  .envios-container__back {
+    width: 100%;
+  }
+  .envios-container__left {
+    border-right: 0px solid black;
+  }
+}
