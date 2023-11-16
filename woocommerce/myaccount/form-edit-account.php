@@ -49,18 +49,18 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 		</p>
 
 		<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-			<label for="partner_recieve_name">RUC <span class="required">*</span></label>
+			<label for="partner_recieve_name">Nombre (Encargado de Recepción) <span class="required">*</span></label>
 			<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="partner_recieve_name" id="partner_recieve_name" value="<?php echo esc_attr( $user->partner_recieve_name ); ?>" />
 		</p>
 
 		<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-			<label for="partner_recieve_lastname">RUC <span class="required">*</span></label>
+			<label for="partner_recieve_lastname">Apellido (Encargado de Recepción) <span class="required">*</span></label>
 			<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="partner_recieve_lastname" id="partner_recieve_lastname" value="<?php echo esc_attr( $user->partner_recieve_lastname ); ?>" />
 		</p>
 
 
 		<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-			<label for="partner_recieve_id">RUC <span class="required">*</span></label>
+			<label for="partner_recieve_id">DNI (Encargado de Recepción) <span class="required">*</span></label>
 			<input type="number" class="woocommerce-Input woocommerce-Input--text input-text" name="partner_recieve_id" id="partner_recieve_id" value="<?php echo esc_attr( $user->partner_recieve_id ); ?>" />
 		</p>
 
