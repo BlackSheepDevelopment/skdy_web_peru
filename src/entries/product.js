@@ -112,26 +112,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const type = urlParams.get("type");
-    console.log(type);
-
-    if (type === "mayorist") {
-        $(".mayorista_header").css("display", "block");
-        let val = $(".price ins span bdi").text();
-        let number = val.slice(2);
-        let newNumber = (parseInt(number) * 0.9).toFixed(2);
-
-        $(".price ins span bdi").text(`Mayorista: S/.${newNumber.toString()}`);
-    }
-});
-
-$(document).ready(function () {
-    console.log("Testing de cuotealo y list swatches");
-    console.log($("#cuotealo-available-product").length);
-    console.log($(".variations_form").length);
-
     if ($("#cuotealo-available-product").length === 0) {
         $(".variations_form").addClass("no-cuotealo");
     }
