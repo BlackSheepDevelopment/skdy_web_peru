@@ -430,3 +430,8 @@ mark {
   padding: 2rem !important;
   margin-top: 1rem !important;
 }
+
+.retailer_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
