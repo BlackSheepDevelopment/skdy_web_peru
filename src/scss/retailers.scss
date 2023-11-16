@@ -366,6 +366,11 @@
 
 .main_forms__register__forms{
 
+    p{
+        display: flex;
+        flex-direction: column;
+    }
+
     .init{
         display: flex;
         flex-direction: column;
@@ -462,3 +467,4 @@
         max-width: 100%;
     }
 }
+

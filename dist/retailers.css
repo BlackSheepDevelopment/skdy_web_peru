@@ -362,6 +362,10 @@
   width: 100%;
 }
 
+.main_forms__register__forms p {
+  display: flex;
+  flex-direction: column;
+}
 .main_forms__register__forms .init {
   display: flex;
   flex-direction: column;
