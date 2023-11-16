@@ -17,7 +17,7 @@ get_header(); ?>
     ?>
         <div class="information-left">
             <p class="information-left__content">Por favor, completa todos los campos requeridos para comenzar a comprar</p>
-            <a class="information-left__button">Ingresa tus datos</a>
+            <a class="information-left__button" href="<?php echo wc_customer_edit_account_url(); ?>">Completa tu información aquí.</a>
         </div>
     <?php
     } 
