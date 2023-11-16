@@ -1131,3 +1131,13 @@ function alter_shop_coupon_data( $round, $discounting_amount, $cart_item, $singl
     }
     return $round;
 }
+
+
+add_action( 'woocommerce_save_account_details', 'save_custom_user_fields', 10, 1 );
+function save_custom_user_fields( $user_id ) {
+    update_user_meta( $user_id, 'partner_company', sanitize_text_field( $_POST['partner_company'] ) );
+    update_user_meta( $user_id, 'partner_ruc', absint( $_POST['partner_ruc'] ) );
+    update_user_meta( $user_id, 'partner_recieve_name', sanitize_text_field( $_POST['partner_recieve_name'] ) );
+    update_user_meta( $user_id, 'partner_recieve_lastname', sanitize_text_field( $_POST['partner_recieve_lastname'] ) );
+    update_user_meta( $user_id, 'partner_recieve_id', absint( $_POST['partner_recieve_id'] ) );
+}
