@@ -26,7 +26,7 @@ get_header(); ?>
         <div class="main_retailers">
 
             <div class="main-header">
-                <div class="header">TIENDAS PEQUEÑAS</div>
+                <div class="header">Tienda Socios Skullcandy</div>
                 <!-- <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Por favor, ten en cuenta las siguientes indicaciones</p> -->
                 <ul class="mayorista-features">
                     <li class="mayorista-features__item">
@@ -118,7 +118,7 @@ get_header(); ?>
 ?>
     <div class="main">
         <div class="main-header">
-                <div class="header">TIENDAS PEQUEÑAS</div>
+                <div class="header">Tienda socios Skullcandy</div>
                 <p class="subtitle">Gracias por tu interés en comprar Skullcandy para tu tienda. Regístrate o Inicia Sesión.</p>
         </div>
 

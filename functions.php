@@ -283,25 +283,13 @@ add_action( 'woocommerce_before_single_product_summary', 'product_header_before'
 function product_header_before() {
 	$layout = get_query_var( 'LAYOUT' ); ?>
     <div id="product-header">
-		<div class="mayorista_header">
-			COMO TIENDA PEQUEÑA TIENES UN DESCUENTO DEL 10% EN TODOS LOS PRODUCTOS POR COMPRAS MAYORES A S/.1500. AÑADE TUS UNIDADES EN EL CARRITO
-		</div>
 		<?php 
 			if (current_user_can('retailer')){
 			?>
 				<div class="mayorista_header">
-					COMO TIENDA PEQUEÑA TIENES UN DESCUENTO DEL 10% EN TODOS LOS PRODUCTOS POR COMPRAS MAYORES A S/.1500. AÑADE TUS UNIDADES EN EL CARRITO
+					COMO SOCIO SKULLCANDY TIENES UN DESCUENTO DEL 10% EN TODOS LOS PRODUCTOS POR COMPRAS MAYORES A S/.1500. AÑADE TUS UNIDADES EN EL CARRITO
 				</div>
 
-				<script>
-					jQuery(document).ready(function () {
-						$(".mayorista_header").css("display", "block");
-						let val = $(".price ins span bdi").text();
-						let number = val.slice(2);
-						let newNumber = (parseInt(number) * 0.9).toFixed(2);
-						$(".price ins span bdi").text(`Mayorista: S/.${newNumber.toString()}`);
-					});
-				</script>
 		<?php } 
 		if ( $layout == 'layout-1' ): ?>
             <div class="background">
