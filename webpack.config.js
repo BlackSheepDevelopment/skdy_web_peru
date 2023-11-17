@@ -23,6 +23,7 @@ module.exports = function (env) {
             ancs: "./src/entries/ancs.js",
             mayoristas: "./src/entries/mayoristas.js",
             retailers: "./src/entries/retailers.js",
+            ola: "./src/entries/ola.js",
         },
         target: "web",
         mode: env.NODE_ENV,
