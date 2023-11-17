@@ -45,7 +45,7 @@
                     <a href="https://dev.skullcandy.com.pe/retailers/">Tiendas Pequeñas</a>
                 </li> -->
                 <li class="mega-menu-item">
-                    <a href="https://dev.skullcandy.com.pe/retailers/">Tienda Socios</a>
+                    <a href="https://skullcandy.com.pe/retailers/">Tienda Socios</a>
                 </li>
                 <li data-menu="mega-menu-support">
                     <a href="#"><?php _e( 'Soporte', 'skullcandy' ) ?></a>
