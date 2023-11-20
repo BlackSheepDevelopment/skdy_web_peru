@@ -5,7 +5,7 @@
 
 .shop-notice {
   width: 100%;
-  background: #FF7900;
+  background: white;
   padding: .3rem .75rem .5rem;
   text-align: center;
   border-top: 1px solid #2c2c2d;
@@ -28,7 +28,7 @@
 
 .home-info{
   position: absolute;
-  top: 30%;
+  top: 40%;
   padding-left: 10%;
   // left: 10%;
 
@@ -991,7 +991,7 @@
 .home-grid__social{
   z-index: 99;
   position: absolute;
-  top: 20%;
+  top: 45%;
   left: 1%;
   display: flex;
   flex-direction: column;
