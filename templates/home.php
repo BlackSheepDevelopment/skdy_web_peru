@@ -48,20 +48,20 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </svg>  
             </button> -->
 
-            <!-- <div class="home-picture" id="skullcandy-peru-container">                -->
-                <!-- <div>
+            <div class="home-picture" id="skullcandy-peru-container">               
+                <div>
                     <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
-                            <p class="home-title">Aprovecha la oferta con lentes de regalo.</p>
-                            <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <p class="home-title">Siente lo mejor de la música.</p>
+                            <img class="home-title__image" src="<?php echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
                             <div>
-                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
+                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- <div>
                     <picture class="home-grid__video">
@@ -94,19 +94,19 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             </div>
                     </div>
                 </div> -->
-            <!-- </div> -->
+            </div>
 
-            <section>
+            <!-- <section>
                 <picture>
-                        <source srcset="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
+                        <source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
+                        <img src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
                                 alt="mobile-main-banner">
                 </picture>
-                <a class="home-title__button button__banner" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Conoce más!</a>
+                <a class="home-title__button button__banner" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Conoce más!</a>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
+                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
                 <a class="button_banner__secondary">
                     <p class="home-title--bold">NUEVO PACK</p>
                     <p>Compra Dime XT + Cassette</p>
@@ -114,13 +114,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             </section>
 
             <section>
-                <img class="home-grid-2__img" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
+                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
                 <a class="button_banner__secondary">
                     <p class="home-title--bold">OFERTAS</p>
                     <p>¡Compra ahora! </p>
                     
                 </a>
-            </section>
+            </section> -->
 
         </div>
         <div class="shop-features">
@@ -251,12 +251,12 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
     </div> -->
 
-    <div class="home-popup-image">
+    <!-- <div class="home-popup-image">
         
-        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_template_directory_uri() ?>/src/assets/POP_UP_TT.png"/>
+        <img alt="popup-img" class="home-popup-image__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POP_UP_TT.png"/>
         <button class="home-popup-image__close">&times;</button>
-    </div>
+    </div> -->
 
-    <div id="overlay"></div>
+    <!-- <div id="overlay"></div> -->
 
 <?php get_footer();
