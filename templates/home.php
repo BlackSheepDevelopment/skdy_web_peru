@@ -51,7 +51,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php echo get_template_directory_uri() ?>/src/assets/PORTADA_SKULLWEEK.mp4" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_WEB_SKULLWEEK.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
                             <p class="home-title home-title--bold">SKULLCANDY</p>
