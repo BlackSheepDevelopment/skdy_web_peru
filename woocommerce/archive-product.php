@@ -51,7 +51,7 @@ do_action( 'woocommerce_before_main_content' );
 		<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
 		<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg" alt="mobile-main-banner">
 	</picture> -->
-	<p class="main-shop__title">DESCUBRE LAS OFERTAS IMPERDIBLES USANDO EL CUPÓN <span class="main-shop__feature">SKULLDAYS</span></p>
+	<p class="main-shop__title">Vive la música con nuestras ofertas <span class="main-shop__feature">imperdibles</span></p>
 </div>
 
 
@@ -100,19 +100,19 @@ do_action( 'woocommerce_before_main_content' );
 
 	<div class="shop-store">
 		<div class="filter-categories__title">Productos</div>
-		<div class="banners">
+		<!-- <div class="banners">
 			<picture class="shop_banner shop_banner--compras">
-				<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
-				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
+				<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP.png" media="(min-width: 758px)"/>
+				<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_SHOP_MOV.png"
 							alt="mobile-main-banner">
 			</picture>
 
 			<picture class="shop_banner shop_banner--envio">
-				<source srcset="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS.png" media="(min-width: 758px)"/>
-				<img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS_MOV.png"
+				<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS.png" media="(min-width: 758px)"/>
+				<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS_MOV.png"
 							alt="mobile-main-banner">
-			</picture>
-		</div>
+			</picture> -->
+		<!-- </div> -->
 
 
 		<?php

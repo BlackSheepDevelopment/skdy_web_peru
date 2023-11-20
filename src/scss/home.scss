@@ -29,7 +29,7 @@
 .home-info{
   position: absolute;
   top: 30%;
-  padding-left: 2%;
+  padding-left: 10%;
   // left: 10%;
 
   @media (max-width:1280px){
@@ -37,7 +37,7 @@
     // width: 100%;
     // height: 100%;
     top: 65%;
-    padding: 0 3%;
+    padding: 0 20%;
     // left: 0%;
     display: flex;
     justify-content: end;
@@ -143,28 +143,29 @@
   display: block;
   // @include btn(#000, #ededed, #ddd);
   margin-top: 2rem;
-  background-color: transparent;
+  background-color: black;
   color: white;
-  border-bottom: 4px solid #ff7e00;
+  border-bottom: 4px solid #eeeeee;
   padding: 10px 20px;
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
   text-align: center;
   width: 60%;
-  border-radius: 25px;
+  // border-radius: 25px;
   // width: 100%;
   z-index: 997;
   @media (max-width: 1280px) {
     margin-top: 1rem;
+    font-size: 1.2rem;
     width: 100%;
 
   }
 }
 
 .home-title__button:hover{
-  background-color: #ff7e00;
-  color: black;
+  background-color: #242424;
+  color: white;
   font-style: italic;
   // font-size: 1.8rem;
   transition: 0.3s;
