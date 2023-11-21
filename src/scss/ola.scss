@@ -125,3 +125,41 @@ form > p {
     font-size: 1.3rem;
     letter-spacing: -0.5px;
 }
+
+.forms__input{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #c3c3c3;
+    color:#c3c3c3;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    &:active {
+        border-bottom: 1px solid white;
+        color: white;
+    }
+
+}
+
+
+.forms_button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FF8500;
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: #ffd7ad;
+        transition: all 0.3s ease-in-out;
+    }
+
+    &:active{
+        background-color: #ff9f39;
+    }
+}
