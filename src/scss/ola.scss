@@ -15,7 +15,7 @@
 
 .winners-banner{
     background-color: #C1E2F7;
-    padding: 0 20%;
+    padding: 0 12.5%;
 }
 
 .winners-banner__title{
@@ -40,6 +40,21 @@
     gap:5%;
 }
 
-.winner-banner__prizes__item__img{
-    margin-bottom: 20px;
+.winner-banner__prizes__item__text{
+    padding: 8px 16px;
+    text-align: left;
+    background-color: #1c2228;
+}
+
+.winner-banner__prizes__item__text__subtitle{
+    font-size: 1.3rem ;
+    font-weight: 400;
+    color:#269b9a;
+    margin-bottom: 10px;
+
+}
+
+.winner-banner__prizes__item__text__title{
+    font-size: 1.6rem;
+    font-weight: 700;
 }
