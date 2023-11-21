@@ -20,7 +20,6 @@
 
 .winners-banner__title{
     font-size: 2rem;
-    margin-top: -50px;
     margin-bottom: 50px;
 }
 
@@ -41,9 +40,10 @@
 }
 
 .winner-banner__prizes__item__text{
-    padding: 8px 16px;
+    padding: 20px 30px;
     text-align: left;
     background-color: #1c2228;
+    width: 100%;
 }
 
 .winner-banner__prizes__item__text__subtitle{
@@ -57,4 +57,5 @@
 .winner-banner__prizes__item__text__title{
     font-size: 1.6rem;
     font-weight: 700;
+    color:white;
 }
