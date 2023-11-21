@@ -10,6 +10,7 @@ get_header(); ?>
     <div class="winners-banner">
         <h1 class="winners-banner__title">Manda tu mejor ola y ganáte unos Skullcandy</h1>
         <div class="winner-banner__prizes">
+            
             <div class="winner-banner__prizes__item">
                 <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_WINNER_FIRST.webp' ?>"/>
                 <div class="winner-banner__prizes__item__text">
