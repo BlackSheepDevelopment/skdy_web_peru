@@ -38,12 +38,12 @@ get_header(); ?>
         <h1 class="instructions__title">¿Cómo participar?</h1>
         <div class="instruction__steps">
             <div class="instructions__steps__item">
-                <h1 class="instructions__steps__item__number">01</h1>
-                <p class="instructions__steps__item__text"> Graba tu mejor ola </p>
+                <h1 class="instructions__steps__item__number">1</h1>
+                <p class="instructions__steps__item__text">Sube un video de tu mejor ola a YouTube, Instagram o Facebook.</p>
             </div>
             <div class="instructions__steps__item">
-                <h1 class="instructions__steps__item__number">01</h1>
-                <p class="instructions__steps__item__text"> Graba tu mejor ola </p>   
+                <h1 class="instructions__steps__item__number">2</h1>
+                <p class="instructions__steps__item__text">Copia el link de tu video y completa el siguiente formulario.</p>   
                 <!-- Adjuntar forms -->
             </div>
         </div>
