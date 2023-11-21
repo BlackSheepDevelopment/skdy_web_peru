@@ -24,7 +24,7 @@
     padding: 0 12.5%;
     margin-top: -150px;
     @media (max-width: 768px) {
-        margin-top: -150px;
+        margin-top: -50px;
     }
 }
 
@@ -35,7 +35,8 @@
     font-weight: 700;
     letter-spacing: -3px;
     @media (max-width: 768px) {
-        font-size: 1.8rem;
+        font-size: 3rem;
+        letter-spacing: -4px;
     }
 }
 
@@ -89,6 +90,9 @@
 .instructions{
     background-color: #1c2228;
     padding: 50px 25%;
+    @media (max-width: 768px) {
+        padding: 50px 5%;
+    }
 }
 
 .instructions__title{
@@ -160,6 +164,8 @@ form > p {
         color: white;
     }
 
+    
+
 }
 
 
@@ -183,5 +189,9 @@ form > p {
 
     &:active{
         background-color: #ff9f39;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
     }
 }
