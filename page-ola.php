@@ -36,7 +36,7 @@ get_header(); ?>
     </div>
     <section class="instructions">
         <h1 class="instructions__title">¿Cómo participar?</h1>
-        <div class="instruction__steps">
+        <div class="instructions__steps">
             <div class="instructions__steps__item">
                 <h1 class="instructions__steps__item__number">1</h1>
                 <p class="instructions__steps__item__text">Sube un video de tu mejor ola a YouTube, Instagram o Facebook.</p>
