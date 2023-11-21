@@ -557,15 +557,23 @@
   border-radius: 20px;
 }
 
+.filter-buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .buy-button{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px 20px;
   color: white;
   background-color: black;
   border-radius: 20px;
   border: 0px;
   font-weight: 700;
+  border: 1px solid #000;
   cursor: pointer;
   &:hover{
     background-color: white;

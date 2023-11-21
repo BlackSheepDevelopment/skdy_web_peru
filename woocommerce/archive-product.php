@@ -95,7 +95,7 @@ do_action( 'woocommerce_before_main_content' );
 				<button class="filter__section__button" id="accesorios">Accesorios</button>
 			</div>
 		</div>
-		<div>
+		<div class="filter-buttons">
 			<a class="buy-button" href="http://wa.link/2cw81s" target="_blank">COMPRA DIRECTA</a>
 		</div>
 	</div>
