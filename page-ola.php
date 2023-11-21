@@ -46,7 +46,7 @@ get_header(); ?>
                 <h1 class="instructions__steps__item__number">2</h1>
                 <p class="instructions__steps__item__text">Copia el link de tu video y completa el siguiente formulario.</p>   
                 <!-- Adjuntar forms -->
-                <?php echo do_shortcode('[contact-form-7 id="178412" title="La Ola del Año"]') ?>
+                <?php echo do_shortcode('[contact-form-7 id="161925" title="Ola SKDY"]') ?>
             </div>
         </div>
 
