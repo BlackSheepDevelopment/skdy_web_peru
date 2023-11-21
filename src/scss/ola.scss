@@ -3,6 +3,7 @@
 .main-banner{
     position: relative;
     background-color: #C1E2F7;
+    z-index: -10;
 }
 
 .main-banner__logo{
@@ -17,11 +18,15 @@
 .winners-banner{
     background-color: #C1E2F7;
     padding: 0 12.5%;
+    margin-top: -150px;
 }
 
 .winners-banner__title{
     font-size: 2.3rem;
     margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -3px;
 }
 
 .winner-banner__prizes{
@@ -45,6 +50,7 @@
     text-align: left;
     background-color: #1c2228;
     width: 100%;
+    letter-spacing: -0.5px;
 }
 
 .winner-banner__prizes__item__text__subtitle{
@@ -59,4 +65,54 @@
     font-size: 1.6rem;
     font-weight: 700;
     color:white;
+}
+
+.instructions{
+    background-color: #1c2228;
+    padding: 50px 12.5%;
+}
+
+.instructions__title{
+    font-size: 2.3rem;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color:white;
+}
+
+.instructions__steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.instructions__steps__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.instructions__steps__item__number{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color:#269b9a;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.instructions__steps__item__text{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color:white;
+    width: 70%;
 }
