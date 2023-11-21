@@ -115,3 +115,12 @@
     letter-spacing: -0.5px;
     text-align: center;
 }
+
+form > p {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+}

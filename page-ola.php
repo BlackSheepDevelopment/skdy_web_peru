@@ -34,7 +34,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <img class="seconday-banner" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_BANNER_SECON.webp' ?>" alt="skullcandy-ola-secondary"/>
+    <!-- <img class="seconday-banner" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLA_BANNER_SECON.webp' ?>" alt="skullcandy-ola-secondary"/> -->
     <section class="instructions">
         <h1 class="instructions__title">¿Cómo participar?</h1>
         <div class="instructions__steps">
