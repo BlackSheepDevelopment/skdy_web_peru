@@ -38,12 +38,12 @@ get_header(); ?>
         <h1 class="instructions__title">¿Cómo participar?</h1>
         <div class="instruction__steps">
             <div class="instructions__steps__item">
-                <h1 class="instructions__steps__number">01</h1>
-                <p class="instructions__steps__text"> Graba tu mejor ola </p>
+                <h1 class="instructions__steps__item__number">01</h1>
+                <p class="instructions__steps__item__text"> Graba tu mejor ola </p>
             </div>
             <div class="instructions__steps__item">
-                <h1 class="instructions__steps__number">01</h1>
-                <p class="instructions__steps__text"> Graba tu mejor ola </p>   
+                <h1 class="instructions__steps__item__number">01</h1>
+                <p class="instructions__steps__item__text"> Graba tu mejor ola </p>   
                 <!-- Adjuntar forms -->
             </div>
         </div>
