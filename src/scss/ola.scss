@@ -12,6 +12,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 30%;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 }
 
 
@@ -19,6 +23,9 @@
     background-color: #C1E2F7;
     padding: 0 12.5%;
     margin-top: -150px;
+    @media (max-width: 768px) {
+        margin-top: -150px;
+    }
 }
 
 .winners-banner__title{
@@ -27,6 +34,9 @@
     text-align: center;
     font-weight: 700;
     letter-spacing: -3px;
+    @media (max-width: 768px) {
+        font-size: 1.8rem;
+    }
 }
 
 .winner-banner__prizes{
@@ -34,6 +44,11 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 .winner-banner__prizes__item{
@@ -43,6 +58,10 @@
     justify-content: center;
     width: 30%;
     gap:5%;
+
+    @media (max-width: 768px) {
+        width: 70%;
+    }
 }
 
 .winner-banner__prizes__item__text{
@@ -129,9 +148,11 @@ form > p {
 .forms__input{
     width: 100%;
     padding: 10px 20px;
+    border: 0px;
+    background-color: transparent;
     border-bottom: 1px solid #c3c3c3;
     color:#c3c3c3;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
 
     &:active {
@@ -143,7 +164,7 @@ form > p {
 
 
 .forms_button{
-    width: 100%;
+    width: 70%;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: #FF8500;
@@ -156,6 +177,7 @@ form > p {
 
     &:hover{
         background-color: #ffd7ad;
+        color: #FF8500;
         transition: all 0.3s ease-in-out;
     }
 
