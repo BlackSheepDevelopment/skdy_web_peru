@@ -68,17 +68,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 			</div>
 		</div>
 	</a>
-	<?php echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-								sprintf( '<a href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" class="button %s product_type_%s">%s</a>',
-									esc_url( $product->add_to_cart_url() ),
-									esc_attr( $product->get_id() ),
-									esc_attr( $product->get_sku() ),
-									$product->is_purchasable() ? 'add_to_cart_button' : '',
-									esc_attr( $product->get_type() ),
-									esc_html( $product->add_to_cart_text() )
-								)	
-								,$product ); ?>
-
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
