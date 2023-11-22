@@ -1183,9 +1183,25 @@ body.layout-2 {
 
           .woocommerce-variation-add-to-cart {
             .quantity {
-              display: none !important;
+              margin-right: .6rem;
+              width: 25%;
+  
+              input[type=number] {
+                width: 60px;
+                height: 100%;
+                background: #f6f6f6;
+                text-align: center;
+                font-size: .8rem;
+                font-weight: bold;
+                border: none;
+  
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button {
+                  -webkit-appearance: none;
+                  margin: 0;
+                }
+              }
             }
-
             .single_add_to_cart_button {
               width: 100%;
             }
