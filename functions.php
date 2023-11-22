@@ -336,12 +336,13 @@ function product_header_title() {
     </div>
 <?php }
 
-add_action( 'woocommerce_single_product_summary', 'variation_grid', 25 );
+// add_action( 'woocommerce_single_product_summary', 'variation_grid', 25 );
 function variation_grid() {
 	global $product;
 
 	if ( $product->is_type( 'variable' ) && get_query_var( 'LAYOUT' ) == 'layout-2' ) :
 		$variations = $product->get_available_variations(); ?>
+		
         <div class="list-swatches">
 			<?php foreach ( $variations as $variation ) :
 				$name = $variation['attributes']['attribute_color']; ?>
