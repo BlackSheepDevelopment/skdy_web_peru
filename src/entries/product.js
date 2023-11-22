@@ -82,14 +82,14 @@ function renderSlider() {
         });
 }
 
-$(".list-swatches .swatch").click(function () {
-    if (!$(this).hasClass("selected")) {
-        $(".swatch.selected").removeClass("selected");
-        $(this).addClass("selected");
-        $("#color").val($(this).data("color")).trigger("change");
-        renderSlider();
-    }
-});
+// $(".list-swatches .swatch").click(function () {
+//     if (!$(this).hasClass("selected")) {
+//         $(".swatch.selected").removeClass("selected");
+//         $(this).addClass("selected");
+//         $("#color").val($(this).data("color")).trigger("change");
+//         renderSlider();
+//     }
+// });
 
 $(document).ready(function () {
     if (window.galleries.length > 0) {
