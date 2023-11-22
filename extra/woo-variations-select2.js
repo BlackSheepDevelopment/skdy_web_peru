@@ -56,13 +56,13 @@ jQuery(document).ready(function ($) {
         return $("<span>" + state.text + "</span>");
     }
 
-    $("#color option").first().remove();
-    $("#color").select2({
-        minimumResultsForSearch: -1,
-        dropdownParent: $(".summary.entry-summary"),
-        templateResult: formatResult,
-        templateSelection: formatSelected,
-    });
+    // $("#color option").first().remove();
+    // $("#color").select2({
+    //     minimumResultsForSearch: -1,
+    //     dropdownParent: $(".summary.entry-summary"),
+    //     templateResult: formatResult,
+    //     templateSelection: formatSelected,
+    // });
 
     function locationFormatResult(state) {
         if (state.text === " - Select Location - ") {
