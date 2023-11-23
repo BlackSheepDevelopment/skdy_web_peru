@@ -23,6 +23,11 @@
 #home-grid {
   width: 100%;
   height: $home_banner_size;
+
+  @media (max-width: 1280px) {
+    height: 100%;
+    margin-top: -150px;
+  }
 }
 
 
@@ -53,13 +58,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   @media (max-width:1280px){
-    top: 100%;
+    top: 60%;
   }
 }
 
 
 .home-grid__video{
-  
+  background-color: black;
   >img{
     transform: translateY(-150px);
     @media (max-width: 1280px) {
@@ -177,6 +182,7 @@
     margin-top: 1rem;
     font-size: 1.2rem;
     border: 2px solid #eeeeee;
+    padding: 10px 20px;
   }
 }
 
