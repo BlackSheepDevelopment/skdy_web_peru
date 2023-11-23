@@ -47,11 +47,8 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 
 <div class="main-shop__banner">
-	<!-- <picture class="main-shop__banner">
-		<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_WEB_COMPRAS.jpg" media="(min-width: 758px)"/>
-		<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_MOV_COMPRAS.jpg" alt="mobile-main-banner">
-	</picture> -->
-	<p class="main-shop__title">Vive la música con nuestras ofertas <span class="main-shop__feature">imperdibles</span></p>
+	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
+	<p class="main-shop__title">Vive la música con nuestras ofertas></p>
 </div>
 
 
