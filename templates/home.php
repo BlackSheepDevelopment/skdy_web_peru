@@ -59,7 +59,7 @@ get_header();
                                     alt="mobile-main-banner">
                     </picture> -->
 
-                    <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_V3.jpg' ?>" alt="mobile-main-banner">
+                    <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_V3.png' ?>" alt="mobile-main-banner">
                     <!-- <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_WEB_SKULLWEEK.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture> -->
