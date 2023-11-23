@@ -66,7 +66,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                                 <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
                     </div> -->
-                    <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Compra ahora!</a>
+                    <div class="home-info">
+                        <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Compra ahora!</a>
+                    </div>
                 </div>
 
                 <!-- <div>
