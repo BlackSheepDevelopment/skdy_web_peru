@@ -72,14 +72,11 @@
 
 .home-grid__video{
   background-color: black;
-  height: 90vh;
-  width: 100%!important;
-  // >img{
-  //   transform: translateY(-150px);
-  //   @media (max-width: 1280px) {
-  //     transform: translateX(0px);
-  //   }
-  // }
+
+  >img{
+    height: 90vh;
+    width: 100%!important;
+  }
 
 }
 
