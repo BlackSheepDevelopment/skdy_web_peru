@@ -131,17 +131,17 @@ $(document).ready(function () {
         var distance = countDownDate - now;
         // add to the div container with id timer
         document.getElementById("timer").innerHTML =
-            "<div class='timer__item'><div class='timer__item__number'>" +
-            Math.floor(distance / (1000 * 60 * 60 * 24)) +
-            "</div><div class='timer__item__text'>DÍAS</div></div>" +
+            // "<div class='timer__item'><div class='timer__item__number'>" +
+            // Math.floor(distance / (1000 * 60 * 60 * 24)) +
+            // "</div><div class='timer__item__text'>DÍAS</div></div>" +
             "<div class='timer__item'><div class='timer__item__number'>" +
             Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) +
-            "</div><div class='timer__item__text'>HORAS</div></div>" +
+            ":</div></div>" +
             "<div class='timer__item'><div class='timer__item__number'>" +
             Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)) +
-            "</div><div class='timer__item__text'>MINUTOS</div></div>" +
+            ":</div></div>" +
             "<div class='timer__item'><div class='timer__item__number'>" +
             Math.floor((distance % (1000 * 60)) / 1000) +
-            "</div><div class='timer__item__text'>SEGUNDOS</div></div>";
+            "</div></div>";
     }, 1000);
 }, false);
