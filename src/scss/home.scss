@@ -47,6 +47,13 @@
   }
 }
 
+.home-grid__video{
+  transform: translateX(-150px);
+  @media (max-width: 1280px) {
+    transform: translateX(0px);
+  }
+}
+
 .home-grid__prev{
   padding: 0px 30px;
   position: absolute;

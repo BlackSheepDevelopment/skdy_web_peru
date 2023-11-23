@@ -51,7 +51,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
-                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB.jpg' ?>" media="(min-width: 758px)"/>
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB.jpg' ?>" media="(min-width: 1280px)"/>
                             <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_MOV.jpg' ?>"
                                     alt="mobile-main-banner">
                     </picture>
