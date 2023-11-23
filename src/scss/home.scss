@@ -61,7 +61,7 @@
 
 .home-info{
   position: absolute;
-  top: 10%;
+  top: 19%;
   left: 50%;
   transform: translate(-50%, -50%);
   @media (max-width:1280px){
@@ -72,6 +72,8 @@
 
 .home-grid__video{
   background-color: black;
+  height: 90vh;
+  width: 100%!important;
   // >img{
   //   transform: translateY(-150px);
   //   @media (max-width: 1280px) {
