@@ -4,14 +4,15 @@ set_query_var( 'ENTRY', 'home' );
 
 get_header();
 
-$shop_notice = get_field( 'shop_notice', 'general' );
-if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
+//$shop_notice = get_field( 'shop_notice', 'general' );
+//if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
     <div class="shop-notice">
-        <a <?php if ( $shop_notice['link'] ): ?>href="<?php echo $shop_notice['link'] ?>" <?php endif; ?>>
-			<?php echo $shop_notice['text'] ?>
-        </a>
+        <!-- <a <?php //if ( $shop_notice['link'] ): ?>href="<?php //echo $shop_notice['link'] ?>" <?php //endif; ?>>
+			<?php  //echo $shop_notice['text'] ?>
+        </a> -->
+        <div id="timer"></div>
     </div>
-<?php endif; ?>
+<?php  // endif; ?>
     <div class="main-container">
 
         <div class="home-grid__social">

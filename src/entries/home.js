@@ -122,3 +122,26 @@ $(".home-popup-image__close").click(function () {
 // }
 
 // window.addEventListener("scroll", reveal);
+
+$(document).ready(function () {
+    // create a countdown timer and create div containers inside a div container with id timer
+    var countDownDate = new Date("Nov 24, 2023 00:00:00").getTime();
+    var x = setInterval(function () {
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        // add to the div container with id timer
+        document.getElementById("timer").innerHTML =
+            "<div class='timer__item'><div class='timer__item__number'>" +
+            Math.floor(distance / (1000 * 60 * 60 * 24)) +
+            "</div><div class='timer__item__text'>days</div></div>" +
+            "<div class='timer__item'><div class='timer__item__number'>" +
+            Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) +
+            "</div><div class='timer__item__text'>hours</div></div>" +
+            "<div class='timer__item'><div class='timer__item__number'>" +
+            Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)) +
+            "</div><div class='timer__item__text'>minutes</div></div>" +
+            "<div class='timer__item'><div class='timer__item__number'>" +
+            Math.floor((distance % (1000 * 60)) / 1000) +
+            "</div><div class='timer__item__text'>seconds</div></div>";
+    }, 1000);
+}, false);
