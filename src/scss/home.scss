@@ -48,10 +48,14 @@
 }
 
 .home-grid__video{
-  transform: translateX(-150px);
-  @media (max-width: 1280px) {
-    transform: translateX(0px);
+  
+  >img{
+    transform: translateX(-150px);
+    @media (max-width: 1280px) {
+      transform: translateX(0px);
+    }
   }
+
 }
 
 .home-grid__prev{
