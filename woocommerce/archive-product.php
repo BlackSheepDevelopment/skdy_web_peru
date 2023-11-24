@@ -48,7 +48,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="main-shop__banner">
 	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
-	<p class="main-shop__title">Aprovecha el BLACK FRIDAY en Skullcandy</p>
+	<p class="main-shop__title">BLACK FRIDAY EN SKULLCANDY SOLO HASTA AGOTAR STOCK.</p>
 </div>
 
 
