@@ -805,6 +805,8 @@
 // Home Pop-up Image
 .home-popup-image{
   z-index: 1000;
+  background-color: black;
+  color:white;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -1138,3 +1140,4 @@
   font-weight: 300;
   letter-spacing: -0.5px;
 }
+
