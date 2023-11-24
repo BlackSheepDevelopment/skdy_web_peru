@@ -49,8 +49,8 @@ do_action( 'woocommerce_before_main_content' );
 <div class="main-shop__banner">
 	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
 	<div class="main-shop__text"> 
-		<p class="main-shop__title">BLACK FRIDAY EN SKULLCANDY SOLO HASTA AGOTAR STOCK (MÁXIMO 20 UND).</p>
-		<p class="main-shop__subtitle">BLACK FRIDAY EN SKULLCANDY SOLO HASTA AGOTAR STOCK (MÁXIMO 20 UND).</p>
+		<p class="main-shop__title">Llegó el BLACK FRIDAY a Skullcandy</p>
+		<p class="main-shop__subtitle">Válido hasta agotar stock - máximo 20 unds</p>
 	</div>
 
 </div>
