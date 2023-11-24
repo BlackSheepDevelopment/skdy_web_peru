@@ -267,7 +267,7 @@ get_header();
     <div class="home-popup-image">
         
         <!-- <img alt="popup-img" class="home-popup-image__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/POP_UP_TT.png"/> -->
-        <h1>OFERTA NOCTURNA, DE A 11PM a 5AM</h1>
+        <h1 class="home-popup-image__title">OFERTA NOCTURNA, DE A 11PM a 5AM</h1>
         <img class="popup-hb" src="<?php echo get_stylesheet_directory_uri() . '/uploads/SKULL_WHT.png ' ?>"/>
         <div id="timer-popup"></div>
         <button class="home-popup-image__close">&times;</button>
