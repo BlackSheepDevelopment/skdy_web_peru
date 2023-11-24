@@ -93,7 +93,7 @@ do_action( 'woocommerce_before_main_content' );
 			</div>
 		</div>
 		<div class="filter-buttons">
-			<a class="buy-button" href="http://wa.link/2cw81s" target="_blank">COMPRA DIRECTA</a>
+			<a class="buy-button" href="http://wa.link/2cw81s" target="_blank">Compra directa</a>
 		</div>
 		<div class="filter-buttons">
 			<a class="buy-button" href="https://www.wa.link/xfavry/" target="_blank">¡Reserva tu cita de experiencia!</a>
