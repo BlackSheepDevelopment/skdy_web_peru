@@ -70,14 +70,14 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 						$available = $number - (time() % 20);
 						$sold = $stock - $available;
 					?>
-					<div class="product-stock__available">
-						<p class="product-stock__available__number"><?php echo $available ?></p>
+					<!-- <div class="product-stock__available">
+						<p class="product-stock__available__number"><?php #echo $available ?></p>
 						<p class="product-stock__available__text">Disponible</p>
 					</div>
 					<div class="product-stock__sold">
-						<p class="product-stock__sold__number"><?php echo$sold?></p>
+						<p class="product-stock__sold__number"><?php #echo$sold?></p>
 						<p class="product-stock__sold__text">Vendidos</p>
-					</div>
+					</div> -->
 				</div>
 
 
