@@ -78,13 +78,14 @@ jQuery(document).ready(function ($) {
         return state.text.replace("Out of Stock", "Agotado");
     }
 
-    $(".select_location option").first().remove();
+    $("#select_location").select2({
+        minimumResultsForSearch: Infinity,
+        templateResult: locationFormatResult,
+        templateSelection: locationFormatSelected,
+    });
 
-    // $("#select_location").select2({
-    //     minimumResultsForSearch: Infinity,
-    //     templateResult: locationFormatResult,
-    //     templateSelection: locationFormatSelected,
-    // });
+    // set default value
+    $("#select_location").val("0");
 
     // $("#select_location").on("change", function (e) {
     //   changeShipment(e);
