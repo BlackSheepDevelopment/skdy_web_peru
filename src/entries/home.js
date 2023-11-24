@@ -125,7 +125,7 @@ $(".home-popup-image__close").click(function () {
 
 $(document).ready(function () {
     // create a countdown timer and create div containers inside a div container with id timer
-    var countDownDate = new Date("Nov 24, 2023 00:00:00").getTime();
+    var countDownDate = new Date("Nov 27, 2023 00:00:00").getTime();
     var x = setInterval(function () {
         var now = new Date().getTime();
         var distance = countDownDate - now;
