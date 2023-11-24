@@ -136,6 +136,14 @@ $(document).ready(function () {
 
         // Update the timer div container with id "timer"
         document.getElementById("timer").innerHTML =
+            // Add days
+            "<div class='timer__item'><div class='timer__item__number'>" +
+            addLeadingZero(
+                Math.floor(
+                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60 * 24)
+                )
+            ) +
+            "</div><div class='timer__item__text'>DÍAS </div></div>" +
             "<div class='timer__item'><div class='timer__item__number'>" +
             addLeadingZero(
                 Math.floor(
