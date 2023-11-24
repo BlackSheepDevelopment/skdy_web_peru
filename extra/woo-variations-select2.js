@@ -88,10 +88,10 @@ jQuery(document).ready(function ($) {
     $("#select_location").val("0");
 
     //
-    $("#select_location").addClass("select2-default");
+    // $("#select_location").addClass("select2-default");
 
     // Set display as none
-    $(".Wcmlim_container").css("display", "none");
+    // $(".Wcmlim_container").css("display", "none");
 
     // $("#select_location").on("change", function (e) {
     //   changeShipment(e);
