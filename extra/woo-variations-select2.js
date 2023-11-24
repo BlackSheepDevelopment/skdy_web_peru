@@ -78,6 +78,8 @@ jQuery(document).ready(function ($) {
         return state.text.replace("Out of Stock", "Agotado");
     }
 
+    $(".select_location option").first().remove();
+
     // $("#select_location").select2({
     //     minimumResultsForSearch: Infinity,
     //     templateResult: locationFormatResult,
