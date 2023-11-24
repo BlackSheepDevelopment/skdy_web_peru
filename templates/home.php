@@ -14,6 +14,7 @@ get_header();
             <!-- <a <?php //if ( $shop_notice['link'] ): ?>href="<?php //echo $shop_notice['link'] ?>" <?php //endif; ?>>
                 <?php  //echo $shop_notice['text'] ?>
             </a> -->
+            <p>SOLO QUEDAN</p>
             <div id="timer"></div>
         </div>
 
