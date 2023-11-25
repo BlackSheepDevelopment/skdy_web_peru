@@ -1156,7 +1156,7 @@
   font-weight: 700;
   padding: 20px 0;
   text-align: center;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 
 .timer__item{
@@ -1174,3 +1174,14 @@
   letter-spacing: -0.5px;
 }
 
+
+
+.popup-hb {
+	animation: beat .35s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
