@@ -55,7 +55,7 @@ get_header();
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
                     <picture class="home-grid__video">
-                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_V4.png ' ?>" media="(min-width: 1280px)"/>
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
                             <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_MOV.jpg' ?>"
                                     alt="mobile-main-banner">
                     </picture>

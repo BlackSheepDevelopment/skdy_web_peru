@@ -840,7 +840,7 @@
 .home-popup-image__close{
   position: absolute;
   top: 0;
-  right: 0;
+  right: 10%;
   color: white;
   background-color: transparent;
   border:none;
@@ -848,6 +848,7 @@
   cursor: pointer;
   @media (max-width: 1280px) {
     font-size: 2rem;
+    right: 5%;
   }
 
 }
