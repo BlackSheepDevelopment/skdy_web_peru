@@ -58,6 +58,10 @@ get_header();
                             <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
                             <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/BANNER_WEB_MOV.jpg' ?>"
                                     alt="mobile-main-banner">
+                            <p class="home-title">COMENZÓ EL BLACK FRIDAY</p>
+                            <div>
+                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
+                            </div>
                     </picture>
 
                     <!-- <picture class="home-grid__video">
@@ -71,9 +75,9 @@ get_header();
                                 <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
                     </div> -->
-                    <div class="home-info">
+                    <!-- <div class="home-info">
                         <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Compra ahora!</a>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- <div>
