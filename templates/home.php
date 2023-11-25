@@ -58,23 +58,19 @@ get_header();
                             <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
                             <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.jpg' ?>"
                                     alt="mobile-main-banner">
-                            <p class="home-title">COMENZÓ EL BLACK FRIDAY</p>
-                            <div>
-                                <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
-                            </div>
                     </picture>
 
                     <!-- <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_WEB_SKULLWEEK.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture> -->
-                    <!-- <div class="home-info">
-                            <p class="home-title home-title--bold">SKULLCANDY</p>
-                            <p class="home-title">Siente lo mejor de la música.</p>
-                            <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                    <div class="home-info">
+                            <p class="home-title home-title--bold">COMENZÓ EL BLACK FRIDAY</p>
+                            <p class="home-title">COMENZÓ EL BLACK FRIDAY</p>
+                            <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
-                    </div> -->
+                    </div>
                     <!-- <div class="home-info">
                         <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Compra ahora!</a>
                     </div> -->
