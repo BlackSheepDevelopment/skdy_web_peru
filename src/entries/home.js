@@ -157,35 +157,35 @@ $(document).ready(function () {
             "</div><div class='timer__item__text'>SEGUNDOS</div></div>";
     }, 1000);
 
-    var countDownDateNew = new Date("Nov 24, 2023 23:00:00").getTime();
-    var y = setInterval(function () {
-        var now = new Date().getTime();
-        var distance = countDownDateNew - now;
+    // var countDownDateNew = new Date("Nov 24, 2023 23:00:00").getTime();
+    // var y = setInterval(function () {
+    //     var now = new Date().getTime();
+    //     var distance = countDownDateNew - now;
 
-        function addLeadingZero(value) {
-            return value < 10 ? "0" + value : value;
-        }
+    //     function addLeadingZero(value) {
+    //         return value < 10 ? "0" + value : value;
+    //     }
 
-        // Update the timer div container with id "timer"
-        document.getElementById("timer-popup").innerHTML =
-            // Add days
-            "<div class='timer__item'><div class='timer__item__number'>" +
-            addLeadingZero(Math.floor(distance / (1000 * 60 * 60 * 24))) +
-            "</div><div class='timer__item__text'>DÍAS</div></div>" +
-            "<div class='timer__item'><div class='timer__item__number'>" +
-            addLeadingZero(
-                Math.floor(
-                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-                )
-            ) +
-            "</div><div class='timer__item__text'>HORAS</div></div>" +
-            "<div class='timer__item'><div class='timer__item__number'>" +
-            addLeadingZero(
-                Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
-            ) +
-            "</div><div class='timer__item__text'>MINUTOS</div></div>" +
-            "<div class='timer__item'><div class='timer__item__number'>" +
-            addLeadingZero(Math.floor((distance % (1000 * 60)) / 1000)) +
-            "</div><div class='timer__item__text'>SEGUNDOS</div></div>";
-    }, 1000);
+    //     // Update the timer div container with id "timer"
+    //     document.getElementById("timer-popup").innerHTML =
+    //         // Add days
+    //         "<div class='timer__item'><div class='timer__item__number'>" +
+    //         addLeadingZero(Math.floor(distance / (1000 * 60 * 60 * 24))) +
+    //         "</div><div class='timer__item__text'>DÍAS</div></div>" +
+    //         "<div class='timer__item'><div class='timer__item__number'>" +
+    //         addLeadingZero(
+    //             Math.floor(
+    //                 (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    //             )
+    //         ) +
+    //         "</div><div class='timer__item__text'>HORAS</div></div>" +
+    //         "<div class='timer__item'><div class='timer__item__number'>" +
+    //         addLeadingZero(
+    //             Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+    //         ) +
+    //         "</div><div class='timer__item__text'>MINUTOS</div></div>" +
+    //         "<div class='timer__item'><div class='timer__item__number'>" +
+    //         addLeadingZero(Math.floor((distance % (1000 * 60)) / 1000)) +
+    //         "</div><div class='timer__item__text'>SEGUNDOS</div></div>";
+    // }, 1000);
 }, false);

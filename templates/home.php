@@ -270,6 +270,7 @@ get_header();
         <h1 class="home-popup-image__title">OFERTA NOCTURNA, DE A 11PM a 5AM</h1>
         <img class="popup-hb" src="<?php echo get_stylesheet_directory_uri() . '/uploads/SKULL_WHT.png ' ?>"/>
         <div id="timer-popup"></div>
+        <h1 class="home-popup-image__title">¡APROVECHA LA OFERTA, UNIDADES LIMITADAS!</h1>
         <button class="home-popup-image__close">&times;</button>
     </div>
 
