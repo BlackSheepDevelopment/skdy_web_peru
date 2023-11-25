@@ -65,6 +65,9 @@ $(".filter__section__button").on("click", function (event) {
 // filter-categories__options
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add countdown timer and hide element if distance
 
 // post-171520
 // 173942
@@ -80,6 +83,9 @@ $(".filter__section__button").on("click", function (event) {
 //     }
 // }, false);
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> Add countdown timer and hide element if distance
 =======
 >>>>>>> Add countdown timer and hide element if distance
 $(document).ready(function () {
@@ -93,6 +99,9 @@ $(document).ready(function () {
     }
 }, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Add countdown timer and hide element if distance
 =======
+=======
+>>>>>>> Add countdown timer and hide element if distance
 >>>>>>> Add countdown timer and hide element if distance
