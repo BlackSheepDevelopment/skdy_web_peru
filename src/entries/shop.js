@@ -64,6 +64,7 @@ $(".filter__section__button").on("click", function (event) {
 
 // filter-categories__options
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // post-171520
 // 173942
@@ -79,6 +80,8 @@ $(".filter__section__button").on("click", function (event) {
 //     }
 // }, false);
 =======
+=======
+>>>>>>> Add countdown timer and hide element if distance
 $(document).ready(function () {
     // create a countdown timer and create div containers inside a div container with id timer
     var countDownDate = new Date("Nov 24, 2023 23:00:00").getTime();
@@ -89,4 +92,7 @@ $(document).ready(function () {
         $(".post-162068").hide();
     }
 }, false);
+<<<<<<< HEAD
+>>>>>>> Add countdown timer and hide element if distance
+=======
 >>>>>>> Add countdown timer and hide element if distance
