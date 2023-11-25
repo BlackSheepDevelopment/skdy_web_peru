@@ -56,7 +56,7 @@ get_header();
                 <div>
                     <picture class="home-grid__video">
                             <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.jpg' ?>"
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
                                     alt="mobile-main-banner">
                     </picture>
 
