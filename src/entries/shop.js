@@ -67,6 +67,9 @@ $(".filter__section__button").on("click", function (event) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add countdown timer and hide element if distance
 =======
 >>>>>>> Add countdown timer and hide element if distance
 =======
@@ -88,6 +91,9 @@ $(".filter__section__button").on("click", function (event) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Add countdown timer and hide element if distance
 =======
 >>>>>>> Add countdown timer and hide element if distance
 =======
@@ -107,8 +113,13 @@ $(document).ready(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Add countdown timer and hide element if distance
 =======
+=======
+>>>>>>> Add countdown timer and hide element if distance
+=======
+>>>>>>> Add countdown timer and hide element if distance
 =======
 >>>>>>> Add countdown timer and hide element if distance
 =======
