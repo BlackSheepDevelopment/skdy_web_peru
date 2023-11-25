@@ -65,7 +65,7 @@ get_header();
                     </picture> -->
                     <div class="home-info">
                             <p class="home-title home-title--bold">COMENZÓ EL BLACK FRIDAY</p>
-                            <p class="home-title">COMENZÓ EL BLACK FRIDAY</p>
+                            <p class="home-title">¡Recibe hasta 60% de descuento hasta el fin de semana!</p>
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
