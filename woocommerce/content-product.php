@@ -32,9 +32,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 		<?php
 			global $product_discounts;
 			$product_id = $product->get_id();
-			if (array_key_exists($product_id, $product_discounts)) {
+			if ($product_id == 173942 && $product_id == 171520) {
 				// Product ID exists in the array, so display the <p> container
-				echo '<p class="product-discount">SKULLDAYS</p>';
+				echo '<p class="product-discount">OFERTA NOCTURNA</p>';
 			}
 		?>
 		<div class="product-image">
