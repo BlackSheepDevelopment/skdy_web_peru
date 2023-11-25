@@ -30,12 +30,12 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 		<?php $variations = $product->get_available_variations(); ?> 
 
 		<?php
-			global $product_discounts;
-			$product_id = $product->get_id();
-			if ($product_id == 173942 || $product_id == 171520) {
-				// Product ID exists in the array, so display the <p> container
-				echo '<p class="product-discount">OFERTA NOCTURNA</p>';
-			}
+			// global $product_discounts;
+			// $product_id = $product->get_id();
+			// if ($product_id == 173942 || $product_id == 171520) {
+			// 	// Product ID exists in the array, so display the <p> container
+			// 	echo '<p class="product-discount">OFERTA NOCTURNA</p>';
+			// }
 		?>
 		<div class="product-image">
 				<?php echo $product->get_image(); ?>
