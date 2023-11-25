@@ -820,6 +820,9 @@
 // }
 
 .home-popup-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 1000;
   background-color: black;
   color:white;
@@ -828,12 +831,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
   height: auto;
   object-fit: cover;
-  @media (max-width: 1280px) {
-    width: 350px;
-  }
+  width: 100%;
 }
 
 
@@ -1145,6 +1145,7 @@
 }
 
 #timer-popup{
+  padding-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1156,7 +1157,7 @@
   font-weight: 700;
   padding: 20px 0;
   text-align: center;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 .timer__item{
@@ -1177,7 +1178,9 @@
 
 
 .popup-hb {
-	animation: beat .35s infinite alternate;
+  width: 150px;
+  height: auto!important;
+  animation: beat .35s infinite alternate;
 	transform-origin: center;
 }
 
