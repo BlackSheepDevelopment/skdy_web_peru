@@ -64,8 +64,8 @@ get_header();
                         <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_WEB_SKULLWEEK.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture> -->
                     <div class="home-info">
-                            <p class="home-title home-title--bold">COMENZÓ EL BLACK FRIDAY</p>
-                            <p class="home-title">¡Recibe hasta 60% de descuento hasta el fin de semana!</p>
+                            <p class="home-title home-title--bold">COMENZÓ EL CYBER MONDAY</p>
+                            <p class="home-title">¡Recibe hasta 60% de descuento hoy !</p>
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
