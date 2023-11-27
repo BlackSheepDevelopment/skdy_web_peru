@@ -14,8 +14,8 @@ get_header();
             <!-- <a <?php //if ( $shop_notice['link'] ): ?>href="<?php //echo $shop_notice['link'] ?>" <?php //endif; ?>>
                 <?php  //echo $shop_notice['text'] ?>
             </a> -->
-            <p class="shop-notice__text">SOLO QUEDAN</p>
-            <div id="timer"></div>
+            <!-- <p class="shop-notice__text">SOLO QUEDAN</p> -->
+            <!-- <div id="timer"></div> -->
         </div>
 
         <div class="home-grid__social">
