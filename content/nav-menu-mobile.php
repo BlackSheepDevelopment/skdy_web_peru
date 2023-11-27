@@ -11,7 +11,7 @@
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
-                    <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">BLACK FRIDAY</a>
+                    <a href="https://skullcandy.com.pe/shop/ofertas" class="header header-ofertas">OFERTAS</a>
                 </article>
                 <article>
                     <a href="<?php echo get_permalink(wc_get_page_id( 'shop' )); ?>" class="header">TIENDA</a>

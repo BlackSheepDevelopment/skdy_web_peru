@@ -34,7 +34,7 @@
                 </li>
                 <li>
                     <a href="https://skullcandy.com.pe/shop/ofertas/">
-                        <span>BLACK FRIDAY</span>
+                        <span>OFERTAS</span>
                     </a>
                 </li>
                 <li data-menu="mega-menu-inside">

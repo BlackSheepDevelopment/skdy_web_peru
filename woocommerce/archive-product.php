@@ -49,8 +49,8 @@ do_action( 'woocommerce_before_main_content' );
 <div class="main-shop__banner">
 	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
 	<div class="main-shop__text"> 
-		<p class="main-shop__title">Llegó el BLACK FRIDAY a Skullcandy</p>
-		<p class="main-shop__subtitle">Válido hasta agotar stock - máximo 20 unds</p>
+		<p class="main-shop__title">Siente la música al máxixo</p>
+		<!-- <p class="main-shop__subtitle">Válido hasta agotar stock - máximo 20 unds</p> -->
 	</div>
 
 </div>
@@ -87,7 +87,7 @@ do_action( 'woocommerce_before_main_content' );
 			<div class="filter-categories__title">Categorías</div>
 			<div class="filter-categories__options">
 				<button class="filter__section__button" id="">Todo</button>
-				<button class="filter__section__button filter__section__button--ofertas " id="ofertas">BLACK FRIDAY</button>
+				<button class="filter__section__button filter__section__button--ofertas " id="ofertas">OFERTAS</button>
 				<button class="filter__section__button" id="packs">Packs</button>
 				<button class="filter__section__button" id="true-wireless">True Wireless</button>
 				<button class="filter__section__button" id="headphones">Headphones</button>
