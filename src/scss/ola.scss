@@ -4,6 +4,9 @@
     position: relative;
     background-color: #EFEBD2;
     z-index: -10;
+    @media (max-width: 768px) {
+        height: 100vh;
+    }
 }
 
 .main-banner__logo{
@@ -20,6 +23,11 @@
 
 .main-banner__bg{
     width: 100%!important;
+    @media (max-width: 768px) {
+        object-fit: cover;
+        height: 80%!important;
+        object-position: -50px 0;
+    }
 }
 
 
