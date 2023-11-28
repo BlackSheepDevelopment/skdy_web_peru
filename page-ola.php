@@ -11,21 +11,21 @@ get_header(); ?>
         <div class="winner-banner__prizes">
             
             <div class="winner-banner__prizes__item">
-                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_WINNER_FIRST.webp' ?>"/>
+                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_1.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Primer Puesto</p>
                     <p class="winner-banner__prizes__item__text__title">Hesh Evo</p>
                 </div>
             </div>
             <div class="winner-banner__prizes__item">
-                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_WINNER_SECOND.webp' ?>"/>
+                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_2.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Segundo Puesto</p>
                     <p class="winner-banner__prizes__item__text__title">Smokin' Buds</p>
                 </div>
             </div>
             <div class="winner-banner__prizes__item">
-                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_WINNER_THIRD.webp' ?>"/>
+                <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_3.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Tercer Puesto</p>
                     <p class="winner-banner__prizes__item__text__title">Dime</p>
