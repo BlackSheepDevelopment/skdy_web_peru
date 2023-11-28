@@ -68,7 +68,7 @@ get_header();
                             <p class="home-title">¡Accesorios gratis y descuentos de hasta 40%!</p>
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
+                                <a href="https://skullcandy.com.pe/shop/ofertas/" class="home-title__button" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Compra ahora</a>
                             </div>
                     </div>
                     <!-- <div class="home-info">
