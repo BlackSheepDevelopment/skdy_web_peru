@@ -64,6 +64,7 @@ $(".filter__section__button").on("click", function (event) {
 
 // filter-categories__options
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 // post-171520
 // 173942
@@ -78,15 +79,3 @@ $(".filter__section__button").on("click", function (event) {
 //         $(".post-173942").hide();
 //     }
 // }, false);
-=======
-$(document).ready(function () {
-    // create a countdown timer and create div containers inside a div container with id timer
-    var countDownDate = new Date("Nov 24, 2023 23:00:00").getTime();
-    // If the current hour more than 5, hide an element with class post-171520 and post-173942
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    if (distance < 0) {
-        $(".post-162068").hide();
-    }
-}, false);
->>>>>>> Add countdown timer and hide element if distance
