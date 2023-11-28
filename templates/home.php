@@ -65,6 +65,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <!-- <p class="home-title home-title--bold">Olas de Cambio</p> -->
                             <img class="home-title__image home-title--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/>
                             <p class="home-title">¡Comparte con nosotros tu mejor ola!</p>
+                            
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a href="https://skullcandy.com.pe/ola" class="home-title__button">Conoce más</a>
