@@ -2,7 +2,7 @@
 
 .main-banner{
     position: relative;
-    background-color: #C1E2F7;
+    background-color: #EFEBD2;
     z-index: -10;
 }
 
@@ -20,15 +20,16 @@
 
 
 .winners-banner{
-    background-color: #C1E2F7;
-    padding: 0 12.5%;
-    margin-top: -150px;
+    background-color: #EFEBD2;
+    padding: 50px 12.5%;
     @media (max-width: 768px) {
         margin-top: -50px;
     }
 }
 
+
 .winners-banner__title{
+    color: #692d06;
     font-size: 2.3rem;
     margin-bottom: 50px;
     text-align: center;
@@ -52,7 +53,14 @@
     }
 }
 
+.winner-banner__prizes__item__img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+
+}
+
 .winner-banner__prizes__item{
+    border-radius: 0 0 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -7,28 +7,28 @@ get_header(); ?>
         <img class="main-banner__bg" src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_LAOLA.png' ?>" alt="skullcandy-ola"/>
     </div>
     <div class="winners-banner">
-        <h1 class="winners-banner__title">Manda tu mejor ola y gánate unos Skullcandy</h1>
+        <h1 class="winners-banner__title">¡Manda tu mejor ola y gánate estos premios!</h1>
         <div class="winner-banner__prizes">
             
             <div class="winner-banner__prizes__item">
                 <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_1.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Primer Puesto</p>
-                    <p class="winner-banner__prizes__item__text__title">Hesh Evo</p>
+                    <p class="winner-banner__prizes__item__text__title">Tabla TWO HAPPY + Dime XT</p>
                 </div>
             </div>
             <div class="winner-banner__prizes__item">
                 <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_2.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Segundo Puesto</p>
-                    <p class="winner-banner__prizes__item__text__title">Smokin' Buds</p>
+                    <p class="winner-banner__prizes__item__text__title">Quilla Jeremy Flores + Dime XT</p>
                 </div>
             </div>
             <div class="winner-banner__prizes__item">
                 <img class="winner-banner__prizes__item__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PREMIO_3.png' ?>"/>
                 <div class="winner-banner__prizes__item__text">
                     <p class="winner-banner__prizes__item__text__subtitle">Tercer Puesto</p>
-                    <p class="winner-banner__prizes__item__text__title">Dime</p>
+                    <p class="winner-banner__prizes__item__text__title">Pita Freedom Helix + Dime XT </p>
                 </div>
             </div>
         </div>
