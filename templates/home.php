@@ -4,19 +4,17 @@ set_query_var( 'ENTRY', 'home' );
 
 get_header();
 
-//$shop_notice = get_field( 'shop_notice', 'general' );
-//if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
-
-<?php  // endif; ?>
+$shop_notice = get_field( 'shop_notice', 'general' );
+if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
+    <div class="shop-notice">
+        <a <?php if ( $shop_notice['link'] ): ?>href="<?php echo $shop_notice['link'] ?>" <?php endif; ?>>
+            <?php  echo $shop_notice['text'] ?>
+        </a>
+        <!-- <p class="shop-notice__text">SOLO QUEDAN</p> -->
+        <!-- <div id="timer"></div> -->
+    </div>
+<?php  endif; ?>
     <div class="main-container">
-
-        <div class="shop-notice">
-            <!-- <a <?php //if ( $shop_notice['link'] ): ?>href="<?php //echo $shop_notice['link'] ?>" <?php //endif; ?>>
-                <?php  //echo $shop_notice['text'] ?>
-            </a> -->
-            <!-- <p class="shop-notice__text">SOLO QUEDAN</p> -->
-            <!-- <div id="timer"></div> -->
-        </div>
 
         <div class="home-grid__social">
             <a class="home-grid__social__item" href="https://www.facebook.com/skullcandy.pe/?locale=es_LA" target="_blank"> 

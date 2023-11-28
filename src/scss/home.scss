@@ -8,14 +8,14 @@
 }
 
 .shop-notice {
-  position: absolute;
-  top: 1%;
-  left: 50%;
+  // position: absolute;
+  // top: 1%;
+  // left: 50%;
   transform: translate(-51%, -50%);
   padding: .3rem .75rem .5rem;
   text-align: center;
   border-top: 1px solid #2c2c2d;
-  background-color: #fb221f;
+  // background-color: #fb221f;
   z-index: 10;
 
   a {
@@ -68,7 +68,7 @@
 .home-info{
   position: absolute;
   top: 8%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
   @media (max-width:1280px){
     top: 10%;
@@ -1050,8 +1050,8 @@
 .home-grid__social{
   z-index: 99;
   position: absolute;
-  top: 45%;
-  left: 1%;
+  top: 5%;
+  left: 3%;
   display: flex;
   flex-direction: column;
   gap:10px;
