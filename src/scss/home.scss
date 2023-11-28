@@ -68,7 +68,7 @@
 .home-info{
   position: absolute;
   top: 8%;
-  left: 30%;
+  left: 40%;
   transform: translate(-50%, -50%);
   @media (max-width:1280px){
     top: 10%;
@@ -153,6 +153,7 @@
 
 .home-title--desktop{
   display: block;
+
   @media (max-width: 1280px) {
     display: none;
   }
@@ -209,9 +210,10 @@
   transition: 0.3s;
 }
 
-// .home-title__image{
-  // padding-top: 250px;
-// }
+.home-title__image{
+  width: 50%;
+  margin-left: -30px;
+}
 
 // FEATURED
 
