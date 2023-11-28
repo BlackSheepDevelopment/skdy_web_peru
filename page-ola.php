@@ -4,8 +4,7 @@ get_header(); ?>
 
 <main class="main">
     <div class="main-banner">
-        <img class="main-banner__bg" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_BANNER_MAIN.webp' ?>" alt="skullcandy-ola"/>
-        <img class="main-banner__logo" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLA_LOGO.png' ?>"  />
+        <img class="main-banner__bg" src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_LAOLA.png' ?>" alt="skullcandy-ola"/>
     </div>
     <div class="winners-banner">
         <h1 class="winners-banner__title">Manda tu mejor ola y gánate unos Skullcandy</h1>
