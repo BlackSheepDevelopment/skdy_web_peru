@@ -62,7 +62,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <video class="home-grid__picture" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture>
                     <div class="home-info">
-                            <p class="home-title home-title--bold">Olas de Cambio</p>
+                            <!-- <p class="home-title home-title--bold">Olas de Cambio</p> -->
+                            <img class="home-title__image home-title--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO.mp4'?>"/>
                             <p class="home-title">¡Comparte con nosotros tu mejor ola!</p>
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
