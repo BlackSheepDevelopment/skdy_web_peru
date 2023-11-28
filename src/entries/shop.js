@@ -66,8 +66,11 @@ $(".filter__section__button").on("click", function (event) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Add countdown timer and hide element if distance
+=======
+>>>>>>> 39a92003e11522580a6ef485747d2cccf5b6d907
 
 // post-171520
 // 173942
@@ -84,8 +87,11 @@ $(".filter__section__button").on("click", function (event) {
 // }, false);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Add countdown timer and hide element if distance
+=======
+>>>>>>> 39a92003e11522580a6ef485747d2cccf5b6d907
 =======
 >>>>>>> Add countdown timer and hide element if distance
 $(document).ready(function () {
@@ -100,8 +106,13 @@ $(document).ready(function () {
 }, false);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Add countdown timer and hide element if distance
 =======
 =======
 >>>>>>> Add countdown timer and hide element if distance
+=======
+>>>>>>> Add countdown timer and hide element if distance
+=======
+>>>>>>> 39a92003e11522580a6ef485747d2cccf5b6d907
 >>>>>>> Add countdown timer and hide element if distance
