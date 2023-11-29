@@ -60,10 +60,10 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                     <picture class="home-grid__video">
                         <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN.mp4 ' ?>" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.png ' ?>" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.mp4 ' ?>" autoplay muted loop playsinline> </video>
                     </picture>
                     <!-- <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture> -->
                     <div class="home-info">
                             <p class="home-title home-title--bold">Nueva Generación</p>
