@@ -59,16 +59,20 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture> -->
 
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN.mp4 ' ?>" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.png ' ?>" autoplay muted loop playsinline> </video>
                     </picture>
+                    <!-- <picture class="home-grid__video">
+                        <video class="home-grid__picture" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
+                    </picture> -->
                     <div class="home-info">
-                            <!-- <p class="home-title home-title--bold">Olas de Cambio</p> -->
-                            <img class="home-title__image home-title--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/>
-                            <p class="home-title">¡Comparte con nosotros tu mejor ola!</p>
+                            <p class="home-title home-title--bold">Nueva Generación</p>
+                            <!-- <img class="home-title__image home-title--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/> -->
+                            <p class="home-title">Smokin' Buds</p>
 
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a href="https://skullcandy.com.pe/ola" class="home-title__button">Conoce más</a>
+                                <a href="https://skullcandy.com.pe/ola" class="home-title__button">Compra ahora</a>
                             </div>
                     </div>
                     <!-- <div class="home-info">
@@ -142,7 +146,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <div class="shop-features__container">
                     <svg  width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                     <div class="shop-features__container__info">
-                        <p class="shop-features__container__info__title">Servicio al cliente y asesoría personalizada vía WhatsApp</p>
+                        <p class="shop-features__container__info__title">Servicio técnico y asesoría personalizada vía WhatsApp</p>
                     </div>
                 </div>
                 <div class="shop-features__container">
