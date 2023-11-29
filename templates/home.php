@@ -72,7 +72,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a href="https://skullcandy.com.pe/ola" class="home-title__button">Compra ahora</a>
+                                <a href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/" class="home-title__button">Compra ahora</a>
                             </div>
                     </div>
                     <!-- <div class="home-info">
@@ -220,13 +220,13 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 <div class="enterate__container__item">
                     <picture class="enterate__container__item__picture">
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_OFERTAS_CROPPED.png" alt="skullcandy_enterate_2"
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/SQUARE_OLAS_DE_CAMBIO1.png ' ?>" alt="skullcandy_enterate_2"
                             class="enterate__container__item__picture__image">
                     </picture>
                     <div class="enterate__container__info">
-                        <div class="enterate__container__item__title">¡Envío a toda parte del Perú!</div>
-                        <div class="enterate__container__item__subtitle">Compra tus audífonos o packs y te lo envíamos en donde sea que estés.</div>
-                        <a class="enterate__container__item__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">Entérate más</a>
+                        <div class="enterate__container__item__title">Olas de cambio</div>
+                        <div class="enterate__container__item__subtitle">¡Cuéntanos sobre tu ola memorable y gana premios!</div>
+                        <a class="enterate__container__item__button" href="https://skullcandy.com.pe/ola">Entérate más</a>
                     </div>
                 </div>
 
