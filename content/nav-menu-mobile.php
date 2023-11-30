@@ -6,7 +6,7 @@
                     <a href="<?php echo get_home_url() ?>" class="header">Inicio</a>
                 </article>
                 <article>
-                    <a href="http://wa.link/2cw81s" target="_blank"" class="header">COMPRA DIRECTA</a>
+                    <a href="https://wa.me/51986274865" target="_blank"" class="header">COMPRA DIRECTA</a>
                 </article>
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
