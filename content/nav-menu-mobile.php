@@ -5,9 +5,9 @@
                 <article>
                     <a href="<?php echo get_home_url() ?>" class="header">Inicio</a>
                 </article>
-                <article>
+                <!-- <article>
                     <a href="https://wa.me/51986274865" target="_blank"" class="header">COMPRA DIRECTA</a>
-                </article>
+                </article> -->
                 <article>
                     <?php $ofertas_page = get_page_by_title( 'Ofertas' );
                           $ofertas_id = $ofertas_page -> ID; ?>
