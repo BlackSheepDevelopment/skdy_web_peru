@@ -37,7 +37,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
 
         <div id="home-grid">
-            <!-- <button class="home-grid__prev">
+            <button class="home-grid__prev">
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,12H0Z" transform="translate(0 16) rotate(-90)"/>
                 </svg>
@@ -48,7 +48,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <svg class="home-grid__arrow__img" xmlns="http://www.w3.org/2000/svg" width="16" height="64" viewBox="0 0 12 12">
                     <path id="Polygon_1" data-name="Polygon 1" d="M8,0l8,12H0Z" transform="translate(12) rotate(90)"/>
                 </svg>  
-            </button> -->
+            </button>
 
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
@@ -80,21 +80,25 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </div> -->
                 </div>
 
-                <!-- <div>
+                <div>
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_SMOKIN_MOVIL.mp4" autoplay muted loop playsinline> </video>
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
+                                    alt="mobile-main-banner">
                     </picture>
 
                     <div class="home-info">
-                            <p class="home-title home-title--bold ">SMOKIN' BUDS</p>
-                            <p class="home-title home-title home-title--desktop">Estilo, potencia y calidad.</p>
-                            <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
+                            <p class="home-title home-title--bold">¡Aprovecha Navidad!</p>
+                            <!-- <img class="home-title__image home-title--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/> -->
+                            <p class="home-title">Descubre nuestras nuevas ofertas</p>
+
+                            <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/">¡Compralos ya!</a>
+                                <a href="https://skullcandy.com.pe/shop" class="home-title__button">¡Compra ya!</a>
                             </div>
                     </div>
-                </div> -->
+
+                </div>
 
                 <!-- <div>
                     <picture class="home-grid__video">
