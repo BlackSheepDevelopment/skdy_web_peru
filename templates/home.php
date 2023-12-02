@@ -80,25 +80,23 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </div> -->
                 </div>
 
-                <div>
+                <!-- <div>
                     <picture class="home-grid__video">
-                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
+                            <source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
                                     alt="mobile-main-banner">
                     </picture>
 
                     <div class="home-info">
                             <p class="home-title home-title--bold">¡Aprovecha Navidad!</p>
-                            <!-- <img class="home-title__image home-title--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/> -->
                             <p class="home-title">Descubre nuestras nuevas ofertas</p>
 
-                            <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a href="https://skullcandy.com.pe/shop" class="home-title__button">¡Compra ya!</a>
                             </div>
                     </div>
 
-                </div>
+                </div> -->
 
                 <!-- <div>
                     <picture class="home-grid__video">
