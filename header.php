@@ -27,11 +27,11 @@
                         <span><?php echo get_the_title( wc_get_page_id( 'shop' ) ) ?></span>
                     </a>
                 </li>
-                <!-- <li>
+                <li>
                     <a href="https://wa.me/51986274865" target="_blank">
                         <span>COMPRA DIRECTA</span>
                     </a>
-                </li> -->
+                </li>
                 <li>
                     <a href="https://skullcandy.com.pe/shop/ofertas/">
                         <span>OFERTAS</span>
