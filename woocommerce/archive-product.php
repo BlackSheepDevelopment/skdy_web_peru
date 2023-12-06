@@ -47,11 +47,11 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 
 <div class="main-shop__banner">
-	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
-	<div class="main-shop__text"> 
-		<p class="main-shop__title">Siente la música al máximo</p>
+	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>"/>
+	<!-- <div class="main-shop__text">  -->
+		<!-- <p class="main-shop__title">Siente la música al máximo</p> -->
 		<!-- <p class="main-shop__subtitle">Válido hasta agotar stock - máximo 20 unds</p> -->
-	</div>
+	<!-- </div> -->
 
 </div>
 
@@ -107,19 +107,18 @@ do_action( 'woocommerce_before_main_content' );
 
 	<div class="shop-store">
 		<div class="filter-categories__title">Productos</div>
-		<div class="banners">
+		<!-- <div class="banners">
 			<picture class="shop_banner">
-				<source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>" media="(min-width: 758px)"/>
-				<img src="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_POPUP.png' ?>"
+				<source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>" media="(min-width: 758px)"/>
+				<img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>"
 							alt="mobile-main-banner">
 			</picture>
-			<div>hola</div>
-			<!-- <picture class="shop_banner shop_banner--envio">
+			<picture class="shop_banner shop_banner--envio">
 				<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS.png" media="(min-width: 758px)"/>
 				<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS_MOV.png"
 							alt="mobile-main-banner">
-			</picture> -->
-		</div>
+			</picture>
+		</div> -->
 
 
 		<?php
