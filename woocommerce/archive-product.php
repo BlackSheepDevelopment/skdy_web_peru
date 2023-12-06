@@ -113,6 +113,7 @@ do_action( 'woocommerce_before_main_content' );
 				<img src="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>"
 							alt="mobile-main-banner">
 			</picture>
+			<div>hola</div>
 			<!-- <picture class="shop_banner shop_banner--envio">
 				<source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS.png" media="(min-width: 758px)"/>
 				<img src="<?php #echo get_template_directory_uri() ?>/src/assets/BANNER_ENVIOS_MOV.png"
