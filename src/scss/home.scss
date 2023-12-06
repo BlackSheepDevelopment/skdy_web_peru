@@ -844,12 +844,12 @@
 
 .home-popup-image__close{
   position: absolute;
-  top: 0;
-  right: 10%;
-  color: white;
+  top: -2%;
+  right: 2%;
+  color: black;
   background-color: transparent;
   border:none;
-  font-size: 3rem;
+  font-size: 3.5rem;
   cursor: pointer;
   @media (max-width: 1280px) {
     font-size: 2rem;
