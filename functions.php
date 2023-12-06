@@ -336,7 +336,7 @@ function product_header_title() {
     </div>
 <?php }
 
-// add_action( 'woocommerce_single_product_summary', 'variation_grid', 25 );
+add_action( 'woocommerce_single_product_summary', 'variation_grid', 25 );
 function variation_grid() {
 	global $product;
 
