@@ -108,7 +108,7 @@ do_action( 'woocommerce_before_main_content' );
 	<div class="shop-store">
 		<div class="filter-categories__title">Productos</div>
 		<div class="banners">
-			<picture class="shop_banner shop_banner--compras">
+			<picture class="shop_banner">
 				<source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_POPUP.png' ?>" media="(min-width: 758px)"/>
 				<img src="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_BANNER.png' ?>"
 							alt="mobile-main-banner">
