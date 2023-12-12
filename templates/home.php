@@ -52,27 +52,27 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
             <div class="home-picture" id="skullcandy-peru-container">               
                 <div>
-                    <!-- <picture class="home-grid__video">
-                            <source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
-                                    alt="mobile-main-banner">
-                    </picture> -->
-
                     <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN.mp4 ' ?>" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.mp4 ' ?>" autoplay muted loop playsinline> </video>
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_MOV.png' ?>"
+                                    alt="mobile-main-banner">
                     </picture>
+
+                    <!-- <picture class="home-grid__video">
+                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN.mp4 ' ?>" autoplay muted loop playsinline> </video>
+                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.mp4 ' ?>" autoplay muted loop playsinline> </video>
+                    </picture> -->
                     <!-- <picture class="home-grid__video">
                         <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
                     </picture> -->
                     <div class="home-info">
-                            <p class="home-title home-title--bold">Nueva Generación</p>
+                            <p class="home-title home-title--bold">CELEBRANDO EL ANIVERSARIO</p>
                             <!-- <img class="home-title__image home-title--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/> -->
-                            <p class="home-title">Smokin' Buds</p>
+                            <p class="home-title">PLYR® Gaming Headset - Edición Tortugas Ninja</p>
 
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/" class="home-title__button">Compra ahora</a>
+                                <a href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/" class="home-title__button">RESÉRVALO AQUÍ</a>
                             </div>
                     </div>
                     <!-- <div class="home-info">
