@@ -80,23 +80,23 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </div> -->
                 </div>
 
-                <!-- <div>
+                <div>
                     <picture class="home-grid__video">
-                            <source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_TURTLES.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/HOME_PAGE_MOBILE.png' ?>"
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_MOV.png' ?>"
                                     alt="mobile-main-banner">
                     </picture>
 
                     <div class="home-info">
-                            <p class="home-title home-title--bold">¡Aprovecha Navidad!</p>
-                            <p class="home-title">Descubre nuestras nuevas ofertas</p>
+                            <p class="home-title home-title--bold">Edición Limitada - Transparency</p>
+                            <p class="home-title">Jib TW 2: Clear Green</p>
 
                             <div>
-                                <a href="https://skullcandy.com.pe/shop" class="home-title__button">¡Compra ya!</a>
+                                <a href="https://skullcandy.com.pe/shop" class="home-title__button">¡Cómpralo con regalo!</a>
                             </div>
                     </div>
 
-                </div> -->
+                </div>
 
                 <!-- <div>
                     <picture class="home-grid__video">
