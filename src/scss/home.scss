@@ -91,26 +91,33 @@
   padding: 0px 30px;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 10%;
   background-color: transparent;
   border: none;
   margin: 0;
   border: none;
   cursor: pointer;
   z-index: 99;
+
+  @media (max-width: 1280px) {
+    top: 5%;
+  }
 }
 
 .home-grid__next{
   padding: 0px 30px;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 10%;
   background-color: transparent;
   border: none;
   margin: 0;
   border: none;
   cursor: pointer;
   z-index: 99;
+  @media (max-width: 1280px) {
+    top: 5%;
+  }
 
 }
 
@@ -1052,7 +1059,7 @@
 .home-grid__social{
   z-index: 99;
   position: absolute;
-  top: 5%;
+  top: 2%;
   left: 3%;
   display: flex;
   flex-direction: column;
