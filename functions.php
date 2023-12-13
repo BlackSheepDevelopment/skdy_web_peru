@@ -1160,16 +1160,17 @@ function add_presale(){
 				¡RESERVA AQUÍ¡
 			</button>
 
+
 			<div class="popup__presale">
 				<div class="popup__presale__content">
-					<div class="popup__presale__content__close">
-						<img src="<?php echo get_template_directory_uri() ?>/assets/images/close.svg" alt="">
-					</div>
+					<button id="popup__presale__close">&times;</button>
 					<div class="popup__presale__content__title">
 						¡RESERVA AQUÍ!
 					</div>
 					<div class="popup__presale__content__text">
-						<p>¡Gracias por tu interés en nuestros productos! <br> Déjanos tus datos y te contactaremos para que puedas realizar tu compra.</p>
+						<p>¡Gracias por tu interés en el nuevo PLYR - Edición Tortugas Ninjas! 
+							<br> Déjanos tus datos y te contactaremos para que puedas realizar tu compra.
+						</p>
 					</div>
 					<div class="popup__presale__content__form">
 						<?php echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT - PLYR"]'); ?>

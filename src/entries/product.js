@@ -138,4 +138,8 @@ $(document).ready(function () {
     $("#presale__button").click(function () {
         $(".popup__presale").show();
     });
+
+    $("#popup__presale__close").click(function () {
+        $(".popup__presale").hide();
+    });
 });
