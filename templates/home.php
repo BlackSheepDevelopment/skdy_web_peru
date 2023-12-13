@@ -82,8 +82,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 <div class="home-picture__container">
                     <picture class="home-grid__video">
-                            <source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_MOV.png' ?>"
+                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/JIB_BANNER_MOV.png' ?>"
                                     alt="mobile-main-banner">
                     </picture>
 
