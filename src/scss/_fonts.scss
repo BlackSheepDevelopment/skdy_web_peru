@@ -1,16 +1,19 @@
 @font-face {
   font-family: 'Helvetica Neue LT Bulk Pro';
   font-weight: normal;
+  font-weight: 500;
+  font-display: swap;
   src: url(../fonts/HelveticaNeueLTProBlkEx.otf), format('otf');
 }
 
-// @font-face {
-//   font-family: 'Helvetica Neue LT Pro';
-//   font-style: normal;
-//   font-weight: 500;
-//   font-display: swap;
-//   src: local('Helvetica Neue LT Pro'), url('../fonts/HelveticaNeueLTProEx.otf') format('otf');
-// }
+@font-face {
+  font-family: 'Helvetica Neue LT Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/HelveticaNeueLTProEx.otf), format('otf');
+}
+
 
 
 @font-face {
