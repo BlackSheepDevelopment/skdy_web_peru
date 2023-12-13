@@ -1147,3 +1147,14 @@ function save_custom_user_fields( $user_id ) {
     update_user_meta( $user_id, 'partner_recieve_lastname', sanitize_text_field( $_POST['partner_recieve_lastname'] ) );
     update_user_meta( $user_id, 'partner_recieve_id', absint( $_POST['partner_recieve_id'] ) );
 }
+
+
+add_action("woocommerce_after_add_to_cart_form","add_presale",10); 
+function add_presale(){
+	// Check if product is speficic id
+	global $product;
+	$product_id = $product->get_id();
+	if($product_id == 180571){
+		echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT - PLYR"]');
+	}
+}
