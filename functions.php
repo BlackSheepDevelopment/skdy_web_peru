@@ -1173,7 +1173,7 @@ function add_presale(){
 						</p>
 					</div>
 					<div class="popup__presale__content__form">
-						<?php echo do_shortcode('[contact-form-7 id="178412" title="Ola SKDY"]'); ?>
+						<?php echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT"]'); ?>
 					</div>
 				</div>
 			</div>
