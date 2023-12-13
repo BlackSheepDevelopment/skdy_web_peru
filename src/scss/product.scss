@@ -1408,15 +1408,16 @@ body.layout-2 {
   #popup__presale__close{
     position: absolute;
     background-color: black;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
     font-size: 1.5rem;
     font-weight: 700;
     cursor: pointer;
     color: white;
+    margin-bottom: 15px;
     @media (max-width: 768px) {
-      top: 5px;
-      right: 5px;
+      top: 10px;
+      right: 10px;
     }
   }
 
@@ -1439,12 +1440,9 @@ body.layout-2 {
   z-index: 1000;
 
   @media (max-width: 768px) {
-    width: 300px;
+    width: 85%
   }
 
-  @media (max-width: 500px) {
-    width: 250px;
-  }
 
   .popup__presale__content__title{
     font-size: 1.5rem;
