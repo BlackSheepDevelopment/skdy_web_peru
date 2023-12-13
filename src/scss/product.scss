@@ -1396,3 +1396,72 @@ body.layout-2 {
     margin-top: 0%!important;
   }
 }
+
+#presale__button{
+  display: block;
+  @include btn(#000, #ededed, #ddd);
+}
+
+.popup__presale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (max-width: 500px) {
+    width: 250px;
+    height: 250px;
+  }
+
+  .popup__presale__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    @media (max-width: 768px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .popup__presale__text{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    @media (max-width: 768px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  .popup__presale__button{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+}

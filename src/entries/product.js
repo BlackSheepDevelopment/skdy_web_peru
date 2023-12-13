@@ -133,4 +133,9 @@ $(document).ready(function () {
     if ($(".list-swatches").length !== 0) {
         $("#cuotealo-available-product").addClass("list-swatches-cuotealo");
     }
+
+    // when #presale__button is click, show popup__presale
+    $("#presale__button").click(function () {
+        $("#popup__presale").show();
+    });
 });

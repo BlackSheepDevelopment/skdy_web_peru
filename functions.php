@@ -1155,6 +1155,30 @@ function add_presale(){
 	global $product;
 	$product_id = $product->get_id();
 	if($product_id == 180292){
+		?>
+			<button id="presale__button">
+				¡RESERVA AQUÍ¡
+			</button>
+
+			<div class="popup__presale">
+				<div class="popup__presale__content">
+					<div class="popup__presale__content__close">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/close.svg" alt="">
+					</div>
+					<div class="popup__presale__content__title">
+						¡RESERVA AQUÍ!
+					</div>
+					<div class="popup__presale__content__text">
+						<p>¡Gracias por tu interés en nuestros productos! <br> Déjanos tus datos y te contactaremos para que puedas realizar tu compra.</p>
+					</div>
+					<div class="popup__presale__content__form">
+						<?php echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT - PLYR"]'); ?>
+					</div>
+				</div>
+			</div>
+
+		<?php
+
 		echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT - PLYR"]');
 	}
 }
