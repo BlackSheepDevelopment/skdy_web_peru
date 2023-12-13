@@ -1,17 +1,17 @@
 @font-face {
-  font-family: HelveticaBLKEX;
+  font-family: 'Helvetica BLKEX';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/HelveticaNeueLTProBlkEx.otf') format('otf');
+  src: local('Helvetica BLKEX'), url('http://dev.skullcandy.com.pe/wp-content/themes/skdy_web_peru/src/fonts/HelveticaNeueLTProBlkEx.otf') format('otf');
 }
 
 @font-face {
-  font-family: HelveticaBL;
+  font-family: 'Helvetica BL';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/HelveticaNeueLTProEx.otf') format('otf');
+  src: local('Helvetica BL'), url('../fonts/HelveticaNeueLTProEx.otf') format('otf');
 }
 
 
