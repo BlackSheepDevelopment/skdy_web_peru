@@ -77,7 +77,8 @@ module.exports = function (env) {
                         loader: "url-loader",
                         options: {
                             limit: 40000,
-                            name: "./fonts/[name].[ext]",
+                            name: "[name].[ext]",
+                            outputPath: "fonts/",
                         },
                     },
                 },
