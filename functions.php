@@ -1154,7 +1154,7 @@ function add_presale(){
 	// Check if product is speficic id
 	global $product;
 	$product_id = $product->get_id();
-	if($product_id == 180571){
+	if($product_id == 180292){
 		echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT - PLYR"]');
 	}
 }
