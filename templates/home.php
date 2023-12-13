@@ -72,7 +72,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                             <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
-                                <a href="https://skullcandy.com.pe/producto/smokin-buds-true-wireless-eardbuds/" class="home-title__button">RESÉRVALO AQUÍ</a>
+                                <a href="https://skullcandy.com.pe/producto/tmnt-plyr/" class="home-title__button">RESÉRVALO AQUÍ</a>
                             </div>
                     </div>
                     <!-- <div class="home-info">
@@ -92,7 +92,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <p class="home-title">Jib TW 2: Clear Green</p>
 
                             <div>
-                                <a href="https://skullcandy.com.pe/shop" class="home-title__button">¡Cómpralo con regalo!</a>
+                                <a href="https://skullcandy.com.pe/shop/ofertas/" class="home-title__button">¡Cómpralo con regalo!</a>
                             </div>
                     </div>
 
