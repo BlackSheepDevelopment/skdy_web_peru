@@ -1169,7 +1169,7 @@ function add_presale(){
 					</div>
 					<div class="popup__presale__content__text">
 						<p>¡Gracias por tu interés en el nuevo PLYR - Edición Tortugas Ninjas! 
-							<br> Déjanos tus datos y te contactaremos para que puedas realizar tu compra.
+							Déjanos tus datos y te contactaremos para que puedas realizar tu compra.
 						</p>
 					</div>
 					<div class="popup__presale__content__form">
