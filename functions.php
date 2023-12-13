@@ -1168,9 +1168,9 @@ function add_presale(){
 						¡RESERVA AQUÍ!
 					</div>
 					<div class="popup__presale__content__text">
-						<p>¡Gracias por tu interés en el nuevo PLYR - Edición Tortugas Ninjas! 
+						¡Gracias por tu interés en el nuevo PLYR - Edición Tortugas Ninjas! 
 							Déjanos tus datos y te contactaremos para que puedas realizar tu compra.
-						</p>
+						
 					</div>
 					<div class="popup__presale__content__form">
 						<?php echo do_shortcode('[contact-form-7 id="180571" title="Preventa TNMT"]'); ?>
