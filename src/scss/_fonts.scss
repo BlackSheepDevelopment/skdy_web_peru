@@ -1,4 +1,21 @@
 @font-face {
+  font-family: 'Helvetica BLKEX';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Helvetica BLKEX'), url('../fonts/HelveticaNeueLTProBlkEx.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica BL';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Helvetica BL'), url('../fonts/HelveticaNeueLTProEx.otf') format('otf');
+}
+
+
+@font-face {
   font-family: 'Helvetica Neue LT';
   font-style: normal;
   font-weight: 100;
