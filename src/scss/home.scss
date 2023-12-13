@@ -66,14 +66,16 @@
 // }
 
 .home-info{
-  width: 45%;
-  // position: absolute;
-  // top: 8%;
-  // left: 25%;
-  transform: translate(20%, -200%);
+  max-width: 600px;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: translate(50%, 20%);
   @media (max-width:1280px){
-    top: 10%;
-    left: 50%;
+    top: 0%;
+    left: 0%;
+    transform: translate(10%, 50%);
   }
 }
 
@@ -125,6 +127,10 @@
 .home-grid__arrow__img{
   width: 30px;
   fill: white;
+}
+
+.home-picture__container{
+  position: relative;
 }
 
 .home-title{
