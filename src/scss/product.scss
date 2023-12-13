@@ -1404,6 +1404,22 @@ body.layout-2 {
 }
 
 .popup__presale{
+
+  #popup__presale__close{
+    position: absolute;
+    background-color: black;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    @media (max-width: 768px) {
+      top: 5px;
+      right: 5px;
+    }
+  }
+
   font-family: 'Helvetica Neue LT Pro';
   display: none;
   // display: flex;
@@ -1416,7 +1432,6 @@ body.layout-2 {
   color:white;
   border-radius: 20px;
   width: 400px;
-  height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1425,12 +1440,10 @@ body.layout-2 {
 
   @media (max-width: 768px) {
     width: 300px;
-    height: 300px;
   }
 
   @media (max-width: 500px) {
     width: 250px;
-    height: 250px;
   }
 
   .popup__presale__content__title{
@@ -1446,32 +1459,16 @@ body.layout-2 {
     font-size: 1rem;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 15px;
     @media (max-width: 768px) {
       font-size: 0.8rem;
     }
   }
 
-  .popup__presale__button{
-    text-decoration: none;
-    font-size: 1rem;
-    padding: 10px 20px;
-    color: white;
-    background-color: black;
-    border-radius: 20px;
-    border: 0px;
-    font-weight: 700;
-    border: 1px solid #000;
-    text-align: center;
-    cursor: pointer;
-    &:hover{
-      background-color: white;
-      color: black;
-    }
-  }
 }
 
 
-.forms_button{
+.forms__button{
   width: 70%;
   padding: 10px 20px;
   border-radius: 10px;
