@@ -1403,7 +1403,8 @@ body.layout-2 {
 }
 
 .popup__presale{
-  display: flex;
+  display: none;
+  // display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
