@@ -92,7 +92,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             <p class="home-title">Jib TW 2: Clear Green</p>
 
                             <div>
-                                <a href="https://skullcandy.com.pe/shop/ofertas/" class="home-title__button">¡Cómpralo con regalo!</a>
+                                <a href="https://skullcandy.com.pe/producto/jib-true-2-sidebag/" class="home-title__button">¡Cómpralo con regalo!</a>
                             </div>
                     </div>
 
