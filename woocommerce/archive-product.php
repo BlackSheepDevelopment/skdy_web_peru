@@ -49,8 +49,8 @@ do_action( 'woocommerce_before_main_content' );
 <div class="main-shop__banner">
 	<img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/>
 	<div class="main-shop__text"> 
-		<p class="main-shop__title">Recibe tu producto rápido. ¡Compra antes de las 4:00PM y recíbelo mañana!</p>
-		<p class="main-shop__subtitle">*Solo para Callao y Lima Metropolitana / Válido solo de Lunes a Jueves.</p>
+		<p class="main-shop__title">¡Regala Skullcandy esta Navidad!</p>
+		<!-- <p class="main-shop__subtitle">*Solo para Callao y Lima Metropolitana / Válido solo de Lunes a Jueves.</p> -->
 	</div>
 
 </div>
