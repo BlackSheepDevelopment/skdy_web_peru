@@ -11,7 +11,7 @@ get_header(); ?>
 
         <h1 class="envios-main__title">ENVÍOS</h1>
         <div class="envios-container">
-            <div class="envios-container__left">
+            <!-- <div class="envios-container__left">
                 <div class="envios-container__left__title">
                     Envío Rápido
                 </div>
@@ -31,21 +31,21 @@ get_header(); ?>
                     </ul>
 
                 </div>
-            </div>
+            </div> -->
             <div class="envios-container__right">
                 <div class="envios-container__right__title">
                     Envío Regular
                 </div>
                 <div class="envios-container__right__content">
-                    <p class="envios-container--first-check"><em>Envío Regular es seleccionado en caso Envío Rápido no esté disponible.</em></p>
-                    <p>- Puedes hacer seguimiento  <strong> un día</strong> después de realizada la compra en <a class="envios-container__content__more" href="https://tracking.ng.paquery.com/package">Chazqui</a> con el tracking SKDY_21_(#PEDIDO). Ejemplo: SKDY_21_15962</p>
+                    <p>- Puedes hacer seguimiento  <strong> un día</strong> después de realizada la compra en </p>
                     <p class="envios-container--important">Tiempo de Entrega</p>
                     <ul class="envio-container--list">
                         <li class=" ">
-                            - Lima Metropolitana: Entre 3 a 4 días hábiles mediante Chazki.
+                            - Lima Metropolitana: Entre 3 a 4 días hábiles mediante Prime.
+                            Consulta tu link de seguimiento en el correo de pedido enviado por Skullcandy.
                         </li>
                         <li class="envio-container--item">
-                            - Lima Provincias y Regiones: Entre 4 a 15 días hábiles mediante Olva Courrier.
+                            - Lima Provincias y Regiones: Se entregará entre 4 a 15 días hábiles (<strong><a href="https://wa.link/xfavry">Consúltanos por tu link de seguimiento</a></strong>).</p>
                         </li>
                     </ul>
                 </div>
