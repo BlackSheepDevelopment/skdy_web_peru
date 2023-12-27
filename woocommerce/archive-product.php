@@ -97,7 +97,7 @@ do_action( 'woocommerce_before_main_content' );
 			</div>
 		</div>
 		<div class="filter-buttons">
-			<a class="buy-button" href="https://wa.me/51986274865" target="_blank">Compra directa</a>
+			<a class="buy-button" href="https://wa.me/51974555080" target="_blank">Compra directa</a>
 		</div>
 		<div class="filter-buttons">
 			<a class="buy-button" href="https://www.wa.link/xfavry/" target="_blank">¡Reserva tu cita de experiencia!</a>

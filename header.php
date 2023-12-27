@@ -28,7 +28,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://wa.me/51986274865" target="_blank">
+                    <a href="https://wa.me/51974555080" target="_blank">
                         <span>COMPRA DIRECTA</span>
                     </a>
                 </li>
