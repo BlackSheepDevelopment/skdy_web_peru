@@ -54,9 +54,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 <?php 
                     if (have_rows("banners_grid")){
                         ?> <div> Hola como estas quiero probar algo</div>  <?php 
-                        while( have_rows('repeater_field_name') ){
+                        while( have_rows("banners_grid") ){
                             the_row();
-                            $sub_value = get_field('title');
+                            $sub_value = get_sub_field('banner_title');
                             ?> <div> <?php echo $sub_value ?> </div>  <?php 
                         } 
                     }
