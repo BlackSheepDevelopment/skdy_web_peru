@@ -52,13 +52,12 @@ do_action( 'woocommerce_before_main_content' );
         if ($image_banner){
 			?> <img class="main-shop__img" src="<?php echo $image_banner['url'] ?>"/> <?php
 		}
-		// else{
-		// 	?> <img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/> <?php
-		// }
+		else{
+			?> <img class="main-shop__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/BF_BANNER_SHOP.png' ?>"/> <?php
+		}
 		$text_banner = get_field('shop_text');
-		if ($text_banner !== ''){
+		if ($text_banner){
 			?> <div class="main-shop__text"> 
-				<p>HASODASJD HOLA COMO ESTAS</p>
 				<p class="main-shop__title"><?php echo esc_html($text_banner)?></p>
 			</div> <?php
 		}
