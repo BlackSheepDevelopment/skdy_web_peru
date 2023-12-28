@@ -58,6 +58,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             the_row();
                             $sub_value = get_sub_field('banner_title');
                             ?> <div> <?php echo $sub_value ?> </div>  <?php 
+                            ?> <div> habla en que estas </div>  <?php 
                         } 
                     }
                 ?>    
