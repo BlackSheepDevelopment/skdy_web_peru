@@ -30,14 +30,6 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <p> Hemos recibido tu pedido #<strong><?php printf( esc_html( $order->get_order_number() ) ); ?></strong></p>
 
 <div style="padding-bottom:10px">
-	<h2 style="padding:8px 0;">Si tu compra fue con:</h2>
-	<div style="padding:8px 0;; color:black">
-		<h3 style="font-size:0.9rem; color:black; margin:0 0 6px">Envío Rápido</h3>
-		<p style="margin:0 0 15px;">Lima Metropolitana y Callao: Se entregará entre 24 a 72 horas.</p>
-		<p style="margin:0 0 15px;">Otras regiones: Se entregará entre 4 a 15 días hábiles según tu <a style="color:black" href="https://skullcandy.com.pe/wp-content/uploads/2022/01/LEAD-TIME-A-NIVEL-NACIONAL.pdf">región.</a></p>
-		<a style="color:white; background-color:black; padding:8px 13px; text-decoration:none; margin:0 0 16px" href="https://www.savarexpress.com.pe/rastrea-un-envio/?cod=SKDY<?php echo $order -> get_order_number()?>">Ver pedido</a>
-	</div>
-	<hr/>
 	<div style="padding:8px 0; color:black;">
 		<h3 style="font-size:0.9rem; color:black; margin: 0 0 6px">Envío Regular</h3>
 		<p style="margin:0 0 15px;">Lima Metropolitana y Callao: Se entregará entre 48 a 72 horas.</p>
