@@ -59,7 +59,7 @@ do_action( 'woocommerce_before_main_content' );
 		if ($text_banner !== ''){
 			?> <div class="main-shop__text"> 
 				<p>HASODASJD HOLA COMO ESTAS</p>
-				<p class="main-shop__title"><?php echo $text_banner ?></p>
+				<p class="main-shop__title"><?php echo esc_html($text_banner)?></p>
 			</div> <?php
 		}
 		else{
