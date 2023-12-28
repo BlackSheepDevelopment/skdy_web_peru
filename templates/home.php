@@ -80,9 +80,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                             </div> 
                 <?php
-
-
-
                         } 
                     }
                 ?>    
