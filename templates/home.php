@@ -56,6 +56,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             $title = get_sub_field('banner_title');
                             $subtitle = get_sub_field('banner_subtitle');
                             $cta_button = get_sub_field('banner_button');
+                            $banner_link = get_sub_field('banner_link');
                             $image_mobile = get_sub_field('img_mobile');
                             $image_desktop = get_sub_field('img_desktop');
 
@@ -72,7 +73,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                                         <p class="home-title home-title--bold"><?php echo $subtitle ?></p>
                                         <p class="home-title"> <?php echo $title ?> </p>
                                         <div>
-                                            <a href="https://skullcandy.com.pe/producto/tmnt-plyr/" class="home-title__button"> <?php echo $cta_button ?></a>
+                                            <a href="<?php echo $banner_link ?>" class="home-title__button"> <?php echo $cta_button ?></a>
                                         </div>
                                 </div>
 
