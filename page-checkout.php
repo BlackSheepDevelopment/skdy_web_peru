@@ -14,7 +14,7 @@ get_header(); ?>
 				<div class="shop-features__container">
 					<svg  width="75" height="75" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
 					<div class="shop-features__container__info">
-						<p class="shop-features__container__info__title">Garantía de 1 año en todos nuestros productos</p>
+						<p class="shop-features__container__info__title">Servicio técnico y asesoría personalizada vía WhatsApp</p>
 					</div>
 				</div>
 				<div class="shop-features__container">
@@ -27,17 +27,12 @@ get_header(); ?>
 				<div class="shop-features__container">
 					<svg width="75" height="75" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16"> <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/> <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/> </svg>
 					<div class="shop-features__container__info">
-						<p class="shop-features__container__info__title">Tiempo de entrega entre 1 a 3 días hábiles (solo Lima Metropolitana y Callao).</p>
+						<p class="shop-features__container__info__title">Entrega de 1 a 3 días hábiles en Lima Metropolitana y Callao</p>
 					</div>
 					
 				</div>
 			</div>
 
-
-			<!-- <div class="coupon-container">
-				<div class="coupon-container__title">¿Te gustaría recibir un 10% de descuento en esta compra?</div>
-				<a class="coupon-container__link"  target=”_blank” href="https://forms.office.com/r/WUxdx8qvhj">¡Responde la encuesta!</a>
-			</div> -->
 
 			<?php
 			if ( have_posts() ) {
@@ -49,20 +44,6 @@ get_header(); ?>
 			?>
         </div>
 
-		<div class="checkout_additional_info">
-			<div class="checkout_additional_info__title">
-				PROMOCIONES SKULLDAYS  
-			</div>
-
-			<div class="checkout_additional_info__content">
-				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">Compra desde 3 cuotas sin intereses para productos mayores a S/.89 con Mercado Pago (Válido con tarjetas BBVA, BCP y Diners Club)</p>			
-				</div>
-				<div class="checkout_additional_info__element">
-					<p class="checkout_additional_info__element__label">Utiliza el cupón CUOTEALO y recibe S/.100 de descuento en compras con Cuotéalo BCP.</p>			
-				</div>
-			</div>
-		</div>
     </div>
 
 <?php get_footer();
