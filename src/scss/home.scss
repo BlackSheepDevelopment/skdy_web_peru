@@ -69,13 +69,13 @@
   max-width: 600px;
   width: 100%;
   position: absolute;
-  top:0;
-  left: 0;
-  transform: translate(20%, 50%);
+  top:30%;
+  left: 10%;
+  // transform: translate(20%, 50%);
   @media (max-width:1280px){
-    top: 0%;
+    top: 10%;
     left: 0%;
-    transform: translate(25%, 5%);
+    transform: translate(25%, 0%);
     max-width: 250px;
   }
 }
