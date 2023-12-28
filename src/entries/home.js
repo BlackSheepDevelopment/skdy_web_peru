@@ -47,17 +47,17 @@ gallery.slick({
 //     ],
 // });
 
-const home_videos = $(".home-picture");
-home_videos.slick({
-    slidesToShow: 1,
-    arrows: true,
-    slidesToScroll: 1,
-    dots: false,
-    prevArrow: $(".home-grid__prev"),
-    nextArrow: $(".home-grid__next"),
-    autoplay: true,
-    autoplaySpeed: 3000,
-});
+// const home_videos = $(".home-picture");
+// home_videos.slick({
+//     slidesToShow: 1,
+//     arrows: true,
+//     slidesToScroll: 1,
+//     dots: false,
+//     prevArrow: $(".home-grid__prev"),
+//     nextArrow: $(".home-grid__next"),
+//     autoplay: true,
+//     autoplaySpeed: 3000,
+// });
 
 // $(document).ready(function () {
 //     const products_slider = $(".top-products-container");
