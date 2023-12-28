@@ -58,6 +58,7 @@ do_action( 'woocommerce_before_main_content' );
 		$text_banner = get_field('shop_text');
 		if ($text_banner){
 			?> <div class="main-shop__text"> 
+				<p>HASODASJD HOLA COMO ESTAS</p>
 				<p class="main-shop__title"><?php echo $text_banner ?></p>
 			</div> <?php
 		}
