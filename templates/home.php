@@ -50,7 +50,20 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                 </svg>  
             </button>
 
-            <div class="home-picture" id="skullcandy-peru-container">               
+            <div class="home-picture" id="skullcandy-peru-container">     
+                <?php 
+                    if (have_rows("banners_grid")){
+                        while( have_rows('repeater_field_name') ){
+                            the_row();
+                            $sub_value = get_sub_field('title');
+                            ?> 
+                            <div> <?php echo $sub_value ?> </div>
+                            <?php 
+                        } 
+                    }
+                ?>    
+            
+
                 <div class="home-picture__container">
                     <picture class="home-grid__video">
                             <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
@@ -58,26 +71,15 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                                     alt="mobile-main-banner">
                     </picture>
 
-                    <!-- <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN.mp4 ' ?>" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_SMOKIN_MOVIL.mp4 ' ?>" autoplay muted loop playsinline> </video>
-                    </picture> -->
-                    <!-- <picture class="home-grid__video">
-                        <video class="home-grid__picture" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/PORTADA_OLA.mp4' ?>" autoplay muted loop playsinline> </video>
-                    </picture> -->
+
                     <div class="home-info">
                             <p class="home-title home-title--bold">CELEBRANDO EL ANIVERSARIO</p>
-                            <!-- <img class="home-title__image home-title--desktop" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/OLAS_LOGO_RAS.png'?>"/> -->
                             <p class="home-title">PLYR® Gaming Headset - Edición Tortugas Ninja</p>
-
-                            <!-- <img class="home-title__image" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/> -->
                             <div>
                                 <a href="https://skullcandy.com.pe/producto/tmnt-plyr/" class="home-title__button">RESÉRVALO AQUÍ</a>
                             </div>
                     </div>
-                    <!-- <div class="home-info">
-                        <a class="home-title__button" href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Compra ahora!</a>
-                    </div> -->
+
                 </div>
 
                 <div class="home-picture__container">
@@ -98,49 +100,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
 
                 </div>
 
-                <!-- <div>
-                    <picture class="home-grid__video">
-                        <video class="home-grid__picture home-grid__picture--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME.mp4" autoplay muted loop playsinline> </video>
-                        <video class="home-grid__picture home-grid__picture--mobile" src="<?php #echo get_template_directory_uri() ?>/src/assets/PORTADA_DIME_MOVIL.mp4" autoplay muted loop playsinline> </video>
-                    </picture>
-
-                    <div class="home-info">
-                            <p class="home-title home-title--bold ">DIME</p>
-                            <p class="home-title home-title home-title--desktop">Pequeños y resistentes</p>
-                            <img class="home-title__image home-title--desktop" src="<?php #echo get_template_directory_uri() ?>/src/assets/FEEL_SKULLCANDY_WHITE.png"/>
-                            <div>
-                                <a class="home-title__button" href="https://skullcandy.com.pe/producto/dime-xt-true-wireless/">¡Compralos ya!</a>
-                            </div>
-                    </div>
-                </div> -->
             </div>
-
-            <!-- <section>
-                <picture>
-                        <source srcset="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_DESK.png" media="(min-width: 758px)"/>
-                        <img src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_MAIN_MOV.png"
-                                alt="mobile-main-banner">
-                </picture>
-                <a class="home-title__button button__banner" href="<?php #echo get_permalink( wc_get_page_id( 'shop' ) ); ?>">¡Conoce más!</a>
-            </section>
-
-            <section>
-                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_2.png"/>
-                <a class="button_banner__secondary">
-                    <p class="home-title--bold">NUEVO PACK</p>
-                    <p>Compra Dime XT + Cassette</p>
-                </a>
-            </section>
-
-            <section>
-                <img class="home-grid-2__img" src="<?php #echo get_template_directory_uri() ?>/src/assets/SKULLDAYS_3.png"/>
-                <a class="button_banner__secondary">
-                    <p class="home-title--bold">OFERTAS</p>
-                    <p>¡Compra ahora! </p>
-                    
-                </a>
-            </section> -->
-
         </div>
         <div class="shop-features">
             <p class="shop-features__title">Por cada compra en Skullcandy, te garantizamos</p>
