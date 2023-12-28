@@ -53,21 +53,45 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
             <div class="home-picture" id="skullcandy-peru-container">     
                 <?php 
                     if (have_rows("banners_grid")){
-                        ?> <div> Hola como estas quiero probar algo</div>  <?php 
                         while( have_rows("banners_grid") ){
                             the_row();
-                            $sub_value = get_sub_field('banner_title');
-                            ?> <div> <?php echo $sub_value ?> </div>  <?php 
-                            ?> <div> habla en que estas </div>  <?php 
+                            $title = get_sub_field('banner_title');
+                            $subtitle = get_sub_field('banner_subtitle');
+                            $cta_button = get_sub_field('banner_button');
+                            $image_mobile = get_sub_field('img_mobile');
+                            $image_desktop = get_sub_field('img_desktop');
+
+                            ?>
+
+                            <div class="home-picture__container">
+                                <picture class="home-grid__video">
+                                        <source srcset="<?php echo esc_url($image_desktop['url']) ?>" media="(min-width: 1280px)"/>
+                                        <img src="<?php echo esc_url($image_mobile['url']) ?>" alt="mobile-main-banner">
+                                </picture>
+
+
+                                <div class="home-info">
+                                        <p class="home-title home-title--bold">CELEBRANDO EL ANIVERSARIO</p>
+                                        <p class="home-title"> <?php echo $title ?> </p>
+                                        <div>
+                                            <a href="https://skullcandy.com.pe/producto/tmnt-plyr/" class="home-title__button"> <?php echo $cta_button ?></a>
+                                        </div>
+                                </div>
+
+                            </div> 
+                <?php
+
+
+
                         } 
                     }
                 ?>    
             
 
-                <div class="home-picture__container">
+                <!-- <div class="home-picture__container">
                     <picture class="home-grid__video">
-                            <source srcset="<?php echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
-                            <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_MOV.png' ?>"
+                            <source srcset="<?php #echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_DESK.png ' ?>" media="(min-width: 1280px)"/>
+                            <img src="<?php #echo get_stylesheet_directory_uri() . '/uploads/TN_BANNER_MOV.png' ?>"
                                     alt="mobile-main-banner">
                     </picture>
 
@@ -80,7 +104,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                             </div>
                     </div>
 
-                </div>
+                </div> -->
 
                 <div class="home-picture__container">
                     <picture class="home-grid__video">
