@@ -10,8 +10,6 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <a <?php if ( $shop_notice['link'] ): ?>href="<?php echo $shop_notice['link'] ?>" <?php endif; ?>>
             <?php  echo $shop_notice['text'] ?>
         </a>
-        <!-- <p class="shop-notice__text">SOLO QUEDAN</p> -->
-        <!-- <div id="timer"></div> -->
     </div>
 <?php  endif; ?>
     <div class="main-container">
@@ -196,34 +194,19 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <img class="fixedbutton__img" src="<?php echo get_template_directory_uri() ?>/src/assets/AYUDA_WSP.png" >
     </a>
 
-    <!-- <div class="home-popup-newsletter">
-        <img alt="crusher-newsletter-img" class="home-popup__image" src="<?php echo get_template_directory_uri() ?>/src/assets/SKULLWEEK_ENVIOS_GRATIS.jpg"/>
-        <div class="home-popup">
-            <div class="home-popup__content">
-                <div class="home-popup__header">
-                    <button class="home-popup__header__close">&times;</button>
-                </div>
-                <div class="home-popup__body">
-                    <p class="home-popup__body__offer">¡Recibe un 10% de descuento en tu siguiente compra!</p>
-                    <p class="home-popup__body__subtitle">Sé parte de nuestra comunidad y accede a eventos y promociones exclusivas. </p>
-                    <div class="home-popup__body__forms">
-                    <?php #echo do_shortcode( '[contact-form-7 id="161895" title="Newsletter Register"]' ); ?>
-                    </div>
-                </div>
+    <?php 
+        $image_popup = get_field('home_popup');
+        if ($image_popup){
+            ?>
+            <div class="home-popup-image">
+                <img alt="popup-img" class="home-popup-image__img" src="<?php echo esc_url($image_popup['url']) ?>"/> 
+                <button class="home-popup-image__close">&times;</button>
             </div>
-        </div>
-    </div> -->
+            <div id="overlay"></div>
+        <?php
+        }
 
-    <div class="home-popup-image">
-        
-        <img alt="popup-img" class="home-popup-image__img" src="<?php echo get_stylesheet_directory_uri() . '/uploads/CUOTEALO_POPUP.png ' ?>"/> 
-        <!-- <h1 class="home-popup-image__title">OFERTA NOCTURNA, DE A 11PM a 5AM</h1> -->
-        <!-- <img class="popup-hb" src="<?php #echo get_stylesheet_directory_uri() . '/uploads/SKULL_WHT.png ' ?>"/> -->
-        <!-- <div id="timer-popup"></div> -->
-        <!-- <h1 class="home-popup-image__title">¡APROVECHA LA OFERTA, UNIDADES LIMITADAS!</h1> -->
-        <button class="home-popup-image__close">&times;</button>
-    </div>
+    ?>
 
-    <div id="overlay"></div>
 
 <?php get_footer();
