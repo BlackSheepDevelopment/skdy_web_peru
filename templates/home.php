@@ -174,7 +174,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <a class="enterate__container__item__button" href="https://skullcandy.com.pe/ola">Entérate más</a>
                     </div>
                 </div>
-
+/*
                 <div class="enterate__container__item">
                     <picture class="enterate__container__item__picture">
                         <img src="<?php echo get_template_directory_uri() ?>/src/assets/VOLKSXSKDY.png" alt="skullcandy_enterate_3"
@@ -186,7 +186,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <a class="enterate__container__item__button" href="https://www.volkswagen.com.pe/es/modelos/polo.html">Entérate más</a>
                     </div>
                 </div>
-
+*/
             </div>
         </div>
 
