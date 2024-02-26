@@ -182,7 +182,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </picture>
                     <div class="enterate__container__info">
                         <div class="enterate__container__item__title">Skullcandy x Volkswagen</div>
-                        <div class="enterate__container__item__subtitle">Conoce más sobre nuevo el Volkswagen Polo y llévate un pack Skullcandy.</div>
+                        <div class="enterate__container__item__subtitle">Conoce más sobre </div>
                         <a class="enterate__container__item__button" href="https://www.volkswagen.com.pe/es/modelos/polo.html">Entérate más</a>
                     </div>
                 </div>
