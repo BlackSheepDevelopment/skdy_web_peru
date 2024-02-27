@@ -175,18 +175,9 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </div>
                 </div>
             </div>
-                <div class="enterate__container__item">
-                    <picture class="enterate__container__item__picture">
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/VOLKSXSKDY.png" alt="skullcandy_enterate_3"
-                            class="enterate__container__item__picture__image">
-                    </picture>
-                    <div class="enterate__container__info">
-                        <div class="enterate__container__item__title">Skullcandy x Volkswagen</div>
-                        <div class="enterate__container__item__subtitle">Conoce más sobre </div>
-                        <a class="enterate__container__item__button" href="">Entérate más</a>
-                    </div>
-                </div>
-     
+
+
+            
 
     </div>
     <a href="https://www.wa.link/xfavry/" id="fixedbutton" target="_blank">
