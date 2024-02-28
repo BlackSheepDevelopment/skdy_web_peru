@@ -154,7 +154,7 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         <div class="enterate__container">
                 <div class="enterate__container__item" >
                     <picture class="enterate__container__item__picture">
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/20años.png" alt="skkullcandy_enterate_1"
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/20años.jpg" alt="skkullcandy_enterate_1"
                             class="enterate__container__item__picture__image">
                     </picture>
                     <div class="enterate__container__info">
