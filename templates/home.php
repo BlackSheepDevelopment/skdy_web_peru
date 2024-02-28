@@ -150,10 +150,25 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
         </div>
         <div class="enterate">
             <div  class="top-products__title">ENTÉRATE.</div>
+
+        <div class="enterate__container">
+                <div class="enterate__container__item" >
+                    <picture class="enterate__container__item__picture">
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/20años.png" alt="skkullcandy_enterate_1"
+                            class="enterate__container__item__picture__image">
+                    </picture>
+                    <div class="enterate__container__info">
+                        <div class="enterate__container__item__title">¡20 AÑOS!</div>
+                        <div class="enterate__container__item__subtitle">Celebremos juntos 20 años de música y tablas.</div>
+                        <a class="enterate__container__item__button" href="https://www.instagram.com/p/C1KWIBDghQY/">Entérate más</a>
+                    </div>
+                </div>
+            
+            
             <div class="enterate__container">
                 <div class="enterate__container__item" >
                     <picture class="enterate__container__item__picture">
-                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ANC.png" alt="skkullcandy_enterate_1"
+                        <img src="<?php echo get_template_directory_uri() ?>/src/assets/BANNER_ANC.png" alt="skkullcandy_enterate_2"
                             class="enterate__container__item__picture__image">
                     </picture>
                     <div class="enterate__container__info">
@@ -163,9 +178,11 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                     </div>
                 </div>
 
+
+                
                 <div class="enterate__container__item">
                     <picture class="enterate__container__item__picture">
-                        <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/SQUARE_OLAS_DE_CAMBIO1.png ' ?>" alt="skullcandy_enterate_2"
+                        <img src="<?php echo get_stylesheet_directory_uri() . '/uploads/SQUARE_OLAS_DE_CAMBIO1.png ' ?>" alt="skullcandy_enterate_3"
                             class="enterate__container__item__picture__image">
                     </picture>
                     <div class="enterate__container__info">
@@ -174,6 +191,8 @@ if ( $shop_notice['show'] && $shop_notice['text'] ): ?>
                         <a class="enterate__container__item__button" href="https://skullcandy.com.pe/ola">Entérate más</a>
                     </div>
                 </div>
+
+                
             </div>
 
 
